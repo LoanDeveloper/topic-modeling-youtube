@@ -9,6 +9,12 @@ from queue import Queue
 from flask import Flask, render_template, request, jsonify, send_file
 import yt_dlp
 
+# Topic modeling imports
+from nlp.language_detector import LanguageDetector
+from nlp.preprocessing import TextPreprocessor
+from modeling.lda_model import LDAModel
+from modeling.nmf_model import NMFModel
+
 # Number of parallel workers for comment extraction (default to 2 for rate limit safety)
 DEFAULT_WORKERS = 2
 MAX_WORKERS = (os.cpu_count() or 4) * 2  # Allow up to 2x CPU count
@@ -39,6 +45,24 @@ extraction_lock = threading.Lock()
 extraction_queue = Queue()
 queue_list = []  # For display purposes
 queue_lock = threading.Lock()
+
+# Global state for topic modeling
+modeling_state = {
+    'active': False,
+    'current_job_id': None,
+    'stage': 'idle',  # idle, preprocessing, training, visualizing
+    'progress': 0,
+    'total_comments': 0,
+    'processed_comments': 0,
+    'message': '',
+    'channels': []
+}
+modeling_lock = threading.Lock()
+
+# Queue for topic modeling jobs
+modeling_queue = Queue()
+modeling_jobs = {}  # job_id -> job metadata and results
+modeling_jobs_lock = threading.Lock()
 
 
 def get_already_downloaded_video_ids(channel_folder=None):
@@ -491,6 +515,31 @@ queue_thread = threading.Thread(target=queue_worker, daemon=True)
 queue_thread.start()
 
 
+def modeling_worker():
+    """Background worker to process topic modeling queue."""
+    while True:
+        job = modeling_queue.get()
+        if job is None:
+            break
+
+        job_id, channels, algorithm, params = job
+
+        # Update job status
+        with modeling_jobs_lock:
+            if job_id in modeling_jobs:
+                modeling_jobs[job_id]['status'] = 'running'
+
+        # Do the topic modeling
+        result = do_topic_modeling(job_id, channels, algorithm, params)
+
+        modeling_queue.task_done()
+
+
+# Start the modeling worker thread
+modeling_thread = threading.Thread(target=modeling_worker, daemon=True)
+modeling_thread.start()
+
+
 @app.route('/api/scrape-comments', methods=['POST'])
 def scrape_comments():
     """Endpoint to queue channel extraction(s). Supports multiple channels separated by commas."""
@@ -732,6 +781,353 @@ def get_file_detail(folder):
         return jsonify(result)
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
+def load_comments_from_channels(channels: list) -> tuple:
+    """Load comments from specified channels."""
+    all_comments = []
+    all_metadata = []
+    output_dir = app.config['OUTPUT_DIR']
+
+    for channel in channels:
+        channel_dir = os.path.join(output_dir, channel)
+        videos_dir = os.path.join(channel_dir, 'videos')
+
+        if not os.path.exists(videos_dir):
+            continue
+
+        # Load all video files
+        for video_file in os.listdir(videos_dir):
+            if video_file.endswith('.json'):
+                video_path = os.path.join(videos_dir, video_file)
+                try:
+                    with open(video_path, 'r', encoding='utf-8') as f:
+                        video_data = json.load(f)
+
+                        # Extract comments
+                        for comment in video_data.get('comments', []):
+                            all_comments.append(comment['text'])
+                            all_metadata.append({
+                                'channel': channel,
+                                'video_id': video_data.get('video_id'),
+                                'video_title': video_data.get('title'),
+                                'author': comment.get('author'),
+                                'likes': comment.get('likes', 0),
+                                'timestamp': comment.get('timestamp')
+                            })
+                except Exception as e:
+                    print(f"Error loading {video_file}: {e}")
+
+    return all_comments, all_metadata
+
+
+def do_topic_modeling(job_id: str, channels: list, algorithm: str, params: dict):
+    """
+    Perform topic modeling on comments from specified channels.
+
+    Args:
+        job_id: Unique job identifier
+        channels: List of channel names/folders
+        algorithm: Algorithm to use ('lda' or 'nmf')
+        params: Algorithm parameters
+    """
+    try:
+        # Update state
+        with modeling_lock:
+            modeling_state.update({
+                'active': True,
+                'current_job_id': job_id,
+                'stage': 'loading',
+                'progress': 0,
+                'message': 'Loading comments...',
+                'channels': channels
+            })
+
+        # Load comments
+        comments, metadata = load_comments_from_channels(channels)
+
+        if not comments:
+            raise ValueError("No comments found in specified channels")
+
+        with modeling_lock:
+            modeling_state.update({
+                'total_comments': len(comments),
+                'progress': 10,
+                'message': f'Loaded {len(comments)} comments'
+            })
+
+        # Progress callback
+        def progress_callback(progress, message):
+            with modeling_lock:
+                modeling_state.update({
+                    'progress': int(20 + (progress * 0.5)),  # 20-70%
+                    'message': message
+                })
+
+        # Preprocess comments
+        with modeling_lock:
+            modeling_state.update({
+                'stage': 'preprocessing',
+                'progress': 20,
+                'message': 'Preprocessing comments...'
+            })
+
+        language = params.get('language', 'auto')
+        preprocessor = TextPreprocessor(
+            language=language,
+            use_lemmatization=True,
+            progress_callback=progress_callback
+        )
+
+        processed_comments = preprocessor.process_batch(comments, detect_language=(language == 'auto'))
+
+        # Filter empty documents
+        valid_indices = [i for i, doc in enumerate(processed_comments) if doc.strip()]
+        processed_comments = [processed_comments[i] for i in valid_indices]
+        metadata = [metadata[i] for i in valid_indices]
+
+        if len(processed_comments) < params.get('num_topics', 5):
+            raise ValueError(f"Too few valid documents ({len(processed_comments)}) for {params.get('num_topics', 5)} topics")
+
+        # Train model
+        with modeling_lock:
+            modeling_state.update({
+                'stage': 'training',
+                'progress': 70,
+                'message': f'Training {algorithm.upper()} model...'
+            })
+
+        if algorithm == 'lda':
+            model = LDAModel(
+                num_topics=params.get('num_topics', 5),
+                n_gram_range=tuple(params.get('n_gram_range', [1, 2])),
+                max_iter=params.get('max_iter', 20)
+            )
+        elif algorithm == 'nmf':
+            model = NMFModel(
+                num_topics=params.get('num_topics', 5),
+                n_gram_range=tuple(params.get('n_gram_range', [1, 2])),
+                max_iter=params.get('max_iter', 200)
+            )
+        else:
+            raise ValueError(f"Unknown algorithm: {algorithm}")
+
+        model.fit(processed_comments, progress_callback=progress_callback)
+
+        # Get representative documents for each topic
+        with modeling_lock:
+            modeling_state.update({
+                'stage': 'finalizing',
+                'progress': 90,
+                'message': 'Finalizing results...'
+            })
+
+        for topic in model.topics:
+            topic['representative_comments'] = model.get_representative_documents(
+                comments, topic['id'], n=5
+            )
+
+        # Prepare results
+        results = {
+            'success': True,
+            'job_id': job_id,
+            'algorithm': algorithm,
+            'num_topics': params.get('num_topics', 5),
+            'total_comments': len(comments),
+            'valid_comments': len(processed_comments),
+            'channels': channels,
+            'topics': model.topics,
+            'document_topics': model.document_topics.tolist(),
+            'metadata': metadata,
+            'diversity': model.get_topic_diversity(),
+            'model_info': model.get_model_info(),
+            'preprocessing_stats': preprocessor.get_statistics(comments, processed_comments)
+        }
+
+        # Store results
+        with modeling_jobs_lock:
+            modeling_jobs[job_id]['result'] = results
+            modeling_jobs[job_id]['status'] = 'completed'
+
+        with modeling_lock:
+            modeling_state.update({
+                'active': False,
+                'progress': 100,
+                'message': 'Modeling completed'
+            })
+
+        return results
+
+    except Exception as e:
+        error_msg = str(e)
+        print(f"Topic modeling error: {error_msg}")
+
+        with modeling_jobs_lock:
+            modeling_jobs[job_id]['status'] = 'error'
+            modeling_jobs[job_id]['result'] = {'success': False, 'error': error_msg}
+
+        with modeling_lock:
+            modeling_state.update({
+                'active': False,
+                'message': f'Error: {error_msg}'
+            })
+
+        return {'success': False, 'error': error_msg}
+
+
+# Topic Modeling API Endpoints
+
+@app.route('/api/modeling/select-data', methods=['POST'])
+def modeling_select_data():
+    """Preview data selection for topic modeling."""
+    data = request.json
+    channels = data.get('channels', [])
+
+    if not channels:
+        return jsonify({'error': 'No channels selected'}), 400
+
+    try:
+        comments, metadata = load_comments_from_channels(channels)
+
+        # Detect languages
+        detector = LanguageDetector()
+        lang_dist = detector.get_language_distribution(comments[:1000])  # Sample
+
+        # Get date range
+        timestamps = [m['timestamp'] for m in metadata if m.get('timestamp')]
+        date_range = {
+            'start': min(timestamps) if timestamps else None,
+            'end': max(timestamps) if timestamps else None
+        }
+
+        return jsonify({
+            'success': True,
+            'channels': channels,
+            'total_comments': len(comments),
+            'language_distribution': lang_dist,
+            'date_range': date_range,
+            'recommended_topics': min(20, max(2, len(comments) // 1000))
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/modeling/run', methods=['POST'])
+def modeling_run():
+    """Start a topic modeling job."""
+    data = request.json
+    channels = data.get('channels', [])
+    algorithm = data.get('algorithm', 'lda')
+    params = data.get('params', {})
+
+    if not channels:
+        return jsonify({'error': 'No channels selected'}), 400
+
+    if algorithm not in ('lda', 'nmf'):
+        return jsonify({'error': f'Unknown algorithm: {algorithm}'}), 400
+
+    # Create job
+    job_id = str(uuid.uuid4())[:8]
+
+    with modeling_jobs_lock:
+        modeling_jobs[job_id] = {
+            'id': job_id,
+            'channels': channels,
+            'algorithm': algorithm,
+            'params': params,
+            'status': 'queued',
+            'result': None,
+            'created_at': datetime.now().isoformat()
+        }
+
+    # Queue job
+    modeling_queue.put((job_id, channels, algorithm, params))
+
+    return jsonify({
+        'success': True,
+        'job_id': job_id,
+        'status': 'queued'
+    })
+
+
+@app.route('/api/modeling/status/<job_id>')
+def modeling_status(job_id):
+    """Get status of a modeling job."""
+    with modeling_jobs_lock:
+        if job_id not in modeling_jobs:
+            return jsonify({'error': 'Job not found'}), 404
+
+        job = modeling_jobs[job_id]
+
+    with modeling_lock:
+        state = modeling_state.copy()
+
+    # If this is the active job, include real-time progress
+    if state.get('current_job_id') == job_id:
+        return jsonify({
+            'job_id': job_id,
+            'status': 'running',
+            'progress': state.get('progress', 0),
+            'stage': state.get('stage', 'idle'),
+            'message': state.get('message', ''),
+            'channels': state.get('channels', [])
+        })
+
+    # Otherwise return stored job status
+    return jsonify({
+        'job_id': job_id,
+        'status': job['status'],
+        'progress': 100 if job['status'] == 'completed' else 0,
+        'channels': job['channels'],
+        'result': job.get('result') if job['status'] == 'completed' else None
+    })
+
+
+@app.route('/api/modeling/results/<job_id>')
+def modeling_results(job_id):
+    """Get results of a completed modeling job."""
+    with modeling_jobs_lock:
+        if job_id not in modeling_jobs:
+            return jsonify({'error': 'Job not found'}), 404
+
+        job = modeling_jobs[job_id]
+
+        if job['status'] != 'completed':
+            return jsonify({'error': 'Job not completed'}), 400
+
+        return jsonify(job['result'])
+
+
+@app.route('/api/modeling/jobs')
+def modeling_list_jobs():
+    """List all modeling jobs."""
+    with modeling_jobs_lock:
+        jobs_list = []
+        for job_id, job in modeling_jobs.items():
+            jobs_list.append({
+                'id': job_id,
+                'channels': job['channels'],
+                'algorithm': job['algorithm'],
+                'status': job['status'],
+                'created_at': job['created_at']
+            })
+
+    # Sort by creation time (newest first)
+    jobs_list.sort(key=lambda x: x['created_at'], reverse=True)
+
+    return jsonify({'jobs': jobs_list})
+
+
+@app.route('/api/modeling/jobs/<job_id>', methods=['DELETE'])
+def modeling_delete_job(job_id):
+    """Delete a modeling job."""
+    with modeling_jobs_lock:
+        if job_id not in modeling_jobs:
+            return jsonify({'error': 'Job not found'}), 404
+
+        del modeling_jobs[job_id]
+
+    return jsonify({'success': True})
 
 
 if __name__ == '__main__':

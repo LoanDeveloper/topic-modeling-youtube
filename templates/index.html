@@ -868,15 +868,156 @@
         <!-- TAB: Modeling -->
         <div id="tab-modeling" class="tab-content">
             <div class="page-header">
-                <h1 class="page-title">Modeling</h1>
-                <p class="page-subtitle">Topic modeling and comment analysis</p>
+                <h1 class="page-title">Topic Modeling</h1>
+                <p class="page-subtitle">Analyze comments and discover topics</p>
             </div>
 
-            <div class="card">
-                <div class="empty-state">
-                    <div class="empty-icon">&#128736;</div>
-                    <div class="empty-title">Coming Soon</div>
-                    <div class="empty-text">The topic modeling pipeline will be available soon</div>
+            <!-- Step 1: Data Selection -->
+            <div class="card" id="modelingStep1">
+                <div class="card-header">
+                    <h2 class="card-title">1. Select Data</h2>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Choose channel(s) to analyze</label>
+                    <select id="modelingChannelSelect" multiple style="min-height: 150px; width: 100%;">
+                        <!-- Populated dynamically -->
+                    </select>
+                    <p class="help-text">Hold Ctrl/Cmd to select multiple channels</p>
+                </div>
+
+                <button class="btn btn-primary" onclick="previewModelingData()">
+                    Preview Data
+                </button>
+
+                <div id="modelingDataPreview" class="info-box" style="display: none; margin-top: 20px;">
+                    <div class="info-row">
+                        <span class="info-label">Total Comments</span>
+                        <span class="info-value" id="previewComments">-</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Languages Detected</span>
+                        <span class="info-value" id="previewLanguages">-</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Recommended Topics</span>
+                        <span class="info-value" id="previewTopics">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2: Algorithm & Parameters -->
+            <div class="card" id="modelingStep2" style="display: none;">
+                <div class="card-header">
+                    <h2 class="card-title">2. Configure Algorithm</h2>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Algorithm</label>
+                    <div style="display: flex; gap: 12px;">
+                        <button class="btn btn-secondary" id="algoLDA" onclick="selectAlgorithm('lda')" style="flex: 1;">
+                            LDA
+                        </button>
+                        <button class="btn btn-secondary" id="algoNMF" onclick="selectAlgorithm('nmf')" style="flex: 1;">
+                            NMF
+                        </button>
+                    </div>
+                    <p class="help-text" id="algoDescription">Select an algorithm above</p>
+                </div>
+
+                <div id="modelingParams">
+                    <div class="form-group">
+                        <label class="form-label">Number of Topics: <span id="numTopicsValue">5</span></label>
+                        <input type="range" id="numTopicsSlider" min="2" max="20" value="5"
+                               style="width: 100%; max-width: 400px; cursor: pointer;"
+                               oninput="document.getElementById('numTopicsValue').textContent = this.value">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">N-gram Range</label>
+                        <select id="ngramRange" style="max-width: 300px;">
+                            <option value="1,1">Unigrams only (single words)</option>
+                            <option value="1,2" selected>Unigrams + Bigrams (recommended)</option>
+                            <option value="2,2">Bigrams only (word pairs)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Language Processing</label>
+                        <select id="languageMode" style="max-width: 300px;">
+                            <option value="auto" selected>Auto-detect</option>
+                            <option value="fr">French</option>
+                            <option value="en">English</option>
+                            <option value="mixed">Mixed (FR + EN)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" onclick="startTopicModeling()">
+                    Start Modeling
+                </button>
+            </div>
+
+            <!-- Step 3: Progress -->
+            <div class="card" id="modelingStep3" style="display: none;">
+                <div class="card-header">
+                    <h2 class="card-title">3. Processing</h2>
+                </div>
+
+                <div class="progress-container" style="display: block;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span id="modelingProgressStage" style="font-weight: 500;">Starting...</span>
+                        <span id="modelingProgressPercent" style="color: var(--accent); font-size: 14px;">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="modelingProgressFill"></div>
+                    </div>
+                    <p class="progress-text" id="modelingProgressText" style="margin-top: 8px;">Initializing...</p>
+                </div>
+            </div>
+
+            <!-- Step 4: Results -->
+            <div class="card" id="modelingStep4" style="display: none;">
+                <div class="card-header">
+                    <h2 class="card-title">4. Results</h2>
+                    <button class="btn btn-secondary btn-sm" onclick="resetModeling()">
+                        New Analysis
+                    </button>
+                </div>
+
+                <!-- Summary Stats -->
+                <div class="stats-grid" id="modelingStats">
+                    <div class="stat-card">
+                        <div class="stat-label">Topics Discovered</div>
+                        <div class="stat-value" id="statTopics">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Comments Analyzed</div>
+                        <div class="stat-value" id="statAnalyzed">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Algorithm</div>
+                        <div class="stat-value" id="statAlgorithm">-</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Diversity Score</div>
+                        <div class="stat-value" id="statDiversity">0</div>
+                    </div>
+                </div>
+
+                <!-- Topics List -->
+                <div id="topicsContainer" style="margin-top: 24px;">
+                    <!-- Topics will be rendered here -->
+                </div>
+
+                <!-- Visualizations -->
+                <div class="charts-grid" id="modelingCharts" style="margin-top: 24px; display: none;">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Topic Distribution</h2>
+                        </div>
+                        <div class="chart-container" id="chartTopicDistribution"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1465,6 +1606,319 @@
                 console.error('Initial status check failed:', error);
             }
         });
+
+        // ===== TOPIC MODELING =====
+
+        let currentModelingJobId = null;
+        let selectedAlgo = null;
+        let modelingPollingInterval = null;
+
+        // Load channels when Modeling tab is shown
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-item').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            document.getElementById('tab-' + tabName).classList.add('active');
+            event.target.closest('.nav-item').classList.add('active');
+
+            if (tabName === 'data') {
+                loadDataFiles();
+            } else if (tabName === 'modeling') {
+                loadChannelsForModeling();
+            }
+        }
+
+        async function loadChannelsForModeling() {
+            try {
+                const response = await fetch('/api/files-stats');
+                const data = await response.json();
+
+                const select = document.getElementById('modelingChannelSelect');
+                select.innerHTML = '';
+
+                data.files.forEach(file => {
+                    const option = document.createElement('option');
+                    option.value = file.folder;
+                    option.textContent = `${file.channel_name} (${file.video_count} videos, ${file.comment_count.toLocaleString()} comments)`;
+                    select.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Failed to load channels:', error);
+            }
+        }
+
+        async function previewModelingData() {
+            const select = document.getElementById('modelingChannelSelect');
+            const selected = Array.from(select.selectedOptions).map(opt => opt.value);
+
+            if (selected.length === 0) {
+                alert('Please select at least one channel');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/modeling/select-data', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ channels: selected })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                    return;
+                }
+
+                // Show preview
+                document.getElementById('previewComments').textContent = data.total_comments.toLocaleString();
+
+                // Format language distribution
+                const langDist = Object.entries(data.language_distribution || {})
+                    .map(([lang, pct]) => `${lang.toUpperCase()}: ${pct.toFixed(1)}%`)
+                    .join(', ');
+                document.getElementById('previewLanguages').textContent = langDist || 'N/A';
+
+                document.getElementById('previewTopics').textContent = data.recommended_topics;
+                document.getElementById('numTopicsSlider').value = data.recommended_topics;
+                document.getElementById('numTopicsValue').textContent = data.recommended_topics;
+
+                document.getElementById('modelingDataPreview').style.display = 'block';
+                document.getElementById('modelingStep2').style.display = 'block';
+
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        function selectAlgorithm(algo) {
+            selectedAlgo = algo;
+
+            // Update button styles
+            document.getElementById('algoLDA').classList.remove('btn-primary');
+            document.getElementById('algoNMF').classList.remove('btn-primary');
+            document.getElementById('algoLDA').classList.add('btn-secondary');
+            document.getElementById('algoNMF').classList.add('btn-secondary');
+
+            if (algo === 'lda') {
+                document.getElementById('algoLDA').classList.remove('btn-secondary');
+                document.getElementById('algoLDA').classList.add('btn-primary');
+                document.getElementById('algoDescription').textContent = 'LDA (Latent Dirichlet Allocation) - Fast and interpretable, works well with <5k comments';
+            } else if (algo === 'nmf') {
+                document.getElementById('algoNMF').classList.remove('btn-secondary');
+                document.getElementById('algoNMF').classList.add('btn-primary');
+                document.getElementById('algoDescription').textContent = 'NMF (Non-negative Matrix Factorization) - Balanced speed/quality, good for 1-10k comments';
+            }
+        }
+
+        async function startTopicModeling() {
+            if (!selectedAlgo) {
+                alert('Please select an algorithm');
+                return;
+            }
+
+            const select = document.getElementById('modelingChannelSelect');
+            const channels = Array.from(select.selectedOptions).map(opt => opt.value);
+
+            const numTopics = parseInt(document.getElementById('numTopicsSlider').value);
+            const ngramValue = document.getElementById('ngramRange').value;
+            const ngramRange = ngramValue.split(',').map(x => parseInt(x));
+            const language = document.getElementById('languageMode').value;
+
+            try {
+                const response = await fetch('/api/modeling/run', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        channels: channels,
+                        algorithm: selectedAlgo,
+                        params: {
+                            num_topics: numTopics,
+                            n_gram_range: ngramRange,
+                            language: language
+                        }
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                    return;
+                }
+
+                currentModelingJobId = data.job_id;
+
+                // Show progress step
+                document.getElementById('modelingStep1').style.display = 'none';
+                document.getElementById('modelingStep2').style.display = 'none';
+                document.getElementById('modelingStep3').style.display = 'block';
+
+                // Start polling
+                startModelingPolling();
+
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        function startModelingPolling() {
+            if (modelingPollingInterval) return;
+
+            modelingPollingInterval = setInterval(updateModelingProgress, 1000);
+            updateModelingProgress();
+        }
+
+        function stopModelingPolling() {
+            if (modelingPollingInterval) {
+                clearInterval(modelingPollingInterval);
+                modelingPollingInterval = null;
+            }
+        }
+
+        async function updateModelingProgress() {
+            if (!currentModelingJobId) return;
+
+            try {
+                const response = await fetch(`/api/modeling/status/${currentModelingJobId}`);
+                const status = await response.json();
+
+                if (status.error) {
+                    console.error('Status error:', status.error);
+                    return;
+                }
+
+                document.getElementById('modelingProgressPercent').textContent = Math.round(status.progress) + '%';
+                document.getElementById('modelingProgressFill').style.width = status.progress + '%';
+                document.getElementById('modelingProgressStage').textContent = status.stage || 'Processing';
+                document.getElementById('modelingProgressText').textContent = status.message || '';
+
+                if (status.status === 'completed') {
+                    stopModelingPolling();
+                    await loadModelingResults();
+                } else if (status.status === 'error') {
+                    stopModelingPolling();
+                    alert('Modeling failed: ' + (status.result?.error || 'Unknown error'));
+                    resetModeling();
+                }
+            } catch (error) {
+                console.error('Polling error:', error);
+            }
+        }
+
+        async function loadModelingResults() {
+            try {
+                const response = await fetch(`/api/modeling/results/${currentModelingJobId}`);
+                const results = await response.json();
+
+                if (results.error) {
+                    alert('Error loading results: ' + results.error);
+                    return;
+                }
+
+                // Hide progress, show results
+                document.getElementById('modelingStep3').style.display = 'none';
+                document.getElementById('modelingStep4').style.display = 'block';
+
+                // Update stats
+                document.getElementById('statTopics').textContent = results.num_topics;
+                document.getElementById('statAnalyzed').textContent = results.valid_comments.toLocaleString();
+                document.getElementById('statAlgorithm').textContent = results.algorithm.toUpperCase();
+                document.getElementById('statDiversity').textContent = (results.diversity * 100).toFixed(1) + '%';
+
+                // Render topics
+                renderTopics(results.topics);
+
+                // Render visualization
+                renderTopicDistribution(results.topics);
+
+            } catch (error) {
+                console.error('Error loading results:', error);
+                alert('Failed to load results');
+            }
+        }
+
+        function renderTopics(topics) {
+            const container = document.getElementById('topicsContainer');
+            container.innerHTML = '';
+
+            topics.forEach(topic => {
+                const topicCard = document.createElement('div');
+                topicCard.className = 'card';
+                topicCard.style.marginBottom = '16px';
+
+                const keywords = topic.words.slice(0, 10).map(w => w[0]).join(', ');
+
+                topicCard.innerHTML = `
+                    <div class="card-header">
+                        <h3 class="card-title">${topic.label}</h3>
+                        <span class="badge badge-success">${topic.document_count} comments</span>
+                    </div>
+                    <div style="padding: 16px;">
+                        <p style="margin-bottom: 12px;"><strong>Keywords:</strong> ${keywords}</p>
+                        ${topic.representative_comments && topic.representative_comments.length > 0 ? `
+                            <p style="margin-bottom: 8px; font-size: 13px; color: var(--text-secondary);"><strong>Representative comments:</strong></p>
+                            <ul style="margin-left: 20px; font-size: 13px; color: var(--text-secondary);">
+                                ${topic.representative_comments.slice(0, 3).map(c => `<li>${truncateText(c, 100)}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `;
+
+                container.appendChild(topicCard);
+            });
+        }
+
+        function renderTopicDistribution(topics) {
+            const data = [{
+                x: topics.map(t => t.label),
+                y: topics.map(t => t.document_count),
+                type: 'bar',
+                marker: { color: '#3b82f6' }
+            }];
+
+            const layout = {
+                paper_bgcolor: 'transparent',
+                plot_bgcolor: 'transparent',
+                font: { color: '#888', size: 12 },
+                margin: { l: 50, r: 20, t: 20, b: 80 },
+                xaxis: {
+                    gridcolor: '#2a2a2a',
+                    title: 'Topics'
+                },
+                yaxis: {
+                    gridcolor: '#2a2a2a',
+                    title: 'Number of Comments'
+                }
+            };
+
+            Plotly.newPlot('chartTopicDistribution', data, layout, { responsive: true, displayModeBar: false });
+
+            document.getElementById('modelingCharts').style.display = 'grid';
+        }
+
+        function resetModeling() {
+            currentModelingJobId = null;
+            selectedAlgo = null;
+            stopModelingPolling();
+
+            document.getElementById('modelingStep1').style.display = 'block';
+            document.getElementById('modelingStep2').style.display = 'none';
+            document.getElementById('modelingStep3').style.display = 'none';
+            document.getElementById('modelingStep4').style.display = 'none';
+            document.getElementById('modelingDataPreview').style.display = 'none';
+
+            // Reset algorithm buttons
+            document.getElementById('algoLDA').classList.remove('btn-primary');
+            document.getElementById('algoNMF').classList.remove('btn-primary');
+            document.getElementById('algoLDA').classList.add('btn-secondary');
+            document.getElementById('algoNMF').classList.add('btn-secondary');
+            document.getElementById('algoDescription').textContent = 'Select an algorithm above';
+        }
     </script>
 </body>
 </html>
