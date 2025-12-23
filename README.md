@@ -35,17 +35,27 @@ data/
 - Comments timeline visualization
 - Video list sorted by engagement
 
-### 4. Topic Modeling (Coming Soon)
-Pipeline for topic modeling:
-1. **Data Loading** - Select channel data
-2. **Preprocessing** - Text cleaning (lowercase, stopwords, lemmatization)
-3. **Vectorization** - Transform to numerical vectors
-4. **Topic Modeling** - Available algorithms:
-   - LDA (Latent Dirichlet Allocation)
-   - NMF (Non-negative Matrix Factorization)
-   - BERTopic
-   - Top2Vec
-5. **Dimensionality Reduction** - UMAP, t-SNE, PCA
+### 4. Topic Modeling
+Complete pipeline for analyzing YouTube comments:
+1. **Data Selection** - Multi-channel selection with preview (total comments, languages detected, recommended topics)
+2. **Preprocessing** - Intelligent text cleaning:
+   - Auto language detection (French/English)
+   - spaCy lemmatization
+   - Custom stopwords (including YouTube-specific terms)
+   - Emoji and URL removal
+3. **Algorithms** - Choose from:
+   - **LDA** (Latent Dirichlet Allocation) - Fast, probabilistic, good for <5k comments
+   - **NMF** (Non-negative Matrix Factorization) - Balanced, deterministic, good for 1-10k comments
+4. **Configurable Parameters**:
+   - Number of topics (2-20, with auto-recommendation)
+   - N-gram range (unigrams, bigrams, or both)
+   - Language processing mode (auto, French, English, mixed)
+5. **Results Visualization**:
+   - Topic keywords with weights
+   - Representative comments per topic
+   - Topic distribution chart (Plotly)
+   - Diversity score
+6. **Real-time Progress** - Live tracking of preprocessing, training, and finalization stages
 
 ## Installation
 
@@ -58,6 +68,16 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Download spaCy language models (required for topic modeling)
+python -m spacy download fr_core_news_sm  # French
+python -m spacy download en_core_web_sm   # English
+```
+
+**Quick setup** (Linux/Mac):
+```bash
+source .venv/bin/activate
+./setup_modeling.sh  # Automated installation script
 ```
 
 ## Usage
@@ -87,20 +107,56 @@ All channels will be added to the queue and processed one after another.
 Use the slider to adjust the number of parallel workers (1 to 2x your CPU cores).
 More workers = faster extraction, but may hit YouTube rate limits.
 
+### Topic Modeling Workflow
+
+1. **Extract Comments** - Use the Extraction tab to download comments from YouTube channels
+2. **Navigate to Modeling Tab** - Click on "Modeling" in the sidebar
+3. **Select Data**:
+   - Choose one or more channels from the dropdown
+   - Click "Preview Data" to see statistics (total comments, languages, recommended topics)
+4. **Configure Algorithm**:
+   - Choose LDA (fast, <5k comments) or NMF (balanced, 1-10k comments)
+   - Adjust number of topics (auto-recommended based on comment count)
+   - Select n-gram range (unigrams, bigrams, or both)
+   - Choose language processing mode (auto-detect, French, English, or mixed)
+5. **Start Modeling** - Click "Start Modeling" and watch real-time progress
+6. **Analyze Results**:
+   - View discovered topics with keywords and weights
+   - Read representative comments for each topic
+   - Explore topic distribution chart
+   - Check diversity score (higher = more distinct topics)
+
+**Example**: Analyzing @defendintelligence (11k comments):
+- Select channel → Preview Data → Choose LDA → 5 topics → Start Modeling
+- Wait ~30-60 seconds
+- Results: Topics about "machine learning", "intelligence artificielle", "code python", etc.
+
 ## Project Structure
 
 ```
-youtube-comments-scraper/
-├── app.py              # Flask application
-├── requirements.txt    # Python dependencies
-├── README.md           # Documentation
+topic-modeling-youtube/
+├── app.py                    # Flask application with extraction & modeling routes
+├── requirements.txt          # Python dependencies
+├── README.md                 # Documentation
+├── IMPLEMENTATION.md         # Topic modeling implementation guide
+├── setup_modeling.sh         # Automated setup script
+├── nlp/                      # NLP preprocessing modules
+│   ├── language_detector.py # Auto language detection (FR/EN)
+│   ├── preprocessing.py     # Text cleaning, lemmatization, stopwords
+│   └── stopwords.py         # Custom stopwords lists
+├── modeling/                 # Topic modeling algorithms
+│   ├── base_model.py        # Abstract base class
+│   ├── lda_model.py         # LDA implementation
+│   └── nmf_model.py         # NMF implementation
+├── export/                   # Export utilities (planned)
+│   └── (JSON/HTML exporters)
 ├── templates/
-│   └── index.html      # Web interface
-└── data/               # Extracted data (per channel)
+│   └── index.html           # Web interface (3 tabs: Extraction, Data, Modeling)
+└── data/                    # Extracted data (per channel)
     └── @ChannelName/
-        ├── info.json
+        ├── info.json        # Channel metadata
         └── videos/
-            └── *.json
+            └── *.json       # Individual video comments
 ```
 
 ## Extracted Data Format
@@ -143,6 +199,7 @@ youtube-comments-scraper/
 
 ## API Endpoints
 
+### Comment Extraction
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/` | GET | Web interface |
@@ -155,16 +212,29 @@ youtube-comments-scraper/
 | `/api/files-stats` | GET | List channels with statistics |
 | `/api/file-detail/<folder>` | GET | Get channel details |
 
+### Topic Modeling
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/modeling/select-data` | POST | Preview data selection (comments count, languages) |
+| `/api/modeling/run` | POST | Start topic modeling job |
+| `/api/modeling/status/<job_id>` | GET | Get job progress and status |
+| `/api/modeling/results/<job_id>` | GET | Get completed job results |
+| `/api/modeling/jobs` | GET | List all modeling jobs |
+| `/api/modeling/jobs/<job_id>` | DELETE | Delete a modeling job |
+
 ## Tech Stack
 
 - **Backend**: Flask, yt-dlp, ThreadPoolExecutor
 - **Frontend**: HTML/CSS/JavaScript, Plotly.js
-- **Topic Modeling** (planned): scikit-learn, BERTopic, Gensim
-- **NLP** (planned): spaCy, NLTK
-- **Dimensionality Reduction** (planned): UMAP, t-SNE
+- **Topic Modeling**: scikit-learn (LDA, NMF), Gensim
+- **NLP**: spaCy (lemmatization), langdetect (language detection)
+- **Data Processing**: NumPy, Pandas
+- **Visualization**: Plotly.js (interactive charts)
+- **Future**: BERTopic, sentence-transformers, UMAP, t-SNE
 
 ## Roadmap
 
+### ✅ Completed
 - [x] YouTube comment extraction
 - [x] Parallel extraction (configurable workers)
 - [x] Multi-channel queue system
@@ -175,11 +245,43 @@ youtube-comments-scraper/
 - [x] Channel metadata (subscribers, description)
 - [x] Web interface with tabs
 - [x] Data insights dashboard
-- [ ] NLP preprocessing pipeline
-- [ ] LDA/NMF implementation
-- [ ] BERTopic integration
-- [ ] Interactive visualization
-- [ ] Results export
+- [x] NLP preprocessing pipeline (auto language detection FR/EN, spaCy lemmatization, custom stopwords)
+- [x] LDA/NMF implementation (scikit-learn, configurable parameters)
+- [x] Topic modeling UI (4-step workflow: data selection, configuration, progress, results)
+- [x] Real-time topic modeling progress tracking
+- [x] Basic visualization (topic distribution chart with Plotly)
+- [x] Topic analysis (keywords, representative comments, diversity score)
+
+### 🔜 Optional Enhancements
+- [ ] **Export functionality**
+  - [ ] JSON export with full results
+  - [ ] HTML report generation with embedded visualizations
+  - [ ] CSV export for topic assignments
+- [ ] **Advanced visualizations**
+  - [ ] Word clouds per topic
+  - [ ] Document-topic heatmap
+  - [ ] Topic timeline/trends over time
+  - [ ] Inter-topic distance map (2D projection)
+- [ ] **BERTopic integration**
+  - [ ] Sentence transformer embeddings
+  - [ ] Multilingual model support
+  - [ ] Dynamic topic modeling
+  - [ ] Hierarchical topic structure
+- [ ] **Advanced features**
+  - [ ] Topic labeling with GPT/LLM API
+  - [ ] Sentiment analysis per topic
+  - [ ] Comment search by topic
+  - [ ] Topic evolution tracking
+  - [ ] Compare topics across channels
+- [ ] **Performance improvements**
+  - [ ] Results caching and persistence
+  - [ ] Incremental topic modeling
+  - [ ] GPU acceleration for large datasets
+- [ ] **UI enhancements**
+  - [ ] Topic renaming/merging
+  - [ ] Interactive topic exploration
+  - [ ] Filter comments by topic
+  - [ ] Topic comparison view
 
 ## License
 
