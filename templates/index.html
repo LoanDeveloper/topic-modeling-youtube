@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Topic Modeling</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #141414;
+            --bg-card: #1a1a1a;
+            --bg-hover: #242424;
+            --border-color: #2a2a2a;
+            --text-primary: #ffffff;
+            --text-secondary: #888888;
+            --text-muted: #555555;
+            --accent: #3b82f6;
+            --accent-hover: #2563eb;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --error: #ef4444;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 240px;
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border-color);
+            padding: 24px 16px;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            height: 100vh;
+        }
+
+        .logo {
+            font-size: 18px;
+            font-weight: 600;
+            padding: 0 12px;
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: var(--accent);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        .nav-section {
+            margin-bottom: 24px;
+        }
+
+        .nav-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            padding: 0 12px;
+            margin-bottom: 8px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.15s;
+            font-size: 14px;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+        }
+
+        .nav-item:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+
+        .nav-item.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        .nav-icon {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        /* Main content */
+        .main {
+            flex: 1;
+            margin-left: 240px;
+            padding: 32px;
+            min-height: 100vh;
+        }
+
+        .page-header {
+            margin-bottom: 32px;
+        }
+
+        .page-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .page-subtitle {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        /* Tab content */
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+        }
+
+        /* Stats cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .stat-change {
+            font-size: 12px;
+            color: var(--success);
+            margin-top: 4px;
+        }
+
+        /* Form elements */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 12px;
+        }
+
+        input[type="text"], input[type="number"], select {
+            flex: 1;
+            padding: 12px 16px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.15s;
+        }
+
+        input[type="text"]:focus, input[type="number"]:focus, select:focus {
+            border-color: var(--accent);
+        }
+
+        input[type="text"]::placeholder, input[type="number"]::placeholder {
+            color: var(--text-muted);
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-hover);
+        }
+
+        .btn-secondary {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--border-color);
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-sm {
+            padding: 8px 12px;
+            font-size: 13px;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Help text */
+        .help-text {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+
+        /* Info box */
+        .info-box {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 20px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .info-value {
+            font-weight: 500;
+            color: var(--accent);
+        }
+
+        /* Progress */
+        .progress-container {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: var(--bg-secondary);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--accent);
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 12px;
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+
+        /* Result box */
+        .result-box {
+            display: none;
+            margin-top: 20px;
+            padding: 16px;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+            border-radius: 8px;
+        }
+
+        .result-box.error {
+            background: rgba(239, 68, 68, 0.1);
+            border-color: rgba(239, 68, 68, 0.2);
+        }
+
+        .result-box.warning {
+            background: rgba(245, 158, 11, 0.1);
+            border-color: rgba(245, 158, 11, 0.3);
+        }
+
+        .result-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .result-text {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        /* Spinner */
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--border-color);
+            border-radius: 50%;
+            border-top-color: var(--accent);
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Data table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .data-table th {
+            text-align: left;
+            padding: 12px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .data-table td {
+            padding: 16px;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 14px;
+        }
+
+        .data-table tr:hover {
+            background: var(--bg-hover);
+        }
+
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Channel row */
+        .channel-name {
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .channel-avatar {
+            width: 36px;
+            height: 36px;
+            background: var(--accent);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        /* Badge */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .badge-success {
+            background: rgba(34, 197, 94, 0.1);
+            color: var(--success);
+        }
+
+        .badge-warning {
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--warning);
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.3;
+        }
+
+        .empty-title {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+
+        .empty-text {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        /* Charts container */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .chart-container {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 20px;
+            height: 300px;
+        }
+
+        /* File detail view */
+        .file-detail {
+            display: none;
+        }
+
+        .file-detail.active {
+            display: block;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            font-size: 14px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            padding: 8px 0;
+        }
+
+        .back-btn:hover {
+            color: var(--text-primary);
+        }
+
+        /* Video list */
+        .video-list {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .video-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .video-item:last-child {
+            border-bottom: none;
+        }
+
+        .video-title {
+            font-size: 14px;
+            flex: 1;
+            margin-right: 16px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .video-comments {
+            font-size: 13px;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 60px;
+                padding: 16px 8px;
+            }
+            .logo span, .nav-label, .nav-item span:not(.nav-icon) {
+                display: none;
+            }
+            .main {
+                margin-left: 60px;
+            }
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <div class="logo-icon">YT</div>
+            <span>Topic Modeling</span>
+        </div>
+
+        <div class="nav-section">
+            <div class="nav-label">Menu</div>
+            <button class="nav-item active" onclick="showTab('extraction')">
+                <span class="nav-icon">+</span>
+                <span>Extraction</span>
+            </button>
+            <button class="nav-item" onclick="showTab('data')">
+                <span class="nav-icon">&#9776;</span>
+                <span>Data</span>
+            </button>
+            <button class="nav-item" onclick="showTab('modeling')">
+                <span class="nav-icon">&#9881;</span>
+                <span>Modeling</span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="main">
+        <!-- TAB: Extraction -->
+        <div id="tab-extraction" class="tab-content active">
+            <div class="page-header">
+                <h1 class="page-title">Extraction</h1>
+                <p class="page-subtitle">Search for a YouTube channel and extract all comments</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Search Channel</h2>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Channel name(s) or ID(s)</label>
+                    <div class="input-group">
+                        <input type="text" id="channelInput" placeholder="@channel1, @channel2, @channel3">
+                        <button class="btn btn-primary" id="searchBtn" onclick="getChannelInfo()">
+                            Search
+                        </button>
+                    </div>
+                    <p class="help-text">Separate multiple channels with commas. Examples: @MrBeast, @Fireship, @TechWithTim</p>
+                </div>
+
+                <div id="channelInfo" class="info-box" style="display: none;">
+                    <div class="info-row">
+                        <span class="info-label" id="channelLabel">Channel</span>
+                        <span class="info-value" id="channelName">-</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label" id="videoLabel">Videos</span>
+                        <span class="info-value" id="videoCount">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="scrapeCard" style="display: none;">
+                <div class="card-header">
+                    <h2 class="card-title">Extract Comments</h2>
+                </div>
+
+                <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 14px;">
+                    This will extract comments from videos on the channel.
+                    Execution time depends on the number of videos and comments.
+                </p>
+
+                <div class="form-group">
+                    <label class="form-label">Video limit (optional)</label>
+                    <input type="number" id="videoLimit" placeholder="No limit" min="1" style="max-width: 200px;">
+                    <p class="help-text">Leave empty to extract all videos</p>
+                </div>
+
+                <div class="form-group" style="display: flex; align-items: center; gap: 12px;">
+                    <input type="checkbox" id="skipExisting" checked style="width: 18px; height: 18px; cursor: pointer;">
+                    <label for="skipExisting" style="cursor: pointer; color: var(--text-secondary); font-size: 14px;">
+                        Skip already downloaded videos
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Parallel workers: <span id="workersValue">2</span></label>
+                    <input type="range" id="workersSlider" min="1" max="8" value="2"
+                           style="width: 100%; max-width: 300px; cursor: pointer;"
+                           oninput="document.getElementById('workersValue').textContent = this.value">
+                    <p class="help-text">More workers = faster extraction, but may hit rate limits</p>
+                </div>
+
+                <button class="btn btn-primary" id="scrapeBtn" onclick="addToQueue()">
+                    Add to Queue
+                </button>
+            </div>
+
+            <!-- Queue section with real progress -->
+            <div class="card" id="queueCard">
+                <div class="card-header">
+                    <h2 class="card-title">Extraction Queue</h2>
+                    <div style="display: flex; gap: 8px;">
+                        <button class="btn btn-secondary btn-sm" id="stopBtn" onclick="stopExtraction()" style="display: none;">
+                            ⏹ Stop
+                        </button>
+                        <button class="btn btn-secondary btn-sm" onclick="clearQueue()">Clear completed</button>
+                    </div>
+                </div>
+                
+                <!-- Current extraction progress -->
+                <div class="progress-container" id="progressContainer" style="display: none; margin-bottom: 20px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span id="progressChannel" style="font-weight: 500;"></span>
+                        <span id="progressPercent" style="color: var(--accent); font-size: 14px;"></span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <p class="progress-text" id="progressText" style="margin-top: 8px;"></p>
+                    <p class="progress-detail" id="progressDetail" style="color: var(--text-muted); font-size: 12px; margin-top: 4px;"></p>
+                </div>
+                
+                <!-- Queue list -->
+                <div id="queueList" style="color: var(--text-secondary); font-size: 14px;">
+                    No extractions in queue
+                </div>
+                
+                <!-- Result box -->
+                <div class="result-box" id="resultBox" style="display: none; margin-top: 16px;">
+                    <div class="result-title" id="resultTitle">Extraction Complete</div>
+                    <p class="result-text" id="resultText"></p>
+                    <a href="#" id="downloadLink" class="btn btn-success btn-sm" style="display: none; margin-top: 12px; text-decoration: none;">
+                        Download JSON
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: Data -->
+        <div id="tab-data" class="tab-content">
+            <div id="dataListView">
+                <div class="page-header">
+                    <h1 class="page-title">Data</h1>
+                    <p class="page-subtitle">View and manage your extracted data</p>
+                </div>
+
+                <div class="stats-grid" id="globalStats">
+                    <div class="stat-card">
+                        <div class="stat-label">Channels</div>
+                        <div class="stat-value" id="statChannels">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Videos</div>
+                        <div class="stat-value" id="statVideos">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Comments</div>
+                        <div class="stat-value" id="statComments">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Files</div>
+                        <div class="stat-value" id="statFiles">0</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Extracted Files</h2>
+                        <button class="btn btn-secondary btn-sm" onclick="loadDataFiles()">
+                            Refresh
+                        </button>
+                    </div>
+
+                    <div id="dataTableContainer">
+                        <table class="data-table" id="dataTable">
+                            <thead>
+                                <tr>
+                                    <th>Channel</th>
+                                    <th>Videos</th>
+                                    <th>Comments</th>
+                                    <th>Date</th>
+                                    <th>Size</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dataTableBody">
+                            </tbody>
+                        </table>
+
+                        <div class="empty-state" id="dataEmptyState" style="display: none;">
+                            <div class="empty-icon">&#128194;</div>
+                            <div class="empty-title">No data</div>
+                            <div class="empty-text">Extract comments from the Extraction tab first</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- File detail view -->
+            <div id="dataDetailView" class="file-detail">
+                <div class="back-btn" onclick="hideFileDetail()">
+                    &#8592; Back to list
+                </div>
+
+                <div class="page-header">
+                    <h1 class="page-title" id="detailChannelName">-</h1>
+                    <p class="page-subtitle" id="detailDate">-</p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Videos</div>
+                        <div class="stat-value" id="detailVideos">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Comments</div>
+                        <div class="stat-value" id="detailComments">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Avg. per video</div>
+                        <div class="stat-value" id="detailAvg">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Replies</div>
+                        <div class="stat-value" id="detailReplies">0</div>
+                    </div>
+                </div>
+
+                <div class="charts-grid">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Comments per Video</h2>
+                        </div>
+                        <div class="chart-container" id="chartVideos"></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Comments Timeline</h2>
+                        </div>
+                        <div class="chart-container" id="chartTimeline"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Video List</h2>
+                    </div>
+                    <div class="video-list" id="videoList"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: Modeling -->
+        <div id="tab-modeling" class="tab-content">
+            <div class="page-header">
+                <h1 class="page-title">Modeling</h1>
+                <p class="page-subtitle">Topic modeling and comment analysis</p>
+            </div>
+
+            <div class="card">
+                <div class="empty-state">
+                    <div class="empty-icon">&#128736;</div>
+                    <div class="empty-title">Coming Soon</div>
+                    <div class="empty-text">The topic modeling pipeline will be available soon</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Navigation
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-item').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            document.getElementById('tab-' + tabName).classList.add('active');
+            event.target.closest('.nav-item').classList.add('active');
+
+            if (tabName === 'data') {
+                loadDataFiles();
+            }
+        }
+
+        // Extraction
+        let channelData = null;
+        let channelsList = [];
+
+        async function getChannelInfo() {
+            const channelInput = document.getElementById('channelInput').value.trim();
+            if (!channelInput) {
+                alert('Please enter a channel name or ID');
+                return;
+            }
+
+            // Parse multiple channels
+            const channels = channelInput.split(',').map(c => c.trim()).filter(c => c);
+
+            const searchBtn = document.getElementById('searchBtn');
+            searchBtn.disabled = true;
+            searchBtn.innerHTML = '<span class="spinner"></span> Searching...';
+
+            try {
+                if (channels.length === 1) {
+                    // Single channel - show detailed info
+                    const response = await fetch('/api/channel-info', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ channel: channels[0] })
+                    });
+
+                    const data = await response.json();
+
+                    if (data.error) {
+                        alert('Error: ' + data.error);
+                        return;
+                    }
+
+                    channelData = data;
+                    channelsList = [channels[0]];
+                    document.getElementById('channelLabel').textContent = 'Channel';
+                    document.getElementById('channelName').textContent = data.channel_name;
+                    document.getElementById('videoLabel').textContent = 'Videos';
+                    document.getElementById('videoCount').textContent = data.video_count + ' videos';
+                } else {
+                    // Multiple channels - fetch info for each
+                    channelsList = channels;
+                    channelData = { multi: true, count: channels.length, details: [] };
+
+                    document.getElementById('channelLabel').textContent = 'Channels';
+                    document.getElementById('channelName').textContent = channels.length + ' channels';
+                    document.getElementById('videoLabel').textContent = 'Loading...';
+                    document.getElementById('videoCount').innerHTML = '<span class="spinner"></span>';
+
+                    // Fetch all channel info in parallel
+                    const promises = channels.map(ch =>
+                        fetch('/api/channel-info', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ channel: ch })
+                        }).then(r => r.json()).catch(() => ({ error: true, channel: ch }))
+                    );
+
+                    const results = await Promise.all(promises);
+                    let totalVideos = 0;
+                    const detailsHtml = results.map((r, i) => {
+                        if (r.error) {
+                            return `<div style="padding: 4px 0; color: var(--error);">${channels[i]}: Error</div>`;
+                        }
+                        totalVideos += r.video_count || 0;
+                        channelData.details.push(r);
+                        const subs = r.subscriber_count ? ` (${formatSubscribers(r.subscriber_count)})` : '';
+                        return `<div style="padding: 4px 0;">${r.channel_name}${subs}: <strong>${r.video_count}</strong> videos</div>`;
+                    }).join('');
+
+                    document.getElementById('videoLabel').textContent = 'Total: ' + totalVideos + ' videos';
+                    document.getElementById('videoCount').innerHTML = detailsHtml;
+                }
+
+                document.getElementById('channelInfo').style.display = 'block';
+                document.getElementById('scrapeCard').style.display = 'block';
+            } catch (error) {
+                alert('Error: ' + error.message);
+            } finally {
+                searchBtn.disabled = false;
+                searchBtn.innerHTML = 'Search';
+            }
+        }
+
+        let pollingInterval = null;
+
+        async function addToQueue() {
+            const channelInput = document.getElementById('channelInput').value.trim();
+            if (!channelInput) {
+                alert('Please search for a channel first');
+                return;
+            }
+
+            // Get options
+            const limitInput = document.getElementById('videoLimit').value;
+            const limit = limitInput ? parseInt(limitInput) : null;
+            const skipExisting = document.getElementById('skipExisting').checked;
+            const workers = parseInt(document.getElementById('workersSlider').value);
+
+            try {
+                const response = await fetch('/api/scrape-comments', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        channel: channelInput,
+                        limit: limit,
+                        skip_existing: skipExisting,
+                        workers: workers
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                } else {
+                    // Hide result box for new extractions
+                    document.getElementById('resultBox').style.display = 'none';
+                    // Start polling for progress
+                    startPolling();
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        function startPolling() {
+            if (pollingInterval) return;
+            
+            pollingInterval = setInterval(updateProgress, 1000);
+            updateProgress(); // Initial call
+        }
+
+        function stopPolling() {
+            if (pollingInterval) {
+                clearInterval(pollingInterval);
+                pollingInterval = null;
+            }
+        }
+
+        async function updateProgress() {
+            try {
+                const response = await fetch('/api/extraction-status');
+                const status = await response.json();
+                
+                const progressContainer = document.getElementById('progressContainer');
+                const stopBtn = document.getElementById('stopBtn');
+                
+                // Update queue display (filter out running item, it's shown in progress)
+                const queueItems = (status.queue || []).filter(q => q.status !== 'running');
+                updateQueueDisplay(queueItems);
+                
+                if (status.active) {
+                    progressContainer.style.display = 'block';
+                    stopBtn.style.display = 'inline-flex';
+                    
+                    const progress = status.videos_total > 0 
+                        ? (status.videos_completed / status.videos_total) * 100 
+                        : 0;
+                    
+                    document.getElementById('progressChannel').textContent = status.current_channel || 'Starting...';
+                    document.getElementById('progressPercent').textContent = Math.round(progress) + '%';
+                    document.getElementById('progressFill').style.width = progress + '%';
+                    document.getElementById('progressText').textContent = 
+                        `${status.videos_completed}/${status.videos_total} videos processed`;
+                    document.getElementById('progressDetail').textContent = 
+                        status.current_video 
+                            ? `Current: ${status.current_video} | ${status.comments_extracted.toLocaleString()} comments`
+                            : `${status.comments_extracted.toLocaleString()} comments extracted`;
+                } else {
+                    progressContainer.style.display = 'none';
+                    stopBtn.style.display = 'none';
+                    
+                    // Check if there are completed items in queue
+                    const completedItems = (status.queue || []).filter(q => q.status === 'completed');
+                    if (completedItems.length > 0) {
+                        showCompletionResult(completedItems[completedItems.length - 1]);
+                    }
+                    
+                    // Check if queue has pending items
+                    const pendingItems = (status.queue || []).filter(q => q.status === 'queued');
+                    if (pendingItems.length === 0 && completedItems.length === 0) {
+                        stopPolling();
+                    }
+                }
+            } catch (error) {
+                console.error('Polling error:', error);
+            }
+        }
+
+        function showCompletionResult(item) {
+            const resultBox = document.getElementById('resultBox');
+            const result = item.result;
+
+            if (!result) return;
+
+            resultBox.style.display = 'block';
+            resultBox.classList.remove('error', 'warning');
+
+            if (result.rate_limited) {
+                resultBox.classList.add('warning');
+                resultBox.innerHTML = `
+                    <h3 style="color: #f59e0b;">⚠️ Rate Limit Hit (403 Forbidden)</h3>
+                    <p>YouTube is blocking requests. ${result.total_videos} videos extracted before limit.</p>
+                    <p><strong>Solution:</strong> Wait a few minutes, then re-run with "Skip already downloaded" checked to continue.</p>
+                    <p style="color: var(--text-muted);">Tip: Use fewer workers to avoid rate limits.</p>
+                `;
+                return;
+            }
+
+            if (result.error) {
+                resultBox.classList.add('error');
+                document.getElementById('resultTitle').textContent = 'Error';
+                document.getElementById('resultText').textContent = result.error;
+                document.getElementById('downloadLink').style.display = 'none';
+            } else {
+                document.getElementById('resultTitle').textContent = 
+                    result.stopped ? 'Extraction Stopped' : 'Extraction Complete';
+                document.getElementById('resultText').textContent = 
+                    `${result.channel_name}: ${result.total_videos} videos, ${result.total_comments?.toLocaleString() || 0} comments`;
+                
+                if (result.filename) {
+                    const downloadLink = document.getElementById('downloadLink');
+                    downloadLink.href = '/api/download/' + result.filename;
+                    downloadLink.style.display = 'inline-block';
+                }
+            }
+        }
+
+        function updateQueueDisplay(queue) {
+            const queueList = document.getElementById('queueList');
+            
+            if (!queue || queue.length === 0) {
+                queueList.innerHTML = '<span style="color: var(--text-muted);">No extractions in queue</span>';
+                return;
+            }
+            
+            queueList.innerHTML = queue.map(item => {
+                let statusIcon = '';
+                let statusColor = '';
+                switch(item.status) {
+                    case 'queued': statusIcon = '⏳'; statusColor = 'var(--text-muted)'; break;
+                    case 'completed': statusIcon = '✅'; statusColor = 'var(--success)'; break;
+                    case 'error': statusIcon = '❌'; statusColor = 'var(--error)'; break;
+                }
+                return `<div style="padding: 8px 0; border-bottom: 1px solid var(--border-color); display: flex; align-items: center; gap: 12px;">
+                    <span>${statusIcon}</span>
+                    <span style="flex: 1;">${item.channel}</span>
+                    <span style="color: ${statusColor}; font-size: 12px; text-transform: uppercase;">${item.status}</span>
+                </div>`;
+            }).join('');
+        }
+
+        async function stopExtraction() {
+            try {
+                const response = await fetch('/api/stop-extraction', { method: 'POST' });
+                const data = await response.json();
+                if (data.success) {
+                    document.getElementById('progressText').textContent = 'Stopping...';
+                }
+            } catch (error) {
+                console.error('Stop error:', error);
+            }
+        }
+
+        async function clearQueue() {
+            try {
+                await fetch('/api/clear-queue', { method: 'POST' });
+                document.getElementById('resultBox').style.display = 'none';
+                updateProgress();
+            } catch (error) {
+                console.error('Clear queue error:', error);
+            }
+        }
+
+        // Data tab
+        let filesData = [];
+        let currentFileData = null;
+
+        async function loadDataFiles() {
+            try {
+                const response = await fetch('/api/files-stats');
+                const data = await response.json();
+
+                filesData = data.files || [];
+                renderDataTable();
+                updateGlobalStats(data);
+            } catch (error) {
+                console.error('Error loading files:', error);
+                // Fallback to simple file list
+                try {
+                    const response = await fetch('/api/files');
+                    const data = await response.json();
+                    filesData = data.files || [];
+                    renderDataTable();
+                } catch (e) {
+                    console.error('Fallback also failed:', e);
+                }
+            }
+        }
+
+        function updateGlobalStats(data) {
+            document.getElementById('statChannels').textContent = data.total_channels || 0;
+            document.getElementById('statVideos').textContent = (data.total_videos || 0).toLocaleString();
+            document.getElementById('statComments').textContent = (data.total_comments || 0).toLocaleString();
+            document.getElementById('statFiles').textContent = data.files?.length || 0;
+        }
+
+        function renderDataTable() {
+            const tbody = document.getElementById('dataTableBody');
+            const emptyState = document.getElementById('dataEmptyState');
+            const table = document.getElementById('dataTable');
+
+            if (!filesData || filesData.length === 0) {
+                table.style.display = 'none';
+                emptyState.style.display = 'block';
+                return;
+            }
+
+            table.style.display = 'table';
+            emptyState.style.display = 'none';
+
+            tbody.innerHTML = filesData.map(file => `
+                <tr>
+                    <td>
+                        <div class="channel-name">
+                            <div class="channel-avatar">${(file.channel_name || file.folder || '?').charAt(0).toUpperCase()}</div>
+                            <div>
+                                <div>${file.channel_name || file.folder}</div>
+                                ${file.subscriber_count ? `<div style="font-size: 12px; color: var(--text-muted);">${formatSubscribers(file.subscriber_count)} subscribers</div>` : ''}
+                            </div>
+                        </div>
+                    </td>
+                    <td>${file.video_count || '-'}</td>
+                    <td>${file.comment_count ? file.comment_count.toLocaleString() : '-'}</td>
+                    <td>${file.last_updated ? formatDate(file.last_updated) : '-'}</td>
+                    <td>${file.size || '-'}</td>
+                    <td>
+                        <button class="btn btn-secondary btn-sm" onclick="viewFileDetail('${file.folder}')">
+                            Insights
+                        </button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function formatDate(dateStr) {
+            try {
+                const date = new Date(dateStr);
+                return date.toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: '2-digit',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+            } catch {
+                return dateStr;
+            }
+        }
+
+        function formatSubscribers(count) {
+            if (!count) return '';
+            if (count >= 1000000) {
+                return (count / 1000000).toFixed(1) + 'M';
+            } else if (count >= 1000) {
+                return (count / 1000).toFixed(1) + 'K';
+            }
+            return count.toString();
+        }
+
+        async function viewFileDetail(filename) {
+            try {
+                const response = await fetch(`/api/file-detail/${filename}`);
+                const data = await response.json();
+
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                    return;
+                }
+
+                currentFileData = data;
+                showFileDetail(data);
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        function showFileDetail(data) {
+            document.getElementById('dataListView').style.display = 'none';
+            document.getElementById('dataDetailView').classList.add('active');
+
+            // Update header
+            document.getElementById('detailChannelName').textContent = data.channel_name || 'Unknown Channel';
+            document.getElementById('detailDate').textContent = data.last_updated ? `Last updated: ${formatDate(data.last_updated)}` : '';
+
+            // Update stats
+            const totalComments = data.total_comments || 0;
+            const totalVideos = data.total_videos || 0;
+            const avgComments = totalVideos > 0 ? Math.round(totalComments / totalVideos) : 0;
+            const totalReplies = data.videos?.reduce((sum, v) =>
+                sum + (v.comments?.filter(c => c.is_reply).length || 0), 0) || 0;
+
+            document.getElementById('detailVideos').textContent = totalVideos.toLocaleString();
+            document.getElementById('detailComments').textContent = totalComments.toLocaleString();
+            document.getElementById('detailAvg').textContent = avgComments.toLocaleString();
+            document.getElementById('detailReplies').textContent = totalReplies.toLocaleString();
+
+            // Render charts
+            renderVideoChart(data.videos || []);
+            renderTimelineChart(data.videos || []);
+
+            // Render video list
+            renderVideoList(data.videos || []);
+        }
+
+        function hideFileDetail() {
+            document.getElementById('dataListView').style.display = 'block';
+            document.getElementById('dataDetailView').classList.remove('active');
+        }
+
+        function renderVideoChart(videos) {
+            const sortedVideos = [...videos]
+                .sort((a, b) => (b.comment_count || 0) - (a.comment_count || 0))
+                .slice(0, 20);
+
+            const data = [{
+                x: sortedVideos.map(v => v.comment_count || 0),
+                y: sortedVideos.map(v => truncateText(v.title, 40)),
+                type: 'bar',
+                orientation: 'h',
+                marker: {
+                    color: '#3b82f6'
+                }
+            }];
+
+            const layout = {
+                paper_bgcolor: 'transparent',
+                plot_bgcolor: 'transparent',
+                font: { color: '#888', size: 11 },
+                margin: { l: 200, r: 20, t: 10, b: 40 },
+                xaxis: {
+                    gridcolor: '#2a2a2a',
+                    title: 'Comments'
+                },
+                yaxis: {
+                    autorange: 'reversed'
+                }
+            };
+
+            Plotly.newPlot('chartVideos', data, layout, { responsive: true, displayModeBar: false });
+        }
+
+        function renderTimelineChart(videos) {
+            // Aggregate comments by date
+            const commentsByDate = {};
+
+            videos.forEach(video => {
+                if (!video.comments) return;
+                video.comments.forEach(comment => {
+                    if (!comment.timestamp) return;
+                    const date = new Date(comment.timestamp * 1000).toISOString().split('T')[0];
+                    commentsByDate[date] = (commentsByDate[date] || 0) + 1;
+                });
+            });
+
+            const dates = Object.keys(commentsByDate).sort();
+            const counts = dates.map(d => commentsByDate[d]);
+
+            if (dates.length === 0) {
+                document.getElementById('chartTimeline').innerHTML =
+                    '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #555;">No temporal data available</div>';
+                return;
+            }
+
+            const data = [{
+                x: dates,
+                y: counts,
+                type: 'scatter',
+                mode: 'lines',
+                fill: 'tozeroy',
+                line: { color: '#3b82f6', width: 2 },
+                fillcolor: 'rgba(59, 130, 246, 0.1)'
+            }];
+
+            const layout = {
+                paper_bgcolor: 'transparent',
+                plot_bgcolor: 'transparent',
+                font: { color: '#888', size: 11 },
+                margin: { l: 50, r: 20, t: 10, b: 40 },
+                xaxis: {
+                    gridcolor: '#2a2a2a',
+                    type: 'date'
+                },
+                yaxis: {
+                    gridcolor: '#2a2a2a',
+                    title: 'Comments'
+                }
+            };
+
+            Plotly.newPlot('chartTimeline', data, layout, { responsive: true, displayModeBar: false });
+        }
+
+        function renderVideoList(videos) {
+            const sortedVideos = [...videos].sort((a, b) => (b.comment_count || 0) - (a.comment_count || 0));
+
+            document.getElementById('videoList').innerHTML = sortedVideos.map(video => `
+                <div class="video-item">
+                    <a href="${video.url}" target="_blank" class="video-title" title="${video.title}">
+                        ${video.title}
+                    </a>
+                    <span class="video-comments">${(video.comment_count || 0).toLocaleString()} comments</span>
+                </div>
+            `).join('');
+        }
+
+        function truncateText(text, maxLength) {
+            if (!text) return '';
+            return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
+        }
+
+        // Enter key support
+        document.getElementById('channelInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                getChannelInfo();
+            }
+        });
+
+        // Initialize workers slider with system info
+        async function initWorkersSlider() {
+            try {
+                const response = await fetch('/api/system-info');
+                const info = await response.json();
+
+                const slider = document.getElementById('workersSlider');
+                slider.max = info.max_workers;
+                slider.value = info.default_workers;
+                document.getElementById('workersValue').textContent = info.default_workers;
+            } catch (error) {
+                console.error('Failed to load system info:', error);
+            }
+        }
+
+        // Initial load - check if extraction is running
+        document.addEventListener('DOMContentLoaded', async function() {
+            // Initialize workers slider
+            initWorkersSlider();
+
+            try {
+                const response = await fetch('/api/extraction-status');
+                const status = await response.json();
+
+                // If there's an active extraction or queue items, start polling
+                if (status.active || (status.queue && status.queue.some(q => q.status === 'queued' || q.status === 'running'))) {
+                    document.getElementById('scrapeCard').style.display = 'block';
+                    startPolling();
+                }
+
+                // Update queue display
+                updateQueueDisplay(status.queue || []);
+            } catch (error) {
+                console.error('Initial status check failed:', error);
+            }
+        });
+    </script>
+</body>
+</html>
+
