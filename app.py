@@ -964,6 +964,9 @@ def do_topic_modeling(job_id: str, channels: list, algorithm: str, params: dict)
         print(f"[MODELING] Filtering empty documents...")
         valid_indices = [i for i, doc in enumerate(processed_comments) if doc.strip()]
         processed_comments = [processed_comments[i] for i in valid_indices]
+        comments = [
+            comments[i] for i in valid_indices
+        ]  # Keep comments aligned with processed_comments
         metadata = [metadata[i] for i in valid_indices]
         print(f"[MODELING] After filtering: {len(processed_comments)} valid documents")
 
@@ -1013,7 +1016,7 @@ def do_topic_modeling(job_id: str, channels: list, algorithm: str, params: dict)
 
         for topic in model.topics:
             topic["representative_comments"] = model.get_representative_documents(
-                comments, topic["id"], n=5
+                comments, int(topic["id"]), n=5
             )
 
         # Prepare results

@@ -120,7 +120,17 @@ class BaseTopicModel(ABC):
         Returns:
             List of most representative documents
         """
+        topic_id = int(topic_id)  # Explicit conversion from potential numpy.int64
+
         if self.document_topics is None or topic_id >= len(self.topics):
+            return []
+
+        # Validate document count matches document_topics rows
+        num_doc_topics = self.document_topics.shape[0]
+        if len(documents) != num_doc_topics:
+            print(
+                f"[WARNING] Document count mismatch: {len(documents)} documents vs {num_doc_topics} in document_topics matrix"
+            )
             return []
 
         # Get topic probabilities for all documents
@@ -129,8 +139,13 @@ class BaseTopicModel(ABC):
         # Get indices of top n documents
         top_indices = np.argsort(topic_probs)[-n:][::-1]
 
-        # Return corresponding documents (convert numpy int to python int for comparison)
-        return [documents[int(i)] for i in top_indices if int(i) < len(documents)]
+        # Return corresponding documents (convert numpy int to python int)
+        result = []
+        for i in top_indices:
+            idx = int(i)
+            if 0 <= idx < len(documents):
+                result.append(documents[idx])
+        return result
 
     def get_model_info(self) -> Dict:
         """
