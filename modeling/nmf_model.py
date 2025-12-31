@@ -56,6 +56,7 @@ class NMFModel(BaseTopicModel):
         Returns:
             self
         """
+        print("[NMF] Step 1: Starting vectorization...")
         if progress_callback:
             progress_callback(10, "Vectorizing documents with TF-IDF...")
 
@@ -69,13 +70,17 @@ class NMFModel(BaseTopicModel):
         )
 
         try:
+            print("[NMF] Step 2: fit_transform on vectorizer...")
             tfidf = self.vectorizer.fit_transform(documents)
+            print(f"[NMF] Step 3: TF-IDF matrix shape: {tfidf.shape}")
             self.feature_names = self.vectorizer.get_feature_names_out()
+            print(f"[NMF] Step 4: Got {len(self.feature_names)} features")
         except ValueError as e:
             raise ValueError(
                 f"Vectorization failed: {e}. Check if documents contain valid tokens."
             )
 
+        print("[NMF] Step 5: Creating NMF model...")
         if progress_callback:
             progress_callback(
                 40, f"Training NMF model with {self.num_topics} topics..."
@@ -93,20 +98,27 @@ class NMFModel(BaseTopicModel):
         )
 
         # Fit the model and get document-topic matrix
+        print("[NMF] Step 6: Fitting NMF model...")
         self.document_topics = self.model.fit_transform(tfidf)
+        print(f"[NMF] Step 7: document_topics shape: {self.document_topics.shape}")
 
+        print("[NMF] Step 8: Extracting topics...")
         if progress_callback:
             progress_callback(70, "Extracting topics...")
 
         # Extract topics
         self.topics = self.get_topics()
+        print(f"[NMF] Step 9: Got {len(self.topics)} topics")
 
         # Count documents per topic
+        print("[NMF] Step 10: Counting documents per topic...")
         self._count_documents_per_topic(documents)
+        print("[NMF] Step 11: Done counting")
 
         if progress_callback:
             progress_callback(100, "NMF training completed")
 
+        print("[NMF] Step 12: Training complete!")
         return self
 
     def get_topics(self, top_n_words: int = 10) -> List[Dict]:
