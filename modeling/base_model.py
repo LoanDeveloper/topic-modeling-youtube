@@ -1,7 +1,8 @@
 """Base class for topic modeling algorithms."""
 
 from abc import ABC, abstractmethod
-from typing import List, Dict, Optional, Callable
+from typing import Callable, Dict, List, Optional
+
 import numpy as np
 
 
@@ -91,7 +92,7 @@ class BaseTopicModel(ABC):
         topic_words = []
 
         for topic in self.topics:
-            words = set([word for word, _ in topic['words'][:10]])
+            words = set([word for word, _ in topic["words"][:10]])
             topic_words.append(words)
             all_top_words.update(words)
 
@@ -105,7 +106,9 @@ class BaseTopicModel(ABC):
         diversity = unique_words / total_words if total_words > 0 else 0.0
         return diversity
 
-    def get_representative_documents(self, documents: List[str], topic_id: int, n: int = 5) -> List[str]:
+    def get_representative_documents(
+        self, documents: List[str], topic_id: int, n: int = 5
+    ) -> List[str]:
         """
         Get most representative documents for a given topic.
 
@@ -126,8 +129,8 @@ class BaseTopicModel(ABC):
         # Get indices of top n documents
         top_indices = np.argsort(topic_probs)[-n:][::-1]
 
-        # Return corresponding documents
-        return [documents[i] for i in top_indices if i < len(documents)]
+        # Return corresponding documents (convert numpy int to python int for comparison)
+        return [documents[int(i)] for i in top_indices if int(i) < len(documents)]
 
     def get_model_info(self) -> Dict:
         """
@@ -137,8 +140,8 @@ class BaseTopicModel(ABC):
             Dictionary with model information
         """
         return {
-            'algorithm': self.__class__.__name__.replace('Model', ''),
-            'num_topics': self.num_topics,
-            'num_features': len(self.feature_names) if self.feature_names else 0,
-            'diversity': self.get_topic_diversity()
+            "algorithm": self.__class__.__name__.replace("Model", ""),
+            "num_topics": self.num_topics,
+            "num_features": len(self.feature_names) if self.feature_names else 0,
+            "diversity": self.get_topic_diversity(),
         }
