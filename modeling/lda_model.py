@@ -1,6 +1,7 @@
 """LDA (Latent Dirichlet Allocation) topic modeling implementation."""
 
-from typing import List, Dict, Optional, Callable
+from typing import Callable, Dict, List, Optional
+
 import numpy as np
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
@@ -11,9 +12,17 @@ from .base_model import BaseTopicModel
 class LDAModel(BaseTopicModel):
     """LDA topic modeling using scikit-learn."""
 
-    def __init__(self, num_topics: int = 5, alpha: float = 0.1, beta: float = 0.01,
-                 max_iter: int = 20, n_gram_range: tuple = (1, 2),
-                 max_df: float = 0.95, min_df: int = 2, max_features: int = 1000):
+    def __init__(
+        self,
+        num_topics: int = 5,
+        alpha: float = 0.1,
+        beta: float = 0.01,
+        max_iter: int = 20,
+        n_gram_range: tuple = (1, 2),
+        max_df: float = 0.95,
+        min_df: int = 2,
+        max_features: int = 1000,
+    ):
         """
         Initialize LDA model.
 
@@ -56,17 +65,21 @@ class LDAModel(BaseTopicModel):
             min_df=self.min_df,
             ngram_range=self.n_gram_range,
             max_features=self.max_features,
-            token_pattern=r'\b\w+\b'  # Match words
+            token_pattern=r"\b\w+\b",  # Match words
         )
 
         try:
             dtm = self.vectorizer.fit_transform(documents)
             self.feature_names = self.vectorizer.get_feature_names_out()
         except ValueError as e:
-            raise ValueError(f"Vectorization failed: {e}. Check if documents contain valid tokens.")
+            raise ValueError(
+                f"Vectorization failed: {e}. Check if documents contain valid tokens."
+            )
 
         if progress_callback:
-            progress_callback(40, f"Training LDA model with {self.num_topics} topics...")
+            progress_callback(
+                40, f"Training LDA model with {self.num_topics} topics..."
+            )
 
         # Train LDA model
         self.model = LatentDirichletAllocation(
@@ -75,7 +88,7 @@ class LDAModel(BaseTopicModel):
             topic_word_prior=self.beta,
             max_iter=self.max_iter,
             random_state=42,
-            n_jobs=-1  # Use all CPU cores
+            n_jobs=-1,  # Use all CPU cores
         )
 
         # Fit the model
@@ -124,12 +137,14 @@ class LDAModel(BaseTopicModel):
                 weight = topic[idx]
                 top_words.append((word, float(weight)))
 
-            topics_list.append({
-                'id': topic_idx,
-                'label': f"Topic {topic_idx + 1}",
-                'words': top_words,
-                'document_count': 0  # Will be filled later
-            })
+            topics_list.append(
+                {
+                    "id": topic_idx,
+                    "label": f"Topic {topic_idx + 1}",
+                    "words": top_words,
+                    "document_count": 0,  # Will be filled later
+                }
+            )
 
         return topics_list
 
@@ -167,7 +182,9 @@ class LDAModel(BaseTopicModel):
 
         # Count documents per topic
         for topic in self.topics:
-            topic['document_count'] = int(np.sum(dominant_topics == topic['id']))
+            # Use int() to convert topic_id and ensure boolean array is properly summed
+            topic_id = int(topic["id"])
+            topic["document_count"] = int((dominant_topics == topic_id).sum())
 
     def get_perplexity(self) -> float:
         """
@@ -177,7 +194,7 @@ class LDAModel(BaseTopicModel):
             Perplexity score
         """
         if self.model is None:
-            return float('inf')
+            return float("inf")
 
         return self.model.perplexity(self.vectorizer.transform([]))
 
@@ -192,20 +209,22 @@ class LDAModel(BaseTopicModel):
             Summary dictionary
         """
         summary = {
-            'algorithm': 'LDA',
-            'num_topics': self.num_topics,
-            'num_features': len(self.feature_names),
-            'diversity': self.get_topic_diversity(),
-            'topics': []
+            "algorithm": "LDA",
+            "num_topics": self.num_topics,
+            "num_features": len(self.feature_names),
+            "diversity": self.get_topic_diversity(),
+            "topics": [],
         }
 
         for topic in self.topics:
-            top_words = [word for word, _ in topic['words'][:top_n_words]]
-            summary['topics'].append({
-                'id': topic['id'],
-                'label': topic['label'],
-                'keywords': top_words,
-                'document_count': topic['document_count']
-            })
+            top_words = [word for word, _ in topic["words"][:top_n_words]]
+            summary["topics"].append(
+                {
+                    "id": topic["id"],
+                    "label": topic["label"],
+                    "keywords": top_words,
+                    "document_count": topic["document_count"],
+                }
+            )
 
         return summary

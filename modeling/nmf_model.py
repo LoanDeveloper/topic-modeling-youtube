@@ -1,6 +1,7 @@
 """NMF (Non-negative Matrix Factorization) topic modeling implementation."""
 
-from typing import List, Dict, Optional, Callable
+from typing import Callable, Dict, List, Optional
+
 import numpy as np
 from sklearn.decomposition import NMF
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -11,9 +12,17 @@ from .base_model import BaseTopicModel
 class NMFModel(BaseTopicModel):
     """NMF topic modeling using scikit-learn."""
 
-    def __init__(self, num_topics: int = 5, alpha: float = 0.0, l1_ratio: float = 0.5,
-                 max_iter: int = 200, n_gram_range: tuple = (1, 2),
-                 max_df: float = 0.95, min_df: int = 2, max_features: int = 1000):
+    def __init__(
+        self,
+        num_topics: int = 5,
+        alpha: float = 0.0,
+        l1_ratio: float = 0.5,
+        max_iter: int = 200,
+        n_gram_range: tuple = (1, 2),
+        max_df: float = 0.95,
+        min_df: int = 2,
+        max_features: int = 1000,
+    ):
         """
         Initialize NMF model.
 
@@ -56,17 +65,21 @@ class NMFModel(BaseTopicModel):
             min_df=self.min_df,
             ngram_range=self.n_gram_range,
             max_features=self.max_features,
-            token_pattern=r'\b\w+\b'
+            token_pattern=r"\b\w+\b",
         )
 
         try:
             tfidf = self.vectorizer.fit_transform(documents)
             self.feature_names = self.vectorizer.get_feature_names_out()
         except ValueError as e:
-            raise ValueError(f"Vectorization failed: {e}. Check if documents contain valid tokens.")
+            raise ValueError(
+                f"Vectorization failed: {e}. Check if documents contain valid tokens."
+            )
 
         if progress_callback:
-            progress_callback(40, f"Training NMF model with {self.num_topics} topics...")
+            progress_callback(
+                40, f"Training NMF model with {self.num_topics} topics..."
+            )
 
         # Train NMF model
         self.model = NMF(
@@ -76,7 +89,7 @@ class NMFModel(BaseTopicModel):
             l1_ratio=self.l1_ratio,
             max_iter=self.max_iter,
             random_state=42,
-            init='nndsvd'  # Better initialization for NMF
+            init="nndsvd",  # Better initialization for NMF
         )
 
         # Fit the model and get document-topic matrix
@@ -122,12 +135,14 @@ class NMFModel(BaseTopicModel):
                 weight = topic[idx]
                 top_words.append((word, float(weight)))
 
-            topics_list.append({
-                'id': topic_idx,
-                'label': f"Topic {topic_idx + 1}",
-                'words': top_words,
-                'document_count': 0  # Will be filled later
-            })
+            topics_list.append(
+                {
+                    "id": topic_idx,
+                    "label": f"Topic {topic_idx + 1}",
+                    "words": top_words,
+                    "document_count": 0,  # Will be filled later
+                }
+            )
 
         return topics_list
 
@@ -165,7 +180,9 @@ class NMFModel(BaseTopicModel):
 
         # Count documents per topic
         for topic in self.topics:
-            topic['document_count'] = int(np.sum(dominant_topics == topic['id']))
+            # Use int() to convert topic_id and ensure boolean array is properly summed
+            topic_id = int(topic["id"])
+            topic["document_count"] = int((dominant_topics == topic_id).sum())
 
     def get_reconstruction_error(self) -> float:
         """
@@ -175,7 +192,7 @@ class NMFModel(BaseTopicModel):
             Reconstruction error
         """
         if self.model is None:
-            return float('inf')
+            return float("inf")
 
         return self.model.reconstruction_err_
 
@@ -190,21 +207,23 @@ class NMFModel(BaseTopicModel):
             Summary dictionary
         """
         summary = {
-            'algorithm': 'NMF',
-            'num_topics': self.num_topics,
-            'num_features': len(self.feature_names),
-            'diversity': self.get_topic_diversity(),
-            'reconstruction_error': self.get_reconstruction_error(),
-            'topics': []
+            "algorithm": "NMF",
+            "num_topics": self.num_topics,
+            "num_features": len(self.feature_names),
+            "diversity": self.get_topic_diversity(),
+            "reconstruction_error": self.get_reconstruction_error(),
+            "topics": [],
         }
 
         for topic in self.topics:
-            top_words = [word for word, _ in topic['words'][:top_n_words]]
-            summary['topics'].append({
-                'id': topic['id'],
-                'label': topic['label'],
-                'keywords': top_words,
-                'document_count': topic['document_count']
-            })
+            top_words = [word for word, _ in topic["words"][:top_n_words]]
+            summary["topics"].append(
+                {
+                    "id": topic["id"],
+                    "label": topic["label"],
+                    "keywords": top_words,
+                    "document_count": topic["document_count"],
+                }
+            )
 
         return summary
