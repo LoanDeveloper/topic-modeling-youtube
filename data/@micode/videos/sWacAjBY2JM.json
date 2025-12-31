@@ -1,0 +1,3852 @@
+{
+  "video_id": "sWacAjBY2JM",
+  "title": "La SNCF va détester mon bot...",
+  "url": "https://www.youtube.com/watch?v=sWacAjBY2JM",
+  "comment_count": 427,
+  "comments": [
+    {
+      "author": "@nouga116",
+      "author_id": "UCMQBGStXH1eE84haGUvoMJg",
+      "text": "une pensée a le tatou qui a fait une lqc il y a quelques moi mais a la main pendant toute une journée",
+      "likes": 298,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@OverLoutre",
+      "author_id": "UCvtpDz8EsypS-hgVEIlbZ4g",
+      "text": "T’as beau pas être des plus réguliers ça pourra pas être pire que la SNCF",
+      "likes": 575,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lambertteisserenc5915",
+      "author_id": "UCHc5Lt51wIM-lIcrR3UrJVw",
+      "text": "Je suis développeur et ce que j'aime beaucoup dans tes vidéos c'est que tu dévoiles l'envers du décors et tu montres que c'est finalement pas si sorcier que ça que de faire des trucs assez fun qui pourrait paraître comme de la sorcellerie pour les non dev  :)\nSi j'avais vu tes vidéos avant d'apprendre à coder j'aurais eu une grande avance sur pas mal de points ! continue, tu contribues au bien commun !",
+      "likes": 359,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fanfan54old",
+      "author_id": "UC-SynvgEw8oCqZ1E6i3UP2g",
+      "text": "Je me disais au début que tu ne rentres pas (trop) dans les détails, pas suffisamment pour que quelqu'un puisse le refaire, mais au moins tu expliques la procédure du début jusqu'à la fin (créer une application, générer un token Twitter, lire la documentation de l'api, créer un vps et s'y connecter et faire la tâche cron)\nCette vidéo semble donc suffisamment complète pour que ça puisse aider les plus curieux à chercher des tutos détaillés, mais pas trop longue pour que ça intéresse le plus grand nombre\nChapeau 🎩",
+      "likes": 155,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cristi9418",
+      "author_id": "UCrj1f06JUXrYqRuzPj2khDg",
+      "text": "LoL, c’est normal la pub de SNCF juste avant la vidéo. ??? 😂😂😂",
+      "likes": 211,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Micode",
+      "author_id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
+      "text": "On commence la rentrée en douceur avec une petite vidéo (qui devait sortir pendant l’été à l’origine), j’avais hâte de reprendre !!",
+      "likes": 252,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Xemles",
+      "author_id": "UC4DG20xoyg0P3XF3rqFQa4w",
+      "text": "T'es quand même pas à l'heure sur la vidéo. Le \"Hello world\" a été tweeté le 29 Juin et tu sors la vidéo aujourd'hui :)",
+      "likes": 126,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Pizzy00",
+      "author_id": "UCrUS2Z7ifjWINNThtEhENgQ",
+      "text": "Ouiiiii fait une vidéo sur les vps",
+      "likes": 21,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@VincentRoch",
+      "author_id": "UC55d11MWhX69i65WMEce2lg",
+      "text": "Je pense qu'il serait utile que tu ajoutes le nombre de trains total avec ceux qui arrivent à l'heure, ça permettrait de mieux se rendre compte des choses.",
+      "likes": 118,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tonyb7576",
+      "author_id": "UCBfJAum_U_cdR8R63WTik0A",
+      "text": "Tes vidéos m'ont manquées :D",
+      "likes": 34,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Aerois",
+      "author_id": "UCXmQeLgmpypW-1hQHoHM54w",
+      "text": "Étant moi même ingénieur/développeur adorant bidouiller avec les API. Je trouve ta vidéo vraiment géniale :)",
+      "likes": 5,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pierresintre2390",
+      "author_id": "UCd3Qpe1CWBUdx42BKccybxQ",
+      "text": "Oui ! Une video sur les vps !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@baptistin7392",
+      "author_id": "UCGz16SEYUfaJXh6vjGojlcw",
+      "text": "Tu pourrais faire un bot qui fait les flammes Snapchat automatiquement ?",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@antoine9359",
+      "author_id": "UC66EI14aG95a7OH_xyt2-FQ",
+      "text": "Cette vidéo a été faite le 28 juin !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@algoconcept",
+      "author_id": "UC6hw-vlN2TqmgMcJ_QLlZ5A",
+      "text": "Salut Micode,\nJe te suis depuis le début, mais je fais plutôt partie de la majorité silencieuse :)\nJe sors de mon silence pour te dire que tu es excellent, continue comme ça, tes vidéos atteignent le but que tu leur a fixé, qui est de donner envie et de succiter l'intérêt. GG^^",
+      "likes": 13,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@liam_nothing7654",
+      "author_id": "UC0-4o4v-HDYNtuNefTd39Jw",
+      "text": "Oui les VPS,on veux bien une vidéo !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FlorineJackson",
+      "author_id": "UCYUKksIpuaSmFKSTmXD4iUg",
+      "text": "Bonne rentrée Micode !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cyrilthiebaut5244",
+      "author_id": "UC03Idwk2f_gPcHdLnC7Gq7A",
+      "text": "Génial ! Hâte de voir une autre vidéo du genre !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@enzolopes4508",
+      "author_id": "UCjprzSrtCynKmTLKZGThgtw",
+      "text": "Super sujet video bien maîtrise",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@valtkr",
+      "author_id": "UCkadlAQTM9w56aAa9OiAx6w",
+      "text": "Carrément pour une vidéo sur le VPS :D",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kamalayadi4407",
+      "author_id": "UCHe_HCKtly-xnxPQJ6xf6sQ",
+      "text": "Toujours aussi intéressant et marrant, tu donnes vraiment envie de chipoter  pour faire des trucs pas si compliqué au final. Merci pour tes vidéos, bonne rentrée à toi aussi !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RealJacques",
+      "author_id": "UCeYwh0A1tE8oZ3Sqer4pQcA",
+      "text": "Vraiment amusant",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@owner-6234",
+      "author_id": "UCrwe6nTXcG3MMCXhQTyjfbw",
+      "text": "le bot tourne toujours aujourd'hui xdddd",
+      "likes": 1,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CHOCO-CARS",
+      "author_id": "UCo1wgLzR_P3iQZYjZl_0xWw",
+      "text": "Bien vu la ref de l'autruche qui fait du ski!",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xdlol1218",
+      "author_id": "UCQrhod6YS6ZI1E3CgrH_WKw",
+      "text": "sache que j'apprécie de plus en plus tes vidéos, elles sont de mieux en mieux réalisées et c'est assez passionnant. BG",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@luciles4373",
+      "author_id": "UC44SZg5VplpZHCYIb-NC3tA",
+      "text": "Ça m'intéresserait perso une vidéo sur les vps",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mathisfidaire5380",
+      "author_id": "UCDOrI4U_jsHMQMEN_MaXhdA",
+      "text": "J'avais eu cette idée mais pas eu assez de connaissance pour le faire ! super video sinon !",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@romainlefebvre9088",
+      "author_id": "UCbU_Zc1Fix7ISDTdWdAKM4g",
+      "text": "Et on de plus dans le nord .\nJ'aime bien le concept !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NOSWFT",
+      "author_id": "UCuzixK3GoyxHzv5_6XQnIDA",
+      "text": "Merci Michael grâce à toi on sera quand les trains seront en retard",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@turbotrounoir",
+      "author_id": "UCHBAUA4iqfgHkRu0FUsolAw",
+      "text": "Toujours un plaisir de regarder tes videos, surtout avec les petits moments drôle, continue!",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrP396979",
+      "author_id": "UC98E6GiSXOESzinn-Re-V3w",
+      "text": "VPS, je ne connaissais pas, ça a l’air bien et pas cher...",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MentosBlitzBrigade",
+      "author_id": "UCv-wfajPWhR7UzEZwTC5ScQ",
+      "text": "Enfin une description qui sert a quelque chose ! Super vidéo 😉",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@navitiamobility6354",
+      "author_id": "UCk6czuumqrYPr-mt1KPUcBw",
+      "text": "Bravo Micode, belle démo ! ;-)",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mathieubds",
+      "author_id": "UCaLxeWVbH8VJIFpHafHyBXA",
+      "text": "Super vidéo, les API's sont présente partout de nos jours et sont une mine d'or pour les bidoulleurs et autres :)",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hyoug",
+      "author_id": "UCd6QWJm2vRyqg1HowHQSiHw",
+      "text": "Super vidéo et le sujet est très interessant !",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rawz06",
+      "author_id": "UCR4rL8OdoZJawvTSltbq3dQ",
+      "text": "Franchement c'est le meilleur type de vidéo ! Continue comme ça ! J'adore ce genre de vidéo",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nayb1987",
+      "author_id": "UC8uTQZirZeayLUUscDJNY6Q",
+      "text": "Simplement parfait comme vidéo. Juste ce qu'il faut comme connaissance, pas de détail trop technique. Juste parfait! Bon du coup je sens que je vais me lancé la dedans assez rapidement, aimant développer des sites",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Holybloodfull",
+      "author_id": "UCcYbM6g7vK4eOGSfEnXnBjg",
+      "text": "Pas mal le train CFF",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Yolakx",
+      "author_id": "UC75fuoyOjooBUTPfu5Yn6sQ",
+      "text": "Tu aurait dû faire par jour la à chaque tweets il y a tout",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mindingsesssion",
+      "author_id": "UC8a5QAYfgpt3j4C1ofAuegQ",
+      "text": "Tes plans sur le coté font bizarrz",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@adri2350",
+      "author_id": "UCEFMvu3RRZ9n984b3zsesug",
+      "text": "Géniale cette vidéo !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@geonathn",
+      "author_id": "UCpMwVgfA_WdwAX1kU1MSgPw",
+      "text": "Génial !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheCrapoto33",
+      "author_id": "UC_NdlW0BcGSpFGqWmMQd2Rg",
+      "text": "J'aime les petits bidouillages des familles",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@monsieurco4039",
+      "author_id": "UCsvrrhmkw5QrlEyjejeotRA",
+      "text": "génial ta vidéo ! une vidéo sur les vps serait bien sympa merci!",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bIGORno1",
+      "author_id": "UCU7NxxRKxy3bspmtdTrZIDg",
+      "text": "j'adore t'es vidéo continu commme ça merci bien :)",
+      "likes": 5,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ambrosuslailoken",
+      "author_id": "UCcAC48Gt81r-5zqlIK4jw1Q",
+      "text": "Super, c'est la rentrée ! Enfin pour moi ce sera le 5 octobre ... et à HETIC ! Merci de m'avoir fait découvrir cette école !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bapeleroi5987",
+      "author_id": "UCRnu-XXbiD5Kr28IGInghJw",
+      "text": "très bonne vidéo j’ai kiffé",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hygovieuwlpb6825",
+      "author_id": "UClqk43JFSvPuOZ_D3R8PASQ",
+      "text": "Super vidéo ! Et oui su tu peux faire une vidéo sur l'hébergement à ta façon, let's go !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kishiro4563",
+      "author_id": "UC0OeqYN3eHR2nTKh-mJk3ug",
+      "text": "Oui un petit tuto sur le vps ca serait bien ;)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@23bape",
+      "author_id": "UCRPmsp2nErDaoCJrVPQTOXw",
+      "text": "Ce serait super une vidéo sur les vps",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ixis_dro9723",
+      "author_id": "UCsKs5SJumaovzezfHZdx3uA",
+      "text": "Très intéressant",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@phoebec.6900",
+      "author_id": "UCIvyuiOsoZOMQTmUOBUdr9A",
+      "text": "J’ai absolument rien compris mais c’était très agréable à regarder, comme chacune de tes vidéos ! :)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Electro-Info-Tech",
+      "author_id": "UCX4BE3U5-Ipz9etIeILol0Q",
+      "text": "Super ça faisait longtemps.\nOui pour la vidéo sur le vps",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Max1mee",
+      "author_id": "UC8muk-D8qK4FhPWg3LN9ezg",
+      "text": "Super vidéo 👌\nÇa serai super une vidéo sur les vps",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@harpymaslow",
+      "author_id": "UCUP012UzslywDmVaxIYNYbA",
+      "text": "Top Micode ! :) Utilisation pas conne de l'API SNCF. Bon j'imagine que certains seront largués mais pour les autres c'est un format très cool",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cow-smique5032",
+      "author_id": "UCLEceuZ2hnGlSvJyaOFK8ww",
+      "text": "Ahahah 😂 génial cette pub avant la vidéo pour... La SNCF !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AazoR91",
+      "author_id": "UCNhg6pUJKiXWswH4oduOOlQ",
+      "text": "Je ne savais absolument pas qu'on pouvait faire autant de choses en automatisé et obtenir ce résultat, ça me donne vraiment envie de commencer à apprendre différents codes ^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tangwar3873",
+      "author_id": "UCx_VbgQPnrJ7CykX0IIah6w",
+      "text": "Seul les suisse savent que la miniature et le nouveau train des CFF (SUISSE) 🇨🇭🇨🇭🇨🇭🇨🇭",
+      "likes": 10,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@imarkahann",
+      "author_id": "UCQH8DVyLgp5sSibaPHFqiGg",
+      "text": "Je me souviens de l'initiative de untrainderetard.com il y a 4 ou 5 ans déjà qui faisait ce genre de calculs",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mr-Raton_laveur",
+      "author_id": "UCqh5YpU1fpfk8V3zRW6nqGA",
+      "text": "Tu vien passé sur BFM TV avec ton compte ptdr 😂😂 gg mec",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@carolinelaure3003",
+      "author_id": "UC8BH76_JAwMQFTEToQD4uXg",
+      "text": "Tes vidéos me donnent trop envie de me plonger dans le codage 😂",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@shukk3tsu632",
+      "author_id": "UCdLUuWi_pmsORO2wSEp1Jkw",
+      "text": "Hey Micode, j'ai cru voir que tu utilisais Dashlane tu ferais une vidéo de présentation des gestionnaires de Mot de Passe",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alexandredoyen9714",
+      "author_id": "UCQmfFWAJBmoaH9KJg93Y7MA",
+      "text": "Aya, on reconnaît un TGL des CFF Suisses en miniature ;)",
+      "likes": 1,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@peufraneptunienne4034",
+      "author_id": "UCtXhTSATL0cGtZLxDQBOe9Q",
+      "text": "Enfin le retour",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thespourieye8590",
+      "author_id": "UChHoMOIIemLCyU0AZSh4HGQ",
+      "text": "1:50 Attention, c’est pas celui qui a créé le repo mais celui qui a effectué le dernier commit !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sangfroidniloi",
+      "author_id": "UCvFeXOgmKNJrue00JMeEnrA",
+      "text": "Nickel ce petit récap sur un bot tout simple, allez, prochaine étape, on oublie Twitter et on passe sur Mastodon ;)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@quentinschlt3819",
+      "author_id": "UC8LX7or-cIOzsWaE2BNWPPw",
+      "text": "Tu aurais pu mettre une photo d'un TGV français sur ta miniature ! XD",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Arthur_Traelnes",
+      "author_id": "UC1n3qOQhCFAjJ22KJp6Mkuw",
+      "text": "Pourquoi mettre un train suisse sur la miniature ? 😂😉",
+      "likes": 46,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@marb9565",
+      "author_id": "UCUstIn0j_qwYK0PX7umDg2g",
+      "text": "C'était marrant j'aime le concept",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pierrelouisburo9609",
+      "author_id": "UCSCH1xtkynkvVxhSmmUS45g",
+      "text": "Carrément de la frappe",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Corentin210698",
+      "author_id": "UCVg-WmeSiJvLX52NmV81a1g",
+      "text": "Si c'est possible met un récapitulatif par mois juste pour la blague ahah !",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DevynOff",
+      "author_id": "UC-KMtOkhPsOOncNFJpZst0A",
+      "text": "Tu devrais use les screen sur ta vps",
+      "likes": 1,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MathiasK29-44",
+      "author_id": "UCpfKnXeQAfI1uTm2ZcyKKgA",
+      "text": "6:47 \"Quand il y a trop de grille-pain, c'est grillé !\"",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lydran",
+      "author_id": "UCeTFUPZD8Nz_h_UNLUnAjhQ",
+      "text": "Mdr la pub sncf avant la vidéo 😅",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeremydescamps548",
+      "author_id": "UCKoms_F2owsHDSYmPt3zQgw",
+      "text": "Tu peux aussi utiliser un service cloud serverless pour exécuter à interval régulier ton app/code. Ce genre d'app est très adaptée au serverless. Tu n'auras plus besoin d'un serveur en 24/7, juste 1 fois par jour ton code sera exécuté et tu paieras à l'usage (souvent en nombre de données envoyées/reçus et en temps de traitement). Au plaisir",
+      "likes": 1,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kyliamollivier9711",
+      "author_id": "UCOEtjAOISJsxVuH-JJ7DCMg",
+      "text": "Énorme !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@echannelh",
+      "author_id": "UCIacw0P7rEiwc4LPkyeUngg",
+      "text": "Oh bordel le bot fonctionne toujours",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@WixazZ",
+      "author_id": "UCKwL5MVUV6dGAO8D3S-Pghw",
+      "text": "Salut, je voulais dire que tu fait du super bon taf, j’adore ce que tu fait mais sa serais encore plus génial si tu pouvais faire des vidéo un peu plus détaillé car ce genre de programme j’aimerais comprendre sont développement plus en détail. Je pense je ne suis pas seul et je suis sûr que sa intéresserais plein de débutants comme moi dans le domaine\n👍🤗",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@phylmeproduction4562",
+      "author_id": "UCoDS2joHhsg507r-tvnZSQA",
+      "text": "Triste le train sur la miniature c'est le nouveaux train de benlieux Zurichois 😭",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@johnstacey3596",
+      "author_id": "UCiLIXdGQdE0xoTweSkxovTg",
+      "text": "On en parle du logo CFF sur la miniature 😂",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MAJORTYT",
+      "author_id": "UCf0HNy4ALr0R6xNhLS4OGMQ",
+      "text": "Ce style de vidéo son top et intéressante, j'ai pas vue les 9 minutes passé 👌",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@L1nneh",
+      "author_id": "UC-5knL1qQH3jEay8PBvjzEA",
+      "text": "Tu fais un contenu formidable mais cette vidéo est vraiment intéressante, hésite pas a bidouillé d'autre truc comme sa :)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@axelesch9271",
+      "author_id": "UCfTF0ctiDDVZ5KN9tBLI86A",
+      "text": "Magnifique !",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@martinmonneret9615",
+      "author_id": "UC5EBZzaVBMmv5fP-mU1KoZg",
+      "text": "Enfin de retour  ; )",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@coco_ricos",
+      "author_id": "UCi1YbNdJvZpxXVxzp8GF-XQ",
+      "text": "6:25 feuuuuuuuuuuuuuuuuuuur!!!!!!",
+      "likes": 0,
+      "timestamp": 1704067200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@StrongBuffalo",
+      "author_id": "UC7duW7GEskvVGJfmMuFm2xA",
+      "text": "Quand Micode s'ennuie il fais un petit programme pour Twitter tout va bien ahhaha",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@marsaeolus9248",
+      "author_id": "UCdQfGDsOVPVqBSeNYGrMUVg",
+      "text": "Mettre un train Suisse en miniature c'est assez paradoxale ahahahaha",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bricehemery1534",
+      "author_id": "UCIKjd-T6Lm_2kNkAt9FJINQ",
+      "text": "Après avoir regardé la vidéo j'ai essayé de faire pareil pour tweeter mes stats d'écoute par semaine sur Apple Music . Et après la première étape, j'ai découvert qu'il fallait être inscrit à un programme payant pour utiliser les API de chez Apple. Une soirée de perdue, Super. Sinon nickel la vidéo 😉 (je viens de découvrir la chaine)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@enesra8328",
+      "author_id": "UCJE_ApvPw_8Fu0uCY-6hZSA",
+      "text": "super initiative et très bonne vid :)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@greg811",
+      "author_id": "UCFwNuNb0Y5NfU64_rG8AJZQ",
+      "text": "Pour mes serveurs privés de jeux world of warcraft, j'utilise des VPS de chez OVH en Windows R2 serveur, avec interface Windows et tout ce qui va avec, en ajoutant un disque additionnel et le tout seulement pour 20€ par mois",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@azerty2749",
+      "author_id": "UCc4GfiwABVi3IH4HsGOD5-Q",
+      "text": "super continue",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheBabahand28",
+      "author_id": "UCVwYVPWIuwI8NieInGrlAuA",
+      "text": "Passer ton code en opensource serai génial ! Sinon super vidéo merci de montrer au grand public ce super taf qu'est le dev !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AxeenFR",
+      "author_id": "UC3RZE16e5SPXs_D9GmehrZw",
+      "text": "Très bonne vidéo, intéressante et ça donne envie d'aller tater de l'API pour mettre en lumière certaines petites données cachées ^^\n\nEtant développeur, tous les termes me parlent mais pas forcément leurs implémentations, tels que le VPS ou l'approfondissement du code que tu as utilisé pour récupérer les données de la SNCF.\nJe sais bien qu'il y a des néophytes qui ne comprennent pas la technique (Et c'est normal, j'étais pareil il y a 5 ans !), mais je pense que ça serait une bonne idée, lorsque tu fais une vidéo de ce style, d'en faire une deuxième plus technique, qui s'adresserait aux développeurs !\n\nAprès ça demande bien plus de boulot et je me doute que tu n'ais pas trop de temps à consacrer à ça, mais je me permettais de te faire ce retour qui, d'un avis purement personnel, pourrait être intéressant :)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ByReezho",
+      "author_id": "UCyzaLWOHJv_qxRnARw5GuRw",
+      "text": "Yop micode, j'aime beaucoup ta vidéo et je trouve ton idée vraiment cool ! je suis également un développeur et c'est vraiment sympa que tu puisses montré à la communauté que l'informatique c'est pas que des lignes de commandes !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mega6470",
+      "author_id": "UC2afRSI5lfE6El3eME9b39g",
+      "text": "Ah d’accord...! J’ai rien compris 😂",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@astrolune",
+      "author_id": "UCqhpNR3EsQxA1fQqV1wolNQ",
+      "text": "Sympa la vidéo malgré l'utilisation de NodeJS :p (</troll>)\nDeux choses : \n- Tu aurais pu héberger ça sur un raspberry et économiser 3€/mois (et ça permettait d'en parler),\n- Tu t'y connectes pas en FTP (SFTP) mais donc en SSH qui fait du FTP over SSH.o/",
+      "likes": 7,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maximelh1826",
+      "author_id": "UCioxUxvLEJEAVFoAfqHNIRA",
+      "text": "Incroyable franchement j'adore 😀, j'ai touché un peut a la programmation dans ma licence mais pas a se niveaux 🤣 et c'est impressionnant se qu'on peut faire 😋\nBon bah je suit sur tweeter du coup 😊",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@samuelsarfati9314",
+      "author_id": "UCkbtppcdx7gPDR0VB55htag",
+      "text": "RIP le tatoo qui à tout calculé",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@axeljoly4837",
+      "author_id": "UCGj8sSIxJ4kfSlmlCN-rWvw",
+      "text": "Salut Micode, j'ai pas mal bossé sur Firebase récemment et il existe justement Firebase Functions pour faire tourner des applis du genre 😉",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@JR-ht8pn",
+      "author_id": "UCOzrV6E8QqeMAPZdDh1NsCg",
+      "text": "Si jamais, par soucis de cohérence, le train que t’utilise dans la miniature appartient aux CFF (Chemins de fer fédéraux suisses) et non à la SNCF\nAutrement bonne vidéo",
+      "likes": 6,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FrancoisLecroart",
+      "author_id": "UCvDbjPados63kMvoQ7Q_8RQ",
+      "text": "La prochaine fois. Du un peut projet comme ça tu aurai aussi pu jouer avec les workers de cloudflare qui son pas mal et pas très cher",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sayuu2865",
+      "author_id": "UCdlNsKgOpbZfBlW-9MLBLcQ",
+      "text": "Nice cette vidéo",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maelgouyet_CH",
+      "author_id": "UCCUgwuBQ81m4znjBluCpr6w",
+      "text": "En tous cas bravo pour ta miniature. Un train CFF pour la SNCF 😂😂 \n\n\n\n\n\n\nMais les cheminots te pardonnent 👌",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ouroboss8401",
+      "author_id": "UCBezoavh6fB8M41VzE_-dlQ",
+      "text": "Plus de truc comme sa c est une super idée !\nah et jsp si tu la déjà dit mais quel études a tu suivit et si tu a appris sa toi même ou dans une école \nsi quel-qu un a un lien si il la déjà dit quelque par merci ^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Promethee923",
+      "author_id": "UCubOh6e4bZfgnXG8C0IKo_w",
+      "text": "excellente vidéo !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@t34d1um",
+      "author_id": "UC2Zqs-0QEkYqUAnfSi1XxlA",
+      "text": "L’image de train en vignette est un train suisse des cff",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@axelfrhc",
+      "author_id": "UCvOtEx5QwJDO4RdMuHnGc0g",
+      "text": "Ça aurait cool de mette les sources Github et api en desc 😜",
+      "likes": 17,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@amael9848",
+      "author_id": "UCRqfW5JMEorUtbqFrp2ClSA",
+      "text": "Fait plus de vidéo je t'adore 😀",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@east_labz6317",
+      "author_id": "UC8__iTp5WBEUvs4ZOBMLF8g",
+      "text": "J'essaye de faire l'api transilien x)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NaworHD",
+      "author_id": "UC36_nI-Lw25qHahuuyez63Q",
+      "text": "On l'a vu le placement de produit pour Red by SFR",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sckip97490",
+      "author_id": "UC19ttvZx_VDajhk2AzJW-dw",
+      "text": "#Extra Je serais curieux de ce que tu pourrais faire avec tes connaissances sur Exapunks. !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Pierre-Jolivet",
+      "author_id": "UCzVjvam0msQAHaJQ9AtIDFg",
+      "text": "En vrai créer des comptes Twitter comme ca ca peut vraiment etre pratique pour des gens qui font des these et autre, esque y aurait moyen qu'en plus de le publier ca remplisse un Excel et que ca l'actualise, ca ce serait vraiment énorme",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ahmed-sv9sy",
+      "author_id": "UCEBK6-Ekir46G631yq0ZzKA",
+      "text": "j'ai kiffé",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vooltageytb122",
+      "author_id": "UCnjbXme2qNQBqL3q0Wm_JCQ",
+      "text": "Super video 😀",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@guigo8935",
+      "author_id": "UCYdYxlU4qf92ehoNG5WLgPw",
+      "text": "Juste avant ta vidéo j'ai eu une pub pour la SNCF mdr 😂😂😂😂😂",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mokless5956",
+      "author_id": "UCWqWG9dunq-lTM4mTnT3Ivg",
+      "text": "Ce genre de vidéos ça me rappelle les vidéos de Michael Reeves, il fait tout pleins de trucs comme ça, mais c'est souvent bien plus inutile :)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mattoon28",
+      "author_id": "UCXQYVxM6XK8Ke44PUY3soKA",
+      "text": "Je regarde cette vidéo dans un train 🤣",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ilyas110298",
+      "author_id": "UCc3-dLoGUOlqqM575PSM8Ug",
+      "text": "tu peut utiliser amazon web services (aws) pour hoster et executer le bot c'est gratuit",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@albanthome511",
+      "author_id": "UCBaYl6Mt_cJiwUP_iMI9_jA",
+      "text": "très cool ce genre de format de vidéo (par contre, t'as mis du temps pour la monter...   29 juin le 1er tweet)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Zegal",
+      "author_id": "UCx5ta_m6MV1YYSp1DrE17kA",
+      "text": "Salut, je trouve ça super intéressant ! Et je pense que c'est dommage que tu passes les détails. ça serait sympas que tu fasse des espèces de \"hors-séries\" où tu mets les détails de ta création ^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@UnixfoxEurope",
+      "author_id": "UChCiOnNRxmIHRZjfteLHvxw",
+      "text": "Est-ce que tu peux mettre ton code en open source (ex github) :) ? j'adorerais voir comment le programme fonctionne.",
+      "likes": 20,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@monadelizia4276",
+      "author_id": "UCJdoLU1unhXgAZapWnxK8Og",
+      "text": "ceux qui veulent transférer des fichier sur un serveur avec windows WinSCP c'est super",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nils_fox",
+      "author_id": "UCbicKCWEjMySnCxhsfGmPMg",
+      "text": "Mais c est trop bien ca",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Robertozorus",
+      "author_id": "UCwTEPVpi5tfDppJ-t4sn1LQ",
+      "text": "Perso je suis triste pour les cheminots. Mais bon sinon respect coté technique ton truc!",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Salamafetz",
+      "author_id": "UCbEc6nKT95XGFWnYA4gsBSA",
+      "text": "Attention a ne pas confondre FTPS et SFTP. Le SFTP est une encapsulation de SCP au travers d'SSH.\nAlors que le FTPS et le protocole FTP au travers de la couche SSL/TLS (très semblable au HTTP et HTTPS).",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pierre-louisleflem9415",
+      "author_id": "UCbqR23wxhtsOvLO9WPi_XSQ",
+      "text": "Hyper intéressant, il y a moyen d’avoir accès au code ou autre pour bidouiller de notre côté ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@YanisAllad",
+      "author_id": "UCPdU6Kl9it17vP-ZsbWWT-g",
+      "text": "Toujours aussi intéressant.",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lgxhight2613",
+      "author_id": "UCRtZJJPrqkDCb8g3pY2PEsw",
+      "text": "Salut Micode j'adore tes vidéos mais j'aimerais bien que tu parles du Big Data et des nombreuses choses qu'il englobe",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@IdrissNeumann",
+      "author_id": "UCqilL5ZTJU7bwkDQlKowVsQ",
+      "text": "NodeJS, bon choix",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dsazefn1795",
+      "author_id": "UCPOe7TIjpHy74NJTf1rg6sw",
+      "text": "5:15 de façon programatique ^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lucie5984",
+      "author_id": "UCYpe2CXAEowV_UeyPQj4jdA",
+      "text": "Tu pourrais faire la même chose pour la Suisse ?",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@valentindemassondautume2255",
+      "author_id": "UCKmKtRJCLqOqIMoDMAKIIsw",
+      "text": "Pour être complet, tu devrais récupérer l'infos du nombre de train roulant afin de relativiser quand meme sur les data que tu donne :)",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheGameOVERZzz",
+      "author_id": "UCdHSrDKqGpVUPPf4QZ5X1XA",
+      "text": "Tu as tourné ta vidéo le 29/06 ? Je n'ose pas imaginer ce que tu as fait depuis ^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Pon3yG4ng",
+      "author_id": "UC4NH9PRraD5cHcw_pcE-ENA",
+      "text": "Si je peux me permettre une petite code review:\n- begin et end serait mieux dans des const plutôt que let\n- check la méthode startOf de moment (startOf('day') FTW)\n- les var c'est sale, 95% du temps const suffit ;)\nTrès sympa sinon la petite intro/démo !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@catherinearbia9203",
+      "author_id": "UCUSf6k3_8IPMn8Ro2mDWwCQ",
+      "text": "J'aime , mais juste que le 222 me stressé",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@loiseauditmurt9926",
+      "author_id": "UCf_MBiGeQz5sjxEMMktm9JQ",
+      "text": "Micode ça fais longtemps 😏",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mok80",
+      "author_id": "UCksiR4LDWVBBGd4tSdle4ig",
+      "text": "Je suis développeur et je me sens toujours mal de te voir faire des trucs aussi sympa alors que je serai incapable de le faire xD C'est un peu plus technique que tes premières vidéos, perso je préfère :D",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tismaa1022",
+      "author_id": "UCJeFTAtPrJ-EJBDoFED5h4g",
+      "text": "Tu est un Génie",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@HanSou_",
+      "author_id": "UC4F4YRP5K-3HPqQzlzUjPjQ",
+      "text": "J'aime bien le concepts je go m'abonner au compte 👍",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sculderoy",
+      "author_id": "UClx_S8t-cl6jOApxG6M6Ppg",
+      "text": "Yo ! Avec Moment, tu peux aussi utiliser ˋendOf('day')ˋ ou ˋstartOf('day')’ pour mettre à minuit ou 23:59 facilement sans avoir a reset tout a la mano. Tatillonnage a part, bonne vidéo mon bon ami :)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sowin4942",
+      "author_id": "UCvhaIqyyTnRH7YOIED4pUBw",
+      "text": "Tu pourais explique comment héberge un programme sur un raspberry pi 3 directement en ssh svp bonne soirée",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Xen0__",
+      "author_id": "UC7Y5st68E1996Afn7JNr9EQ",
+      "text": "Hey salut micode est ce que tu pourrais faire des vidéos ou tu ne passe pas les détails, ou tu nous montre comment faire à 100%?",
+      "likes": 15,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CESTPASIMPORTANT",
+      "author_id": "UCYSADQc3F5abMMKP7tKiDqg",
+      "text": "Pourquoi une PIB SNCF avant la vidéo ??",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mdz_marwan7971",
+      "author_id": "UCDqXAvoA9XRFP3gugt_uaSA",
+      "text": "336 heure par jours? Je crois que un jour c'est 24 heure",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@focker0000",
+      "author_id": "UCJQMbdrx1Wy4BmA46DI0lPw",
+      "text": "je suis développeur de navitia et de navitia-playground, content que notre outil a servi :)",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@darknestkilleur",
+      "author_id": "UCUzPA0Yr8v9-DdYtqZTzaSQ",
+      "text": "Moi aussi j'aime les autruches qui font du ski !!!!",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@raynal2",
+      "author_id": "UCZv1XRrwPPkFucAkAOlTT5A",
+      "text": "ça me fait bien rire. C'est terrible !\nPar contre, ça aurait été plus intéressant d'avoir la proportions en plus du nombre.\npar exemple : 2000 trains en retards mais sur combien ?\ns'il y a 3000 trains c'est vraiment nul, s'il y en a 10000 c'est autre chose :)\n\nJe serai très intéressé a voir une vidéo sur les VPS et autre hébergement (mutualisé entre autre ?)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MultiPoiu",
+      "author_id": "UCpjXzMH_YSE1fszMfc8zpdw",
+      "text": "Petit tip de dev:\nEn js depuis l'ES 6 tu peux concaténer des chaines sans l'opérateur '+', grace a l'opérateur ` sur la chaine et des ${} sur es variables, par exemple\n`j'aime les pommes ${apple_color}`",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kjeldar",
+      "author_id": "UCneJo7P5-8_tlFS7NpaJbHQ",
+      "text": "Mais oui c'est possible avec la carte KIWI !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NinFoTeKjeremy",
+      "author_id": "UCjkSsdzDXaa2WAOmoIeEP2w",
+      "text": "bravo",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@charlesb689",
+      "author_id": "UC0Mwf9TYEl_qchHJi9YEb8Q",
+      "text": "Mdr y’a 50 lignes dans son code",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@guillaumesivade3219",
+      "author_id": "UCd7lSN8IcDOeJOpzR3KdwNw",
+      "text": "Par contre un site sur un VPS y'a pas de soucis hein !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pezzi3277",
+      "author_id": "UCg1U3dczLX0hzAUxusC4ReQ",
+      "text": "😂😂😂",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@floxire7042",
+      "author_id": "UCrnnBvE32aAiCe1Z4eS0dxQ",
+      "text": "Un vidéo un peu plus en détail sur le fonctionnement d'un vps et la connexion via ssh ne serait pas de refus ;)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manul8449",
+      "author_id": "UCdv3TXLLlYk4nyGJg7ZikBw",
+      "text": "Slt merci pour cette vidéo je suis intéressé par une vidéo sur les vps thks 😁",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zerka3668",
+      "author_id": "UCvZLl4Mgt7nc4rT7uADGd_g",
+      "text": "Très Bonne vidéo,  ou tu explique sans trop de détails la programmation et la manière dont tu va faire la chose sans rentre dans les termes techniques ! Moyen d'avoir le github du bot twitter de base? 😮",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@adriendurst3979",
+      "author_id": "UC-rRPbsRAWk_--bqDlaeoNA",
+      "text": "Idée bête juste comme ça mais on pourrait imaginer, si le code n'est pas trop lourd, de l'intégrer dans un contrat ETH. M'est avis que ça serait encore moins cher qu'un VPS et éternel en plus.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@loicvaille",
+      "author_id": "UCEJzrOHRuYEJPwm3WDistuA",
+      "text": "Hello, Sympas tes petits programme. C'est dommage que tu ne le laisse pas sur github.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tecneyt",
+      "author_id": "UC-yR2jAS7SedgJQ61HaWoTg",
+      "text": "On cherche souvent à savoir qui met des dislikes... Mais là, on sait direct que c'est des employés de la SNCF x)",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MentosBlitzBrigade",
+      "author_id": "UCv-wfajPWhR7UzEZwTC5ScQ",
+      "text": "Pourrais tu réaliser un bot, qui envoie le nombre d'avion par jour, la distance parcours et le temps ? 😁",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ArthurBoloch",
+      "author_id": "UCVS1DEKgeMSSEtBx7vPl3QQ",
+      "text": "Est-ce que tu penses que ce serai possible de faire ce genre de petit programme en live ?\nJe pense que ça te permettrait de plus t'étendre sur les différentes étapes pour ceux qui seraient intéressés",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@slam1315",
+      "author_id": "UCuPDJLcCYi43GdtaWz_s_Xw",
+      "text": "micode tu pourrais faire une chaine beaucoup plus complexe pr vraiment comprendre comment faire\nmerci bcp",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@psycholoic",
+      "author_id": "UCny6ixTdSweTL20LeDgJMxg",
+      "text": "C'esr rigolo ça :)",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NaworHD",
+      "author_id": "UC36_nI-Lw25qHahuuyez63Q",
+      "text": "Aaaaaah NANO ! Sacrilege ! 🧙‍♂️",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@morty_mcfly",
+      "author_id": "UCd6mpJTB3XD3INz-oqSXo8Q",
+      "text": "Si tu aimes NodeJS, tu devrais jeter un oeil au FW AdonisJS ;)\nSinon très sympa comme vidéo ! J'espère que la SNCF ne va pas le prendre mal ^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hyzgan3923",
+      "author_id": "UCzxBg9UNJurSOEbQ7voyJHg",
+      "text": "Super vidéo comme toujours mais fait quelques chose pour le montage et c’est zoom à répétition ! C’est horrible j’en ai mal à la tête.\nMerci",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hugocormant1178",
+      "author_id": "UCN6OVNXjajvDO92FfW96ysA",
+      "text": "Salut super vidéo.\nC'est quoi ton outil de développement ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lolo5768lolo5768",
+      "author_id": "UCw3-Mkh_Vqr9y4Lu4-BOdxA",
+      "text": "Il est ou le code ? Il est ou lien vers le compte twitter ?",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Tristan-vn1de",
+      "author_id": "UCMb_qyBZFH8cVzd1S9Q7DTA",
+      "text": "Ca aurait était sympa de mettre sur un hastebin au moins le codes, car j'aimerais integrer cela sur un bot discord :à",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SpedUpThings999",
+      "author_id": "UCBC-eDUSMO97TH8QlutBUdA",
+      "text": "Micode j'adore ta chaine , ton concept et tout ce que tu fais ! Je suis passionné par l'informatique ! Une petite question : tu as fait quoi comme etudes ? ( c'est pour le futur ) . Bisous",
+      "likes": 7,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@leblereporter5061",
+      "author_id": "UCDrdlDXYTqMDC6bY7nd-ebA",
+      "text": "JE TROUVE PAS LE COMPTE TWITER  !",
+      "likes": 5,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@airxperimentboom",
+      "author_id": "UCK_K-5ItX0UhXM8NiS9BaOw",
+      "text": "Très bon projet :)\nLe contenu est génial mais la forme un peu moins. Je n'aime pas ses plans qui bougent tout le temps c'est désagréable et ça prend du temps au montage... bon ^^ \nPlus de détails sur le code serait bienvenu sur le fonctionnement de node du code de ton serveur vps etc... Mais chapeau pour tout avoir synthétisé et vulgarisé en 8 min !   J'adore !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@skyzm212",
+      "author_id": "UC3UQml4W13kMT4oA1h5Tqhg",
+      "text": "Wesh enfaite t le logan paul francais",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lnquisitrice",
+      "author_id": "UC6vTiBe3Q0egVeYe-bI5S6Q",
+      "text": "Tu ressembles trop à Benjamin Pavard !",
+      "likes": 3,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@JiveOff",
+      "author_id": "UClaauJGojF_vz67M-kr1KOw",
+      "text": "Micode, tu as un packet cron sur npm qui est beaucoup plus facile à utiliser ^^\nTu as juste à regrouper toutes tes lignes en une seule fonction ou class, puis appeler ta fonction ou ta class dans le cron ;)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fredericjaquet3729",
+      "author_id": "UCulxOkkJ5W4SxqK4QNqPBtw",
+      "text": "\"La SNCF va détester mon bot\" ...avec une image d'un FV dosto des CFF en miniature 👍🏻",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@365NewShape",
+      "author_id": "UCMsy3up1gfe6rUtPxSHu4TA",
+      "text": "Je viens de remarquer que tu ressembler à Martin Garrix quand il était plus jeune.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@IlyaCpp",
+      "author_id": "UCEKDUp5x2_hDjCN3upjgoBA",
+      "text": "Coucou! Tu peux faire une prochaine vidéo sur les apis et bots de discord? Et comment les programmer",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "",
+      "author_id": "UCeIbrlauqzwrGxTkCEPQZFw",
+      "text": "Quel étude as-tu faites pour connaître tout ça ? (Ou est-ce que tu as appris par toi même ?)\nAu sinon j'adore le concept du compte ! 👍",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pad9982",
+      "author_id": "UCaHsItAGjvfAaS0kuVDwvhg",
+      "text": "dans le même style mais sans twitter, une API qui recherchait tous les objets d'une certaine catégorie sur le site leboncoin, mettrait tout dans un fichier Excel ? c'est faisable ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xanaumbrella",
+      "author_id": "UCxDylEqUQOtXfD138aKZxOA",
+      "text": "Une vidéo sur les hébergeur serai pas de refus, perso j'utilise un hébergeur web pour mes forums qui propose une interface pour les tache Cron, phpmyadmin etc... via Cpanel",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@herrcrazi",
+      "author_id": "UCKk2gUuBNNqhgDmmFJ-SXhQ",
+      "text": "Sympa et trés bien expliqué, même pour les novices ! J'aurais adoré voire ça quand j'ai commencé à utiliser Node !\nSinon tu comptes rendre le code open-source ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rannovva",
+      "author_id": "UCurGXs13wEQ9Pd2MXHPOrWw",
+      "text": "ca m interesse les vps",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@itslhoste",
+      "author_id": "UCjv4xpsLPx_DvOUmWfMY8Sg",
+      "text": "Un conseil pour le node.js ? J'ai tenté de coder mon bot discord pour pouvoir intégrer l'API Deezer avec rich presence mais mon niveau est limité pour le moment... J'ai donc commencé par essayer de créer un bot simple qui peut réagir à une commande texte mais le node init me ressort des erreurs a chaque fois. As tu un site pour débuter en node etc sur Mac (je me trompe après avec les répertoires si c'est pas pareil). En tout cas, super vidéo !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hxmus",
+      "author_id": "UCeh6UWi6SWU6lIbabggl8HQ",
+      "text": "Un VPS c plutot utilisé pour faire vendre des serveurs qui sont placé dans la meme machine . Sinon c la meme chose qu'un serveur dédié .. pour les cp (WHM pour VPS) & (CPanel pour SERVEUR)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Th0m7h0m",
+      "author_id": "UCaYY5gjPnA9i0M2BkF_wsSQ",
+      "text": "Au lieu d'un VPS tu pouvais pas faire une ptite AWS Lambda avec un AWS CloudWatch pour le CRON ? ;)",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thedarkness_gaming5059",
+      "author_id": "UCjxCDkj0m3sGF5codm1iI_A",
+      "text": "Tu peux faire la même chose pour la Suisse ?",
+      "likes": 4,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mrradufelix",
+      "author_id": "UCMcd986D9UPLmxmF3KU96Qw",
+      "text": "Et pendant ce temps là, t'as le Tatou dans \"Les questions cons\" qui se fait chier à compter les trains un par un pendant des heures. Hahahaha...les mecs doivent avoir les boules.",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Red_Craft.",
+      "author_id": "UC1gZHGUj6c9rf9VtzGuQWGQ",
+      "text": "la SNCF et autre n'e sont pas responsable de retarde la plupart du temps c'est due a des personne qui block les porte au gare par ex, mais il peut y avoir des retard car il fait trop chaud et les rail se déforme. les feuille joue aussi un rôle sur les retarde car le train freinera plus longtemps. donc il doit aller moins vite.",
+      "likes": 1,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RyanQuris",
+      "author_id": "UCFcwczK-GxkqNC6PQoPHQtQ",
+      "text": "Twitter est un oiseau",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nathanclerc4956",
+      "author_id": "UC4mo3Rjo2YnlIgySxEnJdHw",
+      "text": "Salut, tu pourrais mettre ce projet sur un repo git?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tim5btn",
+      "author_id": "UCEKH-kwqDaN-dGQio3Jee_Q",
+      "text": "Ce que tu fais sur l'ordi:\nCompter tout les retards , trains supprimés etc...\nCe que je sais faire sur l'ordi:\nAlt+F4",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kuhasr",
+      "author_id": "UCYkovYrhSF7_isT7yGxXTmg",
+      "text": "Tu pouvais pas le faire sur un Raspberry PI (même si ça rêgle pas les probleme de coupure de courant) ça aurait été possible ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@twiksark",
+      "author_id": "UC6lCFNpbCPjiOfXW2fHz3zg",
+      "text": "Le 28 juin c'est ma date d'anniversaire :o xD",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeanklode_bu6_758",
+      "author_id": "UChpCg8waM5MSmfy7-FB_cBA",
+      "text": "C'est comme les bots discord",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jordqn_dev",
+      "author_id": "UC5PzFHoIjpQzVUG2KwQuyog",
+      "text": "Pour l’hébergement du bot tu utilise Heroku ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@The22facundo",
+      "author_id": "UCfjI0mdXujBp8Qqac8cu2rw",
+      "text": "faut plus utiliser \"var\" ! \"let\" ou \"const\" sont les bonnes pratiques :)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@testizoizo7373",
+      "author_id": "UCM9jLGmkt9vfOhIVijqXyiQ",
+      "text": "Salut Micode, tu developpes pas trop sur le stockage du login mot de pass dans ton code. Je pense pas qu il soit ecrit en clair sur ton vps. Tu utilises peut etre un cookie ou une autre solution. Merci, pour ton boulot en tout cas tes videos sont top !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dylanperdigao",
+      "author_id": "UCNykXRLXNnYQVqpr1tOi5qQ",
+      "text": "ça serait cool un format de video un peu plus dans le détail, pour ceux qui ont des connaissances dans le domaine 🙂",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@julianrobin9891",
+      "author_id": "UCegwjMvasq01ijjcQeav92A",
+      "text": "C'est hyper cool de ta part de mettre la vidéo du tatoo qui t'a donné l'idée (la plupart n'aurait rien dit et se serait montrés inspirer) :)\n+1 c'était niquel !!",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@davjmnz2614",
+      "author_id": "UCtvrnYF5IKTNLcix_g8lWPw",
+      "text": "Possible d'avoir accès au repo git please ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rayanzezet3646",
+      "author_id": "UCprMJcCeqEzXM1KlP5YRsaA",
+      "text": "Bah putain tu es très fort grâce à toi j'ai aimer à codé et je me suis inscrit dans un club Merci beaucoup",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@K-R-O-L",
+      "author_id": "UCCzCyVf0cxomRAVuI-lR0aQ",
+      "text": "On peut installer ça sur un raspberry pi aussi ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ashuuh_",
+      "author_id": "UCcmdYPQf_FNIpjAhrFCaXdA",
+      "text": "C'est les les questions cons qui devraient être heureux après ça !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@draak1742",
+      "author_id": "UCtOcnMNZjMeOXfjZfKSIm_g",
+      "text": "tu utilise un ordinateur portable sans souris ! HERETIIIIQUE !!!",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@GENERATION2GEEK",
+      "author_id": "UC6PaoWMe1N30IR5fBzdj7Gw",
+      "text": "Tu peux l'héberger sur un RaspBerry Pi franchement tu ferai des économies",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@moordazzer",
+      "author_id": "UCJbIhBB420C7nLIg8YCZUrw",
+      "text": "Un bo cado d anniv mrci  je vais essai voir si marche pr l oncf meme si je  pense les data des  retards n exist pas online , peace",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@clementsaccomandi3273",
+      "author_id": "UCBe2EnISrQzfH4fPf5aFJOA",
+      "text": "Salut, comment ta fait pour apprendre a coder???? et t video son génial on apprend bcp de chose continue comme sa",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Antyrit",
+      "author_id": "UC8bjvx2P-S6_BVoT2gxbJZQ",
+      "text": "Super video, tu pourrais mettre le code en public ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@magalfu5634",
+      "author_id": "UCwAG374Su_nWB8oayh68GPw",
+      "text": "Il y a pas moyen de traduire weeks day et hours en français?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Flygoow",
+      "author_id": "UC1R_iud7RcNAq4xjKFJNImg",
+      "text": "toute la france veut le github",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nicolasperruisseau-carrier5298",
+      "author_id": "UCc35S3_OxOXdnFvBPim5wlQ",
+      "text": "Elle est pas mal ta vidéo mais il serait bien de voir combien de train roulent par jour, pourquoi ces retards, etc... Car en analysant les retards, tu verras que beaucoup sont dus aux CLIENTS!!! Par exemple, ils tirent le signal d'alarme juste avant la gare (et il y en a plus que tu ne le crois car ils confondent avec le bouton de blocage des portes !!!! ).\n\nEnsuite, une autre astuce, si un train est en retard, il retarde aussi généralement le suivant ( Pour ceux qui ne sont pas convaincus, pensez aux bouchons en voiture, c'est pareil!!). Calculez d'ailleurs le temps de bouchons en voiture par jour, vous allez prendre le train tous les jours après.... \n\nEt pour infos, je ne travaille pas à la sncf...",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@t.m.113",
+      "author_id": "UCCV6TyhWqrNDIgxowVmLIgw",
+      "text": "Il y a moyen de données un fichier txt de ton code en description pour mieux le comprendre ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lefisha300iq2",
+      "author_id": "UCvHSXYnMSF0KbaDgx3MZFBQ",
+      "text": "Tu devrais faire une moyenne car sinon c pas terrible",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@koussy",
+      "author_id": "UC3_5eGc-X5muUnRyDzfSLWg",
+      "text": "Video sur vps stp",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manoblmnt",
+      "author_id": "UCIhqOxOk_j5PMz6dNDpRsTw",
+      "text": "tu fais quoi sur mac  book",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manoblmnt",
+      "author_id": "UCIhqOxOk_j5PMz6dNDpRsTw",
+      "text": "j'ai jamais vu auttend de connerie a la seconde",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MegaXerxes69",
+      "author_id": "UCVrooi0-UWR_lFXCZiI4CpA",
+      "text": "Bonjour, dommage je pensais voir où tu allais récupérer les infos ...",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ribt8594",
+      "author_id": "UCZ1nlusXYSXTPxvZYg2Cx7A",
+      "text": "Tu es bien ingrat envers les VPS ! J'ai moi même un VPS à 3€/mois qui n'a bien sûr pas d'interface graphique mais c'est juste parce que c'est inutile pour un serveur, le VPS a largement les performances pour faire tourner par exemple un serveur Minecraft avec des plugins et une dizaine de personnes qui jouent simultanément.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@legstar67",
+      "author_id": "UCGmg0WEuGwMg6udcjBVOyDw",
+      "text": "le 29juin ta fais une des partis la vidéo (tu met du temps pour sortir une vidéo)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@farouche3155",
+      "author_id": "UCFGVacPDel5A7W9I7FX2y6g",
+      "text": "C'est fatiguant tellement c'est compliqué :( faut penser aux gens débiles un peu",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Asteroidus",
+      "author_id": "UC9EP0LRd2y_Fk0NEVNHeyWw",
+      "text": "Je me rend compte 4 ans après que le train sur la minitatures est un train CFF alors que la vidéo parle de la sncf",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Waltparc",
+      "author_id": "UC8jip1HpxM4G8CpSoLMhS0Q",
+      "text": "Pourquoi c'est un train Suisse sur ta vignette? 😂😂😂",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@5minutespourcomprendre",
+      "author_id": "UCwFhfr5Ut43DiC1zcrnsxgw",
+      "text": "La SNCF, c'est la vie",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@auroremelie",
+      "author_id": "UCNvYCxQhcDvpGVH3NEdH-9A",
+      "text": "Pourquoi il n'y a pas le compte Twitter dans la description?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Afracte",
+      "author_id": "UCrJsVTC4cfNPTVTxFARqvJg",
+      "text": "OMG un parisien comme moi\n\nER NE KROYAI PA KE JALER BI1 EKRIRE",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kasirazafindrakoto5320",
+      "author_id": "UCLKXdfSfArbqTAhoTF_OJ5g",
+      "text": "Vous trouvez pas que le youtubeur est comme dream?",
+      "likes": 1,
+      "timestamp": 1704067200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BaderLeVrai",
+      "author_id": "UCofrzf25i4UCGNkWufVhNng",
+      "text": "C'est pareil pour les bots discord ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lignorant6257",
+      "author_id": "UCuUfEHo1JGxjie2X68vWyYg",
+      "text": "une raspberry c'est bien plus économique que tout les vps.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mathispais1345",
+      "author_id": "UCFtHG6j6MbLwSoEKctnGzEw",
+      "text": "Bonjour et ce que tu peut faire un assistant vocal a la Google assistant?  parce que j'essaie depuis très longtemps avec mon raspberry pi mais j'ai des problemes (j'essais de télécharger un package qui s'appelle snowboy mais je n'y arrive pas)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@user-lb4vp5ig7q",
+      "author_id": "UCIyUJ1pnQAhzqpYfMlCQExg",
+      "text": "Coucou Micode Peut On Acceder Au Contenue D'un iphone grace a sont Ip ? Superbe Video",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Pusan__",
+      "author_id": "UCLZ4GX2EGtgdQdJFaCCY8jQ",
+      "text": "Hey ! Super vidéo ! J'ai récemment pris un VPS avec DigitalOcean, je trouve ça super fonctionnel mais un peu chers ! Tu as déjà testé ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Funkyjeremylemalin",
+      "author_id": "UCLTPCjaZZzl1nkSDU5OzEVQ",
+      "text": "Es-t'il possible de faire la même chose avec les Transport Suisse ? (SBB). Je n'ai pas trouver de lien avec l'API de Navitia",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mrperpole",
+      "author_id": "UCHjVOuCpdxjMGlY7Swv126Q",
+      "text": "pk sur la miniature ta mis un train CFF (la compagnie de train suisse) et pas un train SNCF ?",
+      "likes": 1,
+      "timestamp": 1704067200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Kynatosh",
+      "author_id": "UCjEzZa9cNEDUKzzd0En7biQ",
+      "text": "G un vps a 3€ par mois avec linux interface graphique bien sûr 😁 trop cool",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cysys",
+      "author_id": "UCvUEasz-MafdD7U9d23FPig",
+      "text": "Tu peux utilisé une lambda pour héberger ton code pour presque rien (tu pais juste quand ton code s'éxecute donc moins de 3seconde par jour ) et le premier million de request est gratuit sur AWS ;) mp sur twitter si tu veux des details ou de l'aide pour le mettre en place (ferte_c)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@demostanis",
+      "author_id": "UCC4Q28czyJPjSPtYQerbPGw",
+      "text": "Y'a Heroku aussi qui existe, c'est gratuit (mais bon c'est pas super performant) et ça utilise git, c'est plus simple",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Yoshipot",
+      "author_id": "UCzg8hoUA97niKzzGp_Ruz3A",
+      "text": "En voyant ta connexion SSH, cela me fait penser à 2 ou 3 réflexes du métier de Sysadmin (un éventuel sujet sécu pour une prochaine vidéo ?) : _ Ne pas exposer le port 22 sur une adresse IP publique _ L'utilité d'utiliser des clés pour la connexion, plutôt que des mot de passe (surtout pour root) _ Utilisation du port-knocking pour level-up la sécu... En tout cas bravo, toujours un régal tes vidéos",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@HooPeee",
+      "author_id": "UC3WQooFUjPcVSODJ6WhQkXQ",
+      "text": "J'ai rien compris mais bonne vidéo",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cedzekiller",
+      "author_id": "UCDvfnYUf3Dje-Hq0kcF2POA",
+      "text": "En fait, rien n'est caché à la sncf, ces données sont disponibles ici : https://data.sncf.com/",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@moimeyo2804",
+      "author_id": "UCD8TKUOWMAY-c5hemYd_t5g",
+      "text": "Un compte qui compte le nombre de tweet de Trump ? :D",
+      "likes": 8,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrTheMisterBlack",
+      "author_id": "UCpjuujClgUasNfOdT-8rv4Q",
+      "text": "Bonjour Michael",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lenny_off9723",
+      "author_id": "UCeXqw-7-ZlqOcGrSeL0PzPA",
+      "text": "ais le lien du compte twitter en desc stp",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@WingSun",
+      "author_id": "UCw0zvjxn05q9wr6CabZplHw",
+      "text": "Merci de polluer la terre avec un test inutile x)",
+      "likes": 23,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sam.7983",
+      "author_id": "UCFhsUseSWJHf8bAAwd3Rhsw",
+      "text": "8:10 mdr tu t'appelle Michael",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@julienberdoz9192",
+      "author_id": "UCoMyMoMF9hX8IPyATfU328A",
+      "text": "Il est beau se train suisse sur la miniature",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lightmac1400",
+      "author_id": "UCo7ZUBxhu7ToM1hZ4eyVUDg",
+      "text": "la balle perdu pour les cff",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@saynstudio5792",
+      "author_id": "UCAfHu6kD3KAFYj1leedJZbw",
+      "text": "C'est du Css ??",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kouranio",
+      "author_id": "UCqFqw-KbJWtffU7WK201CDw",
+      "text": "haaaaa! il est sur linux ! JETEZ LUI DES TOMATES",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@exolight_fr",
+      "author_id": "UCJYXFR1VkmQeWNLlz1RZt3g",
+      "text": "AAAAAAAAAH IL S'EST CONNECTÉ EN ROOT",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Yoantiji",
+      "author_id": "UCKsxFQQxNp5mrc-I8KtPT1g",
+      "text": "il programme par HTML java ?",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lululuzezezez",
+      "author_id": "UCXRR09JJ4NGTiWde5onfL8Q",
+      "text": "nano 8:21 🤣",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nolan_5454",
+      "author_id": "UCAOwEFRCKEQvUm1zZ8nlDxw",
+      "text": "Tes vidéo me sers trop quand je doit programmer les api pour moi dys qui doit réfléchir et que je note rarement mais devoir MTN j'ai pu programmer tout pour mes Devoir",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CrashOveryd",
+      "author_id": "UCu3KryVDVsLbTyiDikEYLuQ",
+      "text": "le jour du 10 et 11 apparait pas sur le twitter le programme a peut etre bugé ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@YanikCrepeau1",
+      "author_id": "UCWqIVfcUJOGJ94mo0knHx9A",
+      "text": "Pourquoi dépenser quand tu peut avoir du temps machine gratuit?\n\nDe mémoire je connais trois hébergeurs (Google, Amazon (AWS) et Heroku) qui permettent d'avoir des serveurs virtuels gratuits. À la quantité de temps machine que ce type d'application consomme, on est très, très, très loin des limites imposées aux comptes gratuits. Par exemple, Heroku impose une limite de 1000 heures d'utilisation par mois (temps cumulé de tous les projets qui tournent en parallèle pour un même compte) et 10000 enregistrements dans une base de données SQL par projet (ce projet-ci ne fait pas usage d'une base de données). \n\nLes hébergeurs de GIT (gestionnaire de code source), github, gitlab et BitBucket semblent aussi offrir ce genre de service. J'ai également vu des offres gratuites de Microsoft et IBM, offres destinés à permettre aux développeurs de tester les fonctionnalités de leurs services.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nyx7595-aze",
+      "author_id": "UC9hd5ETFCDsdb8czrsjc5Ag",
+      "text": "Tu te trompe un VPS peut assumer une interface graphique genre cwp control ou cpanel ça passe easy ...",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@chatpadetechnologie2.081",
+      "author_id": "UC3f7VyxD7Jmc8ztdjhrg2WQ",
+      "text": "Question que tu pourrais répondre stp aptoide c sécurisé devront nous l'installer",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@da7eee",
+      "author_id": "UC_ojDutRQQBsCs8rz4mUCWw",
+      "text": "salut j'aimerais savoir comment apprendre la cyber sécurité et/ou le hacking, merci.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ryogasp",
+      "author_id": "UCzk-oyf5gDeSKQrrBKaiV4g",
+      "text": "c'est bien de publier sur un vps, mais pour ce cas d'usage, du serverless (comme aws lambda) serait plus approprié",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bencherif3485",
+      "author_id": "UC5U6b_dIfI3LYSIabA2KAZw",
+      "text": "bonsoir, stp dis moi quel vps tu as utiliser",
+      "likes": 0,
+      "timestamp": 1704067200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gustaveblanco328",
+      "author_id": "UCul6VsNeJqtVP2LweGS8CmA",
+      "text": "Et encore les retard c'est rien des fois c'est carrément le train qui passe pas. (enfin avant pas de train pour certain horaires)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@prometheus5296",
+      "author_id": "UCGEzBrD7_uuuWlNC1Yd9J1g",
+      "text": "C'est quoi ton thème sublime text ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@johntedonneraipasmonnom713",
+      "author_id": "UCpz3LFY30_5ZDo1DBAg03mQ",
+      "text": "\"Salut à tous ! On fait notre rentrée en douceur avec une petite vidéo tournée cette été.\"\n\n\"Cette été\"\n\nCorrige ça. Tout de suite.",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@IKAK023",
+      "author_id": "UCv59aGa8b3XJck_TYxdEGRA",
+      "text": "J'aime beaucoup jouer avec des API aussi 😋 Pourquoi tu ne partages pas le code sur github pour qu'on puisse y contribuer etc.. ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@minfey1763",
+      "author_id": "UC-WtfJ8fw8Eela1jmqsmgAg",
+      "text": "En miniature t'as mis un train de la cff (suisse)",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alainterieur5004",
+      "author_id": "UC9Twet3FKPLI1M6jS1PKr5w",
+      "text": "en php ça se fait easy",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@romromnowaa6527",
+      "author_id": "UCfxMEXZGeNIRzE2SBCXWk4w",
+      "text": "Sncf sont dans le monde entier ?\nCar 2500 trains supprimés wtf y en a pas autant en france",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrgnUTube",
+      "author_id": "UCEk8qFeON0yCn3Q2KCQNmfg",
+      "text": "7:56 C'est surtout qu'une interface graphique pour un serveur est complètement inutile. Seul Microsoft avec ses Windows Server fait ça mais dans la mesure où ils ne s'en servent pas eux même pour leur solution de 'cloud' (Oui, Microsoft Azure tourne grâce à Linux Oo), on va dire que ça ne compte pas :)\n\nÀ part ça, NodeJS FTW et oui une vidéo sur les VPS ou sur les conteneurs je prends ;)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@laiteautcm8592",
+      "author_id": "UCYzE1aCU31Xl9cqS9hfPG6Q",
+      "text": "Tu peut pas drop le code sur Mega ou Mediafire ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LetsGo2MyHome",
+      "author_id": "UCHvoTSAIkuF51dhcW6avX_Q",
+      "text": "On ne parle pas de VPS sans parler de OVH hein 😏 Virtual Private Server",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Corentin210698",
+      "author_id": "UCVg-WmeSiJvLX52NmV81a1g",
+      "text": "y a trop de zoom et de dezoom x))) c'est horrible",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheAlexiskn",
+      "author_id": "UCXZiNwPaPImjCxtWetU3Nng",
+      "text": "@Micode tu peut mettre le code du bot sur github ou lab ? =/",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pulganosaure",
+      "author_id": "UCU3qK86g4q9WRnjmDz_kJHw",
+      "text": "salut micode, petite question. les API twitter ne sont pas passé payante et réservé uniquement aux professionnels ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Sl0m_",
+      "author_id": "UCxxgMq0FBUFxsGg3g-4q2wg",
+      "text": "Salut Micode\nJe me demandais, où a tu appris à programmer et pourrais tu nous faire quelques \"cours\"\nMerci\nEt au passage... super vidé",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Y_9919",
+      "author_id": "UCim1GgTPQjYDCP5rqsbxDOQ",
+      "text": "Il fait quoi comme étude Micode ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@salicandre4700",
+      "author_id": "UC8QTrFrmVRfoLVA84WnDFmQ",
+      "text": "Mdr, fait une vidéo ou tu corrige le logiciel Parcous'up (tu peut trouver le code en ligne, c'est un bordel pas possible)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@remipelloux3152",
+      "author_id": "UCZg99OYP8fsbAE8JGo0MQUA",
+      "text": "Var ? Nooooon c'est ES6 now please let , const :(",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@florentjethrit6945",
+      "author_id": "UCK0I6BeTLc8xwSfu31HbHMg",
+      "text": "Bonjour Micode, ton contenu est très intéressant autant sur ta chaîne principale que tes chaînes secondaires. Je t'envoie aussi ce message car j'ai un problème avec crontab. Aurais-tu des sites à me conseiller afin de réaliser les bonnes lignes de commande? Merci d'avance",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Fantorf",
+      "author_id": "UC2muVUZhd2LMcc5avge3-Vw",
+      "text": "Et un raspberry pi ? Sa peut fonctionner ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theovld",
+      "author_id": "UC9Q3XhnYp-bZUgE995Csxww",
+      "text": "A quand l'open source ? 😊",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@iozh2451",
+      "author_id": "UCsGLM3RW_r0RlN074wgqZhw",
+      "text": "https://twitter.com/sncfisajoke pour ceux qui ont la flemme de chercher.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rowanrossetti6872",
+      "author_id": "UCTg3dRn7Avyy5xTgutquOPQ",
+      "text": "Tu utilise quels programme pour coder?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@portalthreee",
+      "author_id": "UClR5TQBV0Mi_G-kiA8tm9-Q",
+      "text": "Moi chui resté 1jour et 12H a cause de l'aéroport charles de gaules",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Tydoo34570",
+      "author_id": "UCSDq5ZWsqdajzzEq-Y8ELIQ",
+      "text": "Hello Micode !\n\nPerso j'ai essayer de comprendre l'API de la SNCF ! Apres 5h, impossible de comprendre ^^ Pas documenter du tout.\n\nEt concernant l'api de la ratp, afin d'avoir le même résultat sur les transiliens, tu peux aller voir leurs api. C'est bien plus simple et fonctionnel. J'ai fait ça pour moi par exemple : tydoo.free.fr.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hakimmikado2062",
+      "author_id": "UCo1NC8z0bijf0jhF7Eeu1ow",
+      "text": "Bon vps gratuit avec interface: heroku 👌",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pattedejais4514",
+      "author_id": "UCFKAUs4hC30SpDNIePXJ_OA",
+      "text": "Titre: sncf\nMiniature: train cff",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hommeoursporc5874",
+      "author_id": "UCoVAYLBwgllczA720L0CF-w",
+      "text": "Y a moyen d'avoir un github ? Perso ça m'intéresserait de proposer quelques features",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheEmpereurBOBOR",
+      "author_id": "UCBAqIjb-K9PYTF2EAidJa6Q",
+      "text": "Salut @Micode le bot Twitter est arrêté ? Je viens de checker et il n y a plus de messages depuis longtemps. Normal ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Thomas16290",
+      "author_id": "UCKiVIYalgptvPd9DAVk2LCg",
+      "text": "C'est qu'elle logiciel que tu utilises pour faire ton code ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ludwigstrauss3482",
+      "author_id": "UCzK4Zri3kp9oN2OT7sHFOiQ",
+      "text": "C'est une bonne vidéo Micode, mais encore une fois ça fait des grands nombres qui font peur et ça enfonce encore plus le marteau sur SNCF (Et oui on ne dit pas \"La\" SNCF mais bien SNCF, c'est un groupe et plus une entreprise) alors que si on ramène ça sur les 11.000 trains quotidiens... Ben c'est déjà moins impressionnant. A noter que SNCF est un leader mondial du transport ferroviaire et qu'énormément de pays (+ de 150) à travers le monde font appel a son expertise d'exploitation de réseau, de conduite,... tellement on est bon élève dans le domaine :) Allez des bisous ;p",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sampz7340",
+      "author_id": "UCl51uaUlwMCT4mIUx9Tv4zA",
+      "text": "Je n'ose pas regarde le compte Twitter pour voir combien il y a de follow",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@XxFafa33xX",
+      "author_id": "UCBnZepI69ESlHx3SO3uAd4g",
+      "text": "Pourquoi ne pas mettre le node sur un hôte d'applications de type Heroku ? \nÇa serait gratuit, pas un pécore, le radin mali",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@akira3662",
+      "author_id": "UCkwm8QrAcNM9p13UV0u6-eg",
+      "text": "Il fonctionne plus le bot ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@the_president",
+      "author_id": "UCXwLn8srIzwrhZafmQ6vICQ",
+      "text": "dommage qu'il n'est plus facile obtenir une licence API twitter. si tu as quelqu'unes cache les pour plus tard",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Saiko133",
+      "author_id": "UCxKjvp3FtnrnTtR568xfDpw",
+      "text": "Tu fait ça sur MacBook ? Car j'ai aussi envie de le faire mais je sais pas quelle logiciel",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fab9992",
+      "author_id": "UCdwOhX7yZ3zKNj6O-mTQaqw",
+      "text": "0:39 mdr c'est toi qui fait la voix?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vermat529",
+      "author_id": "UCP6b4yFaIUhuvjBq9tEN7Yw",
+      "text": "Pourquoi mettre un train suisse sur la miniature ??",
+      "likes": 9,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrPeb92",
+      "author_id": "UCYxzgEpFnMJp4jWTEnF4xzA",
+      "text": "Super vidéo mais je te conseille de changer le nom du compte twitter, c'est plutôt péjoratif et pourrais correspondre à une atteinte à l'image de l'entreprise. Je ne sais pas si ils sont procéduriés mais il pourrait y avoir préjudice à l'image.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maximemazet3077",
+      "author_id": "UCjwZepdlTicjYQcUHXn8LtA",
+      "text": "Euh... Normale que je trouve pas le compte twitter ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@comtention",
+      "author_id": "UCT2037ya52PF67A1adGFxaQ",
+      "text": "Tu devrais faire tourner ça dans une lambda ca te couterait rien du tout ;).",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@drisskihal9782",
+      "author_id": "UCmL5FROmw2Ic051s9TEttSA",
+      "text": "Atom je suis pour <3\nNodeJs je suis pas contre mais mitigé ...",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AxelleDRouge",
+      "author_id": "UCx8Eb_CcWb9oOzQ8nVcLS7w",
+      "text": "Super vidéo, on suit à peu près bien, même si je trouve le montage un peu trop saccadé et rapide parfois. Si tu peux mettre le code en open source sur Github j'adorerais aller voir (surtout que c'est en NodeJS et c'est vrai que c'est cool :) ) Et si plus tard tu te dis qu'un bon concept serait de faire une série de tuto plus longue avec le détail de tout ce que tu as fait, je serais au rendez-vous :)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bgxf_warior4684",
+      "author_id": "UCKkrktVDFwviyQCKJocIufQ",
+      "text": "Bonjour, le compte existe t’il tjr ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pierrenapoletano3889",
+      "author_id": "UC7MkkZcj4gvAFMnTlawkPmA",
+      "text": "Micode Salut, j'aurais voulu connaitre ton Github",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@angepicard7968",
+      "author_id": "UCDqVHpO3WGwQBRc2ASMqo2A",
+      "text": "Générer des chiffres comme ça pour s'amuser, c'est bien. Expliquer la démarche c'est sympa pour pas mal de gens. Par contre, mettre en gros le nombre d'heure que tu trouves dans ton calcul qui n'a absolument aucun sens et ne peut pas se mettre en perspective avec la réalité du système ferroviaire français, non.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yaniscoll",
+      "author_id": "UCa_NzYjzCuSThORpmOx4p2w",
+      "text": "Moyen de passer le git du programme ? :)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lYdFiRe",
+      "author_id": "UCWQyvtJc2uggr9d8E39mIMg",
+      "text": "la vidéo a été faite fin juin XDD",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TechnoSpirit",
+      "author_id": "UCXRPw94vatc9M9pD1tmd6Ig",
+      "text": "Bonjour, je voudrais dire que je trouverais stylé un bot anti féru sur discord par exemple",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@23bape",
+      "author_id": "UCRPmsp2nErDaoCJrVPQTOXw",
+      "text": "Habituellement tu développes avec quelle language ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Zakiryo",
+      "author_id": "UCbgL6AEnU6G2EvqMqdoyzpA",
+      "text": "Le meilleur, c'est que j'ai trouvé ton bot avant de regarder ta vidéo ! ^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@florian7122",
+      "author_id": "UCkallljH1WGApPDasftlJgA",
+      "text": "le tournage de la vidéo qui a commencé en juin XD (si vous voulez une preuve allez sur sncf est une blague et regardez le premier tweet)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maxim7718",
+      "author_id": "UCbrMgqvkT6ShVKadsJIaxrA",
+      "text": "jai vu que tu est sur un mac book pro ett que tu t'appelle michel",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jerome8173",
+      "author_id": "UCmKUCpbySOYn1B4bckvn6fw",
+      "text": "C'est pas plus simple de Twitter j'aime les autruches qui font du ski??",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jessyfal04",
+      "author_id": "UCZsotGO6PcHJpF1yiIecueQ",
+      "text": "C'est quel langage de programmation ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Loick_",
+      "author_id": "UClIGAzZj4EOWmbqUjPqAVpw",
+      "text": "Tu ressembles à Pavard",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@francoisjimitri",
+      "author_id": "UCZjnP-Yz6W-sLEWPGlTi_Hw",
+      "text": "ultra interessant si dans le titre yavait le mot api jaurais regarder depuis longtemp le titre nest explicite mais le conteneue est bien mais pas assez technique du cout c domage",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@letiteuf55",
+      "author_id": "UC7ihmSLQUEvb4CIQMT6YaPA",
+      "text": "Salut ! As tu mis ton code sur GitHub ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@florentindegognie5271",
+      "author_id": "UCrrTnDQJI2oPxMAgkgpAjHQ",
+      "text": "Enfaite t'es le sosie officiel de Benjamin Pavard ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Kataklysme666",
+      "author_id": "UCWdstL0GgZ8XaTQHcCGS3JA",
+      "text": "mdr, c'est juste un bête de payer pour ça x)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@damienfavre8918",
+      "author_id": "UCF-0y4p4v3MdD730y8VtamQ",
+      "text": "Pourquoi ta mis un train Suisse sur la miniature ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@OdinDeTy",
+      "author_id": "UCno0_tUg_fKzdnt1E0-tJxA",
+      "text": "Les serveurs, Les FTP, les gens comme moi qui font des serveurs gmod :)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ipadgeneration",
+      "author_id": "UC0x3rq0e58sdQpEql3G5D1A",
+      "text": "mec pour du server dédié pas cher avec du raid: kimsufi",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LouisGromb",
+      "author_id": "UCNKQdsNH-AnjjqhFVrkKcOQ",
+      "text": "Question rapide : pourquoi ne pas avoir pris un conteneur chez AWS ou Azure ? Vu que ton bot ne s'exécute qu'une fois par jour, tu peux scheduler le démarrage du conteneur, lancer la requête et l'éteindre, vu l'utilisation, ça te coûtera à tout péter 10 cts par mois... (Même chose chez Heroku qui est spécialisé pour ce que tu fais, mais je connais moins). Pour moi tu dépenses encore trop de fric pour juste le bot ! (après si y'a autre chose qui tourne d'un peu plus gourmand ça a du sens :) )",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@N0oliE",
+      "author_id": "UCqKpxNgjjg8a5bDma1AquiA",
+      "text": "@Micode [Défi] Arriverais-tu à faire plus de 170 clics de souris en 10 secondes? T'as le droit de \"tricher\" 😉 (Je l'ai fait, donc possible)\n(Indice : Selenium) 😊",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kylianrcd9794",
+      "author_id": "UCYseli2_9ezIVylxfLiWJsg",
+      "text": "Il y est toujours le compte ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sasufler",
+      "author_id": "UCEr7VbmHY1zF_nAO5ZqGQsQ",
+      "text": "Moi ce que j'ai compris node js ne sert pas qu'a faire des bots discord",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kyllian_0",
+      "author_id": "UCrvURpGdt089GNBEJaN8HNA",
+      "text": "Qui a casi rien compris",
+      "likes": 1,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nanomelo8698",
+      "author_id": "UC_XBZ4mQCB-hk05kXt4zo0g",
+      "text": "Alors je suis pas sur que ça existait au moment où tu as sorti cette vidéo mais pourquoi n'as tu pas utilisé quelque chose comme Heroku ? 🤔\nIl héberge gratuitement du code en node.js et est assez simple à utiliser 😉",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zzapidbm1892",
+      "author_id": "UC9rTysL4F5TCi8aAPnOvSNw",
+      "text": "Tu as fais quoi comme études ? parce que je sais que t'a fais un DUT informatique, mais clairement t'es vidéos démontrent que tu as bien plus de connaissances qu'apporte un simple DUT info x) moi même étant dans ces études, je peux le confirmer ^^",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@elioantognazza9955",
+      "author_id": "UCv7JDy8UtoakPHpL90Q69bQ",
+      "text": "Pourquoi avoir pris une photo d'un train des cff  (compagnie de transport suis) dans t'a miniature",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrRoquess",
+      "author_id": "UCCvjMFF1H-3VFZYKWHNLwoA",
+      "text": "Bonjour vu que tu aimes bien bidouiller avec des api j'ai un sujet qui pourrais t’intéresser. On connais des api pour avoir des vues satellites de la terre mais pas vraiment temps réel comme naip, google map ou autre. Et on a aussi des api pour obtenir des images de la nasa. Serais tu s'il existe une api pour avoir des images de la terre en temps réel par exemple pour créer un bot qui track une seul position par exemple.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NxtherlxndsGxng",
+      "author_id": "UCBpsu2-I4fn8sExs8Hcp1Hg",
+      "text": "Fait un bot likes Instagram, Youtube, Twitter etc..",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alainterieur5004",
+      "author_id": "UC9Twet3FKPLI1M6jS1PKr5w",
+      "text": "qui connais une inteface graphique de metasploit?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TokiGK",
+      "author_id": "UCzEbhwNsMNEqwNq8z6OD9bw",
+      "text": "Salut Micode, Est ce que recupérer les données d'une API comme ça est légal?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dranrebnaej4529",
+      "author_id": "UCDPpzR4rTOP51mgiP4yoA3Q",
+      "text": "merci Micode ta video m'a donné envie de faire mon propre bot \n;)\n\nhttps://twitter.com/Aquoteforevery1",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mrtoto986",
+      "author_id": "UC0slKIaYqkm2256EJFOjzwg",
+      "text": "336h...par jour...par...jour...",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mentat13",
+      "author_id": "UCotcY9oUntmfq4IxWabNVtQ",
+      "text": "Retour perso les passage au gris je trouve pas ca top",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@user-xw6fg5pi8q",
+      "author_id": "UCB0G59kySdyh4wgYS7hIVPw",
+      "text": "Euh un vps a 50€ ses cher quand meme....\nTu peux facilement en trouver a moin chere",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jean-jaxlehax3404",
+      "author_id": "UChab_q_QEOWJjDtVGmqdbTw",
+      "text": "Mec, nano t'es sérieux ? #TeamVIM",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@QuickTurtleYT",
+      "author_id": "UCpuq8PHu7UWIR41sgsPTDUA",
+      "text": "Il n'est pas impossible que tu reçoives un plainte de la SNCF pour l'utilisation de son logo et discrédit de la société. Je ne te le souhaite pas, mais j'ai déjà eu la mauvaise expérience pour le second problème il y a quelques années avec un FAI: c'est pas agréable de recevoir ce type de courrier d'un avocat. Et difficile de se battre contre ce type de société.",
+      "likes": 3,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@arthurvoirin8940",
+      "author_id": "UCyqG9rIyf-LMVlI6dtwK2Kw",
+      "text": "Salut, \nQuelqu'un serait il ou je pourrai avoir plus de renseignement concernant l'utilisation des API, la créations de bot...\nMerci d'avance ! 😉😊",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@axelesch9271",
+      "author_id": "UCfTF0ctiDDVZ5KN9tBLI86A",
+      "text": "Une chaine spécialisé pour une explication plus détaillé ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@karlheinzinabnit290",
+      "author_id": "UCzD5TsYSfjkgC7s76vmM6DA",
+      "text": "Pourquoi avoir une photo d'un train des CFF pour illustré cet vidéo ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ulrickstaniolost7820",
+      "author_id": "UC3ENOKjWg91fiPu6Jf2PbJQ",
+      "text": "\"SNCF est une blague\" \"Il n'y a aucun message politique\" mais bien sûr....",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hanbali-khadim",
+      "author_id": "UCI91nQue74DkSjF_7aqln-A",
+      "text": "je voulais prendre un serveur dedie pour mon site mais maintenant j'ai change d'avis je vais prendre un vps\nmerci pour l'idee micode\nP.S: Je déteste NodeJS car il est difficile",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@davyy2830",
+      "author_id": "UC3V62LhDzg9fYGBjRhFcYRg",
+      "text": "Je trouve que tes connaissances sont extrêmement riches dans le monde de l'informatique , j'adorerais maîtriser les mêmes pour reproduire le cheval de Troie pour arnaqueur des arnaqueurs ( mais pas pour des raisons illegales ou avec suite judiciaire comme un hackeur chepakoi ) quelle études as tu fait ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Learnbynet",
+      "author_id": "UCBQTYaIQW__30fm_PRAtO4A",
+      "text": "j'ai trouver ca un peut étourdissant les zoom et les pan screen que tu fait, difficile de focuser sur ton travail!",
+      "likes": 13,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@draconic-2372",
+      "author_id": "UCYpy67t6mrjvrDcHk7eNHYA",
+      "text": ":)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AlanDecoster",
+      "author_id": "UCOS7WbtiAzXvasnJoT-kEEg",
+      "text": "Super tes vidéos comme toujours  ;D\nJe sais que les lignes de codes ne sont pas si compliquées et je voudrais vraiment en apprendre d'avantages que de toujours utiliser des programmes automatisés qui peuvent parfois bousiller le pc si il y a des commandes malveillantes intégrées dedans.\nAlors je voudrais savoir comment je pourrais en apprendre d'avantage sur internet car j'ai bau chercher , j'ai du mal a trouver.\nN'aurais-tu pas de très bon sites internet ou PDF d'apprentissage a me proposer ?? \nMerci d'avance. Tu gères ;D",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zezeratul",
+      "author_id": "UCvDSMg0qyqTT8Oi-uxXjfTQ",
+      "text": "Et combien de trains arrivent à l'heure ?\nTout le monde sait se plaindre quand ça fonctionne pas.\nMais combien disent merci quand les trains arrivent a l'heure",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yoo31",
+      "author_id": "UCMi9O4zFU4JHZlrzUU1WYsA",
+      "text": "Un petit code serverless sur AWS te reviendrai encore moins cher non ? ;)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@qodamytb",
+      "author_id": "UCj4n4EOMt4DxHtqM2P5B-hw",
+      "text": "Ta fait quelle étude pour apprendre tt ça ?",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bbthekid7843",
+      "author_id": "UChMA9nRUTb8N7beEvVcyxwQ",
+      "text": "OMG Rien compris XD XD",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Guiz_off",
+      "author_id": "UCqziknDJR_507xQjaW_MTkQ",
+      "text": "le github ?",
+      "likes": 0,
+      "timestamp": 1735689600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@skenny8504",
+      "author_id": "UCgxdA-aGkEUkjBIhnlz-6Yg",
+      "text": "Moi aussi j'aime les autruches !!! x)\n(non c'est faux :P )",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Extrapierratator44",
+      "author_id": "UC744DGyXf-YNM9ugZPRwUxQ",
+      "text": "le bot est down ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@roidada05",
+      "author_id": "UCvZlxp7ICMPRxx2jxEM0Urw",
+      "text": "J’ai rien compris",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@PlayerBloim",
+      "author_id": "UCbBIOeT7ZaDzv3I8LXqPdPA",
+      "text": "L'API de twitter a pas été bloqué ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ze3463",
+      "author_id": "UCTtOuULbE2d9RI4LifwzY6g",
+      "text": "Désolé, mais FTP c'est Fred Thé Patrick. '-'",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Azzuray",
+      "author_id": "UCON41DIp-CUGsmpkABAE8LA",
+      "text": "Pas oublier de retirer le \"Titre : Bot twitter : 336h de retards de train par jour ?\" Dans la description de la vidéo ou c'est encore un coup du bot? :D",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@emelineblt7614",
+      "author_id": "UCo93UzZ7RD9I1sEP8Arbh3A",
+      "text": "J'ai rien piger avec ses tokens",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manoblmnt",
+      "author_id": "UCIhqOxOk_j5PMz6dNDpRsTw",
+      "text": "pause a 5.38",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@stalkerkosovar8993",
+      "author_id": "UCozHFb9jKSk0Yi8f-Z097Yg",
+      "text": "+1 like c'est déjà ça non ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MonkeysBoby",
+      "author_id": "UCVIlg2XtlGPacam7L_OPXUw",
+      "text": "Tu voudrais pas partager ton pseudo Github?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@murray3169",
+      "author_id": "UC2poCQXq9puuzNW91CSlzZQ",
+      "text": "Salut j'ai 14 ans et j'aimerais apprendre la programmation vous me conseillez quoi pour commencer merci ^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MineGEEK69",
+      "author_id": "UCn8BniPUPnMdBjM_v197iZw",
+      "text": "J'ai pas Twitter donc est ce que tu peut le faire sur insta si tu peut le faire",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@aymericgetin9421",
+      "author_id": "UCVPFBqGGUL2NWKP606LrCCA",
+      "text": "Le meilleur bot de twitter est et restera le bot du cul",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@saturn8661",
+      "author_id": "UC3H6HlsOGc7zwy7ZSbtpDFg",
+      "text": "Pourquoi mettre en miniature les CFF (compagnie Suisse) et par la suite parler de la SNCF ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rfmilie",
+      "author_id": "UCwaS3VoFgp1OvKU-6RvFaYA",
+      "text": "alors bravo bravo hein c'est passionnant... mais l'histoire des serveurs dédiés avec les ordinateurs qui tournent en continu et tu destockes quelque part... c'est top pour l'environnement... :-/",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@7E7RA",
+      "author_id": "UCRAESvJZBQ5BcgyGp06ISWA",
+      "text": "Mdr il n'y a pas que Paris en France osef de Paris",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@legrosoufdu56",
+      "author_id": "UCotSUcFhVjeZ98D6IdFBJWg",
+      "text": "Comme d'habitude, le contenue est nickel mais le problème je trouve  est sur la présentation du contenu, tu essaies de pas être trop complexe pour le gens qui ne sont pas trop dans le domaine mais tu essaies quand même d'expliquer des petits points techniques pour ton publique qui s'y connait un peu. Mais au finale, aucun est satisfait car le publique non connaisseur est perdu et les connaisseur on très peu d'info et veulent plus de détails. Je pense que tu devrait faire des vidéos très simplistes ou alors très détaillées mais l'entre deux n'est pas très compatible avec ton type de contenu. ça ne reste que mon avis",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@whitehat1605",
+      "author_id": "UC2ljdUKGeGZSxXyKZL4p3Gw",
+      "text": "Il y a 12h par jour monsieur avec la nuit  = 24h corrige toi la prochaine fois la planète a perdu 8h:58m ciao",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@profredstone",
+      "author_id": "UCny4mW4grhJw9e7FIWofFBw",
+      "text": "Pour héberger un site Internet j'utilise un rasberi",
+      "likes": 3,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@obimic",
+      "author_id": "UCQ91N1ffrf8Cyp-YyXkBOdg",
+      "text": "4ans apres, le twitter tourne encore, et publie chaque jour..",
+      "likes": 1,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bricezele6794",
+      "author_id": "UCUzM9nvLzttdu-97EjdK3Jw",
+      "text": "Moment js",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vforvendetta0013",
+      "author_id": "UCtDJZ9J29PO6CbF2-bFNSGw",
+      "text": "L'un des premiers viewer",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@beni75430",
+      "author_id": "UCLSK7dfWq1sEmbZHR5SRS_Q",
+      "text": "\"en ftp\" c'est écrit sftp",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jesuedespieds2791",
+      "author_id": "UCAUlRTUB2nfsSLJsSlrlgEw",
+      "text": "t\"as payé un ovh ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@willex_crab",
+      "author_id": "UC7HO3ZRZlyIs0SUkZmtnXTA",
+      "text": "Yo",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@williamdes",
+      "author_id": "UCi0YWvYafgOOAvSXtI_GyVg",
+      "text": "France/Paris euh, Europe/Paris non ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lemecquimetdescommentaires1119",
+      "author_id": "UCg60Fp0x-nqpFg6sWJmjhnw",
+      "text": "SNCF: Société Nationale du Code Français :P",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NM1711",
+      "author_id": "UCDbAsZjuzZeg_oR6tGrcGpw",
+      "text": "Le compte Twitter n'est plus actif?",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Personne.A",
+      "author_id": "UCm7BC913DMY0sEA9q6k8R1A",
+      "text": "Tu pourrais aussi mettee un programme pour qu'on vois me nombre d heure ( mois semaines jours heures ) qui se cumule de puit le debut du bot \n\nEx \nSi le bot met 1semaine 5 jour \n\nEst le jour prochain il met 1semaines 1jour \n\nLe total 2semaines 6jour \n\nPuis si le lendemain c est \n5j 4h \n\nTotal 3semaines 4j 4h \n\nLikez pour quil vois",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@brunolebresne320",
+      "author_id": "UCALEOQ63sl3DNWGdj2Yy3jA",
+      "text": "Salut micode, le mieux autait été de faire 2 vidéo sur le sujet. Une première pour débutant sur le concept sans terme ni technique et une seconde très détaillée en prenant ton temps. C est ce que j ai ressenti en la regardant et en lisant tout les commantaires. Merci a toi pour tes efforts a essayer de nous faire comprendre ce monde parfois complexe qu est le code ;))",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@darktheory3423",
+      "author_id": "UC9UBU2d-h_A07sy5JUsnWSQ",
+      "text": "C'est possible de te parler en priver stp?\nJ'aurais besoin de quelque conseils si ca te derange pas :)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@WingSun",
+      "author_id": "UCw0zvjxn05q9wr6CabZplHw",
+      "text": "@Micode A quand une vidéo sur l'écologie ?",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manoblmnt",
+      "author_id": "UCIhqOxOk_j5PMz6dNDpRsTw",
+      "text": "une pub encore et encore",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@simonbelmont1539",
+      "author_id": "UCObBDEad5r84yypOfgqKtMg",
+      "text": "Tous ces zooms et des dézooms ! Au secours !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@EvilCherry3",
+      "author_id": "UCOvgLo4hEB88s-6ekVmHGVw",
+      "text": "1 week, 1 day, 8h = 200h non ? 336 ça fait beaucoup",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manoblmnt",
+      "author_id": "UCIhqOxOk_j5PMz6dNDpRsTw",
+      "text": "???",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sapin178",
+      "author_id": "UCgUJdJsRwwN74HKZ1Nf0MMg",
+      "text": "C'est quoi ton editeur / ide ?  :bave:",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tom_gthr",
+      "author_id": "UC3Uyuhwce2qFGd1hsraKutQ",
+      "text": "Je suis triste le compte n existe plus",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@s_n_i_i_i_p",
+      "author_id": "UCnbHYbNB2qTBhlqQg_mtn2A",
+      "text": "SNCF ne risque pas de gueuler ? Tu entaches publiquement leur réputation comme ça",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@remirec",
+      "author_id": "UCbMInLlbdnZgMb0VgwxnAvQ",
+      "text": "Sale movhe",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lecolosse3302",
+      "author_id": "UCpVcxCTSRn2e1LmrjlW891w",
+      "text": "twit en quebecois sa veut dire stupide",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gouinmaxime254",
+      "author_id": "UClpgOiEmJup-vs1WTbQVmnQ",
+      "text": "Ah berk tu utilises emacs ... Je me désabonne",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maurinebobin8615",
+      "author_id": "UCF0Zihc4FR5v12AAPYOxYKA",
+      "text": "Alors moi j'aime trop regarder tes vidéos mais je comprends absolument rien ^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nathangamer879",
+      "author_id": "UCJzNizuyi7EftAGqcD3arBQ",
+      "text": "Le bot du cul est plus marrant",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Maccouille",
+      "author_id": "UChpxxUntc3Ds1wXI2DyuyUQ",
+      "text": "très bonne vidéo mais trop de cut, tu semble souffrir de la jump cut, les phrases sont aussi haché que des épinards hachés",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manoblmnt",
+      "author_id": "UCIhqOxOk_j5PMz6dNDpRsTw",
+      "text": "men,teurrrrrr\nmenteurrrrrr",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@krakis51",
+      "author_id": "UCsE_GTZtzCE2o3AtvwLEQQw",
+      "text": "Tu parles des retards de trains de la SNCF mais sur ta miniature il y a le logo des trains CFF (donc suisses) 8)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dadson1898",
+      "author_id": "UCbokwNbBaPZkQUjX1Tot4qA",
+      "text": "Ce qui serait grave cool c’est que tu fasses une vidéo ou tu montres tous les détails pas grave si ça dure 30 min",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zedzexytb379",
+      "author_id": "UCzUgRd2RR6sOEguE-gZ_QNw",
+      "text": "666 commentaire",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@naonedtroll9144",
+      "author_id": "UCgDs99vlVEJEQaSf2UZZqAA",
+      "text": "Pourquoi tu met sa sur un serveur? Tu peux très bien faire tourner ton app en local de manière asynchrone . Sinon SNCF is a jock ... T'as oublié de dire merci le le service public d'offrir autant de données ouverte ... C'est pas alliance qui ferait sa",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LegendGamerTVGFX",
+      "author_id": "UCDYc-mepwUydSw5eEffekiQ",
+      "text": "like si ta quitter une video pour celle la",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RJ_6",
+      "author_id": "UCRCrAF7MyMWHfWA0eTLEi9Q",
+      "text": "\"je fais pas de politique mais je parle de la sncf...\" = \"je suis pas raciste mais les arabes ...\"",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MGV95",
+      "author_id": "UC4mikiaViXv3aUgj7vbMv4Q",
+      "text": "LoL is a joke '_'",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@totolescargot1370",
+      "author_id": "UCK4kdWLwJV4UMDcH9CNQ6oQ",
+      "text": "first",
+      "likes": 3,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@j-froche9278",
+      "author_id": "UC2k11cNnqz7TP7tFFU9PonQ",
+      "text": "je veux pas être méchant ou quoi tes vidéos sont cool, juste pas ouf le switch sur la 2ème caméra ça fais tourner la tête etou le mode podcast normal c'était mieux :S \nplein d'amour à toi et de bisous <3",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alexendrenumerocinq5786",
+      "author_id": "UCjxCwywTrjgnWeAokgM22pQ",
+      "text": "Arrête de coder avec un mac!!!",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Votsh64",
+      "author_id": "UCUsra4GoIhFe8qC0CtueOBQ",
+      "text": "Crontab, ça pue, update-rc.d, c'est bien mieux.",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@camillelafontaine7785",
+      "author_id": "UCTjsl34vPtJXuRRoKseTnxA",
+      "text": "clavicule assez longue, longiline avec un grand buste, et pas avec des brindilles pour bras tu dois avec des poignets assez epais, la vrai question c'est tu attend quoi pour te mettre a la musculation ? Et apres tu nous ferais des vlogs de nerd a gros bras MDRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@eniotaa",
+      "author_id": "UC-7ekWam8I0nM2opVBSCKJg",
+      "text": "Je me suis abonné a sncf is a joke",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RaphaelBERENGER",
+      "author_id": "UCFpIb0FcBxrWRHj5BVq5xDg",
+      "text": "Bien vu.... \nTu aurais pu remplacer week day hour par les traductions en français ;-)",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Coconut31",
+      "author_id": "UCZYk5nt2JMdgeVjP-SA3Baw",
+      "text": "Le montage de la vidéo me donne mal au crâne, les plans s’enchaînent vraiment trop vite, ça bouge dans tous les sens !",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manoblmnt",
+      "author_id": "UCIhqOxOk_j5PMz6dNDpRsTw",
+      "text": "c'est une blague la vidéo ??",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ohmyleg7826",
+      "author_id": "UCltN8jhi9SGU9chU1o3sc0A",
+      "text": "On s'en ballec on est champion🇫🇷",
+      "likes": 9,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Kuzeto",
+      "author_id": "UC3utE1C0Dg01yjWSGiLCIpA",
+      "text": "Tu peux hacker momo pour le remettre à sa place et enlever la peur des plus jeunes",
+      "likes": 2,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@teleskop7",
+      "author_id": "UCceVAJXZLEGCEvokfPyHEKQ",
+      "text": "Micode je trouvais tes vidéos très intéressantes au début, mais en vérité ta chaîne est complètement sans intérêt et tu la sous-exploite énormément... Bien sûr que tu fais ce qu'il te plaît mais dans ce cas  renomme ta chaîne et change de courant.\nPlutôt que de t'amuser à savoir combien de temps on perds dans les trains , ça serait compliqué de nous expliquer plus en détail et plus ludiquement que dans tes autres vidéos comment se défendre contre les pirates qui récupèrent des informations et prennent le contrôle des caméras, regarde Le Momo Challenge par exemple, oui c'est un truc de gamin et en vérité on y risque pas grand chose mais des gens parviennent à récupérer toute notre vie comme ça ! T'es celui qui aurait le meilleur potentiel pour nous expliquer comment se défendre à quasi 100% de ce genre de chose, ça arrive même aux meilleurs de pouvoir cliquer sur un lien malveillant... on peut détruire ta vie en un clic de nos jours. Ta chaîne est un gâchis jusqu'à maintenant... comme si tu avais le potentiel de faire une prépa mais que finalement tu avais choisi bac pro. C'est différent des autres youtubers ce n'est même parce que ce sont des vidéos de mauvaise qualité... c'est parce que tu pourrais aider les moins doués mais que tu ne le fais même pas, et même si tu n'es pas omniscient tu devrais faire un minimum et pour cela j'ai vraiment la haine contre toi.... quelle déception",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bigbossvf595",
+      "author_id": "UCG54LnC5tO2Si4s2OZ4oJcg",
+      "text": "stop dire de type svp",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mickael0",
+      "author_id": "UCrUDt8NW9lWcSff2E_Q-n8w",
+      "text": "Plagiat",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ttatanepvp123officiel",
+      "author_id": "UCGKqNMfWsbxgkaUWB66s_7g",
+      "text": "ont peux utiliser heroku comme vps tu peux en n'avoir 2 gratuit^^",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@chanhtrn830",
+      "author_id": "UCYfXWv-FguhzrLVrDna6XhA",
+      "text": "J’ai une question, est-ce que tu as fais l’émission “garde à vous” ? 🤔",
+      "likes": 0,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rooney0184",
+      "author_id": "UCpJB2RyxNYqJn0SpJU4ZDJQ",
+      "text": "Micode tu as quel age et comment t'appelles tu franchement je te donnerais 19-20 ans parce que ton intelligence et ta capaciter de hack des arnaqueurs a cette age ca m etonne tu pourrais travailler dans la Police",
+      "likes": 1,
+      "timestamp": 1546300800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mazered20",
+      "author_id": "UCedTunJ4Pq55flINIotJ6gQ",
+      "text": "Un peu hypocrite de dire « rien de politique dans cette video » et nommer le bot « la sncf est une blague » \nC’est forcément politique",
+      "likes": 1,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ncryptoluck3135",
+      "author_id": "UChRUlMb7VFQZK_jS6Gcfmlw",
+      "text": "Il n’y a plus de Twitter sncf est une blague",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bigbob3316",
+      "author_id": "UCv34VV5hK1MJI4Ly1a_kJLg",
+      "text": "Sinon ya l'assistant SNCF qui le fait déjà pour vous 🤣🤣 si seulement vous saviez comment faire rouler des trains en sécurité c'est un poil plus complexe que du codage 😂😂",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    }
+  ],
+  "error": null
+}

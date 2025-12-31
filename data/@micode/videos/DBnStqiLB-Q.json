@@ -1,0 +1,3645 @@
+{
+  "video_id": "DBnStqiLB-Q",
+  "title": "J'ai inventé un nouveau format vidéo ! (qui fait crash ton iPhone 😅)",
+  "url": "https://www.youtube.com/watch?v=DBnStqiLB-Q",
+  "comment_count": 404,
+  "comments": [
+    {
+      "author": "@hardisk",
+      "author_id": "UCA6rJQnIFgQOcjO-xtNV7lg",
+      "text": "Mon Android a crash et depuis j'ai peur",
+      "likes": 1000,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@superflameur",
+      "author_id": "UCOLpT9dCbWrDgUUUutaeiDQ",
+      "text": "Super cool, j'aurais pas imaginé que c'était aussi simple comme approche ^^",
+      "likes": 147,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@olivieolivier1894",
+      "author_id": "UCf7H_JI__doxNSbsluAhczA",
+      "text": "Je comprends pas souvent ce que tu fais mais je regarde tout",
+      "likes": 465,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Tvngsten",
+      "author_id": "UCJdAIhHYnk_5z9sxUNWBZHw",
+      "text": "5:54 \"J'ai pris une bonne résolution\"\nDit-il en ASCII-art",
+      "likes": 102,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ackanir",
+      "author_id": "UCdnsoYtDOKW05cn8ORwA1Fw",
+      "text": "Bruh, j'avais fait exactement le même projet en décembre dernier !\nMais c'était qu'une appli Android pour des photos. T'as juste tout tué en faisant une version vidéo ou avec le coup de messenger. Grand malade 🤯",
+      "likes": 184,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@didiertoulouze8156",
+      "author_id": "UC2btnxJ5jwFQeIjepZaDkHQ",
+      "text": "Pour la petite histoire, les mainframes IBM n’utilisent pas le codage ASCII mais EBCDIC 😉",
+      "likes": 60,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AnalogThinker",
+      "author_id": "UCyIKf4Bo_8Gz8vOiSfHCpmQ",
+      "text": "Pour les anciens, VLC le faisait depuis les premieres versions, il y avait une commande pour avoir une sortie ASCII. C'est toujours supporté dans les versions actuelles, dans les options vidéos, selectionner Output -> Color ASCII Art, mais c'est plus aussi impressionant que dans un terminal Linux sur un Pentium II 300MHz",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@matthieud.1131",
+      "author_id": "UC24WCj-4ekhnH4wx5D8-DDg",
+      "text": "Etape suivante : tu codes un CNN avec Tensorflow, qui convertit ton image d'entrée en un texte ASCII, et comme fonction de coût tu prends un truc genre la MSE (mean squared error) pour non-plus prendre en compte juste la valeur de gris, mais aussi les formes.\n\nEtape encore suivante, tu fais ça en mode auto-encodeur (GAN) pour reconstituer l'image d'origine à partir de l'ASCII (ça sert à rien mais ça peut être très cool à coder).",
+      "likes": 27,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@000jessyca",
+      "author_id": "UCzWxF4uUQN_dpUMj3InHQkQ",
+      "text": "J’ai rien compris au détails techniques, (et pour être honnête pas spécialement d’envie de comprendre) mais ton enthousiasme est super contagieux! Merci bcp pr cette vidéo feel good, elle ma mise de bonne humeur pr la journée!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@un_pogaz",
+      "author_id": "UC4AV7LmvW-IoKdXYpGz_O6g",
+      "text": "5:25 pas spécialement. Tu est surtout tombé sur plus taré que toi et qui avait déjà fait une bonne part du boulot. Et même si tu n'a pas copier-collé sont code, la simple compréhension de ce-lui-ci a beaucoup aidé.\nMais, sa reste fun et impressionnant, chapeau. Surtout que tu en a fait un implémentation assez classe.",
+      "likes": 6,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@saletespatrick4078",
+      "author_id": "UCKjGkmXla7A04ldfI1eHJhg",
+      "text": "je faisais toutes mes illustrations en ASCII avec mes premiers ordinateurs et je les imprimais avec une très lente et très bruyante imprimante matricielle.\nMais là ... une video en direct en ASCII !!! Bravo !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bynaryman",
+      "author_id": "UCLdzf8BDebakOyjJauE4ZXA",
+      "text": "Faudrait faire des petites convolutions par case pour en plus de la moyenne des couleurs sortir la forme de la case. Le charactère de sortie pourra etre aisni choisi plus intelligement en respectant la forme de l'entrée. Exemple : le contour des epaules de quelqu'un, auraient les slash dans le bon sens en plus de la bonne intensité. C'est montré que le resultat est encore plus bluffant",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Galaxyi100",
+      "author_id": "UChA3-yJA7BQbx5s4axjBHBw",
+      "text": "Wow ça défonce !",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@aubinsionville705",
+      "author_id": "UCkweAwEOzBHlnXukbE6CG1w",
+      "text": "Salut Micode !\n\nJ'ai récupéré le code que tu as mis sur github (d'ailleurs, merci pour ça)\nEnsuite, plus qu'à parametrer comme il faut et mettre OBS et ça fait une caméra virtuelle\nEn plus du fun que ça donne quand tu appelle tes potes avec sur Discord ou autre,\nj'ai trouvé l'idée ultra intéressante niveau Anonymat et Sécurité\n(Difficile pour une IA de reconnaitre un visage dans tout ce bazarre)\n\nJ'ai d'ailleurs essayé une IA de reconnaissance d'objets en temps réel par dessus la cam virtuelle\nAucun Resultat",
+      "likes": 10,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheSliderW",
+      "author_id": "UCpPBKI9z0_Y1lKMSWv1YKFA",
+      "text": "Normalement on distingue art ASCII et images converties en ASCII. La différence étant que l'art ASCII est une image dont chaque caractère est choisi intentionnellement, dans le set disponible du hardware, pour le meilleur rendu possible à la manière du pixel art tandis que l'autre est un simple filtre comme celui que tu as fait à la manière d'un shader dans un jeu qui pixelise l'image pour lui donner un aspect retro.\n\nJe ne sais pas si c'est encore possible mais VLC disposait d'un filtre ASCII dans sa version 2.x qui permettait de convertir une video (ou flux de caméra) en ASCII coloré.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SKD.mp4",
+      "author_id": "UCmS3wAe57-3_-cLHygHTlBQ",
+      "text": "Je comprends jamais grand chose mais je passe un bon moment ptdr",
+      "likes": 21,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ThomasKundera",
+      "author_id": "UCmeSFLymytExgEXiAZC4aaQ",
+      "text": "La libcaca fait ça.\nEt je pense fait mieux: elle ne se contentes pas de \"moyenner les pixels\", elle met le caractère qui colle le mieux au fragment de scène qu'elle représente. Il suffit de calculer la différece entre la représentation du caractère et le fragment d'image et de choisir celui qui en est le plus proche.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thefrog6245",
+      "author_id": "UCb5_QnfNBUEbJzHCgzPVWJA",
+      "text": "Com d'une abonné qui ne comment pas souvent mais qui a trouvé ta vidéo grave drôle et sympa malgré la simplicité! Comme quoi, on suit les best 👌",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kevindecoly5581",
+      "author_id": "UC8nq4jwU14wgDDVYwtfRiZA",
+      "text": "J'adore vraiment ce genre de vidéos , te voir créer des programme dans ce style c'est top continue ;)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alastynwolfhunter1988",
+      "author_id": "UCJoA3Bt9fHBcQgwFeHQ-Tig",
+      "text": "A quand un bot discord qui peut reconstruire la vidéo en modifiant un msg?",
+      "likes": 138,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@GabrielPettier",
+      "author_id": "UCMTo1UQsJ2NEpzrTmkbQgeQ",
+      "text": "`sudo apt install -y bb && bb`\n(dans celle là les gens se sont clairement plus pris la tête avec le dithering, la gamma correction etc, des malade)\nen plus récent, y'a libcaca aussi (forcément, fait par un français, le nom n'est pas un hasard…)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nicolas.chauvet",
+      "author_id": "UCFR5kI_yCawVv8m43SVaNsw",
+      "text": "Utiliser une techno aussi ancienne pour hacker Messenger, c'est vraiment une idée géniale, bravo !",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@enqueteaumontalifest",
+      "author_id": "UCL3FOmUxCrjIglNuWyl4xTQ",
+      "text": "C’est magique pour le dessin, ça permet de savoir comment faire ses zones d’ombres en fonction du nombre de couleurs qu’on a  🤩",
+      "likes": 3,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@randhome",
+      "author_id": "UC8P2EEPshpbTyPAJ7jB4fhQ",
+      "text": "Chaque vidéo me vend à chaque fois du rêve ! Continu !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@travailleurapleintempsmerci",
+      "author_id": "UCy86FDgER2OijeXB2OzBmtQ",
+      "text": "Bien joué, c'est fou comme c'est simple au final!",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@warheaven999",
+      "author_id": "UCxGySmE4m7hbwKfpuzO1-KQ",
+      "text": "le mode texte initial, c'est pas 100 colonnes, c'est 80. C'est directement lié au fait que les cartes perforées IBM (les grands ancêtres des clés usb)  avaient 80 colonnes. Il y avait 25 lignes à l'écran. C’était le format de base sur ecran hercules.  Le VGA a permis le passage à 80x50, et le SVGA à apporté le 132x50",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DerKaiserOfPrussia",
+      "author_id": "UCAun42eEcUgU_sB-O8i3Cww",
+      "text": "Ton code, bien qu'il fasse 63 lignes, reste très performant et intuitif. Franchement, bravo! 👏",
+      "likes": 0,
+      "timestamp": 1704067200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tartox4205",
+      "author_id": "UCfOcfY2rKx-LotzenZu5B3Q",
+      "text": "Trop bien cet video @Micode tu fais des videos instructives et ludiques et je pense c’est la meilleure chose sur YouTube meme si c’est pas encore tres reconnu et que ta pas enormement d’abonnes etc tu verra quand 80% de la population voudra développer sa conscience numerique tu va tout peter 😉",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Cybercraft1",
+      "author_id": "UCn44uty9vdsfpOtAxnge2mQ",
+      "text": "1:11 La table UTF-8 ne contient pas tout les caractères (chinois, kanjis, etc...). UTF-8 comprend 1 octet pour le codage, ce qui donne 256 possibilités (0 - 255).\nSi tu veux des caractères chinois ou japonais. Il faut te tourner vers des tables plus grosses (UTF-16, UTF-32).",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fabricemenoud3296",
+      "author_id": "UC0VYINuFXsKP2K8294C9QvA",
+      "text": "Franchement j'ai bien aimé,  ça fait un effet super 👍👏",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@halk1217",
+      "author_id": "UC_oVMUBZUDzb0f4DIVhOMjw",
+      "text": "MERCI !\nUn très grand merci Micode d'avoir mi ton code en description !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@timvial4431",
+      "author_id": "UCJB24VA_C2FcnL_I-95w0Yg",
+      "text": "Super cool la vidéo !  Petite ambiance qui fait plaisir 👌🏻🙂",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@loic.bertrand",
+      "author_id": "UC79E11A2KwREhZ6Myr644-g",
+      "text": "2:50 On est d'accord c'est 'JetBrains Mono' sur VSCode et dans ton terminal ? J'adore  😍",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@laurentmorschhauser",
+      "author_id": "UC1808AOpW-hwrWPVrOpMyJw",
+      "text": "Alors je ne connaissais pas le ASCII-art mais juste le format ASCII ... Car dans mon boulot, ce format est encore utilisé ! Dans le milieu du spectacle, notamment en théâtre, c'est le format utilisé pour les conduites lumières \"traditionnelle\". C'est à dire le fichier ou est enregistré les mémoires de l'état lumineux d'une scène en gros ! Du coup ça me fait tout drôle\n de voir se format faire de la vidéo !",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thibaultarcelin4449",
+      "author_id": "UCoe6TuyUtin2ztgLWg8aM2Q",
+      "text": "L'idée est juste folle, c'est génial comme concept",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xavtek",
+      "author_id": "UCImcxLaslv68VbrCP61j15w",
+      "text": "Ce serait génial de le sortir comme filtre pour snap camera ! Comme ça on pourrait l’utiliser via leur caméra virtuelle sur zoom et autre logiciels de visio !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@stanislashelie2705",
+      "author_id": "UC4s5lHJAQWfqCWvfpH2Iukg",
+      "text": "Si je peux me permettre un commentaire, ça aurait été pratique de coder un petit programme pour classer tous les caractères ASCII en fonction de leur contraste.\n\nPour la petite histoire j’avais utilisé ce principe de différence de contraste pour mesurer automatiquement des pulls pour un process qualité",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@qwertz-7353",
+      "author_id": "UCGmnYqmiDE4ypg-9sC_-nhA",
+      "text": "La team et la scène warez l'utilise dans leur NFO qui accompagne le fichier principal.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@baptiste_drllt",
+      "author_id": "UCH5bsykjXI9D-0Y4CPH_diQ",
+      "text": "Trop bien 👍👍 ça serait cool que tu mettes plus souvent tes codes sur GitHub🤗",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@JCRineau",
+      "author_id": "UCBwQYVUiX6P4ms99bymypiw",
+      "text": "Sous debian :\napt-get install bb\npuis lancer bb > C'est une demo en ascii-art qui utilise la LibCaCa :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@elie·520",
+      "author_id": "UCpu_94vKJglrZUjuJnQ7KZg",
+      "text": "Ce serait stylé de pousser le truc plus loin en cherchant le caractère ascii qui matcherait le mieux ton petit carré d'input de la webcam en grayscale. Un peu plus d'efforts niveau calculs, mais probablement un rendu encore plus propre.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Musicall60",
+      "author_id": "UCZ1ReezNIbJ1owCZNy1P-zw",
+      "text": "2:50\nIl manque un \":\" \nSyntaxError: invalid syntax 😅\n\nSuper vidéo sinon !",
+      "likes": 17,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@blackknife0042",
+      "author_id": "UCRhB0s7nXMgk-cxFvuX-Iog",
+      "text": "Waw, 4 vidéos en un mois Micode devient actif !",
+      "likes": 53,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fer1_ethan372",
+      "author_id": "UC5ELDDUY5Oey5R8fb1nEs3g",
+      "text": "Pour aller encore plus loin tu pourrais laisser l'image en couleurs et changer la couleur du caractère en fonction histoire de pimenter le truc",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@scapsou6773",
+      "author_id": "UCGWJnr5Y2KeaTdw7RAQZYaQ",
+      "text": "Hyper lourd ✅✅✅",
+      "likes": 9,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NewaNotreMaitre",
+      "author_id": "UCZ6aZWdqc2toGWP1xqRoSaw",
+      "text": "Je Connais Deja !\nMerci",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@timrap4365",
+      "author_id": "UCwlF_HfNrfzQG6fLQkNlXYg",
+      "text": "Ça serait cool une explication du code.\nPar exemple sur la chaîne micodeux.\n\nSinon super idée 💡",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tenshiuda2904",
+      "author_id": "UChhdMgrNgK7NzvmIBGKTXFA",
+      "text": "Slt Micode sympa la pub sur pôle emploi mdr vu que c'est pour les métiers du numérique bravo.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LeGauloisfr",
+      "author_id": "UCnryoWiVLFfND_fN_RIzRKw",
+      "text": "C’est pas trop connu même si maintenant ça doit bien faire 10 ans ou presque que ça existe. Mais on peut faire ça dans VLC. \nC’est grâce à la libCaca, dev par 2 français, contributeurs au projet VLC, qui l’ont développé. 😄\nY a quelques fonctions supplémentaires maintenant (ajout de couleurs par exemple)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@billyschannel4767",
+      "author_id": "UCmQguoc7mwCvQvyGAVrGU4A",
+      "text": "C'est très similaire aux pixels art sur minecraft, il y a des sites qu'on peut upload une image qui transforme chaque pixel à un bloc afin qu'on puisse reproduire l'image dans le jeu",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DimGOfficial",
+      "author_id": "UCZrqlq1cKWC1yrzQM1fD7Cw",
+      "text": "@Micode: Pour l'ascii c'est 255 caractères vu que c'est codé sur un octet (même si effectivement il y en a une centaine utilisable, les autres étant assez \"exotique\" ). En tous cas sympa tes vidéos",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mikado95110",
+      "author_id": "UClOh0Kvk4qeq9GHvQmpOMcw",
+      "text": "C'est insane ! Jpensais que ça serait tellement plus complexe a faire ! Qu'il faudrait voir en fonction des nuances de plusieurs pixels et de mettre le bon symbole en fonction et tout xD",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@saw.8995",
+      "author_id": "UCd2Ja6WRqYlPejzTuJ8f0VA",
+      "text": "Très bonne vidéo ça me donne grave envie de commencer à coder pour faire ce genre de choses.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lesliebestiole3455",
+      "author_id": "UCZdZNm6EnauTGE_-1YNYZEw",
+      "text": "L'expérience avec Hardisk est trop bien et j'apprécie votre duo !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@albanthome511",
+      "author_id": "UCBaYl6Mt_cJiwUP_iMI9_jA",
+      "text": "Des barres !!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gabrielle5623",
+      "author_id": "UCqbWc75NIjKYBQECPqZwIHw",
+      "text": "je pense que si tu veux l'ameliorer tu devrais considere plutot les characteres comme des macroblocks plutot que juste des nuances de pixel gris.\nexample: C ca correspond a une ligne blanche de 3-4 pixels en haut, une ligne de 3-4 pixel de blancs a gauche et une ligne de 3-4 pixel en bas avec du noir au millieu.\n Comme ca tu peux faire beaucoup plus de nuances.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sylvainrenault",
+      "author_id": "UCaRfYnUrEtXwNf8zphMAeRw",
+      "text": "Génial !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ophecy",
+      "author_id": "UClI3LVWcA2s8OKPwTAFZeuQ",
+      "text": "C'EST TROP BIEN Vas-y jveux faire ça demain je sèche mon interro de modelisation en 2s et je bosse la dessus après",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SukuPaper",
+      "author_id": "UCIWD6SuNrjNO2IH3F3azVvg",
+      "text": "En passant par un shader de fragment ya moyen de gagner beaucoup en performances (en terme de coût de calculs)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sylinux",
+      "author_id": "UCdzv8mH_bVfBvbK9_JbAHQA",
+      "text": "j\"adore ce que tu fais ! continue comme ça c'est super sympa !!!\n&& Push blue !",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yotub7220",
+      "author_id": "UCpNN8I0CVuUUMlon96F-LgA",
+      "text": "Il existe 2 librairies: libaa pour ascii-art et pour la couleur, la libcaca.\nCela date de l'IRC (qui fonctionne toujours), avec des outils comme \"cowsay\" et \"figlet\", pour ne ciiter que ces deux lä.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FloSappBoxingChannel",
+      "author_id": "UCsHk1Ez0-6QC02-4QWZ5_Iw",
+      "text": "Génial ça",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nolanbayon69",
+      "author_id": "UC8gBthHIkVe7ZIfjIPGc20w",
+      "text": "ca rend trop bien quand on regarde de loin",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wadiwada2738",
+      "author_id": "UChvAIcOOI9ugJrVD6mptT0g",
+      "text": "Vidéo courte mais efficace !! J'ai kiffé.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Destru_off",
+      "author_id": "UCpMy5NlffePqT8Dxbys08HA",
+      "text": "Nice cool, mais du coup comment on pourrait l'incruster sur une scène OBS studio sa peut être cool en Stream",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AnastaseDeSerpiere",
+      "author_id": "UC4CYW0GeznfdSPxMW_1UBxw",
+      "text": "Trooop bien\nÇa aurait été stylé de voir des plans d'extérieur filmés comme ça, aussi",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nemo62fr44",
+      "author_id": "UCYxlyDBPZy9AIC1JbpP2wDg",
+      "text": "Jen 'ai qu'un seul mot : GENIAL !",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@guillaumeduponchel5488",
+      "author_id": "UC5SI10Rj4-rVMgF7UhBMSVQ",
+      "text": "Effet sympa ! Si tu veux continuer à te chauffer sur de la création de visuel interactif je te conseille de regarder le logiciel Touch designer je suis sûr que tu pourrais en faire des trucs de ouf couplé avec du code !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sebastienlhuillier",
+      "author_id": "UCsAP8nA6S_6J31ny-y_Qbwg",
+      "text": "Excellent. Faudrait que je regarde, moi qui m'interesse à FFMPEG, si y'a pas des scripts de conversion avec cet outil.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@olivierv1993",
+      "author_id": "UCGGPsPHHDoUy_-sWFudZMRw",
+      "text": "J'ai la même chose mais avec la matrice du film Matrix. On voit la webcam dans la pluie de caractères.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AkashiKNB",
+      "author_id": "UCzqQtDGmC407xvRRzm8AAqA",
+      "text": "c'est quand meme vachement bien l'informatique",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mosquibeebarradin4138",
+      "author_id": "UCJN059HIDBV-s5ZlzrLXFHg",
+      "text": "C'est super cool, bien joué !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wildemas",
+      "author_id": "UClulKsDAIuyMgqnhr-bsVFg",
+      "text": "trop stylé, j'ai envie d'essayer de faire la même chose!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@carlodrift",
+      "author_id": "UCvsydCAdbnhbg7UhWHAkrLg",
+      "text": "Incroyable",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Hugooooooooooo",
+      "author_id": "UClU7y6gw1_5uKatsAUBSAPw",
+      "text": "C'est génial !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kari-ob5nq",
+      "author_id": "UCb7925szvlAlbkIul6ny3UA",
+      "text": "tellement stylé le générique",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrZefredo",
+      "author_id": "UCMH7CzY2-kMTGuHXQTho0Rw",
+      "text": "Je me souviens il y a plusieurs années avoir regardé le premier épisode de la guerre des étoiles comme ça j'ai. Enfin juste le début, quand les 2 robots se retrouvent perdus sur la planète. Si je me souviens bien c'étais des gars du CERN qui avait fait ça",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@leGEEK84",
+      "author_id": "UCiYAhAgpQuI0rYeHme1f8BA",
+      "text": "Tu peux le faire avec vlc, et je crois qu'il gère même la couleur. Après il me semble que tu peux aussi récupérer les flux vidéo que tu veux direct dans vlc",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@boyertheo",
+      "author_id": "UCdQOXjUoXfb7mMbJw2yEhJQ",
+      "text": "hooo les vieux souvenir de w98/2000, par contre a l'époque les cam avais souvent des pilotes \"tout pourrit\" sortaient du monochrome avec leur options intégré, et le réglage du fps pour économiser le pauvre cpu ^^' (sa permettais de tricher un peu)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MatthieuRiffault",
+      "author_id": "UCps0t_vnvv9Ag_0WkdQNEKw",
+      "text": "Très classe, bravo 👍",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@marc4ntoine710",
+      "author_id": "UCAXjuqn9naI0bX3MMzBukVQ",
+      "text": "Top ton contenu et bravo pour tout le taf que tu produits ! GG boy's",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@titou5153",
+      "author_id": "UC-OHhH7a_FK-cmOzE21sZOQ",
+      "text": "Est ce que tu pourrais faire une vidéo explicative du code pour que l'on puisse le refaire chez nous stp",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bx_visual",
+      "author_id": "UCQk2UqcYI3Q4onxKyuXztBw",
+      "text": "Comme c'est bcp trop stylé, j'aimerai bien arrivé comme ça en cours 🤣",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tzimmermann",
+      "author_id": "UCvJp06SpAzJy5Zgb66-jb1g",
+      "text": "Hmmm. Je crois que je vais faire la même chose avec des séquences d'échappement ANSI pour avoir un rendu en couleurs :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@damienbouzon2528",
+      "author_id": "UCZBodjpcMHrhliPy5EmelyA",
+      "text": "Alors...... Comment on fait ?",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hugobillerit4861",
+      "author_id": "UC-k0iQ-ZucpkTl6-JXesSqA",
+      "text": "Ça me donne envie de tester",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@halk1217",
+      "author_id": "UC_oVMUBZUDzb0f4DIVhOMjw",
+      "text": "IMPORTANT STPPPP!!!!!\nS'il te plaît à chaque vidéo comme ça met juste des liens Mega ou jsp pas quoi de t'es projets dans les description (avec une vidéo explicative mais ça t'es pas obligé) stp stp !!!!!!!!!!!!\n\n\n(on est le 22/10/2020 et j'ai vu que tu l'a mis en description alors merci !)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@n1c0_",
+      "author_id": "UCRhyc-RSsTtM1iaoe_pwSYw",
+      "text": "Très sympa comme vidéo",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Manu-vz5gs",
+      "author_id": "UCnL1fW11AOBM_n6ptc3Az8g",
+      "text": "Mais c'est ÉNORME 😍",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MathurinStar",
+      "author_id": "UCrsL_I_eu9dUMqTRkk3QxFQ",
+      "text": "Marrant.\nVLC le fait depuis xx années, en ligne de commande sur Unix. J'ai même matté des boulard en ASCII !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@benocxx",
+      "author_id": "UCq7f5R2zKm3_DCOIxJogDmQ",
+      "text": "Tes vidéos son tellement inspirante! Merci :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Tomydurand",
+      "author_id": "UCmx8hTENVlmMUF1l_6vyQ0g",
+      "text": "Bravo !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nemesisstalker1020",
+      "author_id": "UCfRn6QCeCO6F3P6ApHk6e2w",
+      "text": "jouer en ASCII sur Saints Row 4 c'est génial",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thelmeb.4753",
+      "author_id": "UCkUM2mvfM1b2xCSbWlbwb-A",
+      "text": "Tu peux faire la même chose en couleur avec les émojis de l'UTF-8 Ü",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@moineau44",
+      "author_id": "UCwirJchdfW5P_UPu-S27H6A",
+      "text": "Fun fact, depuis à peu près toujours, ca existe nativement sur VLC. Dans les préférences vidéo, on peux choisir la sortie ASCII !",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ThierryBRAYER",
+      "author_id": "UCXnyatORUxvR_zlSxRPFvzg",
+      "text": "Hi ! on peut le faire directement avec VLC !!! Video => Sortie Video \"ASCII couleur\", enfin pour la 1ère partie.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ThePsycho022",
+      "author_id": "UCI2cPt15X1X_qMN75abouqQ",
+      "text": "mec c'est trop stylé",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theblackbird64",
+      "author_id": "UCmRIq_H8PJv2y7B_Rd2PUQw",
+      "text": "Trop stylé",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Naheulf",
+      "author_id": "UCL8DzIhtY488DjLgandUe7g",
+      "text": "Juste pour info VLC aussi peut faire un rendu en ascii (couleur).",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Daakyne",
+      "author_id": "UCceGpyexSLhQVrR6zRCKXqg",
+      "text": "-> y'a un petit truc sur vlc-cli qui fait la même chose et qui peut gérer la couleur avec ^^",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@GuillaumeDrummer27",
+      "author_id": "UCezNhlzKJmxth3bpInZvONA",
+      "text": "Ce serait pas mal d’utiliser ce genre de système pour créer des « yeux bioniques » pour les personnes mal voyantes, et surtout non voyantes. Ce serait déjà super pour elles.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lorenzotartine",
+      "author_id": "UCDSK1tNyOWPjY1TzS4Nvdjw",
+      "text": "Trop bien",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Robin-yk7sy",
+      "author_id": "UCaAuL56kyXLPX7qpnNzpC7Q",
+      "text": "Incroyable !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AnbaSoley",
+      "author_id": "UC7N1_XLN1quvip5iFrCzFGw",
+      "text": "Je vois ça et ça donne envie d'apprendre à coder 😱😱😱",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeantabatton3631",
+      "author_id": "UCgUURzYDzAJ0RbAQD9qgzbQ",
+      "text": "C'est trop cool bravo!!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Shayro",
+      "author_id": "UC_WpDeDAfK42mhVzGpAU_4A",
+      "text": "En vraie sa ferait un bon filtre insta !",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pedropaniago8496",
+      "author_id": "UC_4C8VeMW8VhNCUrucraQgA",
+      "text": "Je trouve l'idée d'utiliser avec la webcam magnifique. Que penses-tu de faire avec un effet Matrix? Je suis tombé sur une vidéo d'un mec qui a fait l'effet Matrix en python. Je pense qu'il y a moyen de combiner les deux scripts :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@deadkat1573",
+      "author_id": "UCag2cTUB2rXPnvvJSiDIowg",
+      "text": "Tiens, j'avais fait un petit programme d'image to text tout con mais c'était encore plus simple niveau fonctionnement. Après avoir mis l'image en noir et blanc, j'utilisais des caractères utf-8 ( ██, ▓▓, ▒▒, ░░, et les espaces) en fonction de la valeur RGB. En vrai, c'est tout simple à faire et c'est toujours sympa de spammer les gens avec des messages stupides",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@agentlibre5803",
+      "author_id": "UCFMdvyKu_YitwCBfv9WBivA",
+      "text": "Génial ! T'arriverais à reproduire ça sur un InkScreen / en E-Ink ?",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jokertv6066",
+      "author_id": "UCKTiQyuHdcGr8UmsdWug7_Q",
+      "text": "Mais c'est génial ça pourrais servir de flux vidéo pour rudimentaire pour faire des face cam avec des endroits où il n'y a pas beaucoup de réseau non ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kouskousjhonny827",
+      "author_id": "UCdngnRyWTTF0AdrwUDWRCIg",
+      "text": "Pas mal du tout  :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@floPentathlon",
+      "author_id": "UCjgSSgDlI_3hH8jACkOwNCg",
+      "text": "Énorme 🙂",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@larachide8210",
+      "author_id": "UCOvl6uxRhYuET3cxo8NtTcw",
+      "text": "T'aurai du sortir cette vidéo pendant le confinement et le télétravail, ça aurai été trop drôle de voir la réaction de sa prof 😂",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tanguy5735",
+      "author_id": "UCMeUyA0CZq4t0wMTXWG_xJg",
+      "text": "J'adoreeee tes vidéos !!🤩 j'aimerais bien savoir quelles études tu fais ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NitramO_YT",
+      "author_id": "UC9FUVD6Yy-rnInhu4ueg1YA",
+      "text": "Aller maintenant la même chose mais avec des caractères UTF-8 et en couleur :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DragCloverFF",
+      "author_id": "UCk0pkmBH7rFiqD-Ux4lmxJg",
+      "text": "une question ? Comment fait on pour configurer OBS ? Sinon super vidéos !",
+      "likes": 3,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Cho7_Bdx",
+      "author_id": "UC4zR3NeoZ6DsLL5_uo9YtOg",
+      "text": "haha j'adore mec t'es un boss :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@flylikewind3059",
+      "author_id": "UCwIJMIDGwkAX8MbsEhordFw",
+      "text": "On peux avoir une vidéo en 4K facilement !\nMicode : moi je veux une caméra avec des chiffre et des lettre 🤪 yeeee",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pilule0uge368",
+      "author_id": "UCPaHLpFurKS-F3M9cN1D1zg",
+      "text": "Vraiment bien cet essai =)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lululombard",
+      "author_id": "UCwOT1-IMNw5k4aHLHwdWLrg",
+      "text": "Alors je sais pas si tu sais mais il y a une librairie qui s’appelle « libcaca » de la « caca labs » (et je déconne pas, elle est utilisée dans VLC) sinon ça marche plutôt bien ton truc !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Dugeek98",
+      "author_id": "UC5dKgZuKwl3o1l_02h6XNbA",
+      "text": "Ça rame un peu par ce que tu code en Python et que c’est pas hyper rapide, si tu le faisais en C++ par exemple ça pourrait aisément suivre la vitesse de la caméra.",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yayanndte9687",
+      "author_id": "UCNpV8CL1dRb4EWGvWL0xCcQ",
+      "text": "Genial je veux ça",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xodowo",
+      "author_id": "UCMz3SgpxKbuOqLQt_THNwhw",
+      "text": "sinon pour ton blogue tu peux utiliser le CMS ghost qui est exactement prévu pour ce cas d'usage",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@oceanesdiary",
+      "author_id": "UCF-dv_k7Nzlbz_oH1alFGHg",
+      "text": "Si limite d'articles que tu peux lire sur medium t'ennuies, il y a dev.to qui est bien sympa aussi!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sachasheitsheit2123",
+      "author_id": "UCY1fWkDP_UaPF0HMIwy2R5Q",
+      "text": "Du asci art il y en avait déjà dans le .txt des disquettes craqué des jeux Amstrad CPC6128",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@quentin750",
+      "author_id": "UCO1UjpXFxrszCqJgm8XufCQ",
+      "text": "j'aurai été curieux de voir une version plus évolué avec de l'UTF8 et de la détection de contour (comme tu l'as dit) pour exploiter les caractères WTF ^^",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@djsmeb0310",
+      "author_id": "UCNq1dLh5LjjdRjywHxH3-tg",
+      "text": "meilleur outro du youtubegame",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Thewhite17",
+      "author_id": "UCRFCkSzMeEmQb1bKji3b1ZA",
+      "text": "micode le boss\n;)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Wan_s",
+      "author_id": "UCdhMl2IigN97zuCpqOY1-bg",
+      "text": "Tu feras une suite de la video ou tu créé un module première pro ?",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@araza8635",
+      "author_id": "UCB2mp5L96jNTB_0mfr0HO-g",
+      "text": "Si c'est possible tu pourrais faire un tuto ou une application pour pour pouvoir faire ça avec des messages sur ios ou android",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BiMathAx",
+      "author_id": "UCyYCyAy-62w7QNu2agk2LDA",
+      "text": "Salut, pourrais-tu faire une chaine secondaire spécialiser sur le code (pas de grande vidéo : seuleument pleins de vidéos de 3minutes sur comment prendre le rendu de la caméra, etc...) Merci",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@aritomiblog",
+      "author_id": "UCFped9jcf8dNtvOAvtzFzIg",
+      "text": "Avec l'ensemble des 128 caractères ASCII on doit arriver à avoir une image encore plus fine et nette.\nOn se rapproche des 256 niveaux de gris.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@baptisteb.2740",
+      "author_id": "UCygVEdC4_o80b0NK13oh9MQ",
+      "text": "Tu peux nous expliquer les bases du hacking stp ? J'ai vraiment envie d'apprendre !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Histoires_Citations",
+      "author_id": "UCUN94NODbjrx4vmnL8hV4VQ",
+      "text": "La puissance de Python!  Vidéo très intéressante",
+      "likes": 0,
+      "timestamp": 1704067200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lignorant6257",
+      "author_id": "UCuUfEHo1JGxjie2X68vWyYg",
+      "text": "beau projet",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thesmiler6125",
+      "author_id": "UCAEAULCcr9M1ZuKP9JIXyQA",
+      "text": "Fun fact : VLC peut afficher sa sortie en ASCII art dans un terminal. Ce truc sait tout faire.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RazHalGuhl",
+      "author_id": "UClFKcb0KeIyKSOURJa3UdTg",
+      "text": "Du coup, la compression vidéo de ce genre de flux doit être assez simple. Basse définition, encodage sur 8 bits (voire moins, si tu n'utilise que 16, 32 ou 64 caractères...",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ouanounours",
+      "author_id": "UC_JgorPYX60JSAz9guj9oRQ",
+      "text": "C'est cool de te voir faire autre chose que du Web :-p",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@leratpablo",
+      "author_id": "UC4p4oBf65vx8KGaIOrC5RjA",
+      "text": "J'ai eu la même idée ce matin, mais pour moi c pas avec en direct avec une vidéo. Il faut fournir une image au programme",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ElephantOtarie",
+      "author_id": "UCfZvLBdPAx3fO3wySvhfhNg",
+      "text": "Je suis archi chaud d'avoir une explication pour convertir l'output en flux video",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tyriongoldking_2111",
+      "author_id": "UCCjCZg8Mf7YpImsAZU8cBnw",
+      "text": "Ah merde c'est possible ? J'avais déjà eu l'idée de faire ça pour mon projet d'isn en terminale ! Content de voir ça enfin réalisé !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ouaisszerfaoui4460",
+      "author_id": "UCXbiMM2LMU3PMg30Gz-7uPg",
+      "text": "mec tes passé sur la pub de youtube gg j'aime bien ton contenue",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Atom--",
+      "author_id": "UCxhcilckhtyfB1ruWEPu24A",
+      "text": "Ce serait mega stylé avec des emojis pour la couleur",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mat_bigras",
+      "author_id": "UCP5OBp-ZImAWxjHTl0eL3Iw",
+      "text": "Je ne pensais pas non plus que ça allait être aussi simple non plus :o",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@madmax27350",
+      "author_id": "UCav1kdSAV8KPBU2X1nOZPAw",
+      "text": "Ça m'a rappelé la série Chuck haha",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@victordrouinviallard1700",
+      "author_id": "UCwHkDUBcfl7E37Uq0CCDpXw",
+      "text": "Tu pourrais faire la même chose en faisant les contours avec les / \\ - | :)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeposetaplainte8273",
+      "author_id": "UC1Zd4i-GiqwFKdOe5GKnUwg",
+      "text": "Roh mais t'es génial mec",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheArcNgeL",
+      "author_id": "UC1-pQUKSbcpZzH9NaTHgz2Q",
+      "text": "Bah oui quand t'y réfléchis un peu c'est pas super compliqué suffit d'associer un gradient de gris à une liste de caractères et bingo. Par contre heureusement qu'on a la puissance des pc d'aujourd'hui ;) il y a pas si longtemps ç'aurait rammé de ouf ^^.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@velopeche-",
+      "author_id": "UCpksDfTmE33CyUsjYnoH_XQ",
+      "text": "Ptn mais t'est trop fort 🤩\nJ'aimerais débuter dans le code par ou tu me conseil de commencer ?\nSinon j'adore ce que tu fais continu comme ça 💪🏽",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@borislontsi3250",
+      "author_id": "UC0GRUhgk6vdd5BWA9kKpbmw",
+      "text": "Meilleures",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@modelisme-life6580",
+      "author_id": "UC4INYnElBJeRUKDevAKU77w",
+      "text": "Comment j'aurai kiffé débarqué dans mon cours avec ce flux vidéo caméra allumée pour voir la réaction du prof et des potes 🤣",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@poinzin",
+      "author_id": "UCQ0B0rFxI3TqWvzjA7oFWjg",
+      "text": "J'ai trouvé encore plus incroyable, c'était une simulation de fluide en aschi !",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pereJobs",
+      "author_id": "UCIltzang42csEXl-xJwt71A",
+      "text": "J'espérais que la vidéo allait parler de libcaca, une bibliothèque graphique qui sort de l'ascii art, et qui est notamment supportée par VLC pour afficher des vidéos dans un terminal! En plus elle est maintenue par un français.\n\nhttp://caca.zoy.org/wiki/libcaca",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jedmoutahir",
+      "author_id": "UCM3sRen5nFgCf9zILKCUeuw",
+      "text": "Excellent sujet ! Mais 1 journée c'est un peu beaucoup pour ça.",
+      "likes": 58,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@eugenesoenen849",
+      "author_id": "UC4BLxOuvdbQX1ULKnDEwVSw",
+      "text": "Yo super cool la vidéo je n'y connais rien dans le code et je voulais savoir comment je pouvait utuliser ton code sur mon mac bookpro ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@medardgaf125",
+      "author_id": "UCx1FL8f94EM4bHWN1gCjx9Q",
+      "text": "Fais nous une vidéo sur le carding 🥺🥺🥺",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@antolitre0085",
+      "author_id": "UCWmRrFiAOixRvMsUeNtehhw",
+      "text": "Le rendu est fou en effet :) .... Par contre j'suis surpris que ne savais pas comment c'était fait. J'ai l'impression de connaitre ça depuis si longtemps. Peut être parce que j'ai connu le pré web?? lol",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hugoc8016",
+      "author_id": "UCphsYyHDe6fVBuiAzLXiG9g",
+      "text": "Encore plus détaillé ça doit être incroyable (ça l'est déjà).",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@marhoumghassan",
+      "author_id": "UCOunqgilE6XA_KuUgdAacRw",
+      "text": "C'est quoi le code que tu as utilisé dans la vidéo de Fabian... Tu peux faire un petit tuto sur ca svp likez si ça vous intéresse aussi",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Rayan-my2bl",
+      "author_id": "UC-U6TOL_SOy6ExKEryGRr8Q",
+      "text": "Je comprend pas souvent  ce que tu fais mais je regarde tout",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xaviersenelar783",
+      "author_id": "UCFojxNRRCMaTYyy6mb2SJTQ",
+      "text": "La même chose avec des couleurs 🙂 style 16 couleurs, ça serai marrant",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@florianm.5128",
+      "author_id": "UC6KAANAqUEtWIf7NwwWhnWQ",
+      "text": "Petite ref à la libcaca 😅 Sinon, medium == tristesse. As tu vu write.as ou write freely ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LeuRne",
+      "author_id": "UCV7n1f6gHMBqPP4RPGYAobQ",
+      "text": "j'aimerai bien m'en servir pour convertir une video de drone fpv cinematic en ascii",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@psykauze",
+      "author_id": "UCpZtKg0oNQtaO13upMXaZdg",
+      "text": "VLC a une sortie vidéo en ASCII art noir et blanc et même en couleur si vous voulez essayer chez vous.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@matthieur.3461",
+      "author_id": "UCnK8og_pRQivHB1_rZXPNrA",
+      "text": "Du coup pour les vidéos démonétisées sur Youtube ... ça fonctionnerait de remplacer la vidéo originale par de l'encodage ASCI ? le spectateur comprend toujours de quoi on parle et ça évite le Dolar Jaune (encore qu'il reste le son à gérer ^^)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@c.ll.l6626",
+      "author_id": "UCPt3SR1tZ7AsS4P5anVJNlg",
+      "text": "Salut M.Code!^^`\nDe ce que je comprends tu as pris toi-même quelques caractères ASCII, que tu as classé par niveau de gris \"plus ou moins pleins\". Ne serait il pas plus simple de passer directement toute la table ASCII à ta première moulinette pour estimer les niveaux de gris de chacun, et ainsi les classer du plus \"clair\" au plus sombre, pour avoir des contrastes plus précis?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@adam_bks5394",
+      "author_id": "UCtH1tGo1QyZmHtFBjsaBb5A",
+      "text": "wow super",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jbkikou",
+      "author_id": "UC6KXLszgUiWuEGOkMhkDFbg",
+      "text": "La même choses avec l'encodage de la voix en 8bits ?",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@benjamiens8143",
+      "author_id": "UC3rN_IqbdZhX90GrvV_bGjg",
+      "text": "En revanche la fin de la vidéo en ASCII ça tue !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@heartlessalice5801",
+      "author_id": "UCjFdUEOAbvQXZvPwptarpWg",
+      "text": "ho, comme l'AAlib ou en plus recent la libcaca ^^",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@peskooo",
+      "author_id": "UCr9exnhsCsS3IfX367AKfvQ",
+      "text": "Regarde Jekyll en ruby pour faire un site rapidement et coolos pour du blog :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@princessenorma",
+      "author_id": "UCw6slHVP5xNZYEGCuwG420w",
+      "text": "Pinaise j'ai pris une énorme claque quand tu as expliqué ce qu'était l'ASCII-art, parce que dans les années 90, mon bureau était tapissé de jolis posters en ASCII art, réalisés par les gentils collègues du service informatique 😭😭😭 #FeelOld",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@notyourdad-fr-1544",
+      "author_id": "UCITuCkjAPn5Rnenld2Awrhg",
+      "text": "Tu a vu la vidéo d'Ackanir sur le même sujet (J'ai créé une application qui fait ça) ?",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DevenirPilote",
+      "author_id": "UCHkmaXC6ldOKBitB4xe449Q",
+      "text": "tu peux meme mettre des couleurs term256 ;)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lolachauve1785",
+      "author_id": "UC2eJPg1VL7vU8PhZ4bwLVPw",
+      "text": "bonsoir bon y’a des gens qui disent qu’il ne faut pas “éjecter” les applications en arrière plan sur iphone et d’autre qui disent le contraire pour avoir une meilleure autonomie, quel est la vrais version stp micode",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@superpieton",
+      "author_id": "UCG3KFiXod-6tIX6Tc_yay2w",
+      "text": "Ça fait des années (des décennies) que VLC a un mode de rendu ASCII...",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mr.grenade6654",
+      "author_id": "UCXo392jRL1eMGGIeDqWNNRw",
+      "text": "Ahhh cet épisode me rappel un chat DTC (Dans Ton Chat, telechargez si vous connaissez pas mdrrr)\n<praline> :  (\\/)\n<praline> :  (*.*)\n<praline> : (>  <)\n<praline> : (´´ ´´)\n<plonk> : l’ascii art ça pue :/\n<badnik> : ( o )( o )\n<plonk> : bon ok certains sont mieux que d’autres.\n\nVoila petite séquence nostalgie 😂",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@YassineAyouch",
+      "author_id": "UCAr8H74aO7RcspymU0v1XCA",
+      "text": "tu peux ajouter le code source de l’outil uber eats sur github?",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Almtesh",
+      "author_id": "UCdNxBGkgTNmZtEg1B1n1MuA",
+      "text": "Sinon, tu connais libcaca ? Ça fait la même chose. Je crois que tu peux le trouver en module de sortie pour mpv ou mplayer et que VLC l'utilise aussi.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@noz439",
+      "author_id": "UCZOOUod0nyOMAXVV7cv2p0Q",
+      "text": "tu pourra mettre le code ou faire un tuto comment faire une chose comem ta fait avec ta Machine ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@moulagauffre667",
+      "author_id": "UC-IgVW57FRhTW-6BMHa9zSg",
+      "text": "fais de la cybersecuriter merci sinon tres bien la vidéo",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Gravfu_",
+      "author_id": "UCnMZm06kZ4zZFGAmSIEQk9g",
+      "text": "libcaca est la best lib ever dans le type!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kaddishcombattants",
+      "author_id": "UCq7KRShnllBu9QRbu-3m6ZA",
+      "text": "Très intéressant pour moi, qui m'intéresse à la low-tech informatique. Du coup, je me demandais : est-ce que le flux ASCIIVidéo est significativement plus léger et est-ce qu'on pourrait l'envisager comme solution low-tech ou simplement en situation de connexion dégradée ?",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kassebonbons7743",
+      "author_id": "UCvlAfDIVm6_x22yYLSfQ5XQ",
+      "text": "Fait une vidéo comme ça stp",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dygitalfreedom",
+      "author_id": "UCiwerniDcQmcnSyIF9Xb1Ag",
+      "text": "0:29 Micode & Tomy",
+      "likes": 0,
+      "timestamp": 1735689600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@leololdb3299",
+      "author_id": "UCmhZV0TF7xO_mcT7d6y5Qaw",
+      "text": "Quand je fais un programme, je fais impérativement de l'ASCII art en commentaire.\nC'est pour donner un joli titre. Pour moi c'est basique, ça m'a étonné que Micode ne connaîtrait pas ça!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@brieucsim9025",
+      "author_id": "UC9Z-CWZioeN2Js3fHyU6thQ",
+      "text": "c'est incroyable",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zarez1119",
+      "author_id": "UC9SOvuBIrdC0qvwJV219I1g",
+      "text": "Micode qui parle du rule 34 😂",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Atom171",
+      "author_id": "UCBiI_RyuiXlyNL-pEqLQomg",
+      "text": "Pourquoi ne pas faire ça avec les smileys tu pourrais faire en rgb",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@didyperso2925",
+      "author_id": "UCmPedLHAUtb7CdOplsM3tHw",
+      "text": "A l'époque de skyblog (oui je suis vieille) il y en a qui s'amusaient à décoref leur blog avec de l'ASCII",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bable-3",
+      "author_id": "UCYo8hTaosH2a1bssaYqDC5Q",
+      "text": "Tu ferais bien un discord pour tout ça ?? :D \nGenre je serais hyper intéressé d'avoir un discord remplis de dev :D",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@baptistejeannerod5739",
+      "author_id": "UCIXOfqtOXWrqDcgoejyI9JQ",
+      "text": "Cool",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cinevmax",
+      "author_id": "UC2txN9166eP5OfW_xDk3Fiw",
+      "text": "Aussi débile que bien foutu, gg !! j'avais vu un site qui permetait de convertir une image mais la c'est de la vidéo presque en direct, c'est fou !",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@heydttony4723",
+      "author_id": "UCtYXQnXdA6ZaUXY1b9s4-BA",
+      "text": "J'aimerai savoir comment tu as fait plus précisément pour savoir le faire par moi-même ! Je ne comprend pas tout ni comment utiliser le code partagé...",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maelc8168",
+      "author_id": "UC9eVTDpy-Ed6wH96_85P4-g",
+      "text": "Pas mal",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jounaydkb",
+      "author_id": "UCKWfjmzwov-IYUAorDDT4bg",
+      "text": "Jais vue tes video raaare que tu donne les lesson just et tu parle plus de ta vie perssonel ou la vis des autre pirateure ou des autre harnakeur ou nimporte noo micode honnetment jaime tecouter mais japprend rien je te l dit face micode mais bon chance et jespere que vs allez avancer et bon courage",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nicoloco1971",
+      "author_id": "UCTXU174Q7V4wnl2z1oqzlGQ",
+      "text": "Technologiquement c'est un sacré saut, un saut ascii même.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lullabys",
+      "author_id": "UCfANZiNy7hXjshAPJq5YzIg",
+      "text": "Et du coup c'est possible d'avoir ce MERVEILLEUX plug-in sur After ou Premiere ? 👉👈",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Rems38",
+      "author_id": "UCdx4MKT5DVgOCpF5GqIQfWA",
+      "text": "Micode, fais un projet en Brainfuck.\nÇa pourrait être vraiment drôle.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mr01Babou",
+      "author_id": "UCMPOe9nAB4TwJ7ZJkFMK8Hg",
+      "text": "Incroyable",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@matthiasdumas3452",
+      "author_id": "UCEL6kScvCXON_DLpNnxHTeg",
+      "text": "Salut ! Je ne pense pas être le seul à vouloir recréer ça, mais visiblement j'ai perdu pas mal de niveau pendant le confinement 😁J'aimerais bien que tu fasses une petite vidéo qui explique rapidement comment faire ça chez soi. Sinon continue tes vidéos c'est génial !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@emile__t",
+      "author_id": "UCwHqlzGTBLjV7yKQBGO0I-A",
+      "text": "VLC le fait aussi de base",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dereckvignard1322",
+      "author_id": "UCgGgXKr8ry4PyXtFBkVHyrg",
+      "text": "Hardisk le mec connais tout c'est ouf...",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@YourSaviorKK",
+      "author_id": "UCm5jpF2p9IUzg6N5uqoA-aw",
+      "text": "Tu devrais faire de la ncurse ;)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hedabridou514",
+      "author_id": "UCOOJybZiPbQSp_vjZqt8SpA",
+      "text": "Micode, hardisk et henri trois youtubers trop cool ensemble c'est le 🔥🔥",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Bond5410",
+      "author_id": "UCGu1U5nSWv6J0pI2VH7vGiw",
+      "text": "Comment faire pour le faire tourné ( c'est la partie messenger qui m'intéresse)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jfa4771",
+      "author_id": "UCnVa9l4DpPaVyZyJ2QqyKfA",
+      "text": "honnêtement je me doutais bien que c'était de cette manière là que c'était fait",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kido_soraki",
+      "author_id": "UCn-qCnCKTJnWHCY8fOmbvag",
+      "text": "Sinon tu utilises libcaca et voilà.\n C'est ce qu'utilise le backend console de vlc.",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@J4ke60",
+      "author_id": "UCRxCGoAZBuNE2RJytdL5ePQ",
+      "text": "ça me donne envie de rejouer a candybox",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MaxFri2109",
+      "author_id": "UCvacyCTt7Ss31prn3xBi9bQ",
+      "text": "il y avait un film de Star Wars en ASCII mais il a disparu",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@denseydu",
+      "author_id": "UCKet7wu-RDAk6AaIyKAHXTQ",
+      "text": "Faut faire un filtre insta ou snap comme ça",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RenovGamer",
+      "author_id": "UCVKiqLGH9ibSBVq4a50GmbQ",
+      "text": "un jour on va le retrouver à la DGSE!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rodolphebobby4537",
+      "author_id": "UC59tdEA9YZEwWdOeojC0Cbg",
+      "text": "Tu sais pas faire quoi ? \nÇa devrait aller plus vite que demander ce que tu sais faire... \nChapeau pour les recherches . \nJe vais réfléchir à te trouver un bon gros défis informatique.",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manonliavais",
+      "author_id": "UCvda5EgBVLNcn9uTVNpUcjg",
+      "text": "J'ai déjà fait des oeuvres en binaire en arts plastiques ! ^^",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@storoblade",
+      "author_id": "UCgNpgY9UKbMchvU-tY1S_Uw",
+      "text": "4:55 ils nous ont perdu ils sont plus que 3",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@moimeme3122",
+      "author_id": "UC4nMVnA_Ju9gm4Bfm8Y8EUw",
+      "text": "c'est dingue, en principe ça marche exactement comme je l'imaginais, mais aucune idée de comment coder ça par contre (même si c'est pas long selon tes dires) :/",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nasso_",
+      "author_id": "UCuEVV5jIkfHBZlmTWYBiv0w",
+      "text": "truc fun a faire: tu le recode en Rust et tu le compile en Web Assembly\n\ntu utilise les APIs web pour récupérer la webcam et tu affiche tout ça dans un <pre> :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ag0w",
+      "author_id": "UC4nn3M-msuxxIXhG6TjfRSw",
+      "text": "j'adore",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@arthurvall1438",
+      "author_id": "UCdG4RdZaaOICxa68aEzG2ZA",
+      "text": "Essaye de mettre des couleurs !!!",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ekocdu9527",
+      "author_id": "UCJL99jn-P2SKJ6-0BY9J9kQ",
+      "text": "J’ai un problème j’ai oublier le mot de passe de mon ancien mail et je n’arrive pas à le reprendre aider moi svp",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thebigwankul3360",
+      "author_id": "UCyGWIv_ewiSNyQXiGRC89wQ",
+      "text": "Comment en le lance ? XD",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@missb.b",
+      "author_id": "UCY5Y8IdDs-C8gp2RF8mKj9A",
+      "text": "je veux me connecter à Zoom comme ça !! ça serait tellement marrant ! (déjà que je m'éclate avec les filtres et les fonds sur zoom ^^)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fLainas",
+      "author_id": "UCM-XxGKBzHeDyLjW3NIWnfA",
+      "text": "Ascii parait : une ligne est formée de points ... excellente vidéo +1",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BliterTV",
+      "author_id": "UC11k_TfLdjkKUCXBtjFypTg",
+      "text": "Utilise une distri Linux... 21 outils pour faire du ASCII Art...",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@calou6270",
+      "author_id": "UCVNthvIqQCFcY5ZYhukBYZg",
+      "text": "Ca m'a fait penser à une vidéo d'Ackanir...",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fr33z00",
+      "author_id": "UCqY2_YoK_LFrY0kp_tasvYA",
+      "text": "Ah, mais y'a plus qu'à GZIPer le stream et tu auras créé un super codec de la mort!\nDepuis l'invention de la 4K, on avait pas trouvé plus intelligent :-D",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@InesGa3",
+      "author_id": "UCsmGDysLXl4fAZJTHDYCDeA",
+      "text": "Fais un tuto pour ton setup linux / windows plutôt là",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@KerByGaming971",
+      "author_id": "UCgwxUp1-JjjK6kCv5RzluxQ",
+      "text": "Bientôt on pourra regarder des vidéos en ligne de commande sur linux",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ekkso",
+      "author_id": "UCnZVMQL_uPsX1E1xUyGqw4A",
+      "text": "Il nous faut un plugin OBS ! :o",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DjRedstoneGaming",
+      "author_id": "UCsUOTE9-Y17ifkGb1XJjuhw",
+      "text": "Bientôt Watch Dogs 4 in real life 👀",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alberic9630",
+      "author_id": "UCMEA2X6IfFiKuQtEt-WHAtQ",
+      "text": "Qqn peut m'expliquer brièvement comment on peut se servir du code dans la description svp",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@aleksandarserbe",
+      "author_id": "UCcrx-1l_VAFlr9QeVDAzNLA",
+      "text": "Un filtre ascii pour nos applications photo sur nos téléphones ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alexismougin6718",
+      "author_id": "UC7DOVa3X8NqSlr87G_YjMAA",
+      "text": "Tu as appris où le codes et tout ce que tu sais (et tu as fait quoi comme études)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeremymoestus782",
+      "author_id": "UCMNaiT9f8Fpp1Br5eNOn4bw",
+      "text": "Micode comment que s'appelle le logiciel que tu a présenté sur Twitch pour réunir tes 2 écran?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@victormonmarthe1031",
+      "author_id": "UC0Aofv_URLqJeLLkbszwV9Q",
+      "text": "Tu pourrais faire \"JE CODE UN SYSTEME D'EXPLOITATION EN 24H\" ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@akotavlr",
+      "author_id": "UCXQLb2hShB-E7yQWqfHD6mg",
+      "text": "Bonjour Micode , j'aurais une question par rapport a Linux. Est-il possible de trouver son dpi de souris et de le modifier ?",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jonnylekiller",
+      "author_id": "UCuOVEwAy_47ct-kYtn0mn4g",
+      "text": "wouha mec j'ai cru c'etait diablox9 ta voix lui ressemble tellement",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@loulou64490",
+      "author_id": "UCI6thz5fynvl6mmSaYmoj3w",
+      "text": "\"je vais tourner toute mes vidéos comme ça \" 🤣",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeremlp4466",
+      "author_id": "UC6GJj2ET3M-BgH9hAPMH62Q",
+      "text": "Salut, l'affichage dans la console clignote à chaque images. Comment fait on pour avoir un affichage aussi propre que dans la vidéo ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Laiteux",
+      "author_id": "UCj4OALlhubvc_wQvtV1q0wg",
+      "text": "archi cool",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mcgee123",
+      "author_id": "UCrYWoiaI545bAQ1Nmzda4eQ",
+      "text": "Pourquoi ne pas utiliser la libcaca ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sebastiend7028",
+      "author_id": "UCxo41D9sH46kPhuFcxea13A",
+      "text": "Il y a très longtemps, on avait droit à 40 caractères de large sur 25 lignes, puis c'est passé à 80x25",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@stef3d",
+      "author_id": "UCdmP8h2V2TYgnMFQVsg1tSQ",
+      "text": "coucou merci pour cette vidéo. Juste pour ton info Microsoft a développer ce que tu indiques depuis le 8/02/2015. https://www.microsoft.com/en-us/p/ascii-lens/9nblggh0c7m4?activetab=pivot:overviewtab Mais merci quand même bonne soirée",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@takhirha8077",
+      "author_id": "UCrsLPWSJ-8SI93nuaFKcvUg",
+      "text": "'' euuuuu jcp ce que vous pouvez faire avec cette info mais au moins vous l'avez '' 🤣🤣🤣🤣",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@valkoush",
+      "author_id": "UCZZ5zZY_TMozHE-L1dt7Ofg",
+      "text": "Insane",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LeGlod",
+      "author_id": "UCd0pzaBjKcKgzwCkvs92GbA",
+      "text": "Ceci ne m'explique toujours pas, qui est l'homme à la pipe dans les caractères Ascii de mon Atari St ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@momolasticot6562",
+      "author_id": "UCiGPbu-2LvAMPW0gQWbnQ1A",
+      "text": "Tout ceux qui mettent first, 6eme etc ne se rendent pas compte qu'il y a des centaines de gens qui écrivent et qui publient leur com pendant que eux l'écrivent encore c'est chaud d'être aussi limité mentalement 😂😂😂😂",
+      "likes": 16,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ibentheamazing",
+      "author_id": "UC2HqvAfmrhtMGEffXhEH9Vg",
+      "text": "Rien a voir mais j’ai une question concernant la vie privée. Est ce qu’un site qu’on visite enregistre notre adresse MAC?? Et peut-on nous identifier avec?? C’est juste pour savoir",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@_utronix_925",
+      "author_id": "UCsDEoF-4e8xoBy_r43AgQkw",
+      "text": "La musique à 0:02 me fais étrangement penser à une autre similaire...",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@le_opold",
+      "author_id": "UChK8kZtimSwaTUHl3V7x9jw",
+      "text": "J'ai surtout retenu que c'etait possible d'utiliser ce code pour afficher sa webcam comme ça sur Zoom. \nPeux-tu mettre à disposition une démarche à suivre ou quelque chose à télécharger pour pouvoir se ramener comme ça en cours de fac? 😉😂",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kylliancours2861",
+      "author_id": "UCDJMTuN6tIwTTrI1MDijTDg",
+      "text": "bonjour, j'ai une question, dans le mesure ou le programme python fonctionne et permet de créer des fichier texte avec une représentation avec des caractères, l'inverse serait intéressant\ncréer une image à partir des caractères obtenus.\nUne simple question …",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@louffy28",
+      "author_id": "UCUSyZ5G2tOOdRiFymSb9-xw",
+      "text": "et il est où le launcher shadow que tu a  développer je l'attend 😭",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gravel-demi-sel",
+      "author_id": "UCtzkjOt7QdzrpJqFFuLVKZw",
+      "text": "Comme avec neofetch",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lightman18",
+      "author_id": "UCcPlVQFk1-PBMYit6Mi9zMg",
+      "text": "Pour toutes tes vidéos :\n– ou bien tu veux qu'on dise wow sans rien comprendre, dans ce cas continue comme ça ;\n– ou bien tu veux nous expliquer des choses, dans ce cas ralentis le débit, ne fais pas un montage haché, mets des silences entre les mots et les phrases. \nAprès 2 ou 3 de tes vidéos, je suis épuisé 😔",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@divmerte8036",
+      "author_id": "UCgb3UZ_Li23ge9SNWL_oP5g",
+      "text": "un RSS ce serait mieux qu'une mailing m'enfin bon ^^",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@leo-pn5rs",
+      "author_id": "UCtYCPe3QcIRAsyJ-_SOcwBA",
+      "text": "JE SUIS FAN JE VEUX LE FAIRE CHEZ MOI 😍😍",
+      "likes": 3,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LEGOLyt",
+      "author_id": "UCFrDxfrKTduHc9wnLE88vmQ",
+      "text": "Gg",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@julesgrc",
+      "author_id": "UCDzDL8DQzNdQVWmYdxKrSuQ",
+      "text": "Cool la video , j'ai refait en partent du  même principe mais sans la camera \n , le programme c# créé  un fichier avec la conversion de l'image entré  et la converti en ascii , il sort la nouvelle dimension de l'image (par défaut 100x100).Il montre en directe la conversion vers ascii avec les couleurs de la console.\n\nCompiler avec:\n\ncsc -out:ascii.exe ascii.cs && ascii \"C\\Users\\33652\\Pictures\\Screenshots\\cat.png\" 100 100\n\n\nusing System;\nusing System.Drawing;\nusing System.IO;\n\n\n\n\n\nclass Program {\n\n    public static void Main (string[] args) {\n\n        int w;\n\n        int h;\n\n        if (args.Length >= 1) {\n\n            if (args.Length != 3) {\n\n                if (File.Exists (args[0])) {\n\n                    SplitAndLoadImage (args[0],100,100);\n\n                } else {\n\n                    Console.WriteLine (\"Image no found in \" + args[0]);\n\n                }\n\n            } else {\n\n                if (File.Exists (args[0]) && int.TryParse (args[1], out w) && int.TryParse (args[1], out h)) {\n\n                    SplitAndLoadImage (args[0], w,h);\n\n                } else {\n\n                    Console.WriteLine (\"Image no found in \" + args[0]);\n\n                }\n\n            }\n\n        } else {\n\n            Console.WriteLine (\"Not input image\");\n\n        }\n\n    }\n\n    private static void SplitAndLoadImage (string path, int wW,int hH) {\n\n        if (File.Exists (path)) {\n\n            string ex = Path.GetExtension (path);\n\n            if (ex == \".png\" || ex == \".jpg\") {\n\n                Bitmap image = Bitmap.FromFile (path) as Bitmap;\n\n                try{\n\n                    image = new Bitmap (image, new Size (wW,hH));\n\n                }catch{\n\n                    image = new Bitmap (image, new Size (wW,wW));\n\n                }\n\n                for (int w = 0; w < image.Width; w++) {\n\n                    PUSH (\"\\n\");\n\n                    Console.WriteLine (String.Empty);\n\n                    for (int h = 0; h < image.Height; h++) {\n\n                        Color clr = image.GetPixel (w, h);\n\n                        RGB (clr.R, clr.G, clr.B);\n\n                    }\n\n                }\n\n                string fname = Path.GetFileNameWithoutExtension (path);\n\n                string fpath = Path.GetDirectoryName (path);\n\n                string ffinalASCII = fpath + @\"\\\" + fname + \".out.txt\";\n\n                string ffinalIMAGE = fpath + @\"\\\" + fname + \".out\" + Path.GetExtension (path);\n\n                File.WriteAllText (ffinalASCII, lines);\n\n                image.Save (ffinalIMAGE);\n\n                Console.WriteLine (\"\\nSuccess to create the txt file \\\"\" + ffinalASCII + \"\\\" and the new image resolution file \\\"\" + ffinalIMAGE + \"\\\"\");\n\n            }\n\n        }\n\n    }\n\n    private static string lines = \"\";\n\n    private static void PUSH (string line) {\n\n        lines += line;\n\n    }\n\n    private static void RGB (int r, int g, int b) {\n\n        int final = r + b + g;\n\n        Color c = Color.FromArgb (r,g,b,100);\n\n        double a = 1 - (0.299 * c.R + 0.587 * c.G + 0.114 * c.B) / 255;\n\n        int index = (c.R > 128 | c.G > 128 | c.B > 128) ? 8 : 0;\n\n        index |= (c.R > 64) ? 4 : 0;\n\n        index |= (c.G > 64) ? 2 : 0;\n\n        index |= (c.B > 64) ? 1 : 0;\n\n        Console.ForegroundColor = (System.ConsoleColor)index;\n\n        if (final >= 612) {\n\n            Console.Write (\"#\");\n\n            PUSH (\"#\");\n\n        } else if (final < 612 && final >= 459) {\n\n            Console.Write (\"@\");\n\n            PUSH (\"@\");\n\n        } else if (final < 459 && final >= 306) {\n\n            Console.Write (\"%\");\n\n            PUSH (\"%\");\n\n        } else if (final < 306 && final >= 153) {\n\n            Console.Write (\"/\");\n\n            PUSH (\"/\");\n\n        } else if (final < 153 && final >= 0) {\n\n            Console.Write (\".\");\n\n            PUSH (\".\");\n\n        } else {\n\n            Console.Write(String.Empty);\n\n        }\n\n        Console.ForegroundColor = ConsoleColor.White;\n\n    }\n\n}",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@baptisteroche8113",
+      "author_id": "UCYDD6RWUNZRBmEZl7Ssbe8g",
+      "text": "ça serais si drôle d'integrer ce genre de conneries sur zoom ou microsoft teams et arriver en cours comme ça mdrrr",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Quenn-gy5dk",
+      "author_id": "UCH_IEw_dBmhUPXtQeXV_a8Q",
+      "text": "J'ai voulus récupéré le programme sur github, j'ai bien python d'installé et j'ai bien installé tout ce qu'il y a dans requirements, mais sa me met un erreur lorce que je met \"py cam.py\" dans le cmd en admin :\n[ERROR:0] global C:\\Users\\appveyor\\AppData\\Local\\Temp\\1\\pip-req-build-h4wtvo23\\opencv\\modules\\videoio\\src\\cap.cpp (265) cv::VideoCapture::open VIDEOIO(DSHOW): raised unknown C++ exception!",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DisColowFR",
+      "author_id": "UCEhYuHV327-ey8YwuMBlOBA",
+      "text": "C’est ouf :D",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@krs_hmt4876",
+      "author_id": "UCcEGWRd0LIszmVi4y9QTiSw",
+      "text": "Faut doubler Henri !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ouisticram2412",
+      "author_id": "UCBs8bp2D5zHAfXXeHdscS-w",
+      "text": "salut micode avait parler d'un site pour apprendre plusieurs chose ou il y avait des sorte d'exercice pour trouver des erreurs dans des codes etc qlqn se souviendrait du site svp",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Huli__TV",
+      "author_id": "UCBsEZqNKJ-2dqkbWIUKf8wA",
+      "text": "insane",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gaetanbaudry9108",
+      "author_id": "UCOZjs5mugsoa2nuQ_e5Cx6A",
+      "text": "comment on lance le logiciel car je lance cam mais sa ne fait rien",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheMasterGeeks",
+      "author_id": "UCXSq0S5uSppsH05sn2unGqw",
+      "text": "Mdrrr trop coool !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LaurentK",
+      "author_id": "UC8Bo5rZRb12sQ67SN7CDUOg",
+      "text": "UTF-8 c'est un format d'Unicode, comme UTF-16, ou UTF-32. Pourquoi dire UTF-8 et pas directement Unicode (terme déjà plus courant qu'UTF-8) ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@PaulMayeul",
+      "author_id": "UCK6kygh8jnxwuG0VHB0jpDg",
+      "text": "je suis desolé mais je suis nul en informatique et pourtant des que j'ai vu le premier plande la video j'ai compris comment il avait fait, c'est assez evident je trouve",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@JohnHellbunnies",
+      "author_id": "UCY71Q9hhTC-kcRoE4XSVCjw",
+      "text": "ffmeg le fait nativement.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@liviosemeraro2951",
+      "author_id": "UCtp4rXp5YLsXhzbE6Zi90Dg",
+      "text": "Salut ! Super vidéo Micode ^^, J'ai une question, j'ai essayer le code pour après le modifier et le problème c'est que mon IDE ne reconnais pas le module 'cv2', il s'installe avec PIP ou un truck comme ça ? merci o_0",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lanimaldelaforetducoin1895",
+      "author_id": "UCUyfMR8666_4RSbHNMBMO0A",
+      "text": "J'aime beaucoup tes vidéos continu comme ça :-)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@loupgris4153",
+      "author_id": "UC8pdVGICa209u6eKAGrwGuA",
+      "text": "Salut Micode, j'ai vu sur reddit que tu avais essayé, je crois même réussis, à changer l'apparence du curseur de l'ipad pro en flèche comme un ordinateur classique. \nEst ce que tu pourrais m'aider ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@user-qo7qt3wq7h",
+      "author_id": "UCR6giFpecHcbYDIKeg1Fl3A",
+      "text": "Et si tu mets une feuille devant la webcam avec du texte ? ;)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DavidGuillot",
+      "author_id": "UCnO0fAI8y8fqUNpBW7z4VlQ",
+      "text": "Salut ! C'est quoi ta chaise de bureau ? J'ai mal au dos avec la mienne.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kamiliii7997",
+      "author_id": "UCs5XyoFAat8dLsv8XwfVQSg",
+      "text": "quand je run debug ca me fait                                   \n   Exception has occurred: ModuleNotFoundError No module named 'cv2'   File \"C:\\Users\\h\\Desktop\\ascii-webcam-main\\cam.py\", line 1, in <module>     from cv2 import cv2",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ShinLoup",
+      "author_id": "UCM5hRvFlC_J5CuYOjid5wEA",
+      "text": "Tu fais ça avec un masque Anonymous, ni vu ni cocu haha",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hilario3282",
+      "author_id": "UCVm111kBO3-8j-5eXE-9ZHg",
+      "text": "Qlq peut me dire comment s’écrit le mot qu’il dit à 4:30",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@H1Droy",
+      "author_id": "UCQ7-3TvmqeSvRgKQRkBPTPQ",
+      "text": "comment rendre le résultat du script en caméra virtuel ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cyberv92",
+      "author_id": "UCb9RUui-PfZ-Djp2yRQGUzw",
+      "text": "mplayer et libcaca (oui oui)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@weak7897",
+      "author_id": "UCuRjun6cYDa9POrHpE4RxDA",
+      "text": "J'ai déjà vu une appli qui fait ça, \"ASCII Cam\"",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@chris48gs",
+      "author_id": "UCsMZ9BQ-TT-JUEGCg0iThlw",
+      "text": "Salut, avis aux pro ou à toi même micode, j’ai un soucis sur mon wifi de pc portable, ça fait des vagues de debit de 300mo a zero, idem en up ou down et ping idem gros écart. Alors qu’avec le même test sur smatphone c’est nikel. Une idée ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@remimialonmdr",
+      "author_id": "UCyRBmPD55ryh66uQgmIvY6Q",
+      "text": "Si tu le dit.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alexandregagner6244",
+      "author_id": "UCg4OKMG028AAB0wXvz_WH-A",
+      "text": "plz sort nous un binaire pour du zoom ssh :D",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alexandregagner6244",
+      "author_id": "UCg4OKMG028AAB0wXvz_WH-A",
+      "text": "Il a décodé la Matrice le bougre !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@modelisme-life6580",
+      "author_id": "UC4INYnElBJeRUKDevAKU77w",
+      "text": "Cc, je veux test, j'ai copié ton git etc mais quand je lance py cam.py me dit non module named cv2.... \nJ'arrive donc pas à installer opencv là ..qq1 pourrait m'aider ?",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@triathlondetoulouse3881",
+      "author_id": "UCIpFMOQ-uzrPwsFbAbvebAA",
+      "text": "Ce que ne dit pas cette vidéo c'est que Micode est maintenant ban de Messenger pour Spam 🤣",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@_LuisFernandes_",
+      "author_id": "UCxN_Pl9uP-p25UhYPStRCgw",
+      "text": "Je parie sur une matrice de données avec numpy",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zurafire7770",
+      "author_id": "UCr09PInyq8AXvuH7yGyJ2Ig",
+      "text": "Je veux que tu mette en filtre snap STP",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@benjamiens8143",
+      "author_id": "UC3rN_IqbdZhX90GrvV_bGjg",
+      "text": "De l'ASCII ART...",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@y0ug__",
+      "author_id": "UCZT6OQrfxiPa7-AHLRUR3_w",
+      "text": "SI y'en a dans le lot qui se chauffe pour pondre un plug in pour Premier Pro.... vous ravirez les noob comme moi : )  Merci !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alexandregonnet6971",
+      "author_id": "UCn3hKF6kBF6H7ysQdtl1_PQ",
+      "text": "Bonjour Micode comment tu vas  j’aimerais savoir qu’elle est vpn tu préfères entre protons VPN et cyber Ghost vpn ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nasty4599",
+      "author_id": "UCVifcSHXyL6S2YotVdktXPA",
+      "text": "mais comment que je fais pour utiliser le code",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mrzouu",
+      "author_id": "UCXcnMjO6CaQ7HXFPg7-LoIQ",
+      "text": "Salut Micode, j'ai essayé ton code, mais lorsque j'essaie de le lancer il me mets: \" from cv2 import cv2\r\nModuleNotFoundError: No module named 'cv2' \" , si tu as la solution ce serais cool. Je lance le code depuis IDLE Python 3.9.0 sous windows 10",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@steveblack2420",
+      "author_id": "UCzokdlgDztesnV6ueMRVbZA",
+      "text": "Étonnant que Messenger ne t'ait pas spam block en quelques secondes mdr",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Funay31",
+      "author_id": "UCJXu7oZDk7giMyDRkdszmDQ",
+      "text": "C'est drole je suis en train d'apprendre l'ASCII au lycée",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@quinru",
+      "author_id": "UCYkd2jexxxOef7RnNYVwtpA",
+      "text": "on l'utilise comment une foix le code pris?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kezako777",
+      "author_id": "UCVhA1cphX41w0J9_lF9cIrA",
+      "text": "okay nouveau défi, réaliser une video ascii en 4 K",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ninobeluze5676",
+      "author_id": "UCAR6rH_Yij670OF0BQ3HblQ",
+      "text": "salut je n'arrive pas a utiliser ton programme peux tu m'aider ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@augustinstella",
+      "author_id": "UCHgVBdqmup5ty6WlnKV6afw",
+      "text": "J'aimerais bien essayer de le refaires par moi-même, mais je ne sais pas quel logiciel utiliser pour \"coder\" quel serait le mieux pour un débutant ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NinVisible",
+      "author_id": "UCgnKTpgsibvGE--u55FZAcQ",
+      "text": "c'est vraiment drôle mais c'est un peu dommage y'a déjà des apps qui font ça après le principe par message est vraiment marant",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Atrimilan",
+      "author_id": "UCXyfY6BJ8HKjLeAUMBuwl2w",
+      "text": "J'avais tenté un projet similaire à l'arache, avec des points plus ou moins gros (halftone effect) à la place des caractères\nPareil j'avais été déçu de la facilité",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fourleafcloverr3135",
+      "author_id": "UCJft-R-E4KFtQGqfPiMX2_w",
+      "text": "je me disais hardisk je l'avais vu quelque part, j'avais complètement oublié sa chaîne",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Enzo_Ouaki",
+      "author_id": "UCy_UNYD1pgS72bPbj3J1RWQ",
+      "text": "👍",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@EliBellule",
+      "author_id": "UCCgW8tcr6V8tvBnytHwG1CQ",
+      "text": "C'est fun =p",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SCFX95",
+      "author_id": "UCQleBuxwUZ-0d7Tu1dXGD-Q",
+      "text": "ASCII",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sans-nom_1.mp425",
+      "author_id": "UCE237OF2RUenlZa-_g_6Lag",
+      "text": "j'ai télécharger le code sur github mais faut faire comment pour l'utiliser?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gautierdlcx",
+      "author_id": "UCuWTKigqBbNvqt36URvEmsA",
+      "text": "Juste comme ça tu as fait quelles études ? Merci 😊",
+      "likes": 6,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@1AM_",
+      "author_id": "UCzi5Z-wnH6D-GBWVzrjktXg",
+      "text": "Je suis un gros noob dsl. J'ai réussi à exécuter le camp.py , ça lance ma caméra, mais j'ai un écran noir uniquement avec des lignes de points qui défilent jusqu'en bas. Puis ça s'arrête.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@qarms3145",
+      "author_id": "UC5rZvAbTt2W8eTDAOueqQow",
+      "text": "Je me sentait trop frais après avoir codé un jeu sur la calculette...\nJusqu'à ce que je voie cette vidéo",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NotMoumix",
+      "author_id": "UCNrH8XThRNry9xPxXol0V2g",
+      "text": "J'ai essayé de lancer le code depuis python sur mon linux mais il ne reconnais pas la cv2 et numpy. Qqchose a faire ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jumo-des-alpes",
+      "author_id": "UCTsQDA0-2J3j2TZ9ffmTm5w",
+      "text": "T'avais même pas besoin de toucher du python. Libcaca (sic) l'as déjà fait pour toi.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "",
+      "author_id": "UCVJZssrlquVCV6TAY35ZDoQ",
+      "text": "tu peux le faire en filtre instagram ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yapadeuxpointzero2462",
+      "author_id": "UCOOdzXVV7QUH3sjHb54Fffg",
+      "text": "Mais gros les premières vidéo yt sur ce sujet datent de 10 ans x)",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tokaymoi",
+      "author_id": "UCs4Rqg9FA3kqNpkVEm7rxkg",
+      "text": "Micode à Sky?",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lespink1043",
+      "author_id": "UCwMQWIGeiseIV30FKCuT1Yw",
+      "text": "juste jp2a",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Sinbad9s",
+      "author_id": "UC3uCq5HgnjhseDGxj6NAWEw",
+      "text": "Tu program sur quel logiciel",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@code-blanc",
+      "author_id": "UC__az4sBzrVirbq4BzVAr0w",
+      "text": "j'adore mdrr",
+      "likes": 0,
+      "timestamp": 1743465600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@magna5228",
+      "author_id": "UCHWZFzhiZQoANjuUFNiuGUg",
+      "text": "Salut tu as fait quoi comme etudes ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MonsieurYounes",
+      "author_id": "UC_y4vBDVZPUQtWnlBqASZSQ",
+      "text": "Coucou, quel est le micro que tu utilises?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hilario3282",
+      "author_id": "UCVm111kBO3-8j-5eXE-9ZHg",
+      "text": "Es ce que qlq a les code pour ça, j’aimerais stream avec ma webcam pour que l’on me voit comme sa",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@quentinmangel2265",
+      "author_id": "UCOco8XRqH0QZirLrhxgpCOA",
+      "text": "(le résultat est flou)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@XtremCasuals",
+      "author_id": "UCI-LhilYW4AMm8B59Bl50sw",
+      "text": "Combien de temps pour ce résultat ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yrougy",
+      "author_id": "UCfsEmSD8oVD147HCz5aCOUg",
+      "text": "Oh, j'ai cru que tu allais parler de la libcaca, mais apparemment non... C'était une création du copain Sam Hocevar il y a, pfiou, au moins 15 ans.",
+      "likes": 3,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@WARTROZFR",
+      "author_id": "UCucECvI-Z3b0FGy8QJ8s1sw",
+      "text": "Team notification 😂",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@brainloading5543",
+      "author_id": "UCfRLgnA-Xic_6GYkGsFaVJg",
+      "text": "J'ai regardé cette vidéo en 4K... oui je sais je suis indigne",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@acidetriflique",
+      "author_id": "UCerlH1P513dAqB3tFGCfCZw",
+      "text": "Le maaaaasque ...\nTrop tard !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@miminbat",
+      "author_id": "UC0grFG35S7acIzT96rm_cgA",
+      "text": "salut micode! j'ai une petite erreur quand je lance le code :  File \"C:\\Users\\******\\Downloads\\ascii-webcam-main\\cam.py\", line 66\n\n    num_chars = len(CHAR_LIST)\r\nTabError: inconsistent use of tabs and spaces in indentation",
+      "likes": 0,
+      "timestamp": 1704067200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@louiscarnel2603",
+      "author_id": "UCLukwJXLfdVQgHCk-fWoJjw",
+      "text": "Quelqu’un pourrait venir en discord pour m'expliquer comment utiliser le code ?  Merci d'avance à vous coeur sur vous",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bytotoxx9330",
+      "author_id": "UCrF9J5GruFIYHC3yGaSAUPQ",
+      "text": "Peut t'on apprendre à codé alors que l'anglais n'est pas du tout fait pour nous ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Matthieu42",
+      "author_id": "UCoZ394o3R9Xnf4Sb4SPq57A",
+      "text": "Il y a une lib ascii qui s'appelle libcaca, qui est de base avec vlc ( vlc --vout caca vidéo.mp4)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@user-vf7cc4jf3j",
+      "author_id": "UCazyOdeJcn7-re85wIcE0DA",
+      "text": "Punaise, tu ressemble à ramsay (de got)... Mais tkt en version sympa...",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zzykox",
+      "author_id": "UCVN-oLpB_Yx0xrDtgUL0Pqw",
+      "text": "First gg à moi . Sinon la vidéo est cool comme d'hab",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sbichet31",
+      "author_id": "UCNXckl2_iAmeO_Wp1-A_EKg",
+      "text": "C'est fou vous connaissez pas libcaca ? ca a au moins 15 ans!!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@emilesimondin3102",
+      "author_id": "UC8y6QkYZtqdcvvERYKP3svg",
+      "text": "Fait en un filtre insta",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@malo2356",
+      "author_id": "UCH0HMcZkU54ThWzkAEkzIGg",
+      "text": "ta un serveur discord?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@chytrelk",
+      "author_id": "UClXut7YPpJpKHeZQuEYygAw",
+      "text": "2:03",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jonnhy5353",
+      "author_id": "UChgvzh5O831znbyxCdWLyQg",
+      "text": "en quoi tu l'as codé stp? c'est possible de faire ca en c++?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@frite-sel",
+      "author_id": "UC2uLTZ2ZzrLk12Cs1AYnu6A",
+      "text": "Espèce de hacker",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mr.tarkovish2587",
+      "author_id": "UC5mwsI-cWeqzS5dMGaQbKmQ",
+      "text": "C'est en Python ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pierredupont6526",
+      "author_id": "UCwFaCakkZBlFs4YFTVcDF6g",
+      "text": "Le gars, il re-écrit libcaca ^",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ReturnRei",
+      "author_id": "UCQ7TQnsMhsVCnM23BvFnWTA",
+      "text": "Je vais git clone de ce pas",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ngiiiiiiiiii",
+      "author_id": "UCOEDIXzRo66jXH0DoKVofVg",
+      "text": "Heu tu peut en faire un filtre instagram",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@PierreMiniggio",
+      "author_id": "UCKbunxMnqxM8UFMEYF79CUQ",
+      "text": "Est-ce vraiment une bêtise? C'est quand même giga swag ! :P",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@turbotrounoir",
+      "author_id": "UCHBAUA4iqfgHkRu0FUsolAw",
+      "text": "Jai toujours cru qu’on disais ASCII “assi” et pas “aski” ........ 10ans que vis dans le mensonge 🤯",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@K.emperorx",
+      "author_id": "UC-NU3h-Xv76zEAt8ndGhV3Q",
+      "text": "Non mais ho !",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@raph590",
+      "author_id": "UCPKtKKUhQyvmhNkVjpd1Dqw",
+      "text": "J'ai vraiment l'impression que les gens te prennent pour un génie alors que t'as expliqué que c'était tout con",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Wan_s",
+      "author_id": "UCdhMl2IigN97zuCpqOY1-bg",
+      "text": "ok je poste un com sans avoir avoir vu la video mais je sais que sa va etre génial comme a chaque fois \ncontinue comme ça",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ekozaak",
+      "author_id": "UCNIq16G0qJKbKmxYQx6HSYA",
+      "text": "Decu que tu n'a pas essayer de donner des couleures au charactères :(",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gillesletour1316",
+      "author_id": "UCqoGIDu7gYWstAzm-HsNY6w",
+      "text": "Salut !\nVous avez reçu des mails via la mailing list ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nazimjpg6518",
+      "author_id": "UCloeE97RWjfxKlUtIsIKPPA",
+      "text": "micode ton code ne veut pa marcher jsp prq ca maffiche Traceback (most recent call last):\r\n  File \"cam.py\", line 1, in <module>\r\n    from cv2 import cv2\r\nModuleNotFoundError: No module named 'cv2'\n\nsi tu lis ce mssg stp rpnd",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zainou8460",
+      "author_id": "UCGIyqwCNY7Juy8BGI2HjnFw",
+      "text": "Pourquoi j'ai l'impression de trouver ça complètement inutile alors que lui trouve ça ouf!??",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thegreatmastos",
+      "author_id": "UCZ40xsClkaFCaTcBCjF_Ciw",
+      "text": "J’ai rien compris",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeeaile5835",
+      "author_id": "UC18XIGwLUTYFRRStUjNbcOw",
+      "text": "Essaie de faire une conversion de vidéo à spaghetti\r\n\r\nOui, c'est possible : cherchez \"Torture Dance Spaghetti Ver.\" sur YouTube et vous verrez",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DeelightFenua",
+      "author_id": "UCVmcTeyHCx8PWPhJno3MuVg",
+      "text": "Mais - mais...\nTu as recodé la libcaca ? :D\nhttps://fr.wikipedia.org/wiki/Libcaca",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@varcovisci",
+      "author_id": "UCBxrAhVBb5TbMjzTJg7uUrQ",
+      "text": "J'imagine si on faisait la même chose mais avec des emojis  sa serait 😱😱😱",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@l.ondres",
+      "author_id": "UCdQmP2hnBRvkhLF6tyglmkw",
+      "text": "C possible d'être pirater quand on a ton adresse email?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@emiled20",
+      "author_id": "UCQ0BMRO1x2-42hv8ceKl62Q",
+      "text": "Bon bah j'ai ma nouvelle pp",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LaurentVivier",
+      "author_id": "UC3Q1LOHkJnh2uloGMVJEW-g",
+      "text": "dnf install aalib",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ook99",
+      "author_id": "UCm7cOXxlA97hL5M-BqVdukQ",
+      "text": "2008 a appelé, ils veulent récupérer libcaca http://caca.zoy.org/wiki/libcaca (merci Sam)",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@robingoldenberg4098",
+      "author_id": "UCbBBbINNGxMPN7buxvIjmug",
+      "text": "J'ai besoin d'aide j'arrive pas a lancer le code",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@misterx1334",
+      "author_id": "UCJXqRj3_y3tk4e3ojlFwDag",
+      "text": "Je pige rien 😂😭😭",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hajarsakouat8027",
+      "author_id": "UCI4oXIYwjC4iQjxFC_b7kIw",
+      "text": "pourquoi tu fait pas des video gaming comme fortnite ou je sais pas moi ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@elbambi2069",
+      "author_id": "UCioi6gBwjR2IrG3S2oNY5gQ",
+      "text": "On peut dire que le résultat est fLou xD",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Z0MBUSTER",
+      "author_id": "UCdk-Pf5ZG4gDJpwy8gMzCLQ",
+      "text": "\"On se fait rattraper dangereusement par un certain Hi Hax.... C'est la crise\" .... xD\nC'est qui \"Hi Hax\"? Quelqu'un connait? Un lien svp !)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Gyro3630",
+      "author_id": "UCYkoo8IZEGfYLh3thZ8HDjA",
+      "text": "Salut Micode (et ceux qui regarde le commentaire), \nJ'ai essayer d'installer ton programme (Mon editeur c'est PyCgarm) et il me dit qu'il ne trouve pas la librairie \"cv2\"\nje suis en Python 3.8\n\nMerci d'avance",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@game_noe",
+      "author_id": "UCbZ59XYWdbF_MrgABuKCAeQ",
+      "text": "Si quelqu'un connait un programme en python qui convertit une image en \"image texte\", contacter moi svp. ( si ca marche sur ma calculatrice scientifique se serait incroyable)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ahmedaminesabir9202",
+      "author_id": "UCXXrN4X5rby4YDjLTnmYMWg",
+      "text": "waaaaw",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@retr0699",
+      "author_id": "UC6UZUVG1EmFwZnqRkgYoY4g",
+      "text": "Salut genre je débute un p’tit peu mais sa va faire assez longtemps (que j apprend des langages etc ..)il y a moyen j y arrive ou c est chaud 🥵?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MordecaiXLII",
+      "author_id": "UClUln43gDuHUBpdh63zLbDA",
+      "text": "Mais euh... Bha ça s'appelle libcaca et ça existe depuis 15 ans en fait...",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kekkeigakki7467",
+      "author_id": "UCvh3mbMkZCKH1gAdn955z2g",
+      "text": "frère j'ai rien compris😅",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@charly_evt",
+      "author_id": "UCvO133Wn2HnIRVup00bRS3w",
+      "text": "(* ﾟ∀ﾟ)ﾉｼ Grand souvenir l'ASCII sur les fofos\nMerci de raviver tout ça 🙏",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@synerius4",
+      "author_id": "UC59SG1pxrEdlWvJBfl5Q1Lg",
+      "text": "berk du python ....",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jibrilfr",
+      "author_id": "UC1Q_UTd7LmUEPhwPCmyulog",
+      "text": "J'ai directement pensé a la vidéo de Ackanir quand j'ai vu la miniature !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Gwal",
+      "author_id": "UCfim_pf4WqSpYlujd-FJPDQ",
+      "text": "@Micode, il faut vraiment que tu choppes une Cam Lidar Intel Realsense pour t'amuser avec, je suis sur que ce serait rigolo\nhttps://www.youtube.com/watch?v=J8W1gLi3Idk",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@choowie92",
+      "author_id": "UCwjSbmv0Yf7mw1ngaur0lcQ",
+      "text": "Génial! Question, est-ce que ca vaudrait le cout en terme de performance de sauvegarder la frame d'avant pour ne calculer le np.mean que sur les \"pixels\" qui ont changé?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jounaydkb",
+      "author_id": "UCKWfjmzwov-IYUAorDDT4bg",
+      "text": "Mais je like psk cmme meme tu fait un petit effort mais pour le poeuple francais ca marche pas cmme ca",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gwenvaelfretelliere",
+      "author_id": "UCWQrqfBnoqns-Atd1Thdrvg",
+      "text": "En faite c'est la même technique qu'une compression JPEG, juste que tu fou des caractères au lieu des pixel",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@francoisroy583",
+      "author_id": "UCzP5cA9DWGSl9hZJakNA7zw",
+      "text": "Du traitement d'image en python, précisément ce que je fais en cours actuellement",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@scayzee8174",
+      "author_id": "UCj1YG9XV74MzzOK9wCCtKpg",
+      "text": "Go faire le logiciel de \"ASCIIart video conférence\" pour ligne de commande 😆",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Rayan-my2bl",
+      "author_id": "UC-U6TOL_SOy6ExKEryGRr8Q",
+      "text": "Excellent sujet ! Mais 1 journée c’est un peu beaucoup pour ça.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@foxtrottone",
+      "author_id": "UCpwmdnrkT6pTVPT9JgwoiFg",
+      "text": "Tu l'as pas fais ! -> non je rigole",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@takeshikovacs9134",
+      "author_id": "UCJCbSn2AjR6UGg5lOR21G5g",
+      "text": "Slt",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lucashervieu258",
+      "author_id": "UC-Z6k14SwzIcn8qerggjspA",
+      "text": "Moi je veux bien le faire ton blog :)\nJ’ai déjà dev différent truc",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@quentin_lam678",
+      "author_id": "UC95eV_gfOnewItpB9mNDZFw",
+      "text": "Tu code sur quoi stp",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jounaydkb",
+      "author_id": "UCKWfjmzwov-IYUAorDDT4bg",
+      "text": "Tu doit faire des lessons de se que tu fait pas just parler tu connais les francais savent tjr parler mais pas montrer .il garde tjr leure pratique a leur meme mais c un peux ego no ?!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Axlparlkour",
+      "author_id": "UC8tkBDmsT1BD7kdWM5nPcqQ",
+      "text": "il manque la couleur :(",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alichanaifoorc5881",
+      "author_id": "UCtDYwgErrX7UHlKR5X7OzwQ",
+      "text": "Salut jsui le premier like si tu aime micode\n\n\n\n\n\n\n😍😍😍",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@foksapet",
+      "author_id": "UCJAfVQSQqLfzwhTF8mdHKUA",
+      "text": "ben tu m’as déçu sur ce coup là.\nme dis pas que tu ignorais la presence de vlc et de son output module ascii 😳\nBon d’accord on peut pas  pas tout savoir\net ton approche a le mérite de bien vulgariser.\nen tous cas  bravo  continue merci",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@piaa2570",
+      "author_id": "UCpFJH4-zDjU1HUx7tS36kyQ",
+      "text": "askiip  ( . ¥ . )",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@YounEnvouteuse",
+      "author_id": "UC77c_Z0mpEQs1Lx3czrsN3w",
+      "text": "Salut micode, a une époque YouTube l'avais fait pour un 1er avril, j'en avais télécharger sur ma chaîne, une si tu veux voir . https://youtu.be/WxoWr540WsY",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jounaydkb",
+      "author_id": "UCKWfjmzwov-IYUAorDDT4bg",
+      "text": "Tu nous fait juste perdre notre temps !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Nono-Pruneau",
+      "author_id": "UC0DOvj4vlqe02lEfSFplxmw",
+      "text": "Fiste 6eme",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thesnowman1227",
+      "author_id": "UC9MrxRUfiXWsbYVPjtFvFoA",
+      "text": "Wtf",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Regional5071",
+      "author_id": "UCLz1JbIjCDBxBkMGDrViL4Q",
+      "text": "ViewerDeLOmbre",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@papyfun1373",
+      "author_id": "UCetf0fF1eGX-ZyAmWBHvQzA",
+      "text": "Toute un mise en scène,mytho",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manulaser7947",
+      "author_id": "UC2q0K0mQWFTOBndaHDtg-jQ",
+      "text": "Sympas tes bêtises",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Walzar_",
+      "author_id": "UCLptyOHgK07D0oDAkq76cJA",
+      "text": "First",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@duthoitmorgan8985",
+      "author_id": "UCaZT85Hg4roMJgt60RcDsIg",
+      "text": "First",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lepo1982",
+      "author_id": "UCxHZ31n07paD-4Zj6lYKOsA",
+      "text": "First",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@developaspeur1385",
+      "author_id": "UCbalbVIhijXrBBBk8vvpPDA",
+      "text": "Faire des bêtises ça fait faire des conneries",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kariboo84",
+      "author_id": "UCrh7_uv15h49SRJwFPPZDkA",
+      "text": "ok boomer xD",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jounaydkb",
+      "author_id": "UCKWfjmzwov-IYUAorDDT4bg",
+      "text": "Tu nous montre rien just bla bla en a besoin de la pratique 2020 c finis les théorie mon amie !?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BisMC",
+      "author_id": "UCudVDguoqZL81VRltcO2jXA",
+      "text": "Qui like mon commentaire sans raison?",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mariamelhaoui165",
+      "author_id": "UCIJtrfBB663GMJ5wkNf7P4g",
+      "text": "9eme",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    }
+  ],
+  "error": null
+}

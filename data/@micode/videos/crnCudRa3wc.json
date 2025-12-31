@@ -1,0 +1,4725 @@
+{
+  "video_id": "crnCudRa3wc",
+  "title": "J'ai créé un plugin MAGIQUE pour Shadow",
+  "url": "https://www.youtube.com/watch?v=crnCudRa3wc",
+  "comment_count": 524,
+  "comments": [
+    {
+      "author": "@Micode",
+      "author_id": "UCYnvxJ-PKiGXo_tYXpWAC-w",
+      "text": "Chaque semaine, un mini résumé de l’actu numérique sur Instagram : https://instagram.com/micode",
+      "likes": 183,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ShadowOfficial",
+      "author_id": "UCYXXQj0n1ciZfsKJCAE0szw",
+      "text": "Tu cherches pas un CDI par hasard ?",
+      "likes": 1800,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TATOOZ",
+      "author_id": "UCfJOCp-9ydmbGiO07Yi7Rtw",
+      "text": "Plus value du mec de chez Shadow : \"ok, très bien, ça marche, oulala les pop-ups\"",
+      "likes": 53,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Maksou556",
+      "author_id": "UC-zD7j0Ay0yyjhqdlSBTyQQ",
+      "text": "Question existentielle : T’écoute quoi pendant que tu code",
+      "likes": 287,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@empireImhotep",
+      "author_id": "UC-9hLSaVRQZ8Naa4Ynrf9Pw",
+      "text": "Mais la question c'est : Peux-tu hacker youtube ?",
+      "likes": 605,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Kya10",
+      "author_id": "UC8agxqaGynCUrJjx358DEsw",
+      "text": "\"C'qu'il me faudrait c'est une interface console\"\n\n\nOn entend \"Stadia\" résonné au loin...",
+      "likes": 217,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SanixDarker",
+      "author_id": "UClEW-2tqT3Z9puUDbTSouXA",
+      "text": "Avoir un github, ce serait bien je penses, pour partager tes projets avec nous !",
+      "likes": 20,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@o0FireBlast0o",
+      "author_id": "UCnqtjQS5fhr8_R9vWi_DzQQ",
+      "text": "J'attends ton programme pour le voir et apporter des modifs, partageons partageons",
+      "likes": 70,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@asnord01",
+      "author_id": "UCkRPw2xvuryqvvZ4goDdtMw",
+      "text": "C'est très intéressant de voir un dev web faire du système. On apprend toujours énormément quand on sort de sa zone de confort. \nContinue comme ça !",
+      "likes": 8,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BenjaminCode",
+      "author_id": "UCLOAPb7ATQUs_nDs9ViLcMw",
+      "text": "Super vidéo Micode ! Hyper intéressant et pédagogique même pour un dev comme moi. C'est cool de s'apprendre des trucs entre développeurs youtubers !",
+      "likes": 5,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@J0623-f5r",
+      "author_id": "UCX66wATFwAkyi7eDlw3VDDA",
+      "text": "C’est génial ! Très intéressant de voir la progression des recherches, ça donne plein d’idées inspirantes. J’attends la suite de la série avec impatience",
+      "likes": 3,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@djuhnix",
+      "author_id": "UCd_Zeiyo6_R26XltEK_qE0w",
+      "text": "Impressionnant ! Je te tire mon chapeau",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@the_lemosky",
+      "author_id": "UCn6uVNjBKosW8luKUcTAA8Q",
+      "text": "Je te suis depuis le début et je kiffe vraiment énormément ton caractère, ta manière d’expliquer les choses et surtout tes familiarités. Elles aident énormément à la compréhension. Bravo pour tous les défis que tu te mets et continue ainsi 😁",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@antoinepins8322",
+      "author_id": "UCjNvK69VPQ-wJ-JA1K-SsAg",
+      "text": "6:35 c'est cool de faire des parenthèses comme ça, ça donne de l intérêt à la vidéo pour les \"initiés\" et comme c'est assez court et concis, les \"néophytes\" n'ont pas le temps d être ennuyés. Ce serait cool d en revoir dans les prochaines vidéos. Ça me donne envie de bosser avec ces technos.",
+      "likes": 22,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@GregBallotepitech",
+      "author_id": "UC-4JBi3xOeeim0I4AxlWTxg",
+      "text": "Pourrais tu mettre le projet en open source ? :D",
+      "likes": 10,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@OlivierHeimerdinger",
+      "author_id": "UCxCBxhUCZO27eaYWjfQOEUA",
+      "text": "Excellent, bravo, je ne peux pas dire plus que ça....",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@linkeo5383",
+      "author_id": "UCbOslwXB4YcRlXFapuddMVA",
+      "text": "C'est ultra stylé comme projet",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@societederido7572",
+      "author_id": "UCDnYcXOioL1IRINUrnYcoPw",
+      "text": "TROP FORT ! BRAVO",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@demonxelloss",
+      "author_id": "UCRgr5D_Hs1Y19stbS5fo3pA",
+      "text": "L'idée est, en plus d'être pratique, absolument classe !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@icaryu4058",
+      "author_id": "UCst3S1lCT_sudavkKfFMmRg",
+      "text": "Vraiment épatant, toujours un plaisir à regarder !",
+      "likes": 3,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wizard9647",
+      "author_id": "UCIR95JgNiQYBH_iKz4Wqj8g",
+      "text": "Bonjour, je viens de decouvrire ta chaine et je suis fan, en effet j'adore l'informatique et cette chaine et faites pour moi! Merci micode",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maximelct",
+      "author_id": "UCFCqnC7kxXA6E0g8C-qhT3A",
+      "text": "Tu gères ! J'aimerais tellement avoir ton niveau !!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LostXxplayerz",
+      "author_id": "UCBjCp0pKx1_yRAYTuqLHZpg",
+      "text": "Enfin un peut de code divertissant sur YouTube mercie sa fais plaide ;)",
+      "likes": 8,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Farowa45",
+      "author_id": "UCJfUeqSU8t5jAr1j6BTQSQw",
+      "text": "\"D:\\Programs\\Assassin Creed Unity\\Cracks & Unlocker\" ?\r\nTiens tiens tiens...",
+      "likes": 62,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SoliditySam",
+      "author_id": "UCbdnFJtGWypeSb2jRzeeGjg",
+      "text": "Je t'adore, tu es fort avec node.js!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jordi2837",
+      "author_id": "UC_J9eFbmkYRZuXC-CufiDbA",
+      "text": "Générique très stylé",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@-ryse-234",
+      "author_id": "UC5_wyoN_zNP3ozkfCEIaypQ",
+      "text": "Trop cool que tu refasse des vidéos !!!",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Corbaque",
+      "author_id": "UC8wKU-njEjAejl8Wny-hfVw",
+      "text": "Le gars de Shadow aime tellement son entreprise qui s'est fait une coupe de cheveux de leur logau",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Cbibi0",
+      "author_id": "UCz2ndKcNYsZXvgYazFUkebQ",
+      "text": "C'est impressionnant, bravo Micode et Merci Shadow pour la bonne volonté.\nVous allez faire des ravages l'année prochaine, on y croit.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@matheor776",
+      "author_id": "UCEY7UOor2sO33JLU-eFSfeg",
+      "text": "Fais d'autres vidéos de ce style stp micode t'es juste trop fort !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Revo95160",
+      "author_id": "UC614roWG-8VdmiI74BxWq4Q",
+      "text": "7:10 quand t'es content de toi après moult essais.\nPS: c'est cool d'être à 2 pas d'une grosse société d'informatique, si t'as un souci tu forces la porte xD.",
+      "likes": 103,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ambroiselebs",
+      "author_id": "UCw6dQXTq4t9_eNnlmwjnYjA",
+      "text": "A quand la sortie sur github",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Floflox",
+      "author_id": "UC4GtMYJ-ylIscxUbrGcrEFA",
+      "text": "Super intéressant de suivre toutes l'evolution du projet, les problemes que tu rencontres et tout. J''aime bien quand tu pousses les explications un peu plus loin et que tu \"parles chinois\"",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lelabsanstheme3863",
+      "author_id": "UCvni4XOtSInI0-zdkcfF2Jw",
+      "text": "Wow encore du beau boulot a chaque fois je prend une claque",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@techti7696",
+      "author_id": "UC-HmEYqsgmBYdIngxCdt__Q",
+      "text": "Super vidéo Micode le bg",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@timotheioos2673",
+      "author_id": "UCAtmgsuXVtcO_McPWVcveCQ",
+      "text": "Cette série est juste incroyable !",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@flaviollino",
+      "author_id": "UC-L9KFyisUg2X63DyEGaDPw",
+      "text": "C’est styler",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lauriclolo4094",
+      "author_id": "UChgPk-bt6H7ehd8Z9wIORcw",
+      "text": "Oua sa fait Bizar de voir quelqu’un plus fort que toi en informatique !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sebgoffin",
+      "author_id": "UCfmIiiGaK0io4I9XlUu-BOg",
+      "text": "Beau Travail 👏🏼 tu es au top.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mikportos429",
+      "author_id": "UCtJWKX6poFj5PLezkY7TuHA",
+      "text": "C’est cool sa shadow devrai faire pareil . Exemple tu démarre shadow que ce soit une box ou une app win / Mac / iOS / tv . Et laisser le choix à l’utilisateur juste avant de faire « c’est parti » de pouvoir avoir l’interface console dit simplifier pour lancer des jeux ou encore plus page web ou Facebook et de l’autre l’interface qu’on connaît tous le fameux Windows 10",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thewarmachine9713",
+      "author_id": "UCGt8HUoeUfOgavWshUlIHqw",
+      "text": "Franchement respect je débute dans la dev et réalisé un programme en 24h c vraiment pas évident. Bravo mec",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ckylian83",
+      "author_id": "UC5LYT3DxG9m-QAG6vqdJFcw",
+      "text": "J'utilise shadow depuis un moment et je rêve d'une telle interface super boulot !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@edwinaldrin4023",
+      "author_id": "UCXIuxVUYE-kO3eaxIxo-g2A",
+      "text": "Trop bien !!! Je veux ton appli !!! Moi aussi j’ai pas mal « hack » Shadow pour toutes les fonctionnalités qui ne servent qu’a moi et que personne ne veut...enfin je me sent moins seul merci Micode.",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@loulou64490",
+      "author_id": "UCI6thz5fynvl6mmSaYmoj3w",
+      "text": "Le petit Spotify en fond 😁",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@johnd5426",
+      "author_id": "UCZLXHW0IUquHhFY6kJg9QCg",
+      "text": "Il se trouve que je possède Shadow depuis plusieurs mois et que je l'utilise très peu en raison de moult problèmes de périphériques. Ce programme pourrait peut être m'aider à résoudre une partie d'entre eux, donc je vais suivre ça avec intérêt.\n\nMerci à toi.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Hemessyu",
+      "author_id": "UCpW7RDApV0--LNj2KmrKbmA",
+      "text": "Chapeau et bonne continuation",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@greenmattt",
+      "author_id": "UCjXjO-ITuO62Hy-WGrKUGiQ",
+      "text": "Le gars il commence par je sais pas faire et un jour plus tard il le fait 😭",
+      "likes": 23,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@abdesselemboufenchouche8048",
+      "author_id": "UCgRQSpp2bQPkez4OSIEdpIw",
+      "text": "C une super bonne idée 🔥",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fritzrandal7508",
+      "author_id": "UCqTyC0MGCiNqeVN1K_ULCBw",
+      "text": "Je kiffe la miniature",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Alex-dz7mt",
+      "author_id": "UCYRquitoZGCCyT_TGqGE2DQ",
+      "text": "Vue.js, ca fait plaisir !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@erouroger5865",
+      "author_id": "UC9Fw21qifEWmeS3j6hwCkhQ",
+      "text": "Dingue ça, bien ouej !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Zeblyss",
+      "author_id": "UCSW7Rg23KXjqZowDKn1iecQ",
+      "text": "J'adore le concepteeeu",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kraguesh",
+      "author_id": "UCAjg1dzIgP78llElOAWbiGA",
+      "text": "Un homme bon qui fait du Vue plutôt que du React. J'aime ça",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NextGenMilitaryTV",
+      "author_id": "UCOwLcdeMxb5atlacD-B0sWQ",
+      "text": "Le poster en arrière plan de: 2001, Odyssée de l'espace 💪👌😎",
+      "likes": 7,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@IbrahimisPlaying",
+      "author_id": "UCTS_JY8unkjU9JEqH5EKEeQ",
+      "text": "Intéressant, merci pour cette vidéo et bravo pour ce challenge ;-)",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nacl0935",
+      "author_id": "UCqwuQqJ57prXv76QtwuUoLw",
+      "text": "7:00 quand il change la résolution j'ai dit tout ça pour ça XD",
+      "likes": 3,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Reg2488",
+      "author_id": "UCIohW9ZGXEJU00xBG284qgg",
+      "text": "3:49 Ah les joies de la prog, ou un truc sur le papier parait bête comme les pieds, mais qui au final, est un enfer à programmer.",
+      "likes": 23,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lehacker771",
+      "author_id": "UCk3j86w4azldKOKDk2QhQ1A",
+      "text": "Très bonne vidéo",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rod-catourne3465",
+      "author_id": "UCaxMshkpWJiisWBPUDrqxUQ",
+      "text": "Le bosse enfaite",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SuperLink15",
+      "author_id": "UC5ul01_me3bBkp3SyZnNOHw",
+      "text": "Tu m'as fait découvert Electron, et ça m'a pratiquement changé ma vie",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@reflexeprimitif",
+      "author_id": "UC0ev4NA44NerGZGp2-Xlu2Q",
+      "text": "Tu fait de très bonnes vidéos tu n'as pas de te rabaisser ça",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Bonifacio2A",
+      "author_id": "UCFy3y54HKKJG_EWFSB__Mlg",
+      "text": "Les 5 actualités ? Hugo décrypte sort de ce corps",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@stephanes343",
+      "author_id": "UCm8Xuwe9u_LoYfj4Bij3iew",
+      "text": "bravo je suis fan !!!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ThePierreLab",
+      "author_id": "UCqFqCEBX3Tca89xtSTQbMFQ",
+      "text": "J'ai rien compris mais j'ai kiffé !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Xenorki",
+      "author_id": "UCt0HHx6my6IHNk4o7NWKhBQ",
+      "text": "Pour les popups active l'assistant de concentration",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@antoinevendeville8534",
+      "author_id": "UCK4Caj5nwSL7zCzJ4qO9YHw",
+      "text": "9:20 \"Cracks & Unlocker\" ಠ_ಠ",
+      "likes": 17,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RedsTom_",
+      "author_id": "UCPXcO_DOdMxYy4Izm-e79qQ",
+      "text": "Tu pourrais nous donner un github stp",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@stan-906",
+      "author_id": "UC2jf1HqP9KFYwqxhOqS0pfw",
+      "text": "Un instant j’ai cru que l’interface allait être faite en C#, beau travail !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@enzoquirici4556",
+      "author_id": "UCViRvgzWiI77LUAOQaDeo6g",
+      "text": "Ce serait possible d'avoir l'application ?",
+      "likes": 1,
+      "timestamp": 1704067200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ds2kx",
+      "author_id": "UCBNlgOsZqlMGjNk14do4odA",
+      "text": "Et sinon après presque 3 mois, tu comptes le mettre sur github pour voir un peux ton taff pcq la on est loin des 2,3 semaines. Github te permet de comiter etc cq sert un peu à ca finalement donc c'est quand tu veux ^^",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vlcq",
+      "author_id": "UCpGfefUe6iMhwGnMiWh4lHg",
+      "text": "Steam a un mode big picture et on peut y ajouter des jeux externes",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrMasquime",
+      "author_id": "UCdet4xq0UvLFt6l_Lp1YgfQ",
+      "text": "Tu es inspirant.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alastavi9630",
+      "author_id": "UCA95l6OjWU0QPpSPOeqQ4Pw",
+      "text": "j'aime bien à 9:21 dans le dossier pour choisir un jeu le dossier Cracks & Unlocker ;)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FurtifKing3091",
+      "author_id": "UCBZ47hz0wv1QpASoweJUGpw",
+      "text": "Très bonne vidéo de nouveau! Please mets les actualités numériques avec Hugo sur Youtube aussi et pas seulement Instagram",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@albanthome511",
+      "author_id": "UCBaYl6Mt_cJiwUP_iMI9_jA",
+      "text": "3:00 Best définition ever de l'informatique !! mais c'est ça qui est bon ;-)",
+      "likes": 6,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AlbanArnaudGuinaudeau",
+      "author_id": "UCPojjvgbwdaJCYW3yMbhelQ",
+      "text": "\"Nan en  vrai c'est sylé\" [gloussement] la magie  d'un enfant à l'approche de Noël Aha. Excellent contenu encore une fois, hâte d'avoir la suite de tes aventures Micode.. :)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@badaisnyfounet4ever762",
+      "author_id": "UCgPLScm3JbJk6ZqlNZZgrag",
+      "text": "Bravo, il faudrait plus de videos comme celle ci pour ceux comme moi qui voudrait se jetter dans le bain de la programmation.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@niotna666",
+      "author_id": "UCGv84IfUjTHhQAZ0Qwib3vA",
+      "text": "la vidéo est génial bravo mais encore plus bravo parce que grâce  a toi j'ai pu me débloquer sur un programme perso (je connaissais pas les n-api de nodes et c'est exactement ce dont j'ai besoin !!! ) donc un énorme merci !!",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sous_son_yeux",
+      "author_id": "UCT3AVsaM-BRDrvCRRopT6xQ",
+      "text": "Super j'utilise shadow ca fait plaisir et ca met en confiance xD",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Colas1001",
+      "author_id": "UCpiYbKRZoVTxwC1da55dhUw",
+      "text": "Le boss de retour",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@demosamv673",
+      "author_id": "UCYTEUbrD7-FUlfUjA-q72Xw",
+      "text": "Très intéressant la vidéo trop cool",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theo_ludwig",
+      "author_id": "UCfEKQzI3c8vmZOrsTOi5spA",
+      "text": "Hâte de voir le code source de ce programme! :D",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sosthene3898",
+      "author_id": "UCFYGPJcwwlxoLHzn5piztsw",
+      "text": "J'ai r capté mais c'est stylé",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Masstock",
+      "author_id": "UCkO3TONcVlqb3TPJomndlAA",
+      "text": "Stylé ta marque !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@reyze1487",
+      "author_id": "UCL0tzSR9-y9O93wBjKjSbNA",
+      "text": "Ce serai cool que tu aille à popcorn en temp que challenger, je te laisse te renseigner 😉",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@whypopocorn",
+      "author_id": "UC_ive2FrC-zq4u7-j1nIGtw",
+      "text": "Salut micode tu pourrais faire un livre qui explique la base du codage par exemple en html avec des petits exemple perso moi l'acheterai directement",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ag6896",
+      "author_id": "UCcQb1bqJKIgedahrdm_xLbA",
+      "text": "T'as un air à la Peter Parker dans le style et la façon d'être passionné par ce que tu fais. J'aime beaucoup.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jadyrama",
+      "author_id": "UCckH4je3jEHiio14XhKLM9w",
+      "text": "GENIE.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pazzazzo",
+      "author_id": "UCjfaDJdvS2waQuYoHh3CYUw",
+      "text": "salut, il est ou le code source stp, j'ai beau chercher sur ton instagram je trouve pas",
+      "likes": 4,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Florianabr",
+      "author_id": "UCUFt4tfAwMK7uTRwgR7phyA",
+      "text": "Je crois que je pourrais regarder ses vidéos pendant des jours entiers 🤔",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeffhubert1752",
+      "author_id": "UCfH6tA3YPAtik5a8dSHauYA",
+      "text": "mec gg franchement je viens de te connaitre sur cette vidéo, et franchement gg mec +1 abonné xD",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lilp4p1",
+      "author_id": "UCfv_x8ubWV06OuGOQZNBYeA",
+      "text": "Prochaine fois fait le eudyptula challenge, comme ca tu prends du level en C",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FouseQuentin",
+      "author_id": "UCsvG0EMZX2bBdsAtR4DyVAw",
+      "text": "Bra - fucking - vo!\nBravo micode !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@stan-dt1bc",
+      "author_id": "UCBi9zNB_B3V1wKInRhjNSNg",
+      "text": "Imaginez avoir son talent et son savoir sur l'informatique",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cyrhades76",
+      "author_id": "UCxyvSF-hpyXt6JIAquwrYIQ",
+      "text": "Pas mal du tout, beau challenge ;-)",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Julien-dy1tc",
+      "author_id": "UC07OpxYtFJ3uYQGpx250Mcg",
+      "text": "SteamOs est là !",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lucasl.2337",
+      "author_id": "UCzk3Rro9egdTCfrbUqBJgng",
+      "text": "Musique lors de l'outro svp ?",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yvoirien13",
+      "author_id": "UCKupaiUbOCBZa_f_t2S2cjg",
+      "text": "Tes tellement le boss ! 💪",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bakublade9505",
+      "author_id": "UCrmNtOeaQ_EAJYEqVsn1P9Q",
+      "text": "Woaaw il tue le générique, bien joué",
+      "likes": 16,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@B.W.I.L.L.Y",
+      "author_id": "UCcj5LmIcH7AQHaCCfK2VfXQ",
+      "text": "Ca trigger un peu le fait que le timer des 24h s'écoule en mode seconde par seconde par moment alors que c'est sensé être des minutes et soit fixe à d'autres xD",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Frenerth",
+      "author_id": "UCTCj71Yy0gaRwKgB2Long0Q",
+      "text": "En vrai, en 24h t'es chaud et c'est vraiment nice :D",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "",
+      "author_id": "UCILr15NnxPApmE-rTuukJ-w",
+      "text": "GG, c'était un gros défi de réaliser ça si vite et ça rend super bien ! Je suis curieux de voir le code source de tout ça !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@imperatormaximus",
+      "author_id": "UCsgcXyOVZO85FaxP3-nDP7A",
+      "text": "\"Je suis une quiche\" -> arrête de dire ça, personne ne te croit. Vraiment.",
+      "likes": 29,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@noahmunz3201",
+      "author_id": "UCOMt3DZ_uGS5uU5ECEpro0w",
+      "text": "Omg les balls de Micode 😂😂 un Énorme a respect à toi ♥️",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ambroiselebs",
+      "author_id": "UCw6dQXTq4t9_eNnlmwjnYjA",
+      "text": "Comment à tu fais pour lancer un .exe avec JavaScript ?",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@romulombrick2753",
+      "author_id": "UC6hnSz4a8E1sv1P_0N6jMxQ",
+      "text": "gg mec",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@namorlirraguidere9286",
+      "author_id": "UCyD2bazruhylMG-LWQcH63g",
+      "text": "9:16 C'est quoi ce dossier crack & unlocker ? :)",
+      "likes": 2,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Racinne",
+      "author_id": "UCMSuG7VZ7NRaH6SE2JvbaSw",
+      "text": "Toujours autant bluffé par tes défis ! Ça me donne envie de me lancer dans les miens ! (Même si le temps est un véritable gouffre infini qui aspire TOUT)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@greenst4r5",
+      "author_id": "UCVbb1tcfB323O4pV8VLz6Xg",
+      "text": "pourais tu mettre le projet sur github (pour les video avenir)",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@neuhneuh2202",
+      "author_id": "UCBWmkGMmQb2U14CVPQNUg0g",
+      "text": "Génial. Ça me régale ! D'autant que j'adore Shadow, même si j'ai dû me résoudre à me désabonner !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bricehemery1534",
+      "author_id": "UCIKjd-T6Lm_2kNkAt9FJINQ",
+      "text": "Ce mec me donne vraiment l’impression de perdre mon temps en école d’ingénieur informatique",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bridalbreak7330",
+      "author_id": "UCWU6h2hnRVxEOzpGT-Uf1Lg",
+      "text": "Cool vus que je connais le node.js",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Jordan-vx5zp",
+      "author_id": "UClwXUeby1Rp_KBWyz5Oi0Mg",
+      "text": "J’aime bien le dossier crack et unlocker dans le dossier assasins creed !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@e16uan71",
+      "author_id": "UCYvFLf-WCPbuDIdqMpwtKMQ",
+      "text": "Je l’installe dès que tu sors l’app",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xodowo",
+      "author_id": "UCMz3SgpxKbuOqLQt_THNwhw",
+      "text": "dès que t'as énoncé ta problématique j'avais directement pensé à Electron <3",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nymrinae",
+      "author_id": "UCb1oDks6MaLc6xiNT8NvYww",
+      "text": "ELECTRON + VUETIFY + VUEJS POGGGG",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@HeisenbergProd",
+      "author_id": "UCjeeeYc47rvKF2RaaLPRcEQ",
+      "text": "Fin de la pub ! Et maintenant : La pub !",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@joachim2185",
+      "author_id": "UCs39LXM4d70pwFgWVYHmsCQ",
+      "text": "Tu peux chréer une inteligence artificielle",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sebbalo44",
+      "author_id": "UCOBmWDWRKwtktA_o1qoObqQ",
+      "text": "1:43 Le C’est pas grave 😆",
+      "likes": 3,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@EnkiTurboD",
+      "author_id": "UChcvG_Yu6BGhKOZe7qpZYWA",
+      "text": "Trop prévisible Electron",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Jaize",
+      "author_id": "UCFydcTHSsYYDRfklZZR93ew",
+      "text": "Le \"ptdr t ki\" Jiraya va être content 😂😂👌",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nicolasl4994",
+      "author_id": "UC3LToUBV2PBioOCk-eZyQhA",
+      "text": "La vie caché de Calogero, codeur chez Shadow",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Sam-Bxl",
+      "author_id": "UCB6tGLMDB6pMUdFD-sC6yqg",
+      "text": "Bravo Micode, c'était un sacré challenge ! Et bravo aussi aux devs de Shadow (et à toute l\"équipe !) qui font un super boulot. J'utilise Shadow depuis plus d'un an et j'en suis fort satisfait ! Mon code promo pour vous : SAMPARKS",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ntoine_",
+      "author_id": "UC7SeQBiUwNT-qXvmOQt0bCw",
+      "text": "tres belle com pour acheter shadow en tout cas",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@konstantin-bifert",
+      "author_id": "UCH_kvzFVQJ5AHCahAWbsJUA",
+      "text": "Haha, cool de voir que tu fais du Vue + Electron. 👌🏻",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ami1652",
+      "author_id": "UCKbRKGg88oyAvnq8OYywWzQ",
+      "text": "Bravo",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NicosCheat",
+      "author_id": "UCqLzQYuqSf90xbieQxiK1Ag",
+      "text": "du coup on peu avoir l'appli ?",
+      "likes": 1,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@romainpierre6875",
+      "author_id": "UCP_nSxpNMS6dl1rb9gBVS0Q",
+      "text": "Je n’ai rien compris mais c’était cool.",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vatox5432",
+      "author_id": "UChdFRwLJTlGbtaSfBb9BhjA",
+      "text": "Tu peux faire une vidéo pour programmer un bot discord",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ctom-studio",
+      "author_id": "UCjC9DJVjBpohEnC9dux2T3Q",
+      "text": "Put...naise propre !!! Enfin presque hé hé hé good job mec",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@newlysama2846",
+      "author_id": "UCFMV6MsSFbU_TYTZ50fX_lA",
+      "text": "Mmmmh gérer son espace mémoire tout seul on adore ! Vive le C !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@osc4rmusic415",
+      "author_id": "UCSt-saJN4q9bnoUHejdZcQg",
+      "text": "Mais mets un lien de téléchargement je t en supplie",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cnelzi",
+      "author_id": "UCuFzSvLGbuHHTYU-I5tjNlA",
+      "text": "tt le monde a compris la ref ptdrtki",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rodolpheschatteman6350",
+      "author_id": "UCtU8-hAH72jK4yJMUU5MPRw",
+      "text": "Bonne vidéo mais dommage ca aurait été bien qu'il parle ensuite de l'interface officiel voir comment ils ont pensé les choses etc",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lucasfaucher881",
+      "author_id": "UCnkcBteAP3Tz2j4VnAxkqtg",
+      "text": "Trop bien 👍",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@peacetv6847",
+      "author_id": "UCXHsXOScfNWKy_h-ixf4haA",
+      "text": "Dans kodi, il ya aussi un module qui permet de changer la resolution sans passer par les app windows, meme que parfois ça prend la tete parce que il le fait  sans tu l'aies voulu  quand tu es une quiche en kodi comme moi   :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yukijoestar9584",
+      "author_id": "UCqitOEtpOHUHOOyBNSKQS9A",
+      "text": "Sardoche est heureux en voyant ca",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fabricemenoud3296",
+      "author_id": "UC0VYINuFXsKP2K8294C9QvA",
+      "text": "Très bon boulot, même si comme tu dis ça ta pris plus de temps, je dis que c'est très bien fait et j'ai adoré la phrase \"on est 3 sur la planète a vouloir faire ça\"😂",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ruhtra3368",
+      "author_id": "UCofyf99kiypyaRglN9MV6fA",
+      "text": "J adore tes videos bravo!!!👌😉😉",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@samy2936",
+      "author_id": "UCWeMAvsZXy2CSgOqRLM_sqA",
+      "text": "Joyeux Noël en avance à tous",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gabingrbg7601",
+      "author_id": "UCvZ8csDh28l4gQVw9nzXiIw",
+      "text": "Moi j aimerai bien qu il nous explique comment hacker la led du mode examen avec un programme informatique !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@aidiesohot",
+      "author_id": "UC1H11Ce1VAoolOm1xpUmlXA",
+      "text": "Cette rue St D*** deviens de plus en plus mal fréquentée  ^^",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Lenmaer_レヌメアル",
+      "author_id": "UCS10FRSI42hVNVtwHJ2pXxQ",
+      "text": "Vraiment sympa, bravo.\nPar contre faudrait aussi un hack pour désactiver le module présence et qui éteint le shadow en cas d'absence. Ce truc c'est une vrai plaie quand tu fais de l'encodage.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DUCKYKY",
+      "author_id": "UCjmB0Po7lFCUsVQLkE9Sr_w",
+      "text": "Du coup je viens de comprendre d’où vient le : « J’ai le shadow qui bug ! » de yepco 😂🖐",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Hackii",
+      "author_id": "UCtie_bEBEQs5fCnA3TnGa3Q",
+      "text": "Ah la prog ^^ tant de nuit vécues avec mon qtcreator, visual et notepad ++",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@EliottSrl",
+      "author_id": "UCE-fEdoPniT5V3xz0K14rXg",
+      "text": "BOSS !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kezako777",
+      "author_id": "UCVhA1cphX41w0J9_lF9cIrA",
+      "text": "trop cool ! j'attend de voir l'ajout d'avatar via appareil photo avec base de donnée sur disquette relié a internet via un 3310 modifié :p non sérieux respect, il est ou le forum bidouille participatif de micode ? continue !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@amine3727",
+      "author_id": "UCCfsod4iaUYAoQYptRPvPuw",
+      "text": "Toooop frère",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ritensu",
+      "author_id": "UCCuo-rSU7_gvnzBqRR2qyQg",
+      "text": "Ton intro le clavier qui écrit Micode & Tomy. Oui j’ai commenté pour dire ça.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@darkwolf3d314",
+      "author_id": "UCEy8Q5Ru0qJO9i8z4twpuSg",
+      "text": "Le mec relou à faire toujours sa pub pour Foreach, du coup j'ai craqué avant la fin de la promo bordel X)",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@g.del.175",
+      "author_id": "UCyYSEvzvIdNFo1yIYv5Gz_g",
+      "text": "Ou ça en est shadow je me tate de le prendre pour moi et mon fils",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@PPriker11",
+      "author_id": "UCqLY-Hhkj5pmWeezfqpHtcA",
+      "text": "Ça aurait été cool avec le mec de Shadow qu'il aille un peu plus pointé les problèmes de ton appli (parce que je suppose qu'en ayant codé en (1semaine ?) je doute qu'elle soit parfaite d'ailleurs tu le dis toi même) superbe idée de vidéo sinon",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SC180410",
+      "author_id": "UCwjcf-ewOBHWQbvnEwPrKGw",
+      "text": "Dans ta vidéo SETUP 2019, tu recommandes le DELL XPS13, mais dans tes autres vidéos où l'on te voit coder, tu es toujours sur ton Mac. Une raison à cela ? Une habitude à l'environnement Mac ou tu les trouves plus adaptés au code ? Je me pose la question car je souhaite acquérir un nouveau PC",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Jelven380",
+      "author_id": "UCbL970DcDX0U43tNJ2tKFqg",
+      "text": "J'entend Eletron et la RAM se battre. Rip, mon coeur de développeur natif à eu mal mais il est vrai que en 24h ça aurai été encore plus chaud.",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DailyBestOfSardoche",
+      "author_id": "UC-jYZZdX85-Bs7UgH9OKE_Q",
+      "text": "Après shadow c'est cool, j'ai eut l'occasion de l'acheter pendant 3 mois (j'avais 10m/bs) donc pas ouf mais c’était il y à 1 an et demi depuis j'ai 100mb/s j'ai put l'avoir pendant 1 mois mais je tient à dire que ce n'est pas dutout fait pour les jeux vidéo en ce moment (j'ai tester en octobre 2019 dernièrement) et j'ai une plutôt bonne connexion mais il y à une latence horrible !",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Jwaana",
+      "author_id": "UCC_6lJjXgNYE-lxTWimwUgQ",
+      "text": "Nice 👌🏻",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yassineharazi2087",
+      "author_id": "UCBXSyUDkaUpk7Vc_EIibgWw",
+      "text": "fait une video de ton decore stpp",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vii_vipers",
+      "author_id": "UCBluwr9GqKHwJOBHUZjECEA",
+      "text": "Fait une video ou tu apprend un peu les base pour coder",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zoejouvencon8160",
+      "author_id": "UCS-FPcqXIRdDH1S7fAKmprA",
+      "text": "Hello ! Il ne l'a jamais release au final.. dommage, quelqu'un à commencé ou terminé un projet similaire ? (Github)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DestructionBerserk",
+      "author_id": "UCVJ7bMFmvfQY5oJnS6P4MtQ",
+      "text": "Salut, est ce qu'il y aura les actus numériques sur la chaine YouTube un jour? J'imagine que c'est un moyen de ramener des gens sur Instagram, mais pour les personnes comme moi qui ne sont pas trop réseaux sociaux ce serait sympa de plutôt pouvoir les retrouver sur la chaine. A part ça trop cool ce ptit challenge j'aime le concept !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "",
+      "author_id": "UCvDyIgsdxEDGxD4bkIU_5DA",
+      "text": "Bonjour Micode! J'ai un peu cherché sur twitter mais je n'ai pas trouvé le code/application. L'as-tu sorti? Car je voudrais ajouter ton application à ma solution de cloud gaming avec Parsec. Bonne journée/soirée!",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Vorveck",
+      "author_id": "UCBxf9YvuW2f3ms0BrZD0FzQ",
+      "text": "Salut Micode, Je comprend que tu évite de parler technique pour les noob de l'informatique, mais ça serais cool que sur la fin de la video ( par exemple) tu nous parle sur la technique pure et dure ? c'est possible ? en tous cas bravo pour le boulot !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FordKarot",
+      "author_id": "UCG_7FxXs9cLTaWjpHKyXjvg",
+      "text": "Quand je fais une résolution personalisiée avec le panneau de configuration NVIDIA, elle apparait dans l'application réglages, du coup ChangeScreenResolution.exe marcherait avec ça",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@demostanis",
+      "author_id": "UCC4Q28czyJPjSPtYQerbPGw",
+      "text": "Wow, c'est fort.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Nahpo",
+      "author_id": "UClHQPjUUpt-5kItd1rc0cOA",
+      "text": "super vidéo parfait les explications sont assez symple, la vidéo pas trop long grâce au timelaps non vraiment super",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MaxFri2109",
+      "author_id": "UCvacyCTt7Ss31prn3xBi9bQ",
+      "text": "comme disait mon formateur info des années 2000 : \n\"Vous arrivez dans un domaine qui n'est pas prévu par Microsoft.....\"",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@serber2143",
+      "author_id": "UC3LTUwPN-fgI_vZL26T4KZw",
+      "text": "GG",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@IamHeartBtz",
+      "author_id": "UCJ_B5bbmP3oKKf1QwScVVXQ",
+      "text": "J'ai compris ton charabia, merci mon école d'ingé:')",
+      "likes": 5,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@teggy21",
+      "author_id": "UCiV08umzgXYrjkOXLWkBP1A",
+      "text": "Stadia en total PLS !",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AlexWerner42",
+      "author_id": "UCET92w2CeGBIA-McSPWRGrQ",
+      "text": "Soyons honnête, meme si il t'aurai fallu une semaine sur la simple problématique de binding des binaries sur Node. C'est déjà impressionnant. Mais entre toucher pour la premiere fois a la stack entiere (Electron -> Binaries -> NVAPI), GG mec ! \nBonus point pour avoir participer a redonner de la noblesse au terme \"Hack\"/\"Hackeur\" au public francais. \nGG !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@coobs2528",
+      "author_id": "UCzuzV2BAWM3u_ozK8m1P2Pg",
+      "text": "Salut Micode si tu arrivais à dev un appli like VS code pour Ipad sa serais archi louurd , voilà voilà c’est qu’une idée, continue ce que tu fait c’est cool",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Pandouxette",
+      "author_id": "UCz-odQ5ItmW9i5dJoKj3eOw",
+      "text": "Y'a un Github ?",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@drumstudiocoverfrfr1020",
+      "author_id": "UCv_jG4YxJge7TkoMNP4gBuw",
+      "text": "limite tu utilise Shadow pour faire de la cryptomonnais, les pc disponible sont tellement puissant !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@adeline4442",
+      "author_id": "UC1d9Ej5YX2K9NDvY0O6i3og",
+      "text": "Micode je sais pas si j'ai un virus dans mon tél car un \"ami \" a moi ma fait cliquez sur un site bizzare et j'ai un peu peur pour ma vie privée comment on fait pour retirer",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@IdrissNeumann",
+      "author_id": "UCqilL5ZTJU7bwkDQlKowVsQ",
+      "text": "Tu devrais laisser un lien github en description pour que les gens puissent aller plus loi :) Sinon c'est très stylé, bravo !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@henribommart4052",
+      "author_id": "UCRgjoHIVhr3uWu4XpQRRdpw",
+      "text": "ça serait possible de partager le format \"les 5 actualités\" sur youtube ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Learnbynet",
+      "author_id": "UCBQTYaIQW__30fm_PRAtO4A",
+      "text": "moi j'ai une petite preference pour `nwjs`, `electron` ma trop donner de problème ya quelque année, ils ont surement fait beaucoup de mise à jours depuis.\nEn tk bravos pour ton app, ces la meilleur façon d'apprendre.",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@misterxeric",
+      "author_id": "UCijRwUP-K1llxdrvMGgdn_w",
+      "text": "J'ai une xbox one, et typiquement j'aimerai beaucoup avoir un launcher shadow pour xbox one, et ensuite avoir une interface comme la tienne pour gamer dans mon canapé avec ma manette xbox ^^",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dogewouf5436",
+      "author_id": "UCkOus80l3IIK3iQ9eNbDaCg",
+      "text": "gg",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DamirMaatar",
+      "author_id": "UCSCmx8O5JgdotTC98QYhaXw",
+      "text": "T'a pas parlé de comment l'app reconnaît les entrées de la manette",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gravel-demi-sel",
+      "author_id": "UCtzkjOt7QdzrpJqFFuLVKZw",
+      "text": "Je t’adore boss 😁",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yoann_m491",
+      "author_id": "UCTkmXtql-gsftstdjRb9BSg",
+      "text": "Micode : Je veux une interface qui soit totalement pilotable à la manette.\n\nSteam Big Picture : Am I a joke to you ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@megakiller90qc",
+      "author_id": "UCiI3kIrmGz7FdlKvx70ISbQ",
+      "text": "Perso j'utilise un pc omnisiant pour lancer mes programmes pour être sure de ne pas niquer mon pc",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@grivhar7843",
+      "author_id": "UCfExMhL5AaUzK1fBQpR8QbA",
+      "text": "Salut, je tenais juste à dire que j'utilise parsec, qui est une application servant a utiliser son propre pc comme shadow, en gros avec mon pc portable je peut jouer a distance sur ma tour, et ce sans latence , alors même si shadow a créé un truc du genre sa peut être pratique pour d'autre système",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@KayakOwwO",
+      "author_id": "UCQR8oqa64LbJ_bBr5qCTwkA",
+      "text": "Cool",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tommichelon1703",
+      "author_id": "UC8Muo1hTpheemhejUD5U3NA",
+      "text": "Pas mal ^^",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@grumlyys",
+      "author_id": "UCrou7C2ZdoFVUKwnPyiCN0w",
+      "text": "4:24 il a bien dit \"intérager\" ?",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@busybox4984",
+      "author_id": "UCmDaNI_7_Ra2C0dvTOMJ4JQ",
+      "text": "Cracks & unlockers ? 👀👀👀",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mikalemaker",
+      "author_id": "UCcAgcLRkw3znuAqPjmOrntQ",
+      "text": "Pour ton PopUp Windows.\nGPedit.msc, tu peux virer tout ca.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@louisgimonet1679",
+      "author_id": "UCZp5a9PBtTg1NEPMB9BbrFw",
+      "text": "Tu es vraiment un monstre je fais pas 1/10 en 3 semaines 😂😂",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@amazing7937",
+      "author_id": "UCYi7tDJBoLw_ZuwVJ1Cw8gw",
+      "text": "Super vidéo !\nAssasin creed unity ? j'ai vu un dossier pas très catholique moi xD !",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zolwen-developpeur6390",
+      "author_id": "UCs7LzvBeY5LmSiOMkrc-e4w",
+      "text": "Le boss enfait",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@heavenstone3503",
+      "author_id": "UChj-78t97S8mdY_ODNkQKyQ",
+      "text": "TEAM VUEJS ET VUETIFY\nYEAAAAHHHHH",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@JohnSmithhh",
+      "author_id": "UCzRNp9Hc0qf6DY1mCI8acaQ",
+      "text": "J'en connais un qui peut se faire plein d'oseille !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Phenixvsdragon",
+      "author_id": "UCWAaLK1mfjOJ8FW0bwqzO6Q",
+      "text": "Pas moyen de récup la taille de l'écran du host directement et d'appliquer la résolution la plus adaptée en fonction?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wofogg2822",
+      "author_id": "UC5MLUnsoQFtZjTFOutqRlsg",
+      "text": "sinon y a le steam big picture xD",
+      "likes": 3,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@demonxelloss",
+      "author_id": "UCRgr5D_Hs1Y19stbS5fo3pA",
+      "text": "L'idée est, en plus d'être pratique, absolument classe !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@freemind4919",
+      "author_id": "UCUWTK6UqG6TPfxv2pJE5yBg",
+      "text": "Bravo",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@romainpierre6875",
+      "author_id": "UCP_nSxpNMS6dl1rb9gBVS0Q",
+      "text": "Je n’ai rien compris mais c’était cool.",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alphablender",
+      "author_id": "UCJBBmkjU_SNIBURcszVi5vg",
+      "text": "Cool",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@antho5524",
+      "author_id": "UCajfnuHfe7FmkKr1_R4dDWg",
+      "text": "3:04 on voie un logo de Shopify ... intéressante donc Micode fait du DropShipping se qui veut dire qu'on sait maintenant d'ou l'argent peut venir ;)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@verybuilds",
+      "author_id": "UCI3H35zkhzcd8cfoSHQ3JnA",
+      "text": "Hey Micode, j'suis étudiant dans un BTS ou on apprends la programmation et j'aimerai bien que tu mettes a disposition les codes  que tu fais pour que les personnes comme moi puissent y jetter un oeil, l'utiliser ou l'améliorer, ou s'en re servir, ça serait cool ! enfin c'est qu'une suggestion et un commentaire perdu parmis des centaines d'autres",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cz7591",
+      "author_id": "UC-k4oJCjkAgfmbtxTMSpHVw",
+      "text": "Ça serait marrent de faire miné du bitcoin a shadow",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@edn0",
+      "author_id": "UCfG4yrSIv4muaGIhec8vmwg",
+      "text": "Hey sinon, je sais pas si tu connais un software dispo sur steam qui s'appelle Controller Companion, qui permet de transformer une manette en clavier/souris et ça marche vraiment bien!",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@missb.b",
+      "author_id": "UCY5Y8IdDs-C8gp2RF8mKj9A",
+      "text": "Houa ! Je suis fan de ton travail ! \nT'arrive à trouver des solutions de code alors que tu n'as presque pas d'aide pour ton code sur internet. Et en plus t'as réussi à faire ça en juste un peu plus de 24h !!\nEt moi à côté en ISN l'année dernière j'ai passé 'avec mon binôme) environ 4mois pour coder un jeu de labyrinthe, avec des mini-jeux pour débloquer la sortie, en C# et au finale on ne l'a même pas fini...",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alexmge9182",
+      "author_id": "UCNHsGwiUt8jVXTZXRGpM_Mw",
+      "text": "Excellent. Un vrai hackathon !! ;)     Sérieux, faire une app qui tourne en C++ et JS respect. hahaha",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cesium69",
+      "author_id": "UCJtJ25RtQW5ygRNPjYwQf7Q",
+      "text": "Du coup, ce petit programme est-il fini que l'on puisse tester?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Bagou4502",
+      "author_id": "UCX1_4EKSOCDl8jK0CVuqjOQ",
+      "text": "Donne les sources que l on puissent le modifier :) car la prochaine étape micodeos ( alternative a steamos)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@manueldauvin3723",
+      "author_id": "UCOqQRZV9l3pJShhbRdgn7fQ",
+      "text": "Hey gg pour l'appli.\nPour ton shop Foreach il est host sur shopify non ?\nTa utilisé quel thème ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jiren5431",
+      "author_id": "UCehVEpoq-z77NxxwXFk_UKw",
+      "text": "C'est cool de connaître le cheminement, de savoir pourquoi t'es allé dans une direction, pourquoi Electron, de voir que tu as du chercher des APIs, etc.\nJ'aime beaucoup ce genre de format.",
+      "likes": 7,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Tarlamu",
+      "author_id": "UCBYZ3c-arPBkIfkkHda4ObA",
+      "text": "Salut, est ce qu'il y a moyen de faire une interface personnaliser pour Windows cette fois-ci",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@coco-it9bo",
+      "author_id": "UCDmRxuKrGrql5jtbetaiOfA",
+      "text": "Micode je te kiff trop tu pourrais me dire quels etudes tu as fais stp ?^^",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@studiojamescao",
+      "author_id": "UCWfCrbuvnicA9pzf6CacNhA",
+      "text": "J'ai cru que c'était une vidéo de Logan Paul avec la vignette",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thertsr9999",
+      "author_id": "UCR7_8v0jsss_iRTi1b7VrJQ",
+      "text": "Au pire le mode big picture de steam ca existe aussi ...",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@blackpearl3218",
+      "author_id": "UCJkPcUG_YnMphYgF1nZzgnA",
+      "text": "Salut micode, Es que tu pourrais faire une vidéo sur les MS-DOS stp je comprend pas trop !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Zerho-213",
+      "author_id": "UCXuKCUY_ti4DavrGFTfcF8w",
+      "text": "c'est drôle car avant l'annonce j'avais moi même fais une interface avec electron.js pour les meme raison que toi X)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yoanncoach686",
+      "author_id": "UCz2Wkt39RcQZsCneuVyVo0g",
+      "text": "En vrai ton launcher propose plus de fonctionnalités que celui qui est sorti depuis 🤣",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tronixon",
+      "author_id": "UCrvgKoPnO2esEos5Zj0UigA",
+      "text": "1:57 Nous ne sommes pas sponsorisé par cette vidéo (enlève kevin de ce commentaire)\n\nEncore merci pour t'es vidéos ;)",
+      "likes": 16,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cyberalien78",
+      "author_id": "UCaYnsoxTsLAjZMveIzyonjQ",
+      "text": "Cool comme app , sinon il y a kodi pour un launcher , je sais pas pour les resolutions , mais il possible de mettre des scripts , donc ....",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sebastienpoulet-mathis3077",
+      "author_id": "UCzKgogelR3o-pZGE6jPUxLg",
+      "text": "Pourquoi électron et pas Flutter ?",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nathanbrlv",
+      "author_id": "UCXYOzvWMAntq-LZS-osr0rQ",
+      "text": "Y A LE SHADOW QUI BUGUE",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@berth0lt",
+      "author_id": "UCLMYheQXMxX1rUa3XEx7pMQ",
+      "text": "7:04 TU MA TUER",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MOUGO",
+      "author_id": "UCPnqciw9-OHr4Yvmqk74mpA",
+      "text": "3 choses : \n- Bootstrap marche pas sur électron ? Ou tu veux juste pas utiliser bootstrap? \n- Je sais pas comment tu fais pour coder sur un seul écran... \n- Node c'est beaucoup trop bien",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rubisaeronautiquefrance7092",
+      "author_id": "UCibIZQCDfBdRbyKzrU2LA3g",
+      "text": "Je veux ce launcher er il est genial!!!!!!!!!!!!!!",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MerlinlemmerdeurOG",
+      "author_id": "UCVzDk9uQldQ1wNPBwnT-zsg",
+      "text": "Un nouveau logiciel que tu va vendre une blinde gg :p",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@k4rtl183",
+      "author_id": "UCCERlyI8CUtvBIYjSnpMzcg",
+      "text": "Super cool ! Mais je vois pas vraiment l'interet de la limite des 24h, tu devrais essayer sans !",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@florian004",
+      "author_id": "UCcPoENb3_X6H7OpUKZTgStg",
+      "text": "je me suis posé des questions similaires, notamment pour le son, et c'est très complexe d'y avoir accès voir protégé via signature numérique T.T mais bon pour ajouter de la sécurité au système donc ... ok",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "",
+      "author_id": "UCAIDTn3PqhxFpwINh5Hq4vw",
+      "text": "mdr Micode il a boosté leur application en 2 jour le mec y boss temps plein dessus y dit just \"ouai pas mal\" ahaha sans peine",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@illimiticzshoot3092",
+      "author_id": "UC8vmJ0X17PoKJSZ4OgyvoDQ",
+      "text": "Merci! C'est bien stylé. tié1bon",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xnono972",
+      "author_id": "UCjqSRr5bbFXH3T7YdTg1yig",
+      "text": "Salut micode tu pourrais faire un projet open source ou la communauté pourrait participer à la programmation ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheKarimou69",
+      "author_id": "UCkfBq1L_2Gn759TF3O5s44A",
+      "text": "PARLE JAMMAIS DE HACKING \nYSINON 2020",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SmartMonkey119",
+      "author_id": "UCvsXoCPiHJE3mnTBuiKATxA",
+      "text": "Vue JS avec Vuetify !!! ^_^\nJ'ai appris ça cette année en autodidacte #TropFier !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@botteur",
+      "author_id": "UCgvxgpEX9nt83ffde8NyEzg",
+      "text": "Ah mais c'est génial ton truc !! Mais comment tu vas faire pour contourner l'obligation d'avoir les lunchers etc ?? Ah oui \"Cracks & Unlocker\" XD",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@InformatiqueSkyQuebec",
+      "author_id": "UCDrJxbWXVQQ1eSay0GcRR0A",
+      "text": "Tellement facile de modifier le launcher. \nJe suis même rendu à avoir un shadow ghost générique tout sa home made ! :)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@freetest1291",
+      "author_id": "UCl6I8wbymsrs6jfkFJ0vyQg",
+      "text": "Merci ,1 Abonne +",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Issmoo",
+      "author_id": "UCivgqCm08E-q8j36kCwdeFQ",
+      "text": "slt je voulais savoir si j'achete le shadow boost en attendant le boitier je peut me connecter sur mon pc portable ou pas ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dukenuggets",
+      "author_id": "UCkqr7sEkweMWrFGYnNHlxyA",
+      "text": "c’est intéressant si ça devient une vrai App ios quand ils arrêterons de bannir le cloud gaming !!",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MisterMartinTuto",
+      "author_id": "UC23BEIVDa5OlsA3Bw5gD4Xg",
+      "text": "pour une fois tu parle pas chinois quand tu aborde le sujet de programmation c'est cool :)",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@loakk_",
+      "author_id": "UCik4oVDM3cR8o0Iz_aHvL9w",
+      "text": "C quoi le chiffre en haut à droite",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rag6429",
+      "author_id": "UCwpbAdHw-7FWXXvBOJ-cA9A",
+      "text": "Petite question une vidéo sur les jeu hack c’est possible des bons sites je sais pas un truc comme ça ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@renaudjeuxvideo248",
+      "author_id": "UClZw8gpflkILA1SC9zAhvgg",
+      "text": "C'est quasiment le mode big picture de steam ton interface ;)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thertsr9999",
+      "author_id": "UCR7_8v0jsss_iRTi1b7VrJQ",
+      "text": "Moi qui me disait que coder de a a a a la main c imposible c le cas mdr il a dit qu'il utilisait electron ...",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DavidLopez-hf3pm",
+      "author_id": "UCJ-bfAfG3iFSTfmAF2Iul1g",
+      "text": "Hello micode, est il possible d’installer une machine virtuelle sur iPad Pro? Je débute la programmation, et ce serait cool sur iPad car avec un PC c’est compliqué pour les déplacements ? Merci à toi.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@amaurycAOP",
+      "author_id": "UCFsgP5jmkqQG06yrozwf5Dg",
+      "text": "Sinon tu uttilises Steam Big picture.... Tous ce que tu voulais faire est réglé par cette interface !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lad-zd2mr",
+      "author_id": "UCwtoUDFOsNloS58ElKWzQHg",
+      "text": "bonjour qui a de belles notions en informatiques j'aurais besoin d'explication  ( service rémunéré)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeanlapatate506",
+      "author_id": "UCL5JGI8fwH5J7ba--be52xw",
+      "text": "En vrai tes grave fort mais après si il y a des mec qui veulent nous hacker il on toute des info....sinon c'est super😁",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@orestispicard1026",
+      "author_id": "UCJBKYPiIqi7NsSvvbtZU8DA",
+      "text": "Comment pisser au cul des developpeurs shadow en 24h, sa fait genre 3 ans et demi qu'on attend cette fonctionnalitée",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@skylairs",
+      "author_id": "UC_TG58GQAH2coFZ96SZhlPA",
+      "text": "J'avais preshot électron, toi aussi tu utilises vuetify le meilleur framework CSS du monde <3.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ETHANOFFICIEL",
+      "author_id": "UCaFxZgyT0UBPCN0ENAZVLmg",
+      "text": "Ok, j’allais appuyer sur « m’abonner » pour Shadow et je reçois ta notification.. 😅",
+      "likes": 6,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@elie·520",
+      "author_id": "UCpu_94vKJglrZUjuJnQ7KZg",
+      "text": "Trackmania² Stadium :D",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AaaAaa-cp8dc",
+      "author_id": "UCKip6He0FBzowJ_KYD1GwTA",
+      "text": "Réduction chaque mois pour votre abonnement shadow : YAML1QPS",
+      "likes": 1,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Pibe_Drive",
+      "author_id": "UCcMQS-Xarcc0wOOW_CKV45w",
+      "text": "Wait. Joli copie du système blacknut 😂\nGg pour ton programme en 24h x)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@arnaudduthoit9886",
+      "author_id": "UC34NMIxD2bNwhHxvxzlvVEA",
+      "text": "09:20 Va falloir penser à acheter ses jeux la prochaines fois :P Bon j'ai lâché mon petit Follow sur Github quand même",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nicolascatard",
+      "author_id": "UCN4YPeihmTYr8YKULnEo-Sw",
+      "text": "excellent :)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@florahelm8630",
+      "author_id": "UC2JP-rNLZQ3PIlvpRKNRcrQ",
+      "text": "Bonjour, votre vidéo et bien\nJe voulais vous demandé  sa fait 2 fois que je me fais piraté mon portable, je sais pas comment faire pour le sécuriser,  je fais les mise à jour, j'ai remis le portable a zero au moins 2 fois, je sais plus quoi faire",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ouhare",
+      "author_id": "UClP4GTgukEe2xS4itJ8TkSw",
+      "text": "+1 pour VueJS \\o/",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Makusens",
+      "author_id": "UC8GklLOBbVjXSHytFy1ULpQ",
+      "text": "Quelqu’un sait pourquoi il a le même bureau que Hardisk ? Ils sont dans les mêmes locaux ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vasco6044",
+      "author_id": "UCdMJuUuVBoGI18bgIxZ9GBQ",
+      "text": "c quoi son apli sur mac",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ProbablyVECR",
+      "author_id": "UCqmGjYld0KAhoYZYHH4anwQ",
+      "text": "Bravo monsieur. Interface simple et facile d'utilisation, Par contre si tu as utilisé l'api de Nvidia cela fonctionne que avec nvidia donc si un jours peut etre shadow passe chez Amd tu es dans la mierda 😁. Sinon bravo.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Marlec-vo3hc",
+      "author_id": "UC1yAYVzM0M1uV6-wpsIFw4w",
+      "text": "En fait il a créé stadia en avance",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@diablotintamar",
+      "author_id": "UClwl0n5PEx6C9NOrKtbGmuA",
+      "text": "Belle OP déguisée...Bravo .. et au fait le test de shadow : \"ok bah on vas quitter le jeu\"... c'est sensé nous faire envie?",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@clement1814",
+      "author_id": "UCKYV1AqYonZ985WWqdXM4vw",
+      "text": "Ptin j'ai lu \"Hacker Edward Snowden\" du coup pendant toute la vidéo je comprenais pas pourquoi il n'en parlait pas",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@asdf_600",
+      "author_id": "UCN20DJzAbIEFR4UqBlUUnvw",
+      "text": "Je vois que je suis pas le seul à avoir des problèmes pour exporter avec node-gyp sous Windows 😂😂😂",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@livoirienetco9391",
+      "author_id": "UCDBtTOE66A4TXwZegzAP6Dg",
+      "text": "Salut Micode, je réceptionne mon shadow dans quelques jours et je vais le tester sur la nintendo switch sous android. \n\nEst ce qu'il est nécessaire de configurer ou modifier quelques paramètres pour que ça puisse tourner sans problème ,\nMerci à toi \nSuper vidéo au fait",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hgt-27",
+      "author_id": "UCXbwHHPS5SA1kh89xm8Z7HQ",
+      "text": "\"hacker SHADOW \" OH MEDRE COOL DONC PEUT HACK LES PC :pppp",
+      "likes": 3,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NoobX0",
+      "author_id": "UCi-o6vF2fFFGItBqVBOnOAg",
+      "text": "StadiAaaa",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nicolasschiepers968",
+      "author_id": "UCi1vM_ltLK_U9zUfbMMOjjA",
+      "text": "HS : On a déjà probablement du faire la comparaison mais je trouve qu'il y a beaucoup de choses qui me font penser à Frédéric Lopez dans tes attitudes et mouvement face caméra ^^",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@littlebangtheory1449",
+      "author_id": "UCZF4Y0XYu4m272DFuvdslfA",
+      "text": "On a accès aux codes des autres projets de cette série ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bigben9729",
+      "author_id": "UCehIHMnMgWo7zBeQLUIeHWQ",
+      "text": "Bravo :-)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@HandzUp95",
+      "author_id": "UCFSuCSWosOi_-hHLH4UERpQ",
+      "text": "La popup windows pour les applications floues malheureusement tant que t'as des applis Win32 non DPIAware qui sont native à windows qui tournent (exemple task manager ou encore les consoles MMC) la fenêtre popera. Du coup c'est pas vraiment lié à ton code, mais plus au fait que la resolution ait été changé en cours de session (accessoirement le DPI Scaling qui va avec).\n\nMicrosoft n'est pas foutu de faire son système en full DPIAware du coup préfère warner les users que le best c'est de logoff/logon pour reprendre en compte la nouvelle resolution/Scaling DPI plutot que d'avoir un vrai système de gestion des resolutions (apple l'a plutot bien fait quand le retina est arrivé sur MacOS)",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mvntasr",
+      "author_id": "UCUVeXs9WFMfeXLRNqGr5snw",
+      "text": "@lerirejaune sa veut te faire xD",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@brunonogues5128",
+      "author_id": "UCP93ZdL2aIxpuMUGAZUI9Fw",
+      "text": "Ahah un peu de vuejs avec vuetify bon bail sa marche plutôt bien et sa fait dessuite des résultats propres ;)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lioncyan",
+      "author_id": "UCgbSF_f-Wq71ON6r34oRN3A",
+      "text": "Comment t'as fait pour rendre la manette compatible ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theolafont1947",
+      "author_id": "UCzK-9jXfPQTz3hfUpm4prZw",
+      "text": "Fais un cms pour rétro habbo en 24h, php compris ! A toi de trouver la méthode pour être efficace. L’usage de template est autorisé 😉",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thegaminglife6164",
+      "author_id": "UCucrubadgi66YENBKAMlxPw",
+      "text": "Salut, tu pourrais publier ton lancher ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@floriankiller849",
+      "author_id": "UCrNxT7_DYi6SlnbF-xxjcEg",
+      "text": "En parlant de shadow j'aimerais bien bien avoir plus info sur ses Pc... es que on peut jouer à des jeux à plusieurs avc un compte shadow ou ces impossible de faire ca  es que on peu décidé de prendre 1 moi et après  de plus avoir besoin  le moi d'après  et le moi encore après reprendre shadow",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@atienon9042",
+      "author_id": "UCNXyHkFHNTydRtPkfQsI4Og",
+      "text": "Y'a que moi qui trouve que le timer des 24h va beaucoup trop vite ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lg-bzh5603",
+      "author_id": "UC_gF_h0ugrW5N9r4hA8YBww",
+      "text": "slt , tu devrais crée une vidéos sur \"Comment crée un RAT\" ? je serai hyper intéresser que toi tu en face une !! A toi de choisir ;)",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cuirace",
+      "author_id": "UCsEKNUKP7SByU4DIR2dCnYA",
+      "text": "tu à juste crée une application utilisable sur shadow ? tu n'est pas rentreée dans ls code sources de shadow, tu n'a pa smodifier directement shadow ou utilisée shadow d'une autres facon qui prévus.  je comprend pas trop ou est le Hacke.",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ewlemeunier",
+      "author_id": "UCJPxwyj7aYqeSj3BZyFskcg",
+      "text": "❤❤❤",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Kiki79250CoC",
+      "author_id": "UCpgPO5kdA-zPhu71jli89tg",
+      "text": "c moi qui dit tout le temps \"PTDR T KI\" sur Discord...",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@40mZer0",
+      "author_id": "UCBHoJOXqoCLwPrkPOx5doKQ",
+      "text": "bah en fait c'est encore Apple qui fait chier avec ses résolution propriétaire c'est tout\nsinon respect",
+      "likes": 5,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Siegfried1241",
+      "author_id": "UCLNee35SjytkrtqBxvGFMeg",
+      "text": "Est-ce que tu peux hacker SoundCloud et arrêter leurs connerie ?",
+      "likes": 3,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@benjaminwinckell5088",
+      "author_id": "UCaju3gQ1PHpYs6JzIF3nG6g",
+      "text": "fait peter ton github pour une review de ton code :p",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Gyro3630",
+      "author_id": "UCYkoo8IZEGfYLh3thZ8HDjA",
+      "text": "sort ton application en mode brute (comme tu la présenter) et aussi fais qu'on puis y accéder sans Shadow",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@inKurt",
+      "author_id": "UCb0RqLX4oCb-gzgRqUexQrg",
+      "text": "Tu dis moult moult ! Mais GG en tout cas B)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@reportages_ww2",
+      "author_id": "UCLgmjLv4hqinrW_vXoXi-BQ",
+      "text": "Est-ce qu'il existe un OS de type pour un raspberry ?",
+      "likes": 0,
+      "timestamp": 1735689600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@aldromar5009",
+      "author_id": "UCtIbBYKW1Jf3hYsY21s4zuQ",
+      "text": "C'est cool, mais à quoi ça sert pour le user lambda ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hatemrezgui409",
+      "author_id": "UC2nGTt5azKGhoKVbY18rKMQ",
+      "text": "Salut mico \n\nJ’aurais besoin de ton savoir afin de pouvoir réparer une tablette androïde slide pad elite 9708 \n\nJe t’explique j’ai effacer par erreur le wipe et j’ai procéder à une réinitialisation de ma tablette depuis celle-ci reste bloquer au démarrage impossible d’accéder à ma tablette\n\nPourrais ton installer une rom générique ? Parce que le fournisseur memup n’existe plus \n\nImpossible pour moi de m’en sortir \n\nPourrais tu m’aider stp c’est urgent",
+      "likes": 1,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xenor_",
+      "author_id": "UCleI8DnqioW37R3BFPCG6ig",
+      "text": "Piment 🌶",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Temporaire7",
+      "author_id": "UCC_rjNN7_nOP-8A59j_USLw",
+      "text": "J'ai vu le titre :  NON !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@snowcode953",
+      "author_id": "UCpgwXIQKDxHC1eXBWHLhIMw",
+      "text": "Je surkiff cette série, surtout de savoir que tu es dans la même galère que moi quand je veux créer quelque chose et que c'est ABSOLUMENT PAS mon domaine, sauf que j'ai une difficulté en plus : Je veux utiliser Electron également mais je ne sais pas faire du JS.\n\n\nJe ne sais pas trop comment je peux faire un projet en moins d'un an sans connaitre le langage dans le quel je veux le programmer.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lilix63",
+      "author_id": "UCXSZgdY12H0PP8bxX685GrA",
+      "text": "Pendant toute la vidéo il dévoile le secret ultime des devs 😱\nDéveloppeur = Expert Google 😅",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ggbg6789",
+      "author_id": "UCbivpMAPcEA89fMQ_IV3iKA",
+      "text": "Sinon y’a Big Picture sur Steam....",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alexpassions",
+      "author_id": "UC2FZ_g193qbqNOoYDIo84FA",
+      "text": "Qui serais me dire le titre du son à 7:57 svp ? Merci bcp et superbe vidéo au passage",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vincent.duvernet",
+      "author_id": "UCBilhA4JhQdUyPfzw4whynQ",
+      "text": "9\"20 : Dossier 'cracks & unlocker' ......... ROHHHHHHHHHH",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@adam4478",
+      "author_id": "UCC7j0_WmKAbK2Y6mIK2jWaQ",
+      "text": "Ça serait bien de voir ce qu'aurait fait un pro dans le même lapse de temps. Après faudrait trouver qui veut bien se faire chier pendant 24h pour faire un tel programme",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@n0am992",
+      "author_id": "UCEZg96WQWy8RF6garWDgMjQ",
+      "text": "Salut !\nJ’ai 14 ans et j’aimerais me lancer de le codage informatique pour les études etc mais comment faire ? Quel études ? Quel lycée etc ?\nJe sais que se n’ai pas l’endroit approprié mais vu qu’il a une commu avec pas mal de programmeur j’aimerais avoir votre avis/réponse \nMerci d’avance ! ^^",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@the_lemosky",
+      "author_id": "UCn6uVNjBKosW8luKUcTAA8Q",
+      "text": "Il faudrait que tu sortes les 5 actus aussi ici :) Je pense ne pas être le seul à ne pas être ou ne pas vouloir être sur instagram ;)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@olivierd.9975",
+      "author_id": "UCuMp3hkh5AigcrSKFrtignQ",
+      "text": "Tu as utilisé quoi pour le logo et le nom des jeux à partir de leurs .exe ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tuffythumper6676",
+      "author_id": "UC8gPJi11T8LLpeKPambFISQ",
+      "text": "Micode, tu valides le dernier hack de Hit The Road ? 😂",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xenor_",
+      "author_id": "UCleI8DnqioW37R3BFPCG6ig",
+      "text": "Pomme de terre 🥔",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Tomdjc",
+      "author_id": "UCpg5cRweGLMrVDJj7M7E1zg",
+      "text": "Wow",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DamirMaatar",
+      "author_id": "UCSCmx8O5JgdotTC98QYhaXw",
+      "text": "3:57 quand tu lance certains jeux la résolution s'adapte automatiquement\nLes anciens jeux en 4:3 par exemple\nDonc Windows ne l'a pas bloqué, c'est une fonction intégrée",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ipip2883",
+      "author_id": "UC_gdWlHFmqlHlnCMA9uL1nQ",
+      "text": "Salut j'ai une question  hors sujet mais suite à 2 piratages  dont un qui prenait youtube en alibi , j'ai installé f-secure  FREEDOM que penses - tu de ce système? Merci . Bonne journée",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gaellelabe7046",
+      "author_id": "UCjv7G1PFW47k9CyFFmY2hMg",
+      "text": "40 00 vues en un heure... GG",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mameabdou7941",
+      "author_id": "UCykGAwSVObHR1eiHFooZiLQ",
+      "text": "Tu pourrais me montrai comment j peux piraté Netflix",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Arkeno1d",
+      "author_id": "UCQ4d3nf2TchZsJdWnyRIsdw",
+      "text": "Dans le fond c'est un emulateur mobile pour pc ? :)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xavierhermand4404",
+      "author_id": "UCswGar3y-Ty49-z8gsIl7Dw",
+      "text": "Hey, c'est mon article ça ! :p (Les modules natifs Node.js avec N-API)",
+      "likes": 7,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kawabisoc2114",
+      "author_id": "UC8VP396wtUpK7dNtR1_ZI2g",
+      "text": "Ta fais quoi comme spécialité au lycée , S, ES , L , STI2D ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xavb2637",
+      "author_id": "UCI4W-xVQCH0fLyoLZt8ZL6Q",
+      "text": "Donne nous ton logiciel \n(Likez pour qu’il voit )",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wasab2498",
+      "author_id": "UCMLnmC4nGqi1D8XYoRbecuQ",
+      "text": "Salut! Tu saurais me dire c'est quoi l'image de fond du launcher ?",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Nekros2.0",
+      "author_id": "UCALn4prJI5mVEQAtFYUv8bg",
+      "text": "Tu peux hacke un joue en line",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Salamafetz",
+      "author_id": "UCbEc6nKT95XGFWnYA4gsBSA",
+      "text": "C'est marrant j'ai fais sensiblement la même chose sans les contrôles de la manette.\n\nTu devrais mettre le code sur github mais si c'est pas fini. Comme ça les gens pourront contribuer a l'amélioration.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@romainpele4991",
+      "author_id": "UCmc1B-MniFYoh0iHou1LuGg",
+      "text": "pour foreach, il y un autre code promo: les 226 premiers caractère de la page wikipedia du mot \"étagère\". -15%",
+      "likes": 10,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Thomas_Aubry23",
+      "author_id": "UChzyqhDqksik_kYnpsPSKLw",
+      "text": "Tu es le boss @Micode !!! :-) !!! Fait toi recruter par @Shadow pour avoir ton API de ouf !!! :-) !!! VRAIMENT TROP FORT !!! :-) !!! Même moi je n'arriverais même pas à faire le CENTIEME DE TON TAF !!! :-\\ !!!",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CyrilUwU",
+      "author_id": "UCoBE60zEUva9AV30lPNevAg",
+      "text": "Coucou, j’ai un shadow sauf que c’est un peu chiant de choisir des apps avec le tactile de l’iPad, moyen que tu fasse un piti lien MédiaFire avec ton magnifique projet ?",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@samas92i71",
+      "author_id": "UCj0eLLvE3E10SgV4JdpqGrQ",
+      "text": "Comment fais-tu pour connaitre le nom de l'application grâce à son .exe ?",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RAXOchannel",
+      "author_id": "UCGEXdxsFMLUYBcjO6SQdN7w",
+      "text": "Désespéré de bosser avec Shadow",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@guillaumesare5331",
+      "author_id": "UCO5xaYXXr6Yt1Rlm5kutLjw",
+      "text": "Vidéo intéressante mais deux placements de produits en une vidéo tu pourrais le préciser",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Hexteryoelism",
+      "author_id": "UCrOPX5djc23gjRSLTU23How",
+      "text": "J’aimerais bien apprendre à programmer facilement et gratuitement",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@noelenetait9671",
+      "author_id": "UCqlqW4PXyWhYGzu5q5TIcTw",
+      "text": "perso j'suis pas sur tweeter... à quand un compte micode sur mastodon ? :) et vive le fediverse !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lemodzz73",
+      "author_id": "UCL7EBmc-ow1P2IffYVSdYwQ",
+      "text": "Tu l’es acheter où les tubes néon ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@googleusers",
+      "author_id": "UCoz7Mbwe3CZuxOKoqDJXYcA",
+      "text": "Use for desktop:\r\n    \r\n    @media (min-width:769px) and (max-width:1024px){\r\n        // your code\r\n    }\r\n\r\nUse for tablet:\r\n\r\n    @media (min-device-width:769px) and (max-device-width:1024px){\r\n        // your code\r\n    }",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ToshNobody",
+      "author_id": "UCJRYRV2N6iZmgdGwlhvJnZQ",
+      "text": "Shadow sur Switch !? Mais comment tu fais ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@berhu7546",
+      "author_id": "UCRw9RJy1GX61lZq2lxybEVA",
+      "text": "Je me demandais : tu dois bien lancer ton serveur node à chaque fois ? Ou pas besoin du coup ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@edgmkr",
+      "author_id": "UCGFeVXkCVfZtdWTGoHwe6Vg",
+      "text": "je suis étonné que tu ne puisses pas cacher les pop up windows, vu le travail que t'as accompli avant. Peut etre je me trompe mais il me semble c'est pas bien difficile de désactiver ces pop up. Je le fais pour d'autres applications donc ça devrait marcher là aussi. \nJ'ai deux questions :\n1 : pourquoi tu trouves que W10 est moche ? il a l'air plus tot esthétique maintenant\n2 : t'arrive à jouer à des jeux ou la faible latence est importante sur Shadow ? par exemple des jeux de FPS, Fifa etc\n\nMerci pour ta vidéo",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dylanczyrok9022",
+      "author_id": "UCwjL_vP0djF01hEt2uXRN2Q",
+      "text": "Yoo, pas mal ton app, je vois que tu utilises electron, je suis en train de faire une application avec celui ci mais je n'arrive pas à faire afficher mon app dans la liste \"navigateur web\" de la page \"app par défaut\" de windows. Malgré mes nombreuses recherches, je n'y arrive pas, peux-tu m'aider stp?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@user-ls3xl6sx7q",
+      "author_id": "UC2BZ1f8RlHEzZKoBdTAj-UA",
+      "text": "Je te parie tu a 17 de moyen général",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@numeriquemanga5303",
+      "author_id": "UCfx-cX8F3CGQ_axFaLq4EqA",
+      "text": "C’est quoi la musique de ton intro stp ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@arthurg.8922",
+      "author_id": "UCjLnc0drhfjUuDbNeNEBLJA",
+      "text": "Euuuh, steam big picture ? 🤔",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jesuislepetitfreredelady3562",
+      "author_id": "UCDskYFMzkJYeYjJLzT_W3WQ",
+      "text": "Fait des tuto hack",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sofian4237",
+      "author_id": "UCry34a0pUSA_tOnZgr1qgpA",
+      "text": "Je te propose un petit défi :\n\nFaire un Bot Discord très optimisé en 24h\n\nÀ toi de me dire si sa te plait\nSinon je kiff tes vidéos❤️",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zatrox1045",
+      "author_id": "UCVoNRVsOFVnqoQbPkvITRpw",
+      "text": "Shabow",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@simonguillemain3807",
+      "author_id": "UC2Fh0aXF-xmfCsjqQ2ZH07g",
+      "text": "Tu le sors quand le logiciel ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@arthurv9615",
+      "author_id": "UCwMzKhakgCy4s1tnULg2I2w",
+      "text": "APELLE TA SERIE LA #Code Serie",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ristar7203",
+      "author_id": "UCqSHX3Ipijssxj-nJhpHwYw",
+      "text": "Le genre d'OP pour shadow assez stylée contrairement à redbox n shit",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@barryback7550",
+      "author_id": "UCXBbEWr9WdyoaZDquHI-f8w",
+      "text": "Svp les gens une question au sujet de shadow jsuis une bouse informatique x) \n\n\nEst - il possible d'installer des machines virtuels sur shadow? Et si oui vous me conseilez virtualbox? (machine virtuel pour joué car jeu ou il faut un PC par compte donc jaimerais ouvirr 10 machines virtuels sur le shadow)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Low_Edit",
+      "author_id": "UCQkKGpD6I7ddXUfjfoAl9Ag",
+      "text": "Cette vidéo est sponsorisé par JirayaTV",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xenor_",
+      "author_id": "UCleI8DnqioW37R3BFPCG6ig",
+      "text": "Carottes 🥕",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CrazyPandaBrew",
+      "author_id": "UCb7Qg4BBs2365cuc1EdclXQ",
+      "text": "Shadow sur la switch ? T’en dis pas assez là !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jejejuju1364",
+      "author_id": "UCTpJnSjnGfwBBWUhhi5oKqg",
+      "text": "Salut au début je te trouvais farfelu car tu changé souvent de.sujet ou travaux mais sur le sujet que je peu voir que le délai si il est exact me laisse sur le cul bref je dois avoué que cette fois-ci je te rend hommage car l'idée est la mise en pratique ferons de toi quelqu'un dans l'avenir je pense ,jeune est déterminer beaucoup ont tourné au tour de sujet comme celui-ci est ont lâcher l'affaire est pourtant a t'entendre tu la fait avec une telle facilité. \nBravo je.vois que sa a dire .",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@singemoqueur5470",
+      "author_id": "UCryMxny_9PVbqQZZ3atpuzQ",
+      "text": "C'est toi Mr.Robot ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hichemb.7900",
+      "author_id": "UCCpetgtz5AOfYfbI0aU-MGg",
+      "text": "Ou est le code source ?!🤔🤔",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@elalex4796",
+      "author_id": "UCA_eH57ajzMbidmpk7j7ucA",
+      "text": "Est-ce que tu pourrais me dire qu'est-ce que tu utilise comme programme pour programmer ?",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tracetaroute235",
+      "author_id": "UCJW38ZBV4QX7FfcL-exlwCg",
+      "text": "Comment font les gens qui achète sur internet avec une carte bleue volée car moi je me suis fait voler ma carte et j’aimerais savoir comment font les personnes malhonnêtes",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@koukou_stick8728",
+      "author_id": "UCaXIyVjXgXxE0J0QZ1-gzXQ",
+      "text": "POURQUOI TOUT LE MONDE DIT KEVIN DANS SES VIDÉOS MDR\n\n\n\n\n\nJe m'appelle Kevin et alors ? 😉😂",
+      "likes": 2,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rafaelegoura3805",
+      "author_id": "UC4v2dMrbCpUAocktPoKh76A",
+      "text": "J'arrive toujours pas à créé mon compte shadow et sa me casse la tête",
+      "likes": 0,
+      "timestamp": 1672531200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vincentf7066",
+      "author_id": "UCGK_KNwmVIFM8_p4IS9XUqQ",
+      "text": "Fait gaffe Micode, sur ton github, tu as push le code propriétaire de NVIDIA...",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DarkMiMolle",
+      "author_id": "UCydsPtRydTBGuu4feHKUQKQ",
+      "text": "Tu voudrais pas le mettre sur github ou gitlab aussi ?\nJ'utilise pas twitter ni Instagram 😢",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Gopafake",
+      "author_id": "UCwp4cwGoYrATQSKSkcuIKFA",
+      "text": "tout parfait mais le son est pas assez élevé :( Je mets ton son au max pour t'entendre sans avoir à me concentrer :p",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SeyOfficial",
+      "author_id": "UCpJp8Bw60DVYAGusLxwvdZA",
+      "text": "Enfin",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@THEROXAbonne-toi",
+      "author_id": "UC1ojOXmwf6kx7nQLfbT5kWw",
+      "text": "qui a cru shadow mets youtubeur",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@quentignoos2149",
+      "author_id": "UCLPmvU3Tj2QA95xMwIerhWQ",
+      "text": "Tu code avec komodo ide ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrSwordsman88",
+      "author_id": "UCNZwp7uyqoh_Y2bJqFSYmLg",
+      "text": "Quelqu'un a réussi à s'abonner en attendant leurs nouvelles offres? Je suis bloqué jusque février 2020...",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@iochebri951",
+      "author_id": "UC-OhUn8s524269H1gFbMwJA",
+      "text": "PTDRTKI",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@anonym___",
+      "author_id": "UC7XvCK135UyWfZL7hqAwYqg",
+      "text": "PTDRTKI",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ainari4795",
+      "author_id": "UCz6zCHRDw7q1Hk_tSPhG0EA",
+      "text": "Sinon tu peut très bien utiliser NVidia GeForce Now, qui est gratuit pour l'instant",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Charlito33",
+      "author_id": "UC_E_sqKfXOEoCJOwmFz2J9g",
+      "text": "Tu code avec quoi ? Sublime Text 3 ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@JustToSimh",
+      "author_id": "UChDOAMkG6S04r_I8b-m9n2Q",
+      "text": "C'est moi ou #micode ressemble a #Soaz de anciennement Fnatic (League of legends) lorsqu'il se concentre ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nicolasmarx822",
+      "author_id": "UC0TwTKhqu4vrZs3ZiRQ8G2Q",
+      "text": "Tu utilises quel IDE ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@enzobras5834",
+      "author_id": "UCrSIgCIhhcAu1r8hxb42cYg",
+      "text": "Tu as fait quoi comme études svp",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@algifor8259",
+      "author_id": "UCqNXB46PaoucOVQ2HFLXCWg",
+      "text": "Happymod.com android télécharge Shadow sur ton téléphone",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wolvacam",
+      "author_id": "UC0Gp0nTmkJSnhIUi_5oaL5w",
+      "text": "Je viens d’apprendre que je me suis fais pirater 25 000 euros par des gars en Finlande, on a était remboursé mais la banque n’a pas d’autres informations ? \n\nComment retrouver des pirates pareils ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Varsovi",
+      "author_id": "UCPgjo-e9ST-38K-STSZ9Z7Q",
+      "text": "Pour les 5 actus sa ressemble beaucoup à Hugo décrypte",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BastienVide",
+      "author_id": "UC_EdC5VHbD7YhnW2pw9UPsQ",
+      "text": "Haaaaaaaaaaaaa du Vue <3",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@avredow3668",
+      "author_id": "UClPfbcrUULYJGnJOGgop3xw",
+      "text": "Salut Micode ! Il existe des applications qui permettent de savoir qui regarde notre profil Instagram, connais tu le secret de ces applications ou c’est juste des bêtises ? Merci de ta réponse et bonne journée",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@iban_-wp5uo",
+      "author_id": "UCTytbe3uvN5lT9PyshoSSLw",
+      "text": "c quoi ton pc",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@power3746",
+      "author_id": "UCd1l39phS1aClISkyLrH79w",
+      "text": "Pourquoi tourne tu t’es vidéos 4 mois à l’avance ?",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jcoudom",
+      "author_id": "UCXe4hNXq8F3PakYF4dBXHTw",
+      "text": "Pour un type comme moi ,pas complètement novice mais pas vraiment dev non plus ......ça mériterait une video un peu plus \"précise\" ......super video merci!!!!!",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Khytau",
+      "author_id": "UCZggXsYXwepXJcl14FUZQaA",
+      "text": "\"Personne ne fait ca\"",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@salka8286",
+      "author_id": "UCaU6QvXpa8kog1d-Y1NgABA",
+      "text": "Yo Micode",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AhmedOnAir",
+      "author_id": "UCt9IHu_EHqg7Dc4Ozlp_YHQ",
+      "text": "LOL je suis un humain qui produit des vidéos avec des concours plutot hannetoniques !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gaetanpuleo7396",
+      "author_id": "UCSgfjDBY8M2tei0UuPx9iKQ",
+      "text": "Hello tu pourrais la partager sur github histoire qu'on puisse contribuer :p",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@guillaumeo.3325",
+      "author_id": "UC5YedhktCDdIpCHVZi8-4gA",
+      "text": "Wsh t chaud",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@songohanz1671",
+      "author_id": "UCNpFS-WEekYNVbF1yTQ2dsA",
+      "text": "Il fou quoi là noward ? 😂",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Etshy_",
+      "author_id": "UCOopbZJsvk54wS9w0HyWuGw",
+      "text": "petite question.\nC'est une option d'electron pour que l'app se lance au démarrage du shadow (et en fullscreen aussi j'imagine) ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vygnir-z5101",
+      "author_id": "UCywBDkDVcp5sW6i-jyn7b4Q",
+      "text": "il a deja fais un tuto hack ? (un vrai si oui donner le lien svp)",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thomstunes6485",
+      "author_id": "UC3_PinproRWBc1Y5Pj10FJA",
+      "text": "System32.... ce répertoire que mon père à supprimé sur un windows Xp un dimanche matin pour \"faire de la place sur le disque dur\"..... c'était marrant !",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hugo23ha",
+      "author_id": "UCOZvn8Vu32lKm1MkmPDiICQ",
+      "text": "Du gaming sur un écran 30hz ??? Tu veux choper un cancer des yeux ?",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@p4ul-d4n",
+      "author_id": "UCRSrBYDMQlqmhlv5pN_sSVw",
+      "text": "Tu as un profil Github Micode ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AdrienMartinet",
+      "author_id": "UCZNLRVrLclhG1oetnGItolw",
+      "text": "J'ai éclaté de rire quand j'ai vu passer le screen de recherche google \"node-gyp rebuild\". \nLe fameux 😂 \nrm -f package-lock.json && rm -rf node_modules/ && npm install\nUtiliser nvm c'est la vie aussi 🥰",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tristanglbd",
+      "author_id": "UCdy3GOmmzxjBuB6_NaW6EVQ",
+      "text": "Super vidéo ! \n\nJuste une question, comment tu à mis en place ton basculement de page ? (genre quand tu scrolls à droite sa change de page.)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sed4174",
+      "author_id": "UCfQOdEK0chYE6tuSOqPkXzA",
+      "text": "Hacker shadow 2 ans plus tard shadow est mort?",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gingembrerouge",
+      "author_id": "UCck0SO4HnjHhZwMYhmL4k0A",
+      "text": "Ma néobanque : @t",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xzados4314",
+      "author_id": "UC-E4EDrAYJK-JbvKsRBI8wQ",
+      "text": "je suis exactement la 82000 vues",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thurnis5482",
+      "author_id": "UCBoBDEYMBZXyy9lxLpp9Vjg",
+      "text": "Cool la vidéo (mdr elle est sortie il y a 12 secondes)",
+      "likes": 7,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Veaser",
+      "author_id": "UCpfSJeqB871-qmb8uLXqYSQ",
+      "text": "Question importante: Visual Studio Code ou Vim ?",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SkynetCyb",
+      "author_id": "UCHObTjv-jVPpBkpHfrXKZUQ",
+      "text": "Electron, quelle horreur",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@freezyfye150",
+      "author_id": "UCyGG8q80FIxuURuzjQXYyVA",
+      "text": "Salut Micode dans une ancienne vidéo tu avait parler d'une appli ou je sais plus pour apprendre à hacker ou à code etc et tu avait parler du faite qu'on puisse mettre notre niveau sur cette appli sur notre CV . J'espère que tu verra ce com et que tu puisse me rep !🙃",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@OkdakSempai",
+      "author_id": "UCHHi2W4pOycE-98nWCPeHig",
+      "text": "Comment ca shadow sur la switch ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rafaelivaldi",
+      "author_id": "UCJYmC_Yhra1RMc19RmzWtSQ",
+      "text": "Comment tu fais pour coder avec le pavé tactile sérieusement !! Moi si j’ai pas de souris c’est mort je me sens absolument pas à l’aise !",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AdamElMou",
+      "author_id": "UC8hZKS5obR3yw2E2OrUNJdg",
+      "text": "Mec Je T'adore et je ne sais toujours pas comment tu fais ... ou as-tu appris ça ? et si c'est du self-Learning ... tu as suivis tes cours sur quel site ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mathisbaud100",
+      "author_id": "UC9UkWnw7I-CtQz3JoLZ5x8g",
+      "text": "Hey !",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mrdadou18e",
+      "author_id": "UC6kxQsRMnTdxKNn7PwZSOKg",
+      "text": "Go ajouter des fonctionnalités sur YT nan?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kowikz20",
+      "author_id": "UCY6KySHYv8_hKonBvLkbURg",
+      "text": "En gros t’achètes Stadia c’est la même chose ou presque",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ZayRek",
+      "author_id": "UC6iXoGS4Wd3GX-EWkhln6Ig",
+      "text": "Musique ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Thomas-eq3rn",
+      "author_id": "UCAl1T1h6IcrqfujFgXcfSzA",
+      "text": "Waaaa t un jeni / oui on peut t’appeler le boss même Dieu",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@scotthamilton228",
+      "author_id": "UCfJ9CQ671PlvD0QvVNDdIrA",
+      "text": "NOOOOOOOOOOOOOOOOON pourquoi électron, (au passage, je sais pas si vous avez remarqué mais électron est plus supporté sur mac). Autrement j'adore ce genre de concept, cette vidéos c'est un mélange du contenue que j'aime et d'une prod impéc.\n\nBravo!",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Paco_Pening",
+      "author_id": "UCnj33ROCrDCQThxE1wDZKUQ",
+      "text": "Wait, tu travailles dans les locaux de Shadow ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@arnauz94",
+      "author_id": "UClIaneY61pKwXzcy8OMzy_g",
+      "text": "petit coucou a tous les dev c'est bien rigolos de le voir galérer sur des chose pas si complexe (rip les webdev)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@palapika5157",
+      "author_id": "UCWvBZ66VbghOotgynpMfC5Q",
+      "text": "Tu peux nous apprendre à coder stp",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Devilman45ls",
+      "author_id": "UCwOc7uhgM5KV7OmogXGdJfQ",
+      "text": "MDR tu veux me hacker?!\nPS:tu ressemble à Logan Paul XD",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@frosty_fox3559",
+      "author_id": "UCkGmXhSVeqN79F9U_PQhxdA",
+      "text": "4:23 HA! Le dossier que j’ai accidentellement supprimé :(",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@matthieunoel5957",
+      "author_id": "UC32AQKA3Exfwfij7WLrlGZA",
+      "text": "Quelqu'un a un lien vers le site Beautify dont Micode parle ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wismasim",
+      "author_id": "UCzLp39gnVtLbOufCxOqR07g",
+      "text": "Faudrait penser à ceux qui ont pas de réseaux sociaux, j'suis que sur youtube moi, et j'dois pas être le seul dans ce cas :)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SphereofTime",
+      "author_id": "UC5AeTOD5h9k6g5F4WIl1RBw",
+      "text": "0:31",
+      "likes": 0,
+      "timestamp": 1735689600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lesangdurif1307",
+      "author_id": "UCTQjOr2srj_KIJv_HwwL9Ew",
+      "text": "Sans même regarder la video je c’est qu’il ne va pas réussir a hacker Shadow...(Edit: Ptdrrrrr)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mattmalulu592",
+      "author_id": "UCanRCUUkcdhWMrkmlxBFbEg",
+      "text": "Salut mec es ce que tu peux passer en privé sur mon Instagram j'ai des chose a demander stp ces super important je suis sur sa peu t'intéresser ces mattmalulu59 Merci d'avance si tu le fais 😘",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mhacksunknown2229",
+      "author_id": "UC7Us9VCg1-5FFAlEPJFmQ5Q",
+      "text": "Tant que tu fais en sorte que ça ne nécessite pas plus de débit, au contraire.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Carac_",
+      "author_id": "UC2FDT3yEAOp56HCb2ZQXkLA",
+      "text": "C’est une sorte de stadia mais en mieux",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@krakenn8192",
+      "author_id": "UCE0NM9ucG728VgCBoEViqhQ",
+      "text": "olala quel dommage qu'ils est sortient  l'appli juste quand je fait ma vidéo sans oublier qu'il est a 12euros99 OLALA",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@petrolefrance",
+      "author_id": "UCqh6s2fK4wnjhJtpp7M6L0w",
+      "text": "Toujours les kevin qui en prennent plein la gueule...\n(Cheh)",
+      "likes": 5,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Remington3gs",
+      "author_id": "UCz2_Ffof-KfqUWO4iiODJbg",
+      "text": "en faite t'as pas du tout hacker Shadow ...",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wasab2498",
+      "author_id": "UCMLnmC4nGqi1D8XYoRbecuQ",
+      "text": "T'aurais pas encore un problème a nous proposer ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fragmos2628",
+      "author_id": "UCJMg9wtbt66y11EsTkVa6oQ",
+      "text": "Salut, si tu voit ce commentaire, existe-t-il un logiciel capable de faire la même chose que shadow mais avec un serveur privé ?",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@moa2487",
+      "author_id": "UC0PSDVyP4c4Psg_wA-69Abg",
+      "text": "Laisse Jiraya tranquille ^^",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MotherBroker",
+      "author_id": "UCiwjaMOkxAflnAj9geycBPg",
+      "text": "Je suis le 1000 ème like c'est un honneur",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rfik",
+      "author_id": "UCgea5L6cuGPBSo-nAwYp32g",
+      "text": "Stadia",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@raxyl67",
+      "author_id": "UCxTZYHm6VW0e4TAUbJGSI_w",
+      "text": "Mdr , on met du 1920 * 1200 en 30hz et on se sent gamer ? 8:49",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@electrobim5194",
+      "author_id": "UCYRjAbxqS6jfDyUDaPIm8YA",
+      "text": "Pk ne pas utiliser playnite.  C 100*plus facile",
+      "likes": 0,
+      "timestamp": 1704067200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mael7107",
+      "author_id": "UC8QMu067j0aI8S9zvVbkPrA",
+      "text": "3dm, hmhm. ^^",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Hinders5",
+      "author_id": "UCHHGXlj03RTtSAzcF7gjibg",
+      "text": "Mdr  te casse pas la tête prend stadia cava plus vite 😂😂😂",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AliWithTheMW",
+      "author_id": "UCggY3qs3B5UN7Wi8qDo9w2A",
+      "text": "9:20 gg le jeu cracké 😂",
+      "likes": 3,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@0z0_76",
+      "author_id": "UC-QKMPIN1gyarwNjE52I52A",
+      "text": "Wallah j'ai rient compris😓😓😓",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SphereofTime",
+      "author_id": "UC5AeTOD5h9k6g5F4WIl1RBw",
+      "text": "2:19",
+      "likes": 0,
+      "timestamp": 1735689600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@user-ze4ub6ci2c",
+      "author_id": "UCb5geZ7kCC-lp3OSZC6qarg",
+      "text": "Tu peux arrêter avec tes titres aguicheur, tu frôles volontairement le \"putacliquisme\" pour gagner en visibilité mais apparts ramener une communauté de kikou ça sert à rien, prend ta décision l'argent ou là passion, sinon très bonne vidéo.",
+      "likes": 5,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@The_Flo",
+      "author_id": "UCMYJR-bOIn-uXn6mkMZBPzw",
+      "text": "Bravo super boulot, j’attends avec impatience le lien github",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xenor_",
+      "author_id": "UCleI8DnqioW37R3BFPCG6ig",
+      "text": "Pomme🍏🍎",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@twix112",
+      "author_id": "UCFx1FbQoF1NfVu1Sc2G7gVg",
+      "text": "Like ses tes d'accord \n\n\nSes pas 24h ses 24min",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fredericc2184",
+      "author_id": "UCZ-8RvmGpRpECU6pRRkamOA",
+      "text": "Shadow et les bêta ....",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ricochet_06",
+      "author_id": "UC-hm2CSZbXgP5AUe4bLCA7Q",
+      "text": "9:22 c'est pas bien de cracké les jeux...",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rastamaniak2300",
+      "author_id": "UCaGZQY0SbRrSKa4jflzghWg",
+      "text": "Peu de chance que tu lise ce commentaire (j'essaye le \"@\", pas l'habitude d'écrire des commentaires) @Micode mais moi ça me botterais bien de bosser pour toi/vous, malheureusement ma seul capacité actuel réel en informatique ce limite à mon intérêt pour celui-ci dans les \"branches\" alternatives. J'apprends en auto-didacte depuis que j'ai dû quitter mon ancienne école d'informatique.\nJ'aime bien comme tu effleures cette fameuse \"vision du consumérisme actuelle\". D'ailleurs je pense qu'intégrer ça à tes vidéos, ce sujet (peut-être, je pourrais faire des recherche la dessus pour toi. Tu sais une version \"éco\" \"fairtrade\", etc. que tu pourrais éventuellement intégrer à tes actus et pourquoi pas reportage ou autres, bref la parenthèse ce fait longue ^^).\nSinon pour le moment j'ai pas besoin de vêtements (et je suis du point de vue de certains) une \"saloperie\" de Vegan ou \"écoterroriste\". Si tu peux me certifier que c'est le cas de tes produits (qu'ils respectent l'ensemble de la planète), ça m'inciterait beaucoup à acheter tes produits pour te/vous soutenir :)\n\nEt sinon dans tous les cas je te remercie pour le savoir que tu partages !\nT'as pas un site web avec un forum ? à l'ancienne, plutôt qu'Insta, Twitter, etc ?\n\nJ'viens de choper une \"SanDisk Extreme Pro\" et mon objectif c'est de brancher la clé USB et que ça lance directement une version linux préinstallé avec tout ce qu'il faut dessus.\n\nSinon rien à voir mais je préfère les formats \"long\" min 20-30 min, max 2h ^^\n\nBisoux à vous tous, meme les éventuelles haters <3\n\nAh et prenez soin des gens que vous aimez, sincérement, y'a des choses qui bouge et ça sent vraiment mauvais, mais ce n'est que la constation des scientiques VS le manque de sagesse de la masse. Merci @Absol (aller j'lui fait un peu de pub ^^') qui nous as sortie de très bonnes vidéos à ce sujet dernierement :D",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fabienlc1692",
+      "author_id": "UCVUwBUMKUDylPcpUZ5ubNWw",
+      "text": "Hey",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@galaktik2112",
+      "author_id": "UC5xnj1N6P6CPiwP4pe3iQGw",
+      "text": "Yo, si qqun si connait en hack et qui a quelques minutes à me consacrer, je lui donne volontiers mon snap ou autre pour qu’il réponde à mes questions... \nÇa serait cool, merci",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@raizor_one1594",
+      "author_id": "UCgLUKOrlMmJLzBa4D4MRDjg",
+      "text": "Micodétomy ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@irozzy_-1669",
+      "author_id": "UCLaThhspeVnlTkisO4sRN_w",
+      "text": "Salut micode j’ai absolument besoin de toi il faut que tu hack mon compte messenger car il a était piraté je dois t’envoyer un mail ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Neoredge",
+      "author_id": "UChCho60-cTChT_KhS-veWeg",
+      "text": "Salut Micode rien à voir avec la vidéo j'avais juste une question par rapport aux arnaques sur internet, un mec gère mon compte Blockchain et s'occupe de faire de l'arbitrage à ma place en échange de 30% de mes bénéfs, petit problème je ne sais pas si ce mec fait parti de blockchain ou si c'est une arnaque sur investissement.. la demarche qu'il a faite ressemble bcp à ce genre d'arnaque mais le fait que le site en question soit \"blockchain\" me perturbe je connais la fiabilité du site..",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@iban_-wp5uo",
+      "author_id": "UCTytbe3uvN5lT9PyshoSSLw",
+      "text": "mec tu hack avec un mac",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bryanhvld",
+      "author_id": "UCIRTzSXV_bQQTPQnjI0ydfA",
+      "text": "tu peux activé mon compte Shadow plus tôt stp ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xephobia795",
+      "author_id": "UCEDgbjsWnkavUlKLDGfJxCA",
+      "text": "MAISSS NOOOONN PAS ELECTRON\nc'est littéralement chromium dans une app",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@laviedefreelance",
+      "author_id": "UCg6B65DxGUKJV76BtqBjNcA",
+      "text": "Vue JSSSSSSSSSSSSSSSSSSSSSSSSS",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@florentguiffard7974",
+      "author_id": "UCSj6iSOjRtFKK1nrTPzrGhQ",
+      "text": "Qui est Tomy ?",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rorostrasbourgeois8602",
+      "author_id": "UCDiR1GZCjxdVtqDDQzvBrdQ",
+      "text": "Je comprend rien mais alors rien du tout",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@allf98",
+      "author_id": "UCPcTSVTyPFOuE_1yaOU_Y_g",
+      "text": "\"cracks and unlockers\" premier fichier a l ajout de AC Unity Kappa",
+      "likes": 26,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheKarimou69",
+      "author_id": "UCkfBq1L_2Gn759TF3O5s44A",
+      "text": "TU ES HACKER TOI ET KI TU KONTROL",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "",
+      "author_id": "UCiafdBYjgUjCQutwBwTeJmw",
+      "text": "C'est beaucoup trop stylé ce que t'as fait ! :O\nEn plus le mec il soigne l'aspect graphique alors qu'il est sur du temps limité !",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@relaxationmusic3262",
+      "author_id": "UCb1tTJN_g7bnuqbX5Tu4vrQ",
+      "text": "Peut tu hacker instagram please j’ai oublié mon mot de passe et je n’ai plus le même numéro",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheKarimou69",
+      "author_id": "UCkfBq1L_2Gn759TF3O5s44A",
+      "text": "ON VAS VOIR FR\nBE\n\n\nYJE MENAE PERSONNE JE VIENT VNGER DES GENS ET LES LOW YOUTUBER GO LEAVE TA MERE",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ryu53898",
+      "author_id": "UCJRo5pw0Cmzg8QLsDw4Wdag",
+      "text": "Arrête de te faire passer pour un hacker stp",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sebastienmirval5245",
+      "author_id": "UC2HYYawCIjRMm48XjnEZP6Q",
+      "text": "Hacker iphone version Android",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AlexisYTBlebg",
+      "author_id": "UCNNVZqTnlNmBem0-DWBOIMA",
+      "text": "200 ème commentaire",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Zedasix10",
+      "author_id": "UCHR1eo2E1WBMgQBA0KQD8ig",
+      "text": "\"hacker\"",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lililililililililililil2771",
+      "author_id": "UCfTjpp8x2xuDjfTmlyf79hg",
+      "text": "pas ouf la pub shadow",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sipri141",
+      "author_id": "UCZthIfEeldLXu3TNh0PQeSA",
+      "text": "Tu peux hack Spotify et mettre un abonnement prenium a vie pour tout le monde stp \nC'est la hess plus d'argent :(\nXddd",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@googleusers",
+      "author_id": "UCoz7Mbwe3CZuxOKoqDJXYcA",
+      "text": "40 euros la coque quand ca vaut meme pas 7 euros, meme avec 10% je refuse.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@balooif",
+      "author_id": "UCzu8mYvUOuCjqhAHUYovlqg",
+      "text": "Essaie de pirater un minitel",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@anosuplayer6254",
+      "author_id": "UCsTk9oQvm5uskXqjP59soyQ",
+      "text": "Ne lis pas mon pseudo",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MeiryoHazard",
+      "author_id": "UC-pjgGT7kitQvPhH0rnExNw",
+      "text": "placement de produit pas signalé, c'est sale",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@b.d.f8649",
+      "author_id": "UC00rdZI4DcBySASemNRCBMg",
+      "text": "Je ne clique sur aucun lien de cette chaîne merci bye",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@PatrickLLD91350",
+      "author_id": "UCQujUW8kumCUC96c1kwPeJg",
+      "text": "ENCORE UNE VIDÉO SPON..(A NON)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ShuDinFly",
+      "author_id": "UCrD91V97qTIwywWnWR-AvLg",
+      "text": "Hack ton site de fringues pour voir",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ValuedValue",
+      "author_id": "UC8XMECnU5uUHF-00RMGLpjw",
+      "text": "VIDEO SPON\n\n\n\natt comment tu sais que je m'appelle Kevin",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@slmslmslm8071",
+      "author_id": "UCSxUdDBtei_CQW3o4NfDFyQ",
+      "text": "J’ai pas tout capté mais la vidéo était quand même super cool",
+      "likes": 4,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Funder28",
+      "author_id": "UCUnNieaBSSGJgoNYe-487oA",
+      "text": "first",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Tesirapa",
+      "author_id": "UC2oYwgHdmvLNOTXsBKGdFDQ",
+      "text": "Transformer shadow comme console ?! Quelle mauvaise idée, c'est tellement mieux d'être libre à faire ce qu'on veut dessus.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheFreNChQwerTyPs3",
+      "author_id": "UCuXfWUoKjJhR2jPDvmdYlVw",
+      "text": "Vuetify, quelle horreur",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ribt8594",
+      "author_id": "UCZ1nlusXYSXTPxvZYg2Cx7A",
+      "text": "Non tu ne parles pas chinois au contraire n'hésite pas à bien entrer dans les détails plutôt que juste survoler sans vraiment expliquer ^^",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Sam-ns6os",
+      "author_id": "UCjTb0-VX0Kez1E7BOFa3V6w",
+      "text": "Shadow c d’la merde achetez pas les couleurs sont fade même avec 70mega/s et les dev m’ont répondu rien a faire faut attendre des mise a jour",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@heno2013",
+      "author_id": "UCgwqmuyVVzuRHhhkh__MSRw",
+      "text": "Il m'a largué après 1 minutes mais j'ai quand même jusqu'à la fin même si j'ai rien compris, parce que c'est attractif, que j'aime bien sa voix elle est calme et que je suis sympa avec son watch time.",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ryujeee573",
+      "author_id": "UCatHe-U4qIM5ZxZZ-SqUM1w",
+      "text": "besions d'un mec qui sais hacker des compte steam ou faire du phising car un connard de russe ma hacker mon compte",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@atoutcubes",
+      "author_id": "UCUojBDZ6Cy1rbkDYG_Fz4CQ",
+      "text": "bravo, et en faisant tout ce que tu fait, en sachant tout ce que tu sais, en étant dans les mêmes locaux que shadow, ils t'ont jamais proposé un job ?",
+      "likes": 7,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zboubconnecte",
+      "author_id": "UCViX-_uo1-Sizr7p_046DIA",
+      "text": "RIP Shadow",
+      "likes": 0,
+      "timestamp": 1640995200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@chewbaccastream3036",
+      "author_id": "UCIsuMrDkAqLWBXCvU-Y3J8A",
+      "text": "Jamais j'achèterai cette merde. Shadow, c'est une connerie et une arnaque",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@louofthe83",
+      "author_id": "UCTkHfxSqYGALvdnPV-GBPwA",
+      "text": "\"J'ai meme l'impression que Microsoft fait en sorte que ca soit pas trop évident a faire pour éviter que les programmes fassent pas trop n'importe quoi\"\nPour expliquer 10sec après que c'est juste une fonction de la Windows API, donc la base quoi...",
+      "likes": 14,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@olivst7636",
+      "author_id": "UChjqsOJjIdvLEZ5iKXuS6pQ",
+      "text": "Je déteste Twitter",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Joanarde",
+      "author_id": "UCDviUgZO28xSoYhdXvGSzZg",
+      "text": "Paye tes jeux micodes , faire des placements de produit et cracké des jeux comme assasin's creed unity qui coutent rien",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zygama6861",
+      "author_id": "UCLI78vtbP8giEbZCHHtRB4w",
+      "text": "Perso j'ai dislike et je vais dire pourquoi: j'ai pas du tout aimé le côté putaclick du titre et la vidéo qui semble a moitié sponso (si on me le dit en revanche y'a pas pb)\nLa bise",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maxder5",
+      "author_id": "UC1r9M01mWV4rF36qI7G26VQ",
+      "text": "2.20 de pus sur une vidéo de 10 min, sans compter les pub YouTube on dirai tf1.........",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@davidafterwork",
+      "author_id": "UChHng_hJyseNesoB0BdzV3g",
+      "text": "Nice clickbait. :)",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@KarLKoX",
+      "author_id": "UC_VuwclB7ynImAa-hHEBHeQ",
+      "text": "Aaaaah les WinAPI, c'est toute ma jeunesse !\nEn vrai, ce n'est pas si compliqué à utiliser et une fois qu'on les maîtrises, on peut faire des trucs ultra tuchi ! (j'ai codé un unlocker de fichier, même détenu par des processus prioritaires genre \"explorer.exe\").",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gurnolli2829",
+      "author_id": "UCwzWjNWMxVOWAPE09Aa-1_w",
+      "text": "Vraiment limpression que yu code nimporte comment, tu as trop dindentation et sa sort du contexte   de linformatique, on a vraimeny lipression que tu fait nimp.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wilfriedwafo7843",
+      "author_id": "UCHqZ_marmA5xigMcsyUFWYw",
+      "text": "Beau boulot mec. \nMême malgré les petits bug (t’as eu que 24h donc 🙃) il est stylé ton interface.",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@datsik3875",
+      "author_id": "UCSdwByqaS5lhBNOJSRLKbNg",
+      "text": "Désabonné depuis toutes ces pubs... Et je ne parle pas des titres menssongés.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@blanco_1404",
+      "author_id": "UCCGm6sB8x0H7DfcprYOtn4Q",
+      "text": "Pas mal...\n\nPS: coupe toi les ongles.",
+      "likes": 4,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rawz06",
+      "author_id": "UCR4rL8OdoZJawvTSltbq3dQ",
+      "text": "Merci de parler chinois de temps en temps, pour ceux qui comprennent le chinois, peuvent récupérer ces informations. \nPas mal sinon, GG.",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ghosttheghost2885",
+      "author_id": "UCWZso_M-QQI1QTVniyZJk9Q",
+      "text": "Vidéo sponsorisée je dislike 😂",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Qu.ran003",
+      "author_id": "UCFfPMGhJSKjkP49M5FFGJtg",
+      "text": "Jaime les licornes",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@macrout_9438",
+      "author_id": "UCnNdIlChyHLB3FUqJHbijJA",
+      "text": "Qu'est ce qu'un flan qui aime les hommes et les femmes ?\n\n\n\n\nUn flambi (flam bi)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Bainjamin1502",
+      "author_id": "UCTzYweiZY5V3a4iSpHzDmJQ",
+      "text": "Hâte de regarder cette vidéo ! Merci la notif 😀",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Exorshe",
+      "author_id": "UC9je1RpQ9w_fmx7x2SWIpPA",
+      "text": "Shadow ou Stadia ?\n\n\n\n\n\nOk. Je me la ferme 😂😂🥴",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alckite",
+      "author_id": "UCeVgw8bxOnpokpIc-l4nhxA",
+      "text": "Aucune vue et 161 likes alors hmmm",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Lxrty",
+      "author_id": "UCd0IZmAfehhuhiZNd9VOwHQ",
+      "text": "Salut, j’ai un ami qui dis qu’il a un ip NUKLÉAIRE mais je le crois pas trop",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Idduboss",
+      "author_id": "UC2BCyBTBds1MgarHfHRlvig",
+      "text": "Super beau job ! Par contre pour le partage du code qui est très intéressant tweeter n'est pas du tout adapté.. pourra tu le partager sur GitHub qui est prévu pour stp ? Merci encore pour tes supers vidéos !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mael5692",
+      "author_id": "UCI2yknwGDqZ_sWTNsNOMR9w",
+      "text": "Comment tu a apprit à etre aussi fort dans le hack ?",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@skyexe7328",
+      "author_id": "UCO6xQ5GqEYamgi7rdhuQIfA",
+      "text": "Premier",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@neabfi3212",
+      "author_id": "UCPuutiwJ_-gfVMZaSOS6cCA",
+      "text": "Par contre les timelapses ne sont pas très accurate, ça devrait être 90% de Google et 10% de code comme tout développeur qui se respecte 😂",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Zeryuix",
+      "author_id": "UCWsaSK8fKz8LnP9_y4EYZTQ",
+      "text": "FIRST",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dardansefija714",
+      "author_id": "UCz0B2ABL294E4wU8yZRRVjg",
+      "text": "First",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@azery12356",
+      "author_id": "UCj1M6v2rSpXX9rcykIQSiSA",
+      "text": "Si je dit first on me tape ? :p",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kylexaea-1248",
+      "author_id": "UCWJkm5r1YZKHsrwdAwfStNg",
+      "text": "J'ai déjà détruit Windows 32. Ne me demande pas si c'est utile mais si tu trouve que c'est con, like😅",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@emilekoutoglo946",
+      "author_id": "UCpPXYmKbcoagdoIBTvS5kLQ",
+      "text": "je cherche une application pour trouver le code n'importe wifi sur Android.",
+      "likes": 0,
+      "timestamp": 1609459200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rwan1063",
+      "author_id": "UCRUpyADf7eeQGpRXswenGNQ",
+      "text": "666 666 abo",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ibrahimcocoolblahem5974",
+      "author_id": "UCREeg-lvQZrne-IlSHZh2JA",
+      "text": "Js = petit coder\nC + assembly = BIG coder",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@HYBRIS95",
+      "author_id": "UCSiXDX3m5y0fEtZjAbO5ieg",
+      "text": "Merci pour N-API :) (oui je fais partie de ceux qui ont compris le charabiat xD)",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@trytox3275",
+      "author_id": "UCXYBSkuLnqmk0ZBQ24fBZOw",
+      "text": "Salut mec, gamemixtreize a besoin de toi ! Va lui parler il t'expliquera",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@valentin9571",
+      "author_id": "UC1js8XeTWe8zkmpN-vMw8TA",
+      "text": "Et c'est comme ça que micode a fait gagner des milliards d'euro chez shadows",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tikkolamas8730",
+      "author_id": "UCQiItmfUQyQhUktIwGYE71A",
+      "text": "Le mec relou avec ses pop-up là, on s'en fout ça marche bien et c'etait fait en 24h",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@loshido4714",
+      "author_id": "UCvUSBiYW770AnqIKH5Qu28g",
+      "text": "Ta combien d'année d'experiance dans le code pour créer ça . J'aimerais bien me lançait dans le lua pour faire des logiciels...",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrAlucardDante",
+      "author_id": "UCQa9MVk_u8I9C8IQUwLGmDQ",
+      "text": "Alors le côté résolution est cool, même si t'es pas le seul sur terre a l'avoir fait, puisque tous les jeux PC ont dans leurs options un moyen de changer la résolution. Sinon pour le launcher plein écran utilisable a la manette, tu as réinventé la roue. La solution simple : tu installes Steam, tu actives le lancement au démarrage de windows et tu lui demande de passer en mode bigpicture et tada !",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NobaDesign",
+      "author_id": "UC503w7F6640-ioL6QsxeORA",
+      "text": "Il faut delet systeme32 ça sert à rien",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Pepe-ik5yi",
+      "author_id": "UCz7UlDn9GW5D84eW47FApEA",
+      "text": "m'en fou je fait mais virus en VB que j'envoie  a des streamer et je me sens A<3",
+      "likes": 2,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gdmw09051994",
+      "author_id": "UC736JRxXfgfNw_Ajzn7i1dg",
+      "text": "La ligne de vêtements, les 5 actus (numériques) par semaine, ... :p",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@marvinegaudree3252",
+      "author_id": "UCh_iPRHGwIg2iHg-8Re2PlQ",
+      "text": "T mon modèle gros",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Stane_FR",
+      "author_id": "UClXj5PsxNK5eQYAsfDDlfbA",
+      "text": "0:31 Tout le monde connait Shadow\n\n\n\n\nGrace à: YO Tout Le monde C'est Quentin",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@slxxn5833",
+      "author_id": "UCZmmcEv6zJRIWc7WIb7sREQ",
+      "text": "Honnêtement tu devrais donner ou revendre ce programme à shadow de manière à ce que tous ceux qui prennent l’abonnement puissent l’utiliser avec une manette Xbox ou ps4",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AgonieVII",
+      "author_id": "UCq7bOw27pCNVohEut1O4i3Q",
+      "text": "El Crackito",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ahmedpelfini5055",
+      "author_id": "UCZtQvcf3pRVan7L-29qxVeA",
+      "text": "BG",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Wadi_lol",
+      "author_id": "UCqROOyfgTa-b5GOUHbLvnGg",
+      "text": "Les devs shadow en giga sueur de voir que le mec fait ça si vite",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@paradoxmeld2937",
+      "author_id": "UC9n3A5-6EUDdvmma-gQjXRw",
+      "text": "ok",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@KauVibes",
+      "author_id": "UC73Me6AKWcKJJ0tUpC4rrZw",
+      "text": "Balaise",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Antobreizh",
+      "author_id": "UCdpcgBXiH6QT55tquRJtx8Q",
+      "text": "Tu pourras sortir ton hack shadow svp !!??",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xenor_",
+      "author_id": "UCleI8DnqioW37R3BFPCG6ig",
+      "text": "Salades 🥗",
+      "likes": 1,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Jagwar-93",
+      "author_id": "UC63sYeQx0o3xO1eOJsVno2w",
+      "text": "Putain c’est ouf!",
+      "likes": 0,
+      "timestamp": 1577836800,
+      "parent": "root",
+      "is_reply": false
+    }
+  ],
+  "error": null
+}
