@@ -154,9 +154,15 @@ class BaseTopicModel(ABC):
         Returns:
             Dictionary with model information
         """
+        # Use len() > 0 instead of truthiness check to avoid numpy array ambiguity
+        num_features = (
+            len(self.feature_names)
+            if self.feature_names is not None and len(self.feature_names) > 0
+            else 0
+        )
         return {
             "algorithm": self.__class__.__name__.replace("Model", ""),
             "num_topics": self.num_topics,
-            "num_features": len(self.feature_names) if self.feature_names else 0,
+            "num_features": num_features,
             "diversity": self.get_topic_diversity(),
         }
