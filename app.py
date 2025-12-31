@@ -1005,6 +1005,7 @@ def do_topic_modeling(job_id: str, channels: list, algorithm: str, params: dict)
         model.fit(processed_comments, progress_callback=progress_callback)
 
         # Get representative documents for each topic
+        print("[MODELING] Step A: Updating state to finalizing...")
         with modeling_lock:
             modeling_state.update(
                 {
@@ -1014,12 +1015,25 @@ def do_topic_modeling(job_id: str, channels: list, algorithm: str, params: dict)
                 }
             )
 
+        print("[MODELING] Step B: Getting representative documents...")
         for topic in model.topics:
             topic["representative_comments"] = model.get_representative_documents(
                 comments, int(topic["id"]), n=5
             )
+        print("[MODELING] Step C: Representative documents done")
 
         # Prepare results
+        print("[MODELING] Step D: Preparing results dict...")
+        print("[MODELING] Step D1: document_topics.tolist()...")
+        doc_topics_list = model.document_topics.tolist()
+        print("[MODELING] Step D2: get_topic_diversity()...")
+        diversity = model.get_topic_diversity()
+        print("[MODELING] Step D3: get_model_info()...")
+        model_info = model.get_model_info()
+        print("[MODELING] Step D4: get_statistics()...")
+        preprocessing_stats = preprocessor.get_statistics(comments, processed_comments)
+        print("[MODELING] Step D5: Building results dict...")
+
         results = {
             "success": True,
             "job_id": job_id,
@@ -1029,14 +1043,13 @@ def do_topic_modeling(job_id: str, channels: list, algorithm: str, params: dict)
             "valid_comments": len(processed_comments),
             "channels": channels,
             "topics": model.topics,
-            "document_topics": model.document_topics.tolist(),
+            "document_topics": doc_topics_list,
             "metadata": metadata,
-            "diversity": model.get_topic_diversity(),
-            "model_info": model.get_model_info(),
-            "preprocessing_stats": preprocessor.get_statistics(
-                comments, processed_comments
-            ),
+            "diversity": diversity,
+            "model_info": model_info,
+            "preprocessing_stats": preprocessing_stats,
         }
+        print("[MODELING] Step E: Results dict created")
 
         # Store results
         with modeling_jobs_lock:
