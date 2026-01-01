@@ -9,6 +9,7 @@ from queue import Queue
 
 import yt_dlp
 from flask import Flask, jsonify, render_template, request, send_file
+from flask_cors import CORS
 
 from modeling.lda_model import LDAModel
 from modeling.nmf_model import NMFModel
@@ -25,6 +26,7 @@ MAX_WORKERS = (os.cpu_count() or 4) * 2  # Allow up to 2x CPU count
 COOKIES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cookies.txt")
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for React frontend
 app.config["OUTPUT_DIR"] = "data"
 
 # Créer le dossier data s'il n'existe pas
