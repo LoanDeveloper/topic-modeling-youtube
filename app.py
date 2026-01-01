@@ -22,6 +22,14 @@ from nlp.preprocessing import TextPreprocessor
 # Database imports
 from database.db_manager import DatabaseManager
 
+# Analysis imports
+from analysis.sentiment import SentimentAnalyzer
+from analysis.coherence import CoherenceCalculator
+from analysis.dimensionality_reduction import TopicDistanceCalculator
+
+# Export imports
+from export.exporters import JobExporter
+
 # Number of parallel workers for comment extraction (default to 2 for rate limit safety)
 DEFAULT_WORKERS = 2
 MAX_WORKERS = (os.cpu_count() or 4) * 2  # Allow up to 2x CPU count
@@ -1075,6 +1083,103 @@ def do_topic_modeling(job_id: str, channels: list, algorithm: str, params: dict)
         }
         print("[MODELING] Step E: Results dict created")
 
+        # Enhanced Analysis: Sentiment, Coherence, and Distances
+        print("[MODELING] Step F: Running enhanced analysis...")
+
+        # F1. Sentiment Analysis
+        try:
+            print("[MODELING] Step F1: Calculating sentiment analysis...")
+            with modeling_lock:
+                modeling_state.update({
+                    "progress": 92,
+                    "message": "Analyzing sentiment..."
+                })
+
+            sentiment_analyzer = SentimentAnalyzer(method='textblob')
+            sentiment_results = sentiment_analyzer.analyze_topic_sentiments(
+                comments=comments,
+                document_topics=model.document_topics,
+                num_topics=params.get("num_topics", 5)
+            )
+            results["sentiment_analysis"] = sentiment_results
+            print(f"[MODELING] Sentiment analysis completed: {len(sentiment_results)} topics analyzed")
+        except Exception as e:
+            print(f"[MODELING] Warning: Sentiment analysis failed: {e}")
+            results["sentiment_analysis"] = []
+
+        # F2. Coherence Scores
+        try:
+            print("[MODELING] Step F2: Calculating coherence scores...")
+            with modeling_lock:
+                modeling_state.update({
+                    "progress": 94,
+                    "message": "Calculating topic coherence..."
+                })
+
+            # Extract topics as list of word lists
+            topics_words = [[word for word in topic['words'][:10]] for topic in model.topics]
+
+            # Get tokenized texts for coherence calculation
+            tokenized_texts = [text.split() for text in processed_comments]
+
+            coherence_calculator = CoherenceCalculator(
+                texts=tokenized_texts,
+                dictionary=model.vectorizer.get_feature_names_out() if hasattr(model.vectorizer, 'get_feature_names_out') else None,
+                coherence_type='c_v'
+            )
+
+            coherence_results = coherence_calculator.calculate_topic_coherence(
+                topics=topics_words,
+                topn=10
+            )
+            results["coherence_scores"] = coherence_results
+            print(f"[MODELING] Coherence scores completed: overall={coherence_results.get('coherence_score', 0):.4f}")
+        except Exception as e:
+            print(f"[MODELING] Warning: Coherence calculation failed: {e}")
+            results["coherence_scores"] = {
+                "coherence_score": 0.0,
+                "per_topic_coherence": [],
+                "coherence_type": "c_v",
+                "num_topics": params.get("num_topics", 5)
+            }
+
+        # F3. Inter-topic Distances
+        try:
+            print("[MODELING] Step F3: Calculating inter-topic distances...")
+            with modeling_lock:
+                modeling_state.update({
+                    "progress": 96,
+                    "message": "Calculating topic distances..."
+                })
+
+            # Get topic-term matrix from model
+            if hasattr(model, 'model') and hasattr(model.model, 'components_'):
+                topic_term_matrix = model.model.components_
+            else:
+                # Fallback: create from top words
+                topic_term_matrix = None
+
+            if topic_term_matrix is not None:
+                distance_calculator = TopicDistanceCalculator(method='umap', random_state=42)
+
+                # Topic labels
+                topic_labels = [f"Topic {i}" for i in range(params.get("num_topics", 5))]
+
+                distance_results = distance_calculator.calculate_topic_distances(
+                    topic_term_matrix=topic_term_matrix,
+                    topic_labels=topic_labels
+                )
+                results["inter_topic_distances"] = distance_results
+                print(f"[MODELING] Inter-topic distances completed: {distance_results['num_topics']} topics")
+            else:
+                print("[MODELING] Warning: Could not extract topic-term matrix for distance calculation")
+                results["inter_topic_distances"] = None
+        except Exception as e:
+            print(f"[MODELING] Warning: Inter-topic distance calculation failed: {e}")
+            results["inter_topic_distances"] = None
+
+        print("[MODELING] Step G: Enhanced analysis completed")
+
         # Store results in memory (backward compatibility)
         with modeling_jobs_lock:
             modeling_jobs[job_id]["result"] = results
@@ -1142,6 +1247,31 @@ def do_topic_modeling(job_id: str, channels: list, algorithm: str, params: dict)
                     'reconstruction_error': model_info.get('reconstruction_error'),
                     'training_time_seconds': None  # To be added with timing
                 })
+
+                # 6. Save sentiment analysis results
+                if results.get('sentiment_analysis'):
+                    try:
+                        db_manager.save_sentiment_analysis(job_id, results['sentiment_analysis'])
+                        print(f"[DATABASE] Saved sentiment analysis for {len(results['sentiment_analysis'])} topics")
+                    except Exception as e:
+                        print(f"[DATABASE] Warning: Failed to save sentiment analysis: {e}")
+
+                # 7. Save coherence scores
+                if results.get('coherence_scores'):
+                    try:
+                        coherence_data = results['coherence_scores']
+                        db_manager.save_coherence_scores(job_id, coherence_data)
+                        print(f"[DATABASE] Saved coherence scores (overall={coherence_data.get('coherence_score', 0):.4f})")
+                    except Exception as e:
+                        print(f"[DATABASE] Warning: Failed to save coherence scores: {e}")
+
+                # 8. Save inter-topic distances
+                if results.get('inter_topic_distances'):
+                    try:
+                        db_manager.save_topic_distances(job_id, results['inter_topic_distances'])
+                        print(f"[DATABASE] Saved inter-topic distances")
+                    except Exception as e:
+                        print(f"[DATABASE] Warning: Failed to save topic distances: {e}")
 
                 print(f"[DATABASE] Successfully persisted job {job_id} to PostgreSQL")
             except Exception as e:
@@ -1556,6 +1686,115 @@ def delete_run(run_id):
             del modeling_jobs[run_id]
 
         return jsonify({"success": True})
+
+
+@app.route("/api/modeling/jobs/<job_id>/enhanced", methods=["GET"])
+def get_enhanced_results(job_id):
+    """
+    Get enhanced analysis results (sentiment, coherence, distances) for a job.
+    """
+    try:
+        # Try database first
+        if db_manager:
+            job_data = db_manager.get_job_results(job_id)
+            if job_data:
+                return jsonify({
+                    "success": True,
+                    "sentiment_analysis": job_data.get("sentiment_analysis", []),
+                    "coherence_scores": job_data.get("coherence_scores", {}),
+                    "inter_topic_distances": job_data.get("inter_topic_distances", None)
+                })
+
+        # Fallback to memory
+        with modeling_jobs_lock:
+            if job_id in modeling_jobs and modeling_jobs[job_id].get("status") == "completed":
+                result = modeling_jobs[job_id].get("result", {})
+                return jsonify({
+                    "success": True,
+                    "sentiment_analysis": result.get("sentiment_analysis", []),
+                    "coherence_scores": result.get("coherence_scores", {}),
+                    "inter_topic_distances": result.get("inter_topic_distances", None)
+                })
+
+        return jsonify({"error": "Job not found or not completed"}), 404
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/modeling/jobs/<job_id>/export", methods=["POST"])
+def export_job_results(job_id):
+    """
+    Export job results to JSON, CSV, or Excel format.
+
+    Request body:
+    {
+        "format": "json" | "csv" | "excel",
+        "include_documents": true/false (optional, default: true),
+        "max_documents": 1000 (optional, for excel/csv)
+    }
+    """
+    try:
+        data = request.json or {}
+        export_format = data.get("format", "json")
+        include_documents = data.get("include_documents", True)
+        max_documents = data.get("max_documents", 1000)
+
+        # Get job data
+        job_data = None
+
+        # Try database first
+        if db_manager:
+            job_data = db_manager.get_job_results(job_id)
+
+        # Fallback to memory
+        if not job_data:
+            with modeling_jobs_lock:
+                if job_id in modeling_jobs and modeling_jobs[job_id].get("status") == "completed":
+                    job_data = modeling_jobs[job_id].get("result", {})
+
+        if not job_data:
+            return jsonify({"error": "Job not found or not completed"}), 404
+
+        # Create temp directory for exports
+        import tempfile
+        temp_dir = tempfile.mkdtemp()
+
+        try:
+            exporter = JobExporter(job_data)
+
+            if export_format == "json":
+                output_path = os.path.join(temp_dir, f"{job_id}_export.json")
+                exporter.export_json(output_path)
+                return send_file(output_path, as_attachment=True, download_name=f"{job_id}_export.json")
+
+            elif export_format == "csv":
+                from export.exporters import export_job_to_csv
+                output_dir = os.path.join(temp_dir, job_id)
+                files = export_job_to_csv(job_data, output_dir, include_documents)
+
+                # Return first file (topics) for simplicity
+                # In production, you'd want to zip multiple files
+                topics_file = files.get("topics")
+                if topics_file:
+                    return send_file(topics_file, as_attachment=True, download_name=f"{job_id}_topics.csv")
+
+            elif export_format == "excel":
+                output_path = os.path.join(temp_dir, f"{job_id}_export.xlsx")
+                exporter.export_excel(output_path, include_documents, max_documents)
+                return send_file(output_path, as_attachment=True, download_name=f"{job_id}_export.xlsx")
+
+            else:
+                return jsonify({"error": f"Unsupported format: {export_format}"}), 400
+
+        except Exception as e:
+            # Cleanup temp directory
+            import shutil
+            shutil.rmtree(temp_dir, ignore_errors=True)
+            raise
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 @app.route("/api/health")

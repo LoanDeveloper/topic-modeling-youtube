@@ -113,16 +113,38 @@ export function AlgorithmConfig({ onRun, disabled = false }: AlgorithmConfigProp
             <TabsTrigger value="nmf">NMF</TabsTrigger>
           </TabsList>
           <TabsContent value="lda" className="space-y-4 mt-4">
-            <p className="text-sm text-muted-foreground">
-              Latent Dirichlet Allocation (LDA) is a probabilistic model that discovers abstract topics in a collection of documents.
-              It assumes documents are mixtures of topics, and topics are mixtures of words.
-            </p>
+            <div className="space-y-2">
+              <p className="text-sm text-muted-foreground">
+                <strong>Latent Dirichlet Allocation (LDA)</strong> is a probabilistic model that discovers abstract topics in a collection of documents.
+                It assumes documents are mixtures of topics, and topics are mixtures of words.
+              </p>
+              <div className="rounded-md bg-muted p-3 text-xs space-y-1">
+                <p className="font-medium">✓ Best for:</p>
+                <ul className="list-disc list-inside space-y-0.5 ml-2">
+                  <li>Discovering overlapping themes (documents can belong to multiple topics)</li>
+                  <li>Probabilistic interpretation (topic probabilities per document)</li>
+                  <li>Smaller datasets or exploratory analysis</li>
+                </ul>
+                <p className="font-medium mt-2">Performance: Moderate speed, handles sparse data well</p>
+              </div>
+            </div>
           </TabsContent>
           <TabsContent value="nmf" className="space-y-4 mt-4">
-            <p className="text-sm text-muted-foreground">
-              Non-negative Matrix Factorization (NMF) decomposes the document-term matrix into two lower-rank matrices.
-              It often produces more interpretable topics with clearer word associations.
-            </p>
+            <div className="space-y-2">
+              <p className="text-sm text-muted-foreground">
+                <strong>Non-negative Matrix Factorization (NMF)</strong> decomposes the document-term matrix into two lower-rank matrices.
+                It enforces non-negativity constraints, often producing more interpretable topics.
+              </p>
+              <div className="rounded-md bg-muted p-3 text-xs space-y-1">
+                <p className="font-medium">✓ Best for:</p>
+                <ul className="list-disc list-inside space-y-0.5 ml-2">
+                  <li>Clearer topic separation with distinct word associations</li>
+                  <li>More interpretable and easier to understand topics</li>
+                  <li>Larger datasets with well-defined themes</li>
+                </ul>
+                <p className="font-medium mt-2">Performance: Faster than LDA, produces sharper topics</p>
+              </div>
+            </div>
           </TabsContent>
         </Tabs>
 
@@ -154,14 +176,24 @@ export function AlgorithmConfig({ onRun, disabled = false }: AlgorithmConfigProp
               <SelectValue placeholder="Select n-gram range" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="1-1">Unigrams (1-1)</SelectItem>
-              <SelectItem value="1-2">Unigrams + Bigrams (1-2)</SelectItem>
-              <SelectItem value="1-3">Unigrams + Bigrams + Trigrams (1-3)</SelectItem>
+              <SelectItem value="1-1">Unigrams only (1-1) - Single words</SelectItem>
+              <SelectItem value="1-2">Unigrams + Bigrams (1-2) - Recommended</SelectItem>
+              <SelectItem value="1-3">Up to Trigrams (1-3) - Advanced</SelectItem>
             </SelectContent>
           </Select>
-          <p className="text-xs text-muted-foreground">
-            Controls whether to use single words, word pairs, or longer phrases. Higher ranges capture multi-word expressions but increase vocabulary size.
-          </p>
+          <div className="rounded-md bg-muted p-3 text-xs space-y-2">
+            <p className="text-muted-foreground">
+              <strong>N-grams</strong> capture single words and word phrases:
+            </p>
+            <div className="space-y-1">
+              <p><strong>• (1-1) Single words:</strong> Faster, simpler topics, may miss context (e.g., "machine", "learning")</p>
+              <p><strong>• (1-2) + Word pairs:</strong> Better context, captures phrases (e.g., "machine learning") - Recommended</p>
+              <p><strong>• (1-3) + 3-word phrases:</strong> Most context, but slower and larger vocabulary</p>
+            </div>
+            <p className="text-muted-foreground italic mt-2">
+              Trade-off: Higher ranges capture more meaning but increase computation time and memory usage.
+            </p>
+          </div>
         </div>
 
         {/* Language */}
