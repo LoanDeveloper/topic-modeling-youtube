@@ -11,7 +11,11 @@
       "Bash(npm run:*)",
       "Bash(dir:*)",
       "Bash(npm install:*)",
-      "Bash(npm uninstall:*)"
+      "Bash(npm uninstall:*)",
+      "Bash(cat:*)",
+      "Bash(findstr:*)",
+      "Bash(powershell:*)",
+      "Bash(copy \"C:\\\\Users\\\\Utilisateur\\\\Documents\\\\Code\\\\topic-modeling-youtube\\\\database\\\\schema.sql\" \"C:\\\\Users\\\\Utilisateur\\\\Documents\\\\Code\\\\topic-modeling-youtube\\\\database\\\\init.sql\")"
     ]
   }
 }

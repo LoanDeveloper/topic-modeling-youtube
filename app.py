@@ -10,6 +10,7 @@ from queue import Queue
 import yt_dlp
 from flask import Flask, jsonify, render_template, request, send_file
 from flask_cors import CORS
+from dotenv import load_dotenv
 
 from modeling.lda_model import LDAModel
 from modeling.nmf_model import NMFModel
@@ -17,6 +18,9 @@ from modeling.nmf_model import NMFModel
 # Topic modeling imports
 from nlp.language_detector import LanguageDetector
 from nlp.preprocessing import TextPreprocessor
+
+# Database imports
+from database.db_manager import DatabaseManager
 
 # Number of parallel workers for comment extraction (default to 2 for rate limit safety)
 DEFAULT_WORKERS = 2
@@ -31,6 +35,24 @@ app.config["OUTPUT_DIR"] = "data"
 
 # Créer le dossier data s'il n'existe pas
 os.makedirs(app.config["OUTPUT_DIR"], exist_ok=True)
+
+# Load environment variables
+load_dotenv()
+
+# Initialize database manager
+DATABASE_URL = os.getenv("DATABASE_URL")
+db_manager = None
+
+if DATABASE_URL:
+    try:
+        db_manager = DatabaseManager(DATABASE_URL)
+        db_manager.create_tables()  # Ensure tables exist
+        print(f"[DATABASE] Connected successfully to {DATABASE_URL.split('@')[1] if '@' in DATABASE_URL else 'database'}")
+    except Exception as e:
+        print(f"[DATABASE] Warning: Could not connect to database: {e}")
+        print(f"[DATABASE] Running in memory-only mode. Results will not persist across restarts.")
+else:
+    print("[DATABASE] No DATABASE_URL found. Running in memory-only mode.")
 
 # Global state for extraction tracking
 extraction_state = {
@@ -1053,10 +1075,78 @@ def do_topic_modeling(job_id: str, channels: list, algorithm: str, params: dict)
         }
         print("[MODELING] Step E: Results dict created")
 
-        # Store results
+        # Store results in memory (backward compatibility)
         with modeling_jobs_lock:
             modeling_jobs[job_id]["result"] = results
             modeling_jobs[job_id]["status"] = "completed"
+
+        # Persist to database if available
+        if db_manager:
+            try:
+                print(f"[DATABASE] Persisting results for job {job_id} to PostgreSQL...")
+
+                # 1. Update job with results summary
+                db_manager.update_job_status(job_id, "completed")
+                db_manager.update_job_results(
+                    job_id=job_id,
+                    total_comments=len(comments),
+                    valid_comments=len(processed_comments),
+                    diversity=diversity
+                )
+
+                # 2. Save topics with words and representative comments
+                topics_data = []
+                for topic in model.topics:
+                    topic_data = {
+                        'topic_number': int(topic['id']),
+                        'label': topic.get('label', f"Topic {topic['id']}"),
+                        'document_count': topic.get('document_count', 0),
+                        'words': topic.get('words', []),
+                        'representative_comments': topic.get('representative_comments', []),
+                        'metadata': [metadata[i] for i, _ in enumerate(topic.get('representative_comments', [])[:5])] if len(metadata) > 0 else []
+                    }
+                    topics_data.append(topic_data)
+                db_manager.save_topics(job_id, topics_data)
+
+                # 3. Save document-topic probabilities (sparse, only prob > 0.01)
+                doc_topics_sparse = []
+                for doc_idx, doc_probs in enumerate(model.document_topics):
+                    for topic_num, prob in enumerate(doc_probs):
+                        if prob > 0.01:  # Only store significant probabilities
+                            doc_topics_sparse.append({
+                                'document_index': doc_idx,
+                                'topic_number': topic_num,
+                                'probability': float(prob),
+                                'channel': metadata[doc_idx].get('channel') if doc_idx < len(metadata) else None,
+                                'video_id': metadata[doc_idx].get('video_id') if doc_idx < len(metadata) else None
+                            })
+                db_manager.save_document_topics_batch(job_id, doc_topics_sparse)
+
+                # 4. Save preprocessing stats
+                db_manager.save_preprocessing_stats(job_id, {
+                    'original_comments': preprocessing_stats.get('original_documents', len(comments)),
+                    'valid_comments': preprocessing_stats.get('processed_documents', len(processed_comments)),
+                    'filtered_comments': preprocessing_stats.get('empty_documents', 0),
+                    'avg_length_original': preprocessing_stats.get('avg_length_original', 0),
+                    'avg_length_processed': preprocessing_stats.get('avg_tokens_per_doc', 0),
+                    'total_vocabulary': model_info.get('num_features', 0),
+                    'language_distribution': {},  # To be enhanced with actual language detection
+                    'most_common_words': None
+                })
+
+                # 5. Save model metadata
+                db_manager.save_model_metadata(job_id, {
+                    'vocabulary_size': model_info.get('num_features', 0),
+                    'max_iter': model_info.get('max_iter', params.get('max_iter', 20)),
+                    'perplexity': model_info.get('perplexity'),
+                    'reconstruction_error': model_info.get('reconstruction_error'),
+                    'training_time_seconds': None  # To be added with timing
+                })
+
+                print(f"[DATABASE] Successfully persisted job {job_id} to PostgreSQL")
+            except Exception as e:
+                print(f"[DATABASE] Error persisting to database: {e}")
+                # Don't fail the job if database save fails - results are still in memory
 
         with modeling_lock:
             modeling_state.update(
@@ -1136,6 +1226,7 @@ def modeling_run():
     # Create job
     job_id = str(uuid.uuid4())[:8]
 
+    # Store in memory (backward compatibility)
     with modeling_jobs_lock:
         modeling_jobs[job_id] = {
             "id": job_id,
@@ -1146,6 +1237,25 @@ def modeling_run():
             "result": None,
             "created_at": datetime.now().isoformat(),
         }
+
+    # Create job in database if available
+    if db_manager:
+        try:
+            db_manager.create_job({
+                'job_id': job_id,
+                'channels': channels,
+                'algorithm': algorithm,
+                'status': 'queued',
+                'num_topics': params.get('num_topics', 5),
+                'n_gram_range': params.get('n_gram_range', [1, 2]),
+                'max_iter': params.get('max_iter', 20 if algorithm == 'lda' else 200),
+                'language': params.get('language', 'auto'),
+                'alpha': params.get('alpha') if algorithm == 'lda' else None,
+                'beta': params.get('beta') if algorithm == 'lda' else None
+            })
+            print(f"[DATABASE] Created job {job_id} in PostgreSQL")
+        except Exception as e:
+            print(f"[DATABASE] Error creating job in database: {e}")
 
     # Queue job
     modeling_queue.put((job_id, channels, algorithm, params))
@@ -1236,7 +1346,242 @@ def modeling_delete_job(job_id):
 
         del modeling_jobs[job_id]
 
+    # Also delete from database if available
+    if db_manager:
+        try:
+            db_manager.delete_job(job_id)
+            print(f"[DATABASE] Deleted job {job_id} from PostgreSQL")
+        except Exception as e:
+            print(f"[DATABASE] Error deleting job from database: {e}")
+
     return jsonify({"success": True})
+
+
+# ============================================================================
+# DATABASE-BACKED API ENDPOINTS (Priority for Option B)
+# ============================================================================
+
+@app.route("/api/runs", methods=["POST"])
+def create_run():
+    """
+    Create a new modeling run (alias for /api/modeling/run).
+    This endpoint uses the database manager to persist the job.
+    """
+    data = request.json
+    channels = data.get("channels", [])
+    algorithm = data.get("algorithm", "lda")
+    params = data.get("params", {})
+
+    if not channels:
+        return jsonify({"error": "No channels selected"}), 400
+
+    if algorithm not in ("lda", "nmf"):
+        return jsonify({"error": f"Unknown algorithm: {algorithm}"}), 400
+
+    # Create job
+    job_id = str(uuid.uuid4())[:8]
+
+    # Store in memory (backward compatibility)
+    with modeling_jobs_lock:
+        modeling_jobs[job_id] = {
+            "id": job_id,
+            "channels": channels,
+            "algorithm": algorithm,
+            "params": params,
+            "status": "queued",
+            "result": None,
+            "created_at": datetime.now().isoformat(),
+        }
+
+    # Create job in database if available
+    if db_manager:
+        try:
+            db_manager.create_job({
+                'job_id': job_id,
+                'channels': channels,
+                'algorithm': algorithm,
+                'status': 'queued',
+                'num_topics': params.get('num_topics', 5),
+                'n_gram_range': params.get('n_gram_range', [1, 2]),
+                'max_iter': params.get('max_iter', 20 if algorithm == 'lda' else 200),
+                'language': params.get('language', 'auto'),
+                'alpha': params.get('alpha') if algorithm == 'lda' else None,
+                'beta': params.get('beta') if algorithm == 'lda' else None
+            })
+            print(f"[DATABASE] Created job {job_id} in PostgreSQL")
+        except Exception as e:
+            print(f"[DATABASE] Error creating job in database: {e}")
+            return jsonify({"error": f"Database error: {str(e)}"}), 500
+
+    # Queue job
+    modeling_queue.put((job_id, channels, algorithm, params))
+
+    return jsonify({"success": True, "run_id": job_id, "job_id": job_id, "status": "queued"})
+
+
+@app.route("/api/runs", methods=["GET"])
+def list_runs():
+    """
+    List all modeling runs with pagination.
+    Uses database if available, falls back to in-memory storage.
+    """
+    # Get query parameters
+    page = request.args.get('page', 1, type=int)
+    limit = request.args.get('limit', 50, type=int)
+    status = request.args.get('status', None, type=str)
+    algorithm = request.args.get('algorithm', None, type=str)
+
+    if db_manager:
+        try:
+            # Query from database
+            jobs_list, total = db_manager.list_jobs(
+                page=page,
+                limit=limit,
+                status=status,
+                algorithm=algorithm
+            )
+
+            return jsonify({
+                "runs": jobs_list,
+                "total": total,
+                "page": page,
+                "limit": limit,
+                "total_pages": (total + limit - 1) // limit
+            })
+        except Exception as e:
+            print(f"[DATABASE] Error listing jobs from database: {e}")
+            return jsonify({"error": f"Database error: {str(e)}"}), 500
+    else:
+        # Fallback to in-memory storage
+        with modeling_jobs_lock:
+            jobs_list = []
+            for job_id, job in modeling_jobs.items():
+                # Apply filters
+                if status and job["status"] != status:
+                    continue
+                if algorithm and job["algorithm"] != algorithm:
+                    continue
+
+                jobs_list.append({
+                    "id": job_id,
+                    "job_id": job_id,
+                    "channels": job["channels"],
+                    "algorithm": job["algorithm"],
+                    "status": job["status"],
+                    "created_at": job["created_at"],
+                })
+
+        # Sort by creation time (newest first)
+        jobs_list.sort(key=lambda x: x["created_at"], reverse=True)
+
+        # Apply pagination
+        start = (page - 1) * limit
+        end = start + limit
+        paginated = jobs_list[start:end]
+
+        return jsonify({
+            "runs": paginated,
+            "total": len(jobs_list),
+            "page": page,
+            "limit": limit,
+            "total_pages": (len(jobs_list) + limit - 1) // limit
+        })
+
+
+@app.route("/api/runs/<run_id>", methods=["GET"])
+def get_run(run_id):
+    """
+    Get complete results for a specific run.
+    Uses database if available, falls back to in-memory storage.
+    """
+    if db_manager:
+        try:
+            # Query from database
+            results = db_manager.get_complete_results(run_id)
+
+            if not results:
+                return jsonify({"error": "Run not found"}), 404
+
+            return jsonify(results)
+        except Exception as e:
+            print(f"[DATABASE] Error getting run from database: {e}")
+            return jsonify({"error": f"Database error: {str(e)}"}), 500
+    else:
+        # Fallback to in-memory storage
+        with modeling_jobs_lock:
+            if run_id not in modeling_jobs:
+                return jsonify({"error": "Run not found"}), 404
+
+            job = modeling_jobs[run_id]
+
+            if job["status"] != "completed":
+                return jsonify({
+                    "job_id": run_id,
+                    "status": job["status"],
+                    "message": "Run not completed yet"
+                }), 200
+
+            return jsonify(job["result"])
+
+
+@app.route("/api/runs/<run_id>", methods=["DELETE"])
+def delete_run(run_id):
+    """
+    Delete a modeling run (and all associated data with cascade).
+    Uses database if available.
+    """
+    if db_manager:
+        try:
+            # Delete from database (cascade will remove all related data)
+            success = db_manager.delete_job(run_id)
+
+            if not success:
+                return jsonify({"error": "Run not found"}), 404
+
+            # Also delete from memory if present
+            with modeling_jobs_lock:
+                if run_id in modeling_jobs:
+                    del modeling_jobs[run_id]
+
+            return jsonify({"success": True, "message": f"Run {run_id} deleted successfully"})
+        except Exception as e:
+            print(f"[DATABASE] Error deleting run from database: {e}")
+            return jsonify({"error": f"Database error: {str(e)}"}), 500
+    else:
+        # Fallback to in-memory storage
+        with modeling_jobs_lock:
+            if run_id not in modeling_jobs:
+                return jsonify({"error": "Run not found"}), 404
+
+            del modeling_jobs[run_id]
+
+        return jsonify({"success": True})
+
+
+@app.route("/api/health")
+def health_check():
+    """
+    Health check endpoint to verify API and database connectivity.
+    """
+    health_status = {
+        "status": "healthy",
+        "database": "connected" if db_manager else "not configured",
+        "timestamp": datetime.now().isoformat()
+    }
+
+    if db_manager:
+        try:
+            # Test database connection by querying job count
+            with db_manager.get_session() as session:
+                from database.models import ModelingJob
+                count = session.query(ModelingJob).count()
+            health_status["database_jobs_count"] = count
+        except Exception as e:
+            health_status["status"] = "degraded"
+            health_status["database"] = f"error: {str(e)}"
+
+    status_code = 200 if health_status["status"] == "healthy" else 503
+    return jsonify(health_status), status_code
 
 
 if __name__ == "__main__":

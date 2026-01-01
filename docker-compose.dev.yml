@@ -1,0 +1,62 @@
+# Docker Compose for Development (Option B - Vertical Slice)
+# This minimal setup runs PostgreSQL and backend for testing database integration
+#
+# Usage:
+#   docker compose -f docker-compose.dev.yml up -d
+#   docker compose -f docker-compose.dev.yml down
+
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: topic-modeling-db-dev
+    environment:
+      POSTGRES_DB: app_db
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-app_pw}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data_dev:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d app_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - app-network
+
+  # Backend (Flask) - Optional for full integration test
+  # Uncomment to run backend in Docker as well
+  # backend:
+  #   build:
+  #     context: .
+  #       dockerfile: Dockerfile.backend
+  #   container_name: topic-modeling-backend-dev
+  #   environment:
+  #     DATABASE_URL: postgresql+psycopg2://app:${DB_PASSWORD:-app_pw}@postgres:5432/app_db
+  #     FLASK_ENV: development
+  #     FLASK_DEBUG: 1
+  #   volumes:
+  #     - ./data:/app/data  # Persist YouTube data
+  #     - .:/app  # Mount source code for hot reload
+  #   ports:
+  #     - "4242:4242"
+  #   depends_on:
+  #     postgres:
+  #       condition: service_healthy
+  #   networks:
+  #     - app-network
+  #   command: python app.py --host 0.0.0.0 --port 4242
+
+volumes:
+  postgres_data_dev:
+    driver: local
+
+networks:
+  app-network:
+    driver: bridge
