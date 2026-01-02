@@ -9,8 +9,6 @@ import {
   Legend,
   CartesianGrid,
   Cell,
-  ComposedChart,
-  Line,
 } from 'recharts';
 
 interface SentimentAnalysisProps {

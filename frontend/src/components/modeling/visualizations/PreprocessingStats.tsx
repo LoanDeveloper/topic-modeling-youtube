@@ -190,7 +190,7 @@ export function PreprocessingStats({ stats, loading = false }: PreprocessingStat
                   fill="#8884d8"
                   dataKey="value"
                 >
-                  {languageData.map((entry, index) => (
+                  {languageData.map((_, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                   ))}
                 </Pie>
