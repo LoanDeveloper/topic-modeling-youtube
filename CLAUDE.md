@@ -116,3 +116,60 @@ The codebase is structured to eventually support:
 - NLP preprocessing pipeline (spaCy, NLTK)
 
 Dependencies are commented out in `requirements.txt` and should be uncommented when implementing these features.
+
+### Implementing Plan - Weeks 2.5 to 4
+
+  Week 2.5 : Docker Unification & Cleanup (NOUVELLE PHASE)
+
+  Phase A : Docker Unification (3 tâches)
+
+  1. Consolider docker-compose files
+    - Supprimer docker-compose.dev.yml
+    - Garder un seul docker-compose.yml avec profile dev/prod
+    - Ajouter variables d'environnement pour tous les services
+  2. Réorganiser les Dockerfiles
+    - Option A (recommandée) : Garder Dockerfiles séparés mais bien structurés
+        - backend/Dockerfile
+      - frontend/Dockerfile
+    - Option B : Multi-stage Dockerfile unique (plus complexe, moins flexible)
+  3. Tester l'unification
+    - Vérifier que docker compose up -d lance tout
+    - Vérifier les health checks
+    - Tester la communication inter-services
+
+  Phase B : Markdown Cleanup (2 tâches)
+
+  4. Identifier et supprimer les markdown inutiles
+    - Garder : CLAUDE.md, README.md (principal)
+    - Supprimer : IMPLEMENTATION.md, QUICK_START.md, README_DATABASE.md, WEEK_2_COMPLETION_SUMMARY.md
+    - Supprimer : Tous les MD dans frontend/src/components/* sauf si référencés
+  5. Archiver les informations utiles
+    - Extraire infos importantes avant suppression
+    - Les intégrer dans CLAUDE.md ou README.md
+
+  Phase C : Documentation Update (1 tâche)
+
+  6. Mettre à jour CLAUDE.md
+    - Architecture Docker complète
+    - Commandes simplifiées (docker compose up -d)
+    - Nouveaux endpoints de Week 2
+    - Structure des données mise à jour
+    - Guide de développement complet
+
+  ---
+  Week 3 : Integration & UI Components (ORIGINAL)
+
+  1. Intégrer les 7 visualizations dans ModelingPage
+  2. Créer JobHistory component
+  3. Créer JobComparison component
+  4. Implémenter job management (rerun, delete, compare)
+  5. Ajouter export UI components
+
+  Week 4 : Polish & Optimization (ORIGINAL)
+
+  1. Performance optimization
+  2. Error handling improvements
+  3. Loading state refinements
+  4. Accessibility audit
+  5. Documentation completion
+  6. User testing and feedback
