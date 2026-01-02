@@ -4,3 +4,6 @@ export { ResultsOverview } from './ResultsOverview';
 export { TopicDistributionChart } from './TopicDistributionChart';
 export { TopicKeywords } from './TopicKeywords';
 export { TopicDetailPanel } from './TopicDetailPanel';
+export { ExportButton } from './ExportButton';
+export { JobHistory } from './JobHistory';
+export { JobComparison } from './JobComparison';
