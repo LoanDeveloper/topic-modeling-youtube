@@ -2,174 +2,542 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Running the Application
+## Quick Start
+
+### Docker Deployment (Recommended)
 
 ```bash
-# Setup
+# 1. Create environment file
+cp .env.example .env
+# Edit .env and set POSTGRES_PASSWORD
+
+# 2. Start all services (frontend, backend, database)
+docker compose up -d
+
+# 3. Access the application
+# Frontend: http://localhost:3000
+# Backend API: http://localhost:4242
+# Database: localhost:5432
+```
+
+### Local Development
+
+```bash
+# Setup Python environment
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# Run the Flask application
+# Download spaCy models (required for topic modeling)
+python -m spacy download fr_core_news_sm  # French
+python -m spacy download en_core_web_sm   # English
+
+# Start PostgreSQL (keep Docker for DB)
+docker compose up -d postgres
+
+# Run Flask backend
+export DATABASE_URL="postgresql://postgres:postgres@localhost:5432/topic_modeling"
 python app.py
 
-# Custom port
-python app.py --port 8080
-
-# Access at http://localhost:4242
+# In another terminal, run frontend
+cd frontend
+npm install
+npm run dev
 ```
+
+---
 
 ## Architecture Overview
 
-This is a Flask-based YouTube comment extraction and analysis application with a planned topic modeling pipeline. The architecture follows a concurrent extraction pattern with queue-based job management.
+This is a **full-stack Flask + React application** for YouTube comment extraction and topic modeling analysis with PostgreSQL persistence.
 
-### Core Components
+### Tech Stack
 
-**Flask Application (`app.py`)**
-- Single-file monolith containing all backend logic
-- RESTful API endpoints for channel info, comment extraction, and data retrieval
-- Queue-based extraction system with configurable worker threads
-- Real-time progress tracking via global state management
-
-**Data Storage Structure**
-```
-data/
-  @ChannelName/
-    info.json              # Channel metadata (subscribers, description, stats)
-    videos/
-      <video_id>.json      # Individual video with comments array
-```
-
-**Concurrent Extraction Model**
-- Uses `ThreadPoolExecutor` with configurable workers (1 to 2x CPU cores)
-- Global extraction state protected by `threading.Lock`
-- Queue system (`extraction_queue`) processes multiple channels sequentially
-- Each video extraction happens in parallel within a channel
-- Progressive saving: videos saved individually to prevent data loss
-
-**Key Design Patterns**
-- **Thread-safe state management**: All shared state (extraction_state, queue_list) protected by locks
-- **Progressive persistence**: Each video JSON saved immediately after extraction, not batched
-- **Skip-existing optimization**: Tracks downloaded video IDs to resume interrupted extractions
-- **Rate limit handling**: Detects 403 errors and gracefully stops extraction
-
-### Data Flow
-
-1. User requests channel extraction via `/api/scrape-comments`
-2. Job(s) added to `extraction_queue` and `queue_list`
-3. Background `queue_worker` thread picks up jobs
-4. `do_extraction()` spawns parallel workers for video comment extraction
-5. Each video's data saved to `data/@channel/videos/<video_id>.json`
-6. Channel `info.json` updated after each video with running stats
-7. Real-time status available via `/api/extraction-status`
-
-### Critical Implementation Details
-
-**YouTube Extraction (`yt-dlp`)**
-- Cookies file (`cookies.txt`) optional but recommended to avoid bot detection
-- Channel URL construction: handles `@handle`, channel IDs, and full URLs
-- Two-phase extraction: metadata first (flat), then per-video comments
-- Comment sort order: 'top' (most liked first)
-
-**Rate Limiting**
-- Default 2 workers to avoid YouTube rate limits
-- 403 Forbidden errors trigger immediate extraction shutdown
-- Recommendation: use fewer workers and skip-existing flag to resume
-
-**State Management**
-- `extraction_state`: Current channel, video, progress counters
-- `extraction_lock`: Protects extraction_state from race conditions
-- `queue_list`: Display-friendly queue status (separate from Queue object)
-- `queue_lock`: Protects queue_list mutations
+**Backend**
+- Flask (REST API)
+- PostgreSQL + SQLAlchemy (data persistence)
+- yt-dlp (YouTube comment extraction)
+- scikit-learn (LDA, NMF topic modeling)
+- spaCy (NLP preprocessing, lemmatization)
+- Gensim (topic coherence)
+- TextBlob (sentiment analysis)
+- UMAP/t-SNE (dimensionality reduction)
 
 **Frontend**
-- Single HTML template (`templates/index.html`) with tabs
-- Real-time progress via polling `/api/extraction-status`
-- Plotly.js loaded via CDN for visualization
-- Multi-channel input: comma-separated values
+- React 18 + TypeScript
+- Vite (build tool)
+- Tailwind CSS + shadcn/ui
+- Recharts (visualizations)
+- TanStack Query (API state management)
 
-### API Endpoints
+**Infrastructure**
+- Docker + Docker Compose
+- Nginx (reverse proxy)
+- Multi-stage builds for optimization
 
-| Endpoint | Purpose |
-|----------|---------|
-| `POST /api/channel-info` | Preview channel metadata and video count |
-| `POST /api/scrape-comments` | Queue channel(s) for extraction |
-| `GET /api/extraction-status` | Real-time progress and queue status |
-| `POST /api/stop-extraction` | Request graceful extraction stop |
-| `POST /api/clear-queue` | Remove completed/errored jobs from queue |
-| `GET /api/system-info` | CPU count and worker limits |
-| `GET /api/files-stats` | List all extracted channels with stats |
-| `GET /api/file-detail/<folder>` | Get channel details and all videos |
+---
 
-### Folder Naming Convention
+## Project Structure
 
-- Channels with `@handle` input: folder named `@handle`
-- Channels with ID input: folder named after channel name (sanitized)
+```
+topic-modeling-youtube/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── extraction/     # YouTube extraction UI
+│   │   │   ├── modeling/       # Topic modeling UI
+│   │   │   │   └── visualizations/  # 7 visualization components
+│   │   │   └── layout/         # Layout components
+│   │   ├── lib/
+│   │   │   └── api-client.ts   # API client with TanStack Query
+│   │   └── App.tsx
+│   ├── Dockerfile              # Frontend container
+│   └── nginx.conf              # Nginx configuration
+├── database/
+│   ├── schema.sql              # Database schema (10 tables)
+│   ├── init.sql                # Initialization script
+│   └── db_manager.py           # Database operations
+├── nlp/
+│   ├── language_detector.py    # Auto language detection (FR/EN)
+│   ├── preprocessing.py        # Text cleaning, lemmatization, stopwords
+│   └── stopwords.py            # Custom stopwords lists
+├── modeling/
+│   ├── base_model.py           # Abstract base class
+│   ├── lda_model.py            # LDA implementation
+│   └── nmf_model.py            # NMF implementation
+├── analysis/
+│   ├── sentiment.py            # Sentiment analysis per topic
+│   ├── coherence.py            # Topic coherence scoring
+│   └── dimensionality_reduction.py  # UMAP, t-SNE, PCA
+├── export/
+│   └── exporters.py            # JSON, CSV, Excel exporters
+├── data/                       # Extracted YouTube data
+│   └── @ChannelName/
+│       ├── info.json           # Channel metadata
+│       └── videos/
+│           └── <video_id>.json # Individual video comments
+├── app.py                      # Flask backend (main application)
+├── Dockerfile                  # Backend container
+├── docker-compose.yml          # Service orchestration
+├── .env.example                # Environment template
+├── requirements.txt            # Python dependencies
+├── CLAUDE.md                   # This file
+└── README.md                   # User documentation
+```
+
+---
+
+## Core Features
+
+### 1. YouTube Comment Extraction
+
+**Capabilities**
+- Search channels by `@handle` or channel ID
+- Multi-channel support (comma-separated)
+- Parallel extraction with configurable workers (1 to 2x CPU cores)
+- Queue system for batch processing
+- Real-time progress tracking
+- Skip already downloaded videos (resume interrupted extractions)
+- Progressive saving (each video saved individually)
+
+**Data Structure**
+```
+data/@ChannelName/
+  info.json       # { channel_name, subscriber_count, total_videos, total_comments, ... }
+  videos/
+    <video_id>.json  # { video_id, title, comment_count, comments: [...] }
+```
+
+**Implementation Details**
+- Uses `yt-dlp` for YouTube API
+- `ThreadPoolExecutor` for parallel video extraction
+- Thread-safe state management with `threading.Lock`
+- Rate limit handling (403 errors trigger graceful shutdown)
+- Cookies file support (`cookies.txt`) to avoid bot detection
+
+### 2. Topic Modeling Pipeline
+
+**Workflow**
+1. **Data Selection** - Choose one or more channels
+2. **Preprocessing** - Auto language detection (FR/EN), spaCy lemmatization, stopwords removal
+3. **Algorithm Selection** - LDA or NMF with configurable parameters
+4. **Training** - Run topic modeling with real-time progress
+5. **Analysis** - Enhanced analysis (sentiment, coherence, distances)
+6. **Visualization** - 7 interactive charts (word clouds, heatmaps, timelines, etc.)
+7. **Export** - Download results as JSON, CSV, or Excel
+
+**Supported Algorithms**
+- **LDA** (Latent Dirichlet Allocation) - Fast, probabilistic, good for <5k comments
+- **NMF** (Non-negative Matrix Factorization) - Balanced, deterministic, good for 1-10k comments
+
+**Configurable Parameters**
+- Number of topics (2-20, with auto-recommendation)
+- N-gram range (unigrams, bigrams, or both)
+- Language processing mode (auto-detect, French, English, mixed)
+
+**Enhanced Analysis (Week 2)**
+- **Sentiment Analysis** - TextBlob per topic (avg sentiment, distribution)
+- **Coherence Scores** - Gensim c_v metric for topic quality
+- **Inter-topic Distances** - UMAP/t-SNE/PCA for 2D visualization
+
+### 3. Database Persistence
+
+**Schema (PostgreSQL)**
+- `modeling_jobs` - Job metadata (algorithm, params, status, timestamps)
+- `topics` - Topic keywords and weights
+- `documents` - Original comments with preprocessing info
+- `document_topics` - Sparse document-topic probabilities (> 0.01)
+- `representative_comments` - Top comments per topic
+- `sentiment_analysis` - Sentiment scores per topic
+- `coherence_scores` - Overall and per-topic coherence
+- `inter_topic_distances` - 2D coordinates for visualization
+- `preprocessing_stats` - Document counts, lengths, languages
+- `topic_evolution` - Timeline data (if available)
+
+**Features**
+- Sparse storage optimization (only probabilities > 0.01)
+- Cascade deletes for data integrity
+- Connection pooling for performance
+- Graceful fallback to in-memory mode if DB unavailable
+
+---
+
+## API Endpoints
+
+### Comment Extraction
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/channel-info` | POST | Preview channel metadata and video count |
+| `/api/scrape-comments` | POST | Queue channel(s) for extraction |
+| `/api/extraction-status` | GET | Real-time extraction progress |
+| `/api/stop-extraction` | POST | Stop current extraction gracefully |
+| `/api/clear-queue` | POST | Remove completed queue items |
+| `/api/system-info` | GET | CPU count and worker limits |
+| `/api/files-stats` | GET | List all extracted channels with stats |
+| `/api/file-detail/<folder>` | GET | Get channel details and all videos |
+
+### Topic Modeling
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/modeling/select-data` | POST | Preview data selection (comments count, languages) |
+| `/api/modeling/run` | POST | Start topic modeling job |
+| `/api/modeling/status/<job_id>` | GET | Get job progress and status |
+| `/api/modeling/results/<job_id>` | GET | Get completed job results |
+| `/api/modeling/jobs/<job_id>/enhanced` | GET | Get enhanced analysis (sentiment, coherence, distances) |
+| `/api/modeling/jobs/<job_id>/export` | POST | Export results (JSON, CSV, Excel) |
+| `/api/modeling/jobs` | GET | List all modeling jobs |
+| `/api/modeling/jobs/<job_id>` | DELETE | Delete a modeling job |
+
+### Health Check
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/health` | GET | API and database health status |
+
+---
+
+## Docker Architecture
+
+### Services
+
+**postgres** (Database)
+- Image: `postgres:16-alpine`
+- Port: `5432`
+- Volume: `postgres_data` (persistent)
+- Health check: `pg_isready`
+
+**backend** (Flask API)
+- Build: `Dockerfile` (at root)
+- Port: `4242`
+- Depends on: `postgres` (healthy)
+- Volumes:
+  - `./data:/app/data` (YouTube data persistence)
+  - `./cookies.txt:/app/cookies.txt:ro` (optional)
+- Health check: `curl -f http://localhost:4242/api/health`
+
+**frontend** (React + Nginx)
+- Build: `frontend/Dockerfile` (multi-stage)
+- Port: `3000` (maps to Nginx :80)
+- Depends on: `backend`
+- Reverse proxy: `/api/*` → `backend:4242`
+- Health check: `wget http://localhost/`
+
+### Environment Variables (.env)
+
+```bash
+# Database
+POSTGRES_DB=topic_modeling
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=your_secure_password_here
+POSTGRES_PORT=5432
+
+# Backend
+BACKEND_PORT=4242
+FLASK_ENV=production
+FLASK_DEBUG=0
+
+# Frontend
+FRONTEND_PORT=3000
+```
+
+### Docker Commands
+
+```bash
+# Start all services
+docker compose up -d
+
+# View logs
+docker compose logs -f [service]
+
+# Restart services
+docker compose restart
+
+# Stop services
+docker compose stop
+
+# Remove everything (including volumes)
+docker compose down -v
+
+# Rebuild after code changes
+docker compose build [service]
+docker compose up -d [service]
+```
+
+---
+
+## Frontend Components
+
+### Extraction Tab
+- Multi-channel input (comma-separated)
+- Worker count slider (1 to 2x CPU cores)
+- Real-time progress bar
+- Queue status display
+- Stop button
+
+### Data Tab
+- List all extracted channels
+- Channel statistics (subscribers, videos, comments)
+- Comments per video chart (Plotly)
+- Comments timeline visualization
+- Video list sorted by engagement
+
+### Modeling Tab
+- **Step 1**: Data Selection (multi-channel dropdown, preview button)
+- **Step 2**: Algorithm Configuration (LDA/NMF, params)
+- **Step 3**: Real-time Progress (preprocessing → training → finalizing)
+- **Step 4**: Results Display (topics, keywords, representative comments)
+
+### Visualization Components (7 components)
+
+Located in `frontend/src/components/modeling/visualizations/`:
+
+1. **PreprocessingStats.tsx** - Document counts, lengths, languages
+2. **WordCloudVisualization.tsx** - Tabbed word clouds per topic
+3. **TopicHeatmap.tsx** - Document-topic probability heatmap
+4. **CoherenceScores.tsx** - Overall and per-topic coherence
+5. **TopicEvolutionTimeline.tsx** - Topic trends over time
+6. **InterTopicDistance.tsx** - 2D scatter plot of topic similarity
+7. **SentimentAnalysis.tsx** - Sentiment distribution per topic
+
+All components support:
+- Loading states
+- Empty states
+- Error handling
+- Responsive design
+- TypeScript types
+
+---
+
+## Development Guidelines
+
+### Adding New API Endpoints
+
+1. Define route in `app.py`
+2. Add endpoint to API client (`frontend/src/lib/api-client.ts`)
+3. Create React Query hook if needed
+4. Update this documentation
+
+### Adding New Visualizations
+
+1. Create component in `frontend/src/components/modeling/visualizations/`
+2. Export from `index.ts`
+3. Import in `ModelingPage` or results view
+4. Add TypeScript interfaces in component file
+
+### Database Schema Changes
+
+1. Update `database/schema.sql`
+2. Modify `database/db_manager.py` operations
+3. Update API endpoints that use the tables
+4. Test with `docker compose down -v && docker compose up -d`
+
+### Testing
+
+**Backend**
+```bash
+# Activate venv
+source .venv/bin/activate
+
+# Test imports
+python -c "from analysis.sentiment import SentimentAnalyzer; print('✓')"
+python -c "from analysis.coherence import CoherenceCalculator; print('✓')"
+python -c "from export.exporters import JobExporter; print('✓')"
+
+# Run app
+python app.py
+```
+
+**Frontend**
+```bash
+cd frontend
+
+# Type check
+npm run type-check
+
+# Build
+npm run build
+
+# Dev server
+npm run dev
+```
+
+**Integration**
+```bash
+# Start all services
+docker compose up -d
+
+# Check health
+curl http://localhost:4242/api/health
+
+# View logs
+docker compose logs -f
+```
+
+---
+
+## Common Issues
+
+### YouTube Rate Limiting
+- Reduce worker count (default: 2)
+- Use cookies file (`cookies.txt`) in root directory
+- Enable "Skip already downloaded" option
+- Wait before retrying (403 errors trigger auto-shutdown)
+
+### spaCy Model Not Found
+```bash
+python -m spacy download fr_core_news_sm
+python -m spacy download en_core_web_sm
+```
+
+### Database Connection Failed
+```bash
+# Check if postgres is healthy
+docker compose ps postgres
+
+# Restart database
+docker compose restart postgres
+
+# View logs
+docker compose logs postgres
+```
+
+### Port Conflicts
+- Edit `.env` and change `FRONTEND_PORT`, `BACKEND_PORT`, or `POSTGRES_PORT`
+- Restart services: `docker compose up -d`
+
+### Out of Memory (Docker)
+- Increase Docker memory limit (Docker Desktop → Settings → Resources)
+- Recommended: 8GB minimum
+
+---
+
+## Performance Notes
+
+**Topic Modeling**
+- 1k comments: ~10-30s (LDA/NMF)
+- 10k comments: ~1-2min (LDA/NMF)
+- Preprocessing: ~30% of time
+- Training: ~60% of time
+- First run slower (spaCy model loading)
+
+**Comment Extraction**
+- Parallel workers speed up extraction
+- More workers = higher risk of rate limits
+- Skip-existing flag recommended for resume
+
+**Database**
+- Sparse storage (only probabilities > 0.01)
+- Connection pooling enabled
+- Cascade deletes for cleanup
+
+---
+
+## File Naming Conventions
+
+**Channels**
+- `@handle` input → folder named `@handle`
+- Channel ID input → folder named after channel name (sanitized)
 - Sanitization: keeps alphanumeric, spaces, hyphens, underscores, `@`
 
-### Topic Modeling (Planned)
+**Videos**
+- Format: `<video_id>.json`
+- Example: `abc123.json`
 
-The codebase is structured to eventually support:
-- LDA/NMF topic modeling
-- BERTopic integration
-- Dimensionality reduction (UMAP, t-SNE, PCA)
-- NLP preprocessing pipeline (spaCy, NLTK)
+---
 
-Dependencies are commented out in `requirements.txt` and should be uncommented when implementing these features.
+## Dependencies
 
-### Implementing Plan - Weeks 2.5 to 4
+**Backend (requirements.txt)**
+- flask, flask-cors
+- sqlalchemy, psycopg2-binary
+- yt-dlp
+- scikit-learn, gensim
+- spacy, langdetect
+- numpy, pandas, scipy
+- textblob, umap-learn
+- openpyxl (Excel export)
 
-  Week 2.5 : Docker Unification & Cleanup (NOUVELLE PHASE)
+**Frontend (package.json)**
+- react, react-dom
+- vite, typescript
+- tailwindcss, shadcn/ui
+- @tanstack/react-query
+- recharts, react-wordcloud
+- file-saver
 
-  Phase A : Docker Unification (3 tâches)
+**System Requirements**
+- Python 3.11+
+- Node.js 20+
+- Docker & Docker Compose
+- 8GB+ RAM (recommended)
 
-  1. Consolider docker-compose files
-    - Supprimer docker-compose.dev.yml
-    - Garder un seul docker-compose.yml avec profile dev/prod
-    - Ajouter variables d'environnement pour tous les services
-  2. Réorganiser les Dockerfiles
-    - Option A (recommandée) : Garder Dockerfiles séparés mais bien structurés
-        - backend/Dockerfile
-      - frontend/Dockerfile
-    - Option B : Multi-stage Dockerfile unique (plus complexe, moins flexible)
-  3. Tester l'unification
-    - Vérifier que docker compose up -d lance tout
-    - Vérifier les health checks
-    - Tester la communication inter-services
+---
 
-  Phase B : Markdown Cleanup (2 tâches)
+## Security Notes
 
-  4. Identifier et supprimer les markdown inutiles
-    - Garder : CLAUDE.md, README.md (principal)
-    - Supprimer : IMPLEMENTATION.md, QUICK_START.md, README_DATABASE.md, WEEK_2_COMPLETION_SUMMARY.md
-    - Supprimer : Tous les MD dans frontend/src/components/* sauf si référencés
-  5. Archiver les informations utiles
-    - Extraire infos importantes avant suppression
-    - Les intégrer dans CLAUDE.md ou README.md
+- Never commit `.env` file (use `.env.example` as template)
+- Change default `POSTGRES_PASSWORD` in production
+- Cookies file (`cookies.txt`) is optional and `.gitignore`d
+- API endpoints have CORS enabled (configure for production)
 
-  Phase C : Documentation Update (1 tâche)
+---
 
-  6. Mettre à jour CLAUDE.md
-    - Architecture Docker complète
-    - Commandes simplifiées (docker compose up -d)
-    - Nouveaux endpoints de Week 2
-    - Structure des données mise à jour
-    - Guide de développement complet
+## Future Enhancements
 
-  ---
-  Week 3 : Integration & UI Components (ORIGINAL)
+Potential improvements (not yet implemented):
+- BERTopic integration with sentence-transformers
+- Multilingual model support
+- GPU acceleration for large datasets
+- Topic labeling with LLM API
+- Comment search by topic
+- Topic evolution tracking
+- Compare topics across channels
+- Real-time streaming analysis
 
-  1. Intégrer les 7 visualizations dans ModelingPage
-  2. Créer JobHistory component
-  3. Créer JobComparison component
-  4. Implémenter job management (rerun, delete, compare)
-  5. Ajouter export UI components
+---
 
-  Week 4 : Polish & Optimization (ORIGINAL)
+## License
 
-  1. Performance optimization
-  2. Error handling improvements
-  3. Loading state refinements
-  4. Accessibility audit
-  5. Documentation completion
-  6. User testing and feedback
+MIT
