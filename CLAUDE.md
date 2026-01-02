@@ -541,3 +541,105 @@ Potential improvements (not yet implemented):
 ## License
 
 MIT
+
+## Implementing Plan — Weeks 2.5 to 4
+
+### Week 2.5 — Docker Unification & Cleanup *(Nouvelle phase)*
+
+#### Phase A — Docker Unification *(3 tâches)*
+
+##### 1. Consolider les fichiers `docker-compose`
+
+- Supprimer `docker-compose.dev.yml`
+- Conserver un seul `docker-compose.yml` avec des profiles `dev` / `prod`
+- Ajouter des variables d’environnement pour tous les services
+
+##### 2. Réorganiser les Dockerfiles
+
+- **Option A (recommandée)** : Dockerfiles séparés, bien structurés
+  - `backend/Dockerfile`
+  - `frontend/Dockerfile`
+- **Option B** : Dockerfile unique en multi-stage
+  - Plus complexe
+  - Moins flexible
+
+##### 3. Tester l’unification
+
+- Vérifier que la commande suivante lance tous les services :
+  ```bash
+  docker compose up -d
+````
+
+* Vérifier les health checks
+* Tester la communication inter-services
+
+---
+
+#### Phase B — Markdown Cleanup *(2 tâches)*
+
+##### 4. Identifier et supprimer les fichiers Markdown inutiles
+
+* **À conserver**
+
+  * `CLAUDE.md`
+  * `README.md` (principal)
+* **À supprimer**
+
+  * `IMPLEMENTATION.md`
+  * `QUICK_START.md`
+  * `README_DATABASE.md`
+  * `WEEK_2_COMPLETION_SUMMARY.md`
+* Supprimer tous les fichiers `.md` dans :
+
+  * `frontend/src/components/*` *(sauf s’ils sont explicitement référencés)*
+
+##### 5. Archiver les informations utiles
+
+* Extraire les informations importantes avant suppression
+* Intégrer ces informations dans :
+
+  * `CLAUDE.md`
+  * ou `README.md`
+
+---
+
+#### Phase C — Documentation Update *(1 tâche)*
+
+##### 6. Mettre à jour `CLAUDE.md`
+
+Inclure :
+
+* Architecture Docker complète
+* Commandes simplifiées :
+
+  ```bash
+  docker compose up -d
+  ```
+* Nouveaux endpoints (Week 2)
+* Structure des données mise à jour
+* Guide de développement complet
+
+---
+
+### Week 3 — Integration & UI Components *(Original)*
+
+1. Intégrer les **7 visualisations** dans `ModelingPage`
+2. Créer le composant **JobHistory**
+3. Créer le composant **JobComparison**
+4. Implémenter le **job management**
+
+   * relancer (rerun)
+   * supprimer (delete)
+   * comparer (compare)
+5. Ajouter les composants UI d’export
+
+---
+
+### Week 4 — Polish & Optimization *(Original)*
+
+1. Optimisation des performances
+2. Amélioration de la gestion des erreurs
+3. Raffinement des états de chargement (loading states)
+4. Audit d’accessibilité
+5. Finalisation de la documentation
+6. Tests utilisateurs et feedback
