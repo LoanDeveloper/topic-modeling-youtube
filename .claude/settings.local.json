@@ -15,7 +15,9 @@
       "Bash(cat:*)",
       "Bash(findstr:*)",
       "Bash(powershell:*)",
-      "Bash(copy \"C:\\\\Users\\\\Utilisateur\\\\Documents\\\\Code\\\\topic-modeling-youtube\\\\database\\\\schema.sql\" \"C:\\\\Users\\\\Utilisateur\\\\Documents\\\\Code\\\\topic-modeling-youtube\\\\database\\\\init.sql\")"
+      "Bash(copy \"C:\\\\Users\\\\Utilisateur\\\\Documents\\\\Code\\\\topic-modeling-youtube\\\\database\\\\schema.sql\" \"C:\\\\Users\\\\Utilisateur\\\\Documents\\\\Code\\\\topic-modeling-youtube\\\\database\\\\init.sql\")",
+      "Bash(docker compose:*)",
+      "Bash(curl:*)"
     ]
   }
 }
